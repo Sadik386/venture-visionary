@@ -1,0 +1,414 @@
+- generic [active] [ref=f9e1]:
+  - generic [ref=f9e2]:
+    - generic [ref=f9e3]:
+      - navigation [ref=f9e5]:
+        - button "User menu" [ref=f9e9] [cursor=pointer]:
+          - img "Avatar of Executive Super Admin" [ref=f9e10]
+      - main [ref=f9e11]:
+        - generic [ref=f9e13]:
+          - generic [ref=f9e14]:
+            - generic [ref=f9e15]:
+              - navigation [ref=f9e16]:
+                - list [ref=f9e17]:
+                  - listitem [ref=f9e18]:
+                    - link "Countries" [ref=f9e19] [cursor=pointer]:
+                      - /url: http://localhost:8090/staff/countries
+                  - listitem [ref=f9e20]:
+                    - generic [ref=f9e23]: List
+              - heading "Countries" [level=1] [ref=f9e24]
+            - link "New country" [ref=f9e27] [cursor=pointer]:
+              - /url: http://localhost:8090/staff/countries/create
+          - generic [ref=f9e33]:
+            - generic [ref=f9e37]:
+              - generic [ref=f9e38]: Search
+              - searchbox "Search" [ref=f9e44]
+            - table [ref=f9e46]:
+              - rowgroup [ref=f9e47]:
+                - row [ref=f9e48]:
+                  - columnheader "Select/deselect all items for bulk actions." [ref=f9e49]:
+                    - generic [ref=f9e51]:
+                      - checkbox "Select/deselect all items for bulk actions." [ref=f9e52]
+                      - generic [ref=f9e53]: Select/deselect all items for bulk actions.
+                  - columnheader [ref=f9e54]:
+                    - button "Country" [ref=f9e55] [cursor=pointer]
+                  - columnheader "ISO-2" [ref=f9e59]
+                  - columnheader "ISO-3" [ref=f9e62]
+                  - columnheader "Currency" [ref=f9e65]
+                  - columnheader "VAC / Embassy" [ref=f9e68]
+                  - columnheader "Active" [ref=f9e71]
+                  - columnheader "Action" [ref=f9e74]
+              - rowgroup [ref=f9e75]:
+                - row [ref=f9e76]:
+                  - cell "Select/deselect item f09a0e54-a9c5-4352-a087-605b5287d650 for bulk actions." [ref=f9e77]:
+                    - generic [ref=f9e79]:
+                      - checkbox "Select/deselect item f09a0e54-a9c5-4352-a087-605b5287d650 for bulk actions." [ref=f9e80]
+                      - generic [ref=f9e81]: Select/deselect item f09a0e54-a9c5-4352-a087-605b5287d650 for bulk actions.
+                  - cell [ref=f9e82]:
+                    - link "Bangladesh" [ref=f9e84] [cursor=pointer]:
+                      - /url: http://localhost:8090/staff/countries/f09a0e54-a9c5-4352-a087-605b5287d650/edit
+                  - cell [ref=f9e90]:
+                    - link "BD" [ref=f9e92] [cursor=pointer]:
+                      - /url: http://localhost:8090/staff/countries/f09a0e54-a9c5-4352-a087-605b5287d650/edit
+                  - cell [ref=f9e99]:
+                    - link "BGD" [ref=f9e101] [cursor=pointer]:
+                      - /url: http://localhost:8090/staff/countries/f09a0e54-a9c5-4352-a087-605b5287d650/edit
+                  - cell [ref=f9e108]:
+                    - link "BDT" [ref=f9e110] [cursor=pointer]:
+                      - /url: http://localhost:8090/staff/countries/f09a0e54-a9c5-4352-a087-605b5287d650/edit
+                  - cell [ref=f9e116]:
+                    - link "Direct / Online" [ref=f9e118] [cursor=pointer]:
+                      - /url: http://localhost:8090/staff/countries/f09a0e54-a9c5-4352-a087-605b5287d650/edit
+                  - cell [ref=f9e121]:
+                    - link [ref=f9e123] [cursor=pointer]:
+                      - /url: http://localhost:8090/staff/countries/f09a0e54-a9c5-4352-a087-605b5287d650/edit
+                  - cell [ref=f9e127]:
+                    - link "Edit" [ref=f9e130] [cursor=pointer]:
+                      - /url: http://localhost:8090/staff/countries/f09a0e54-a9c5-4352-a087-605b5287d650/edit
+                - row [ref=f9e135]:
+                  - cell "Select/deselect item 85fc902d-e9ac-4536-b234-e7bcaf9d8c3f for bulk actions." [ref=f9e136]:
+                    - generic [ref=f9e138]:
+                      - checkbox "Select/deselect item 85fc902d-e9ac-4536-b234-e7bcaf9d8c3f for bulk actions." [ref=f9e139]
+                      - generic [ref=f9e140]: Select/deselect item 85fc902d-e9ac-4536-b234-e7bcaf9d8c3f for bulk actions.
+                  - cell [ref=f9e141]:
+                    - link "Canada" [ref=f9e143] [cursor=pointer]:
+                      - /url: http://localhost:8090/staff/countries/85fc902d-e9ac-4536-b234-e7bcaf9d8c3f/edit
+                  - cell [ref=f9e149]:
+                    - link "CA" [ref=f9e151] [cursor=pointer]:
+                      - /url: http://localhost:8090/staff/countries/85fc902d-e9ac-4536-b234-e7bcaf9d8c3f/edit
+                  - cell [ref=f9e158]:
+                    - link "CAN" [ref=f9e160] [cursor=pointer]:
+                      - /url: http://localhost:8090/staff/countries/85fc902d-e9ac-4536-b234-e7bcaf9d8c3f/edit
+                  - cell [ref=f9e167]:
+                    - link "CAD" [ref=f9e169] [cursor=pointer]:
+                      - /url: http://localhost:8090/staff/countries/85fc902d-e9ac-4536-b234-e7bcaf9d8c3f/edit
+                  - cell [ref=f9e175]:
+                    - link "VFS Global" [ref=f9e177] [cursor=pointer]:
+                      - /url: http://localhost:8090/staff/countries/85fc902d-e9ac-4536-b234-e7bcaf9d8c3f/edit
+                  - cell [ref=f9e183]:
+                    - link [ref=f9e185] [cursor=pointer]:
+                      - /url: http://localhost:8090/staff/countries/85fc902d-e9ac-4536-b234-e7bcaf9d8c3f/edit
+                  - cell [ref=f9e189]:
+                    - link "Edit" [ref=f9e192] [cursor=pointer]:
+                      - /url: http://localhost:8090/staff/countries/85fc902d-e9ac-4536-b234-e7bcaf9d8c3f/edit
+                - row [ref=f9e197]:
+                  - cell "Select/deselect item 386ddd1e-3810-4b09-9605-21c04218a464 for bulk actions." [ref=f9e198]:
+                    - generic [ref=f9e200]:
+                      - checkbox "Select/deselect item 386ddd1e-3810-4b09-9605-21c04218a464 for bulk actions." [ref=f9e201]
+                      - generic [ref=f9e202]: Select/deselect item 386ddd1e-3810-4b09-9605-21c04218a464 for bulk actions.
+                  - cell [ref=f9e203]:
+                    - link "France (Schengen)" [ref=f9e205] [cursor=pointer]:
+                      - /url: http://localhost:8090/staff/countries/386ddd1e-3810-4b09-9605-21c04218a464/edit
+                  - cell [ref=f9e211]:
+                    - link "FR" [ref=f9e213] [cursor=pointer]:
+                      - /url: http://localhost:8090/staff/countries/386ddd1e-3810-4b09-9605-21c04218a464/edit
+                  - cell [ref=f9e220]:
+                    - link "FRA" [ref=f9e222] [cursor=pointer]:
+                      - /url: http://localhost:8090/staff/countries/386ddd1e-3810-4b09-9605-21c04218a464/edit
+                  - cell [ref=f9e229]:
+                    - link "EUR" [ref=f9e231] [cursor=pointer]:
+                      - /url: http://localhost:8090/staff/countries/386ddd1e-3810-4b09-9605-21c04218a464/edit
+                  - cell [ref=f9e237]:
+                    - link "TLScontact" [ref=f9e239] [cursor=pointer]:
+                      - /url: http://localhost:8090/staff/countries/386ddd1e-3810-4b09-9605-21c04218a464/edit
+                  - cell [ref=f9e245]:
+                    - link [ref=f9e247] [cursor=pointer]:
+                      - /url: http://localhost:8090/staff/countries/386ddd1e-3810-4b09-9605-21c04218a464/edit
+                  - cell [ref=f9e251]:
+                    - link "Edit" [ref=f9e254] [cursor=pointer]:
+                      - /url: http://localhost:8090/staff/countries/386ddd1e-3810-4b09-9605-21c04218a464/edit
+                - row [ref=f9e259]:
+                  - cell "Select/deselect item 2a5fc48f-954f-4cba-98f0-ff2b37ace6c5 for bulk actions." [ref=f9e260]:
+                    - generic [ref=f9e262]:
+                      - checkbox "Select/deselect item 2a5fc48f-954f-4cba-98f0-ff2b37ace6c5 for bulk actions." [ref=f9e263]
+                      - generic [ref=f9e264]: Select/deselect item 2a5fc48f-954f-4cba-98f0-ff2b37ace6c5 for bulk actions.
+                  - cell [ref=f9e265]:
+                    - link "India" [ref=f9e267] [cursor=pointer]:
+                      - /url: http://localhost:8090/staff/countries/2a5fc48f-954f-4cba-98f0-ff2b37ace6c5/edit
+                  - cell [ref=f9e273]:
+                    - link "IN" [ref=f9e275] [cursor=pointer]:
+                      - /url: http://localhost:8090/staff/countries/2a5fc48f-954f-4cba-98f0-ff2b37ace6c5/edit
+                  - cell [ref=f9e282]:
+                    - link "IND" [ref=f9e284] [cursor=pointer]:
+                      - /url: http://localhost:8090/staff/countries/2a5fc48f-954f-4cba-98f0-ff2b37ace6c5/edit
+                  - cell [ref=f9e291]:
+                    - link "INR" [ref=f9e293] [cursor=pointer]:
+                      - /url: http://localhost:8090/staff/countries/2a5fc48f-954f-4cba-98f0-ff2b37ace6c5/edit
+                  - cell [ref=f9e299]:
+                    - link "Direct / Online" [ref=f9e301] [cursor=pointer]:
+                      - /url: http://localhost:8090/staff/countries/2a5fc48f-954f-4cba-98f0-ff2b37ace6c5/edit
+                  - cell [ref=f9e304]:
+                    - link [ref=f9e306] [cursor=pointer]:
+                      - /url: http://localhost:8090/staff/countries/2a5fc48f-954f-4cba-98f0-ff2b37ace6c5/edit
+                  - cell [ref=f9e310]:
+                    - link "Edit" [ref=f9e313] [cursor=pointer]:
+                      - /url: http://localhost:8090/staff/countries/2a5fc48f-954f-4cba-98f0-ff2b37ace6c5/edit
+                - row [ref=f9e318]:
+                  - cell "Select/deselect item 509e0894-69be-415d-b9a5-609dfa000823 for bulk actions." [ref=f9e319]:
+                    - generic [ref=f9e321]:
+                      - checkbox "Select/deselect item 509e0894-69be-415d-b9a5-609dfa000823 for bulk actions." [ref=f9e322]
+                      - generic [ref=f9e323]: Select/deselect item 509e0894-69be-415d-b9a5-609dfa000823 for bulk actions.
+                  - cell [ref=f9e324]:
+                    - link "Qatar" [ref=f9e326] [cursor=pointer]:
+                      - /url: http://localhost:8090/staff/countries/509e0894-69be-415d-b9a5-609dfa000823/edit
+                  - cell [ref=f9e332]:
+                    - link "QA" [ref=f9e334] [cursor=pointer]:
+                      - /url: http://localhost:8090/staff/countries/509e0894-69be-415d-b9a5-609dfa000823/edit
+                  - cell [ref=f9e341]:
+                    - link "QAT" [ref=f9e343] [cursor=pointer]:
+                      - /url: http://localhost:8090/staff/countries/509e0894-69be-415d-b9a5-609dfa000823/edit
+                  - cell [ref=f9e350]:
+                    - link "QAR" [ref=f9e352] [cursor=pointer]:
+                      - /url: http://localhost:8090/staff/countries/509e0894-69be-415d-b9a5-609dfa000823/edit
+                  - cell [ref=f9e358]:
+                    - link "Direct / Online" [ref=f9e360] [cursor=pointer]:
+                      - /url: http://localhost:8090/staff/countries/509e0894-69be-415d-b9a5-609dfa000823/edit
+                  - cell [ref=f9e363]:
+                    - link [ref=f9e365] [cursor=pointer]:
+                      - /url: http://localhost:8090/staff/countries/509e0894-69be-415d-b9a5-609dfa000823/edit
+                  - cell [ref=f9e369]:
+                    - link "Edit" [ref=f9e372] [cursor=pointer]:
+                      - /url: http://localhost:8090/staff/countries/509e0894-69be-415d-b9a5-609dfa000823/edit
+                - row [ref=f9e377]:
+                  - cell "Select/deselect item 1fe0093f-05e6-4a16-bf1a-c15f06796764 for bulk actions." [ref=f9e378]:
+                    - generic [ref=f9e380]:
+                      - checkbox "Select/deselect item 1fe0093f-05e6-4a16-bf1a-c15f06796764 for bulk actions." [ref=f9e381]
+                      - generic [ref=f9e382]: Select/deselect item 1fe0093f-05e6-4a16-bf1a-c15f06796764 for bulk actions.
+                  - cell [ref=f9e383]:
+                    - link "Saudi Arabia" [ref=f9e385] [cursor=pointer]:
+                      - /url: http://localhost:8090/staff/countries/1fe0093f-05e6-4a16-bf1a-c15f06796764/edit
+                  - cell [ref=f9e391]:
+                    - link "SA" [ref=f9e393] [cursor=pointer]:
+                      - /url: http://localhost:8090/staff/countries/1fe0093f-05e6-4a16-bf1a-c15f06796764/edit
+                  - cell [ref=f9e400]:
+                    - link "SAU" [ref=f9e402] [cursor=pointer]:
+                      - /url: http://localhost:8090/staff/countries/1fe0093f-05e6-4a16-bf1a-c15f06796764/edit
+                  - cell [ref=f9e409]:
+                    - link "SAR" [ref=f9e411] [cursor=pointer]:
+                      - /url: http://localhost:8090/staff/countries/1fe0093f-05e6-4a16-bf1a-c15f06796764/edit
+                  - cell [ref=f9e417]:
+                    - link "Direct / Online" [ref=f9e419] [cursor=pointer]:
+                      - /url: http://localhost:8090/staff/countries/1fe0093f-05e6-4a16-bf1a-c15f06796764/edit
+                  - cell [ref=f9e422]:
+                    - link [ref=f9e424] [cursor=pointer]:
+                      - /url: http://localhost:8090/staff/countries/1fe0093f-05e6-4a16-bf1a-c15f06796764/edit
+                  - cell [ref=f9e428]:
+                    - link "Edit" [ref=f9e431] [cursor=pointer]:
+                      - /url: http://localhost:8090/staff/countries/1fe0093f-05e6-4a16-bf1a-c15f06796764/edit
+                - row [ref=f9e436]:
+                  - cell "Select/deselect item 578e1464-9756-47e9-b0d1-a44b90bd3977 for bulk actions." [ref=f9e437]:
+                    - generic [ref=f9e439]:
+                      - checkbox "Select/deselect item 578e1464-9756-47e9-b0d1-a44b90bd3977 for bulk actions." [ref=f9e440]
+                      - generic [ref=f9e441]: Select/deselect item 578e1464-9756-47e9-b0d1-a44b90bd3977 for bulk actions.
+                  - cell [ref=f9e442]:
+                    - link "Turkey" [ref=f9e444] [cursor=pointer]:
+                      - /url: http://localhost:8090/staff/countries/578e1464-9756-47e9-b0d1-a44b90bd3977/edit
+                  - cell [ref=f9e450]:
+                    - link "TR" [ref=f9e452] [cursor=pointer]:
+                      - /url: http://localhost:8090/staff/countries/578e1464-9756-47e9-b0d1-a44b90bd3977/edit
+                  - cell [ref=f9e459]:
+                    - link "TUR" [ref=f9e461] [cursor=pointer]:
+                      - /url: http://localhost:8090/staff/countries/578e1464-9756-47e9-b0d1-a44b90bd3977/edit
+                  - cell [ref=f9e468]:
+                    - link "USD" [ref=f9e470] [cursor=pointer]:
+                      - /url: http://localhost:8090/staff/countries/578e1464-9756-47e9-b0d1-a44b90bd3977/edit
+                  - cell [ref=f9e476]:
+                    - link "Kingston / VFS" [ref=f9e478] [cursor=pointer]:
+                      - /url: http://localhost:8090/staff/countries/578e1464-9756-47e9-b0d1-a44b90bd3977/edit
+                  - cell [ref=f9e484]:
+                    - link [ref=f9e486] [cursor=pointer]:
+                      - /url: http://localhost:8090/staff/countries/578e1464-9756-47e9-b0d1-a44b90bd3977/edit
+                  - cell [ref=f9e490]:
+                    - link "Edit" [ref=f9e493] [cursor=pointer]:
+                      - /url: http://localhost:8090/staff/countries/578e1464-9756-47e9-b0d1-a44b90bd3977/edit
+                - row [ref=f9e498]:
+                  - cell "Select/deselect item 4828a403-d9b2-40a6-a7f4-01f8de63c598 for bulk actions." [ref=f9e499]:
+                    - generic [ref=f9e501]:
+                      - checkbox "Select/deselect item 4828a403-d9b2-40a6-a7f4-01f8de63c598 for bulk actions." [ref=f9e502]
+                      - generic [ref=f9e503]: Select/deselect item 4828a403-d9b2-40a6-a7f4-01f8de63c598 for bulk actions.
+                  - cell [ref=f9e504]:
+                    - link "United Arab Emirates" [ref=f9e506] [cursor=pointer]:
+                      - /url: http://localhost:8090/staff/countries/4828a403-d9b2-40a6-a7f4-01f8de63c598/edit
+                  - cell [ref=f9e512]:
+                    - link "AE" [ref=f9e514] [cursor=pointer]:
+                      - /url: http://localhost:8090/staff/countries/4828a403-d9b2-40a6-a7f4-01f8de63c598/edit
+                  - cell [ref=f9e521]:
+                    - link "ARE" [ref=f9e523] [cursor=pointer]:
+                      - /url: http://localhost:8090/staff/countries/4828a403-d9b2-40a6-a7f4-01f8de63c598/edit
+                  - cell [ref=f9e530]:
+                    - link "AED" [ref=f9e532] [cursor=pointer]:
+                      - /url: http://localhost:8090/staff/countries/4828a403-d9b2-40a6-a7f4-01f8de63c598/edit
+                  - cell [ref=f9e538]:
+                    - link "Direct / Online" [ref=f9e540] [cursor=pointer]:
+                      - /url: http://localhost:8090/staff/countries/4828a403-d9b2-40a6-a7f4-01f8de63c598/edit
+                  - cell [ref=f9e543]:
+                    - link [ref=f9e545] [cursor=pointer]:
+                      - /url: http://localhost:8090/staff/countries/4828a403-d9b2-40a6-a7f4-01f8de63c598/edit
+                  - cell [ref=f9e549]:
+                    - link "Edit" [ref=f9e552] [cursor=pointer]:
+                      - /url: http://localhost:8090/staff/countries/4828a403-d9b2-40a6-a7f4-01f8de63c598/edit
+                - row [ref=f9e557]:
+                  - cell "Select/deselect item bcf6506d-f837-4036-ae55-f48a1a56b37d for bulk actions." [ref=f9e558]:
+                    - generic [ref=f9e560]:
+                      - checkbox "Select/deselect item bcf6506d-f837-4036-ae55-f48a1a56b37d for bulk actions." [ref=f9e561]
+                      - generic [ref=f9e562]: Select/deselect item bcf6506d-f837-4036-ae55-f48a1a56b37d for bulk actions.
+                  - cell [ref=f9e563]:
+                    - link "United Kingdom" [ref=f9e565] [cursor=pointer]:
+                      - /url: http://localhost:8090/staff/countries/bcf6506d-f837-4036-ae55-f48a1a56b37d/edit
+                  - cell [ref=f9e571]:
+                    - link "GB" [ref=f9e573] [cursor=pointer]:
+                      - /url: http://localhost:8090/staff/countries/bcf6506d-f837-4036-ae55-f48a1a56b37d/edit
+                  - cell [ref=f9e580]:
+                    - link "GBR" [ref=f9e582] [cursor=pointer]:
+                      - /url: http://localhost:8090/staff/countries/bcf6506d-f837-4036-ae55-f48a1a56b37d/edit
+                  - cell [ref=f9e589]:
+                    - link "GBP" [ref=f9e591] [cursor=pointer]:
+                      - /url: http://localhost:8090/staff/countries/bcf6506d-f837-4036-ae55-f48a1a56b37d/edit
+                  - cell [ref=f9e597]:
+                    - link "VFS Global" [ref=f9e599] [cursor=pointer]:
+                      - /url: http://localhost:8090/staff/countries/bcf6506d-f837-4036-ae55-f48a1a56b37d/edit
+                  - cell [ref=f9e605]:
+                    - link [ref=f9e607] [cursor=pointer]:
+                      - /url: http://localhost:8090/staff/countries/bcf6506d-f837-4036-ae55-f48a1a56b37d/edit
+                  - cell [ref=f9e611]:
+                    - link "Edit" [ref=f9e614] [cursor=pointer]:
+                      - /url: http://localhost:8090/staff/countries/bcf6506d-f837-4036-ae55-f48a1a56b37d/edit
+                - row [ref=f9e619]:
+                  - cell "Select/deselect item 5f90c423-813a-4038-80c1-0c259cf686e1 for bulk actions." [ref=f9e620]:
+                    - generic [ref=f9e622]:
+                      - checkbox "Select/deselect item 5f90c423-813a-4038-80c1-0c259cf686e1 for bulk actions." [ref=f9e623]
+                      - generic [ref=f9e624]: Select/deselect item 5f90c423-813a-4038-80c1-0c259cf686e1 for bulk actions.
+                  - cell [ref=f9e625]:
+                    - link "United States" [ref=f9e627] [cursor=pointer]:
+                      - /url: http://localhost:8090/staff/countries/5f90c423-813a-4038-80c1-0c259cf686e1/edit
+                  - cell [ref=f9e633]:
+                    - link "US" [ref=f9e635] [cursor=pointer]:
+                      - /url: http://localhost:8090/staff/countries/5f90c423-813a-4038-80c1-0c259cf686e1/edit
+                  - cell [ref=f9e642]:
+                    - link "USA" [ref=f9e644] [cursor=pointer]:
+                      - /url: http://localhost:8090/staff/countries/5f90c423-813a-4038-80c1-0c259cf686e1/edit
+                  - cell [ref=f9e651]:
+                    - link "USD" [ref=f9e653] [cursor=pointer]:
+                      - /url: http://localhost:8090/staff/countries/5f90c423-813a-4038-80c1-0c259cf686e1/edit
+                  - cell [ref=f9e659]:
+                    - link "US Embassy Doha" [ref=f9e661] [cursor=pointer]:
+                      - /url: http://localhost:8090/staff/countries/5f90c423-813a-4038-80c1-0c259cf686e1/edit
+                  - cell [ref=f9e667]:
+                    - link [ref=f9e669] [cursor=pointer]:
+                      - /url: http://localhost:8090/staff/countries/5f90c423-813a-4038-80c1-0c259cf686e1/edit
+                  - cell [ref=f9e673]:
+                    - link "Edit" [ref=f9e676] [cursor=pointer]:
+                      - /url: http://localhost:8090/staff/countries/5f90c423-813a-4038-80c1-0c259cf686e1/edit
+            - navigation "Pagination navigation" [ref=f9e681]:
+              - generic [ref=f9e684]:
+                - generic [ref=f9e685]: Per page
+                - combobox "Per page" [ref=f9e688]:
+                  - option "5"
+                  - option "10" [selected]
+                  - option "25"
+                  - option "50"
+                  - option "All"
+    - complementary [ref=f9e689]:
+      - link "Venture Visionary CRM" [ref=f9e693] [cursor=pointer]:
+        - /url: http://localhost:8090/staff
+      - navigation [ref=f9e695]:
+        - list [ref=f9e696]:
+          - listitem [ref=f9e697]:
+            - list [ref=f9e698]:
+              - listitem [ref=f9e699]:
+                - link "Dashboard" [ref=f9e700] [cursor=pointer]:
+                  - /url: http://localhost:8090/staff
+          - listitem [ref=f9e704]:
+            - generic [ref=f9e705] [cursor=pointer]:
+              - generic [ref=f9e706]: Governance & Audit
+              - button "Governance & Audit" [expanded] [ref=f9e707]
+            - list [ref=f9e711]:
+              - listitem [ref=f9e712]:
+                - link "Executive Analytics & BI" [ref=f9e713] [cursor=pointer]:
+                  - /url: http://localhost:8090/staff/analytics-dashboard
+              - listitem [ref=f9e717]:
+                - link "Audit Logs" [ref=f9e718] [cursor=pointer]:
+                  - /url: http://localhost:8090/staff/audit-logs
+          - listitem [ref=f9e722]:
+            - generic [ref=f9e723] [cursor=pointer]:
+              - generic [ref=f9e724]: Master Database
+              - button "Master Database" [expanded] [ref=f9e725]
+            - list [ref=f9e729]:
+              - listitem [ref=f9e730]:
+                - link "Countries" [ref=f9e731] [cursor=pointer]:
+                  - /url: http://localhost:8090/staff/countries
+              - listitem [ref=f9e735]:
+                - link "Services" [ref=f9e736] [cursor=pointer]:
+                  - /url: http://localhost:8090/staff/services
+          - listitem [ref=f9e740]:
+            - generic [ref=f9e741] [cursor=pointer]:
+              - generic [ref=f9e742]: CRM & Sales
+              - button "CRM & Sales" [expanded] [ref=f9e743]
+            - list [ref=f9e747]:
+              - listitem [ref=f9e748]:
+                - link "Leads" [ref=f9e749] [cursor=pointer]:
+                  - /url: http://localhost:8090/staff/leads
+              - listitem [ref=f9e753]:
+                - link "Visual Sales Pipeline" [ref=f9e754] [cursor=pointer]:
+                  - /url: http://localhost:8090/staff/lead-pipeline-board
+              - listitem [ref=f9e758]:
+                - link "Clients" [ref=f9e759] [cursor=pointer]:
+                  - /url: http://localhost:8090/staff/clients
+              - listitem [ref=f9e763]:
+                - link "Reputation & Reviews" [ref=f9e764] [cursor=pointer]:
+                  - /url: http://localhost:8090/staff/review-requests
+          - listitem [ref=f9e768]:
+            - generic [ref=f9e769] [cursor=pointer]:
+              - generic [ref=f9e770]: B2B & Affiliates
+              - button "B2B & Affiliates" [expanded] [ref=f9e771]
+            - list [ref=f9e775]:
+              - listitem [ref=f9e776]:
+                - link "Partners" [ref=f9e777] [cursor=pointer]:
+                  - /url: http://localhost:8090/staff/partners
+          - listitem [ref=f9e781]:
+            - generic [ref=f9e782] [cursor=pointer]:
+              - generic [ref=f9e783]: Finance & Commercial
+              - button "Finance & Commercial" [expanded] [ref=f9e784]
+            - list [ref=f9e788]:
+              - listitem [ref=f9e789]:
+                - link "Quotations" [ref=f9e790] [cursor=pointer]:
+                  - /url: http://localhost:8090/staff/quotations
+              - listitem [ref=f9e794]:
+                - link "Invoices" [ref=f9e795] [cursor=pointer]:
+                  - /url: http://localhost:8090/staff/invoices
+          - listitem [ref=f9e799]:
+            - generic [ref=f9e800] [cursor=pointer]:
+              - generic [ref=f9e801]: Administration & HR
+              - button "Administration & HR" [expanded] [ref=f9e802]
+            - list [ref=f9e806]:
+              - listitem [ref=f9e807]:
+                - link "Users" [ref=f9e808] [cursor=pointer]:
+                  - /url: http://localhost:8090/staff/users
+          - listitem [ref=f9e812]:
+            - generic [ref=f9e813] [cursor=pointer]:
+              - generic [ref=f9e814]: Case Processing
+              - button "Case Processing" [expanded] [ref=f9e815]
+            - list [ref=f9e819]:
+              - listitem [ref=f9e820]:
+                - link "Visa Cases" [ref=f9e821] [cursor=pointer]:
+                  - /url: http://localhost:8090/staff/visa-cases
+              - listitem [ref=f9e825]:
+                - link "Tasks" [ref=f9e826] [cursor=pointer]:
+                  - /url: http://localhost:8090/staff/tasks
+          - listitem [ref=f9e830]:
+            - generic [ref=f9e831] [cursor=pointer]:
+              - generic [ref=f9e832]: Automations & Workflows
+              - button "Automations & Workflows" [expanded] [ref=f9e833]
+            - list [ref=f9e837]:
+              - listitem [ref=f9e838]:
+                - link "Workflow Engine" [ref=f9e839] [cursor=pointer]:
+                  - /url: http://localhost:8090/staff/workflows
+          - listitem [ref=f9e843]:
+            - generic [ref=f9e844] [cursor=pointer]:
+              - generic [ref=f9e845]: Operations & Delivery
+              - button "Operations & Delivery" [expanded] [ref=f9e846]
+            - list [ref=f9e850]:
+              - listitem [ref=f9e851]:
+                - link "Appointment Calendar" [ref=f9e852] [cursor=pointer]:
+                  - /url: http://localhost:8090/staff/appointments
+  - generic:
+    - status

@@ -1,0 +1,125 @@
+services:
+  # ============================================================================
+  # 1. Core Application (Laravel 11 + FilamentPHP Multi-Panel Portals)
+  # ============================================================================
+  app:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    container_name: vv_crm_app
+    restart: unless-stopped
+    working_dir: /var/www/html
+    ports:
+      - "8090:80"
+    volumes:
+      - .:/var/www/html
+      - ./docker/php.ini:/usr/local/etc/php/conf.d/custom.ini
+      - ./docker/supervisord.conf:/etc/supervisor/conf.d/supervisord.conf
+    environment:
+      - APP_ENV=local
+      - APP_DEBUG=true
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    networks:
+      - vv_crm_network
+
+  # ============================================================================
+  # 2. Primary Relational Database (PostgreSQL 16)
+  # ============================================================================
+  postgres:
+    image: postgres:16-alpine
+    container_name: vv_crm_postgres
+    restart: unless-stopped
+    ports:
+      - "5433:5432" # Exposed on 5433 to avoid conflicts with existing containers
+    environment:
+      POSTGRES_DB: vv_crm
+      POSTGRES_USER: vv_admin
+      POSTGRES_PASSWORD: vv_secure_pass_2026
+    volumes:
+      - vv_crm_pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U vv_admin -d vv_crm"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+    networks:
+      - vv_crm_network
+
+  # ============================================================================
+  # 3. Cache & Background Job Queue (Redis 7)
+  # ============================================================================
+  redis:
+    image: redis:7-alpine
+    container_name: vv_crm_redis
+    restart: unless-stopped
+    volumes:
+      - vv_crm_redisdata:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+    networks:
+      - vv_crm_network
+
+  # ============================================================================
+  # 4. Secure Private Object Storage Vault (MinIO S3-Compatible)
+  # ============================================================================
+  minio:
+    image: quay.io/minio/minio:latest
+    container_name: vv_crm_minio
+    restart: unless-stopped
+    command: server /data --console-address ":9001"
+    ports:
+      - "9002:9000" # S3 API endpoint
+      - "9003:9001" # Web Console
+    environment:
+      MINIO_ROOT_USER: minioadmin
+      MINIO_ROOT_PASSWORD: minioadmin_secret_2026
+    volumes:
+      - vv_crm_miniodata:/data
+    networks:
+      - vv_crm_network
+
+  # ============================================================================
+  # 5. Free Open-Source WhatsApp Gateway (Evolution API / Baileys Engine)
+  # ============================================================================
+  evolution_api:
+    image: atendai/evolution-api:v2.1.1
+    container_name: vv_crm_evolution
+    restart: unless-stopped
+    ports:
+      - "8095:8080"
+    environment:
+      - SERVER_URL=http://localhost:8095
+      - AUTHENTICATION_API_KEY=vv_evolution_token_2026
+      - DATABASE_ENABLED=false
+      - REDIS_ENABLED=true
+      - REDIS_URI=redis://redis:6379/1
+      - CACHE_REDIS_ENABLED=true
+      - CACHE_REDIS_URI=redis://redis:6379/1
+    volumes:
+      - vv_crm_evolution_instances:/evolution/instances
+    depends_on:
+      redis:
+        condition: service_healthy
+    networks:
+      - vv_crm_network
+
+volumes:
+  vv_crm_pgdata:
+    driver: local
+  vv_crm_redisdata:
+    driver: local
+  vv_crm_miniodata:
+    driver: local
+  vv_crm_evolution_instances:
+    driver: local
+
+networks:
+  vv_crm_network:
+    driver: bridge

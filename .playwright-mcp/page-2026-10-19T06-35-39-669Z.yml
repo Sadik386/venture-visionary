@@ -1,0 +1,475 @@
+- generic [active] [ref=f35e1]:
+  - generic [ref=f35e2]:
+    - generic [ref=f35e3]:
+      - navigation [ref=f35e5]:
+        - button "User menu" [ref=f35e9] [cursor=pointer]:
+          - img "Avatar of Executive Super Admin" [ref=f35e10]
+      - main [ref=f35e11]:
+        - generic [ref=f35e13]:
+          - generic [ref=f35e14]:
+            - generic [ref=f35e15]:
+              - navigation [ref=f35e16]:
+                - list [ref=f35e17]:
+                  - listitem [ref=f35e18]:
+                    - link "Visa Cases" [ref=f35e19] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/visa-cases
+                  - listitem [ref=f35e20]:
+                    - generic [ref=f35e23]: List
+              - heading "Visa Cases" [level=1] [ref=f35e24]
+            - link "New visa case" [ref=f35e27] [cursor=pointer]:
+              - /url: http://127.0.0.1:8090/staff/visa-cases/create
+          - generic [ref=f35e33]:
+            - generic [ref=f35e36]:
+              - generic [ref=f35e37]:
+                - generic [ref=f35e38]: Search
+                - searchbox "Search" [ref=f35e44]
+              - button "Filter 0" [ref=f35e47] [cursor=pointer]:
+                - generic [ref=f35e48]: Filter
+                - generic [ref=f35e51]: "0"
+              - button "Toggle columns" [ref=f35e57] [cursor=pointer]
+            - table [ref=f35e62]:
+              - rowgroup [ref=f35e63]:
+                - row [ref=f35e64]:
+                  - columnheader "Select/deselect all items for bulk actions." [ref=f35e65]:
+                    - generic [ref=f35e67]:
+                      - checkbox "Select/deselect all items for bulk actions." [ref=f35e68]
+                      - generic [ref=f35e69]: Select/deselect all items for bulk actions.
+                  - columnheader [ref=f35e70]:
+                    - 'button "Case #" [ref=f35e71] [cursor=pointer]'
+                  - columnheader [ref=f35e75]:
+                    - button "Client Name" [ref=f35e76] [cursor=pointer]
+                  - columnheader "Destination" [ref=f35e80]
+                  - columnheader "Service" [ref=f35e83]
+                  - columnheader "Status" [ref=f35e86]
+                  - columnheader "Priority" [ref=f35e89]
+                  - columnheader "Officer" [ref=f35e92]
+                  - columnheader [ref=f35e95]:
+                    - button "Balance" [ref=f35e96] [cursor=pointer]
+                  - columnheader "Actions" [ref=f35e100]
+              - rowgroup [ref=f35e101]:
+                - row "Select/deselect item a3045d7f-7d2a-4a46-a6ee-3f60fde5247f for bulk actions. CS-2026-0057 Sheikh Hamad Al-Thani UK Express Tourist Visa 2... Documents pending standard Unassigned QAR 0.00 View Edit" [ref=f35e102]:
+                  - cell "Select/deselect item a3045d7f-7d2a-4a46-a6ee-3f60fde5247f for bulk actions." [ref=f35e103]:
+                    - generic [ref=f35e105]:
+                      - checkbox "Select/deselect item a3045d7f-7d2a-4a46-a6ee-3f60fde5247f for bulk actions." [ref=f35e106]
+                      - generic [ref=f35e107]: Select/deselect item a3045d7f-7d2a-4a46-a6ee-3f60fde5247f for bulk actions.
+                  - cell [ref=f35e108]:
+                    - link "CS-2026-0057" [ref=f35e110] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/visa-cases/a3045d7f-7d2a-4a46-a6ee-3f60fde5247f
+                  - cell [ref=f35e116]:
+                    - link "Sheikh Hamad Al-Thani" [ref=f35e118] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/visa-cases/a3045d7f-7d2a-4a46-a6ee-3f60fde5247f
+                  - cell [ref=f35e124]:
+                    - link [ref=f35e126] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/visa-cases/a3045d7f-7d2a-4a46-a6ee-3f60fde5247f
+                  - cell [ref=f35e128]:
+                    - link "UK Express Tourist Visa 2..." [ref=f35e130] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/visa-cases/a3045d7f-7d2a-4a46-a6ee-3f60fde5247f
+                  - cell [ref=f35e136]:
+                    - link "Documents pending" [ref=f35e138] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/visa-cases/a3045d7f-7d2a-4a46-a6ee-3f60fde5247f
+                  - cell [ref=f35e145]:
+                    - link "standard" [ref=f35e147] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/visa-cases/a3045d7f-7d2a-4a46-a6ee-3f60fde5247f
+                  - cell [ref=f35e154]:
+                    - link "Unassigned" [ref=f35e156] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/visa-cases/a3045d7f-7d2a-4a46-a6ee-3f60fde5247f
+                  - cell [ref=f35e159]:
+                    - link "QAR 0.00" [ref=f35e161] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/visa-cases/a3045d7f-7d2a-4a46-a6ee-3f60fde5247f
+                  - cell [ref=f35e167]:
+                    - generic [ref=f35e169]:
+                      - link "View" [ref=f35e170] [cursor=pointer]:
+                        - /url: http://127.0.0.1:8090/staff/visa-cases/a3045d7f-7d2a-4a46-a6ee-3f60fde5247f
+                      - link "Edit" [ref=f35e175] [cursor=pointer]:
+                        - /url: http://127.0.0.1:8090/staff/visa-cases/a3045d7f-7d2a-4a46-a6ee-3f60fde5247f/edit
+                - row [ref=f35e180]:
+                  - cell "Select/deselect item a3045d7f-190d-4c43-8719-11c1b168b01e for bulk actions." [ref=f35e181]:
+                    - generic [ref=f35e183]:
+                      - checkbox "Select/deselect item a3045d7f-190d-4c43-8719-11c1b168b01e for bulk actions." [ref=f35e184]
+                      - generic [ref=f35e185]: Select/deselect item a3045d7f-190d-4c43-8719-11c1b168b01e for bulk actions.
+                  - cell [ref=f35e186]:
+                    - link "CS-2026-0056" [ref=f35e188] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/visa-cases/a3045d7f-190d-4c43-8719-11c1b168b01e
+                  - cell [ref=f35e194]:
+                    - link "Sheikh Hamad Al-Thani" [ref=f35e196] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/visa-cases/a3045d7f-190d-4c43-8719-11c1b168b01e
+                  - cell [ref=f35e202]:
+                    - link "United Kingdom" [ref=f35e204] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/visa-cases/a3045d7f-190d-4c43-8719-11c1b168b01e
+                  - cell [ref=f35e211]:
+                    - link "UK Standard Visitor Visa..." [ref=f35e213] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/visa-cases/a3045d7f-190d-4c43-8719-11c1b168b01e
+                  - cell [ref=f35e219]:
+                    - link "Under review" [ref=f35e221] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/visa-cases/a3045d7f-190d-4c43-8719-11c1b168b01e
+                  - cell [ref=f35e228]:
+                    - link "standard" [ref=f35e230] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/visa-cases/a3045d7f-190d-4c43-8719-11c1b168b01e
+                  - cell [ref=f35e237]:
+                    - link "Unassigned" [ref=f35e239] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/visa-cases/a3045d7f-190d-4c43-8719-11c1b168b01e
+                  - cell [ref=f35e242]:
+                    - link "QAR 0.00" [ref=f35e244] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/visa-cases/a3045d7f-190d-4c43-8719-11c1b168b01e
+                  - cell [ref=f35e250]:
+                    - generic [ref=f35e252]:
+                      - link "View" [ref=f35e253] [cursor=pointer]:
+                        - /url: http://127.0.0.1:8090/staff/visa-cases/a3045d7f-190d-4c43-8719-11c1b168b01e
+                      - link "Edit" [ref=f35e258] [cursor=pointer]:
+                        - /url: http://127.0.0.1:8090/staff/visa-cases/a3045d7f-190d-4c43-8719-11c1b168b01e/edit
+                - row [ref=f35e263]:
+                  - cell "Select/deselect item a3045d7e-a009-4892-a94f-7296e708e095 for bulk actions." [ref=f35e264]:
+                    - generic [ref=f35e266]:
+                      - checkbox "Select/deselect item a3045d7e-a009-4892-a94f-7296e708e095 for bulk actions." [ref=f35e267]
+                      - generic [ref=f35e268]: Select/deselect item a3045d7e-a009-4892-a94f-7296e708e095 for bulk actions.
+                  - cell [ref=f35e269]:
+                    - link "CS-2026-0055" [ref=f35e271] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/visa-cases/a3045d7e-a009-4892-a94f-7296e708e095
+                  - cell [ref=f35e277]:
+                    - link "Sheikh Hamad Al-Thani" [ref=f35e279] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/visa-cases/a3045d7e-a009-4892-a94f-7296e708e095
+                  - cell [ref=f35e285]:
+                    - link "United Kingdom" [ref=f35e287] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/visa-cases/a3045d7e-a009-4892-a94f-7296e708e095
+                  - cell [ref=f35e294]:
+                    - link "UK Standard Visitor Visa..." [ref=f35e296] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/visa-cases/a3045d7e-a009-4892-a94f-7296e708e095
+                  - cell [ref=f35e302]:
+                    - link "Documents pending" [ref=f35e304] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/visa-cases/a3045d7e-a009-4892-a94f-7296e708e095
+                  - cell [ref=f35e311]:
+                    - link "vip" [ref=f35e313] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/visa-cases/a3045d7e-a009-4892-a94f-7296e708e095
+                  - cell [ref=f35e320]:
+                    - link "Unassigned" [ref=f35e322] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/visa-cases/a3045d7e-a009-4892-a94f-7296e708e095
+                  - cell [ref=f35e325]:
+                    - link "QAR 820.00" [ref=f35e327] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/visa-cases/a3045d7e-a009-4892-a94f-7296e708e095
+                  - cell [ref=f35e333]:
+                    - generic [ref=f35e335]:
+                      - link "View" [ref=f35e336] [cursor=pointer]:
+                        - /url: http://127.0.0.1:8090/staff/visa-cases/a3045d7e-a009-4892-a94f-7296e708e095
+                      - link "Edit" [ref=f35e341] [cursor=pointer]:
+                        - /url: http://127.0.0.1:8090/staff/visa-cases/a3045d7e-a009-4892-a94f-7296e708e095/edit
+                - row "Select/deselect item a3045d7b-bfac-4a96-bfd6-2d2ad8f71bc0 for bulk actions. CS-2026-0054 Sheikh Hamad Al-Thani UK Express Tourist Visa 2... Submitted standard Unassigned QAR 0.00 View Edit" [ref=f35e346]:
+                  - cell "Select/deselect item a3045d7b-bfac-4a96-bfd6-2d2ad8f71bc0 for bulk actions." [ref=f35e347]:
+                    - generic [ref=f35e349]:
+                      - checkbox "Select/deselect item a3045d7b-bfac-4a96-bfd6-2d2ad8f71bc0 for bulk actions." [ref=f35e350]
+                      - generic [ref=f35e351]: Select/deselect item a3045d7b-bfac-4a96-bfd6-2d2ad8f71bc0 for bulk actions.
+                  - cell [ref=f35e352]:
+                    - link "CS-2026-0054" [ref=f35e354] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/visa-cases/a3045d7b-bfac-4a96-bfd6-2d2ad8f71bc0
+                  - cell [ref=f35e360]:
+                    - link "Sheikh Hamad Al-Thani" [ref=f35e362] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/visa-cases/a3045d7b-bfac-4a96-bfd6-2d2ad8f71bc0
+                  - cell [ref=f35e368]:
+                    - link [ref=f35e370] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/visa-cases/a3045d7b-bfac-4a96-bfd6-2d2ad8f71bc0
+                  - cell [ref=f35e372]:
+                    - link "UK Express Tourist Visa 2..." [ref=f35e374] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/visa-cases/a3045d7b-bfac-4a96-bfd6-2d2ad8f71bc0
+                  - cell [ref=f35e380]:
+                    - link "Submitted" [ref=f35e382] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/visa-cases/a3045d7b-bfac-4a96-bfd6-2d2ad8f71bc0
+                  - cell [ref=f35e389]:
+                    - link "standard" [ref=f35e391] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/visa-cases/a3045d7b-bfac-4a96-bfd6-2d2ad8f71bc0
+                  - cell [ref=f35e398]:
+                    - link "Unassigned" [ref=f35e400] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/visa-cases/a3045d7b-bfac-4a96-bfd6-2d2ad8f71bc0
+                  - cell [ref=f35e403]:
+                    - link "QAR 0.00" [ref=f35e405] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/visa-cases/a3045d7b-bfac-4a96-bfd6-2d2ad8f71bc0
+                  - cell [ref=f35e411]:
+                    - generic [ref=f35e413]:
+                      - link "View" [ref=f35e414] [cursor=pointer]:
+                        - /url: http://127.0.0.1:8090/staff/visa-cases/a3045d7b-bfac-4a96-bfd6-2d2ad8f71bc0
+                      - link "Edit" [ref=f35e419] [cursor=pointer]:
+                        - /url: http://127.0.0.1:8090/staff/visa-cases/a3045d7b-bfac-4a96-bfd6-2d2ad8f71bc0/edit
+                - row "Select/deselect item a3045d7b-acd0-488d-b5d8-4dfee99839dc for bulk actions. CS-2026-0053 Sheikh Hamad Al-Thani UK Express Tourist Visa 2... Submitted standard Unassigned QAR 0.00 View Edit" [ref=f35e424]:
+                  - cell "Select/deselect item a3045d7b-acd0-488d-b5d8-4dfee99839dc for bulk actions." [ref=f35e425]:
+                    - generic [ref=f35e427]:
+                      - checkbox "Select/deselect item a3045d7b-acd0-488d-b5d8-4dfee99839dc for bulk actions." [ref=f35e428]
+                      - generic [ref=f35e429]: Select/deselect item a3045d7b-acd0-488d-b5d8-4dfee99839dc for bulk actions.
+                  - cell [ref=f35e430]:
+                    - link "CS-2026-0053" [ref=f35e432] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/visa-cases/a3045d7b-acd0-488d-b5d8-4dfee99839dc
+                  - cell [ref=f35e438]:
+                    - link "Sheikh Hamad Al-Thani" [ref=f35e440] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/visa-cases/a3045d7b-acd0-488d-b5d8-4dfee99839dc
+                  - cell [ref=f35e446]:
+                    - link [ref=f35e448] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/visa-cases/a3045d7b-acd0-488d-b5d8-4dfee99839dc
+                  - cell [ref=f35e450]:
+                    - link "UK Express Tourist Visa 2..." [ref=f35e452] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/visa-cases/a3045d7b-acd0-488d-b5d8-4dfee99839dc
+                  - cell [ref=f35e458]:
+                    - link "Submitted" [ref=f35e460] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/visa-cases/a3045d7b-acd0-488d-b5d8-4dfee99839dc
+                  - cell [ref=f35e467]:
+                    - link "standard" [ref=f35e469] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/visa-cases/a3045d7b-acd0-488d-b5d8-4dfee99839dc
+                  - cell [ref=f35e476]:
+                    - link "Unassigned" [ref=f35e478] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/visa-cases/a3045d7b-acd0-488d-b5d8-4dfee99839dc
+                  - cell [ref=f35e481]:
+                    - link "QAR 0.00" [ref=f35e483] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/visa-cases/a3045d7b-acd0-488d-b5d8-4dfee99839dc
+                  - cell [ref=f35e489]:
+                    - generic [ref=f35e491]:
+                      - link "View" [ref=f35e492] [cursor=pointer]:
+                        - /url: http://127.0.0.1:8090/staff/visa-cases/a3045d7b-acd0-488d-b5d8-4dfee99839dc
+                      - link "Edit" [ref=f35e497] [cursor=pointer]:
+                        - /url: http://127.0.0.1:8090/staff/visa-cases/a3045d7b-acd0-488d-b5d8-4dfee99839dc/edit
+                - row "Select/deselect item a3045ac4-2554-4103-a324-1c0a9ff81728 for bulk actions. CS-2026-0052 Sheikh Hamad Al-Thani UK Express Tourist Visa 2... Documents pending standard Unassigned QAR 0.00 View Edit" [ref=f35e502]:
+                  - cell "Select/deselect item a3045ac4-2554-4103-a324-1c0a9ff81728 for bulk actions." [ref=f35e503]:
+                    - generic [ref=f35e505]:
+                      - checkbox "Select/deselect item a3045ac4-2554-4103-a324-1c0a9ff81728 for bulk actions." [ref=f35e506]
+                      - generic [ref=f35e507]: Select/deselect item a3045ac4-2554-4103-a324-1c0a9ff81728 for bulk actions.
+                  - cell [ref=f35e508]:
+                    - link "CS-2026-0052" [ref=f35e510] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/visa-cases/a3045ac4-2554-4103-a324-1c0a9ff81728
+                  - cell [ref=f35e516]:
+                    - link "Sheikh Hamad Al-Thani" [ref=f35e518] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/visa-cases/a3045ac4-2554-4103-a324-1c0a9ff81728
+                  - cell [ref=f35e524]:
+                    - link [ref=f35e526] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/visa-cases/a3045ac4-2554-4103-a324-1c0a9ff81728
+                  - cell [ref=f35e528]:
+                    - link "UK Express Tourist Visa 2..." [ref=f35e530] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/visa-cases/a3045ac4-2554-4103-a324-1c0a9ff81728
+                  - cell [ref=f35e536]:
+                    - link "Documents pending" [ref=f35e538] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/visa-cases/a3045ac4-2554-4103-a324-1c0a9ff81728
+                  - cell [ref=f35e545]:
+                    - link "standard" [ref=f35e547] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/visa-cases/a3045ac4-2554-4103-a324-1c0a9ff81728
+                  - cell [ref=f35e554]:
+                    - link "Unassigned" [ref=f35e556] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/visa-cases/a3045ac4-2554-4103-a324-1c0a9ff81728
+                  - cell [ref=f35e559]:
+                    - link "QAR 0.00" [ref=f35e561] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/visa-cases/a3045ac4-2554-4103-a324-1c0a9ff81728
+                  - cell [ref=f35e567]:
+                    - generic [ref=f35e569]:
+                      - link "View" [ref=f35e570] [cursor=pointer]:
+                        - /url: http://127.0.0.1:8090/staff/visa-cases/a3045ac4-2554-4103-a324-1c0a9ff81728
+                      - link "Edit" [ref=f35e575] [cursor=pointer]:
+                        - /url: http://127.0.0.1:8090/staff/visa-cases/a3045ac4-2554-4103-a324-1c0a9ff81728/edit
+                - row [ref=f35e580]:
+                  - cell "Select/deselect item a3045ac4-0943-43cf-9d28-cc3b8502f142 for bulk actions." [ref=f35e581]:
+                    - generic [ref=f35e583]:
+                      - checkbox "Select/deselect item a3045ac4-0943-43cf-9d28-cc3b8502f142 for bulk actions." [ref=f35e584]
+                      - generic [ref=f35e585]: Select/deselect item a3045ac4-0943-43cf-9d28-cc3b8502f142 for bulk actions.
+                  - cell [ref=f35e586]:
+                    - link "CS-2026-0050" [ref=f35e588] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/visa-cases/a3045ac4-0943-43cf-9d28-cc3b8502f142
+                  - cell [ref=f35e594]:
+                    - link "Sheikh Hamad Al-Thani" [ref=f35e596] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/visa-cases/a3045ac4-0943-43cf-9d28-cc3b8502f142
+                  - cell [ref=f35e602]:
+                    - link "United Kingdom" [ref=f35e604] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/visa-cases/a3045ac4-0943-43cf-9d28-cc3b8502f142
+                  - cell [ref=f35e611]:
+                    - link "UK Standard Visitor Visa..." [ref=f35e613] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/visa-cases/a3045ac4-0943-43cf-9d28-cc3b8502f142
+                  - cell [ref=f35e619]:
+                    - link "Documents pending" [ref=f35e621] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/visa-cases/a3045ac4-0943-43cf-9d28-cc3b8502f142
+                  - cell [ref=f35e628]:
+                    - link "vip" [ref=f35e630] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/visa-cases/a3045ac4-0943-43cf-9d28-cc3b8502f142
+                  - cell [ref=f35e637]:
+                    - link "Unassigned" [ref=f35e639] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/visa-cases/a3045ac4-0943-43cf-9d28-cc3b8502f142
+                  - cell [ref=f35e642]:
+                    - link "QAR 820.00" [ref=f35e644] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/visa-cases/a3045ac4-0943-43cf-9d28-cc3b8502f142
+                  - cell [ref=f35e650]:
+                    - generic [ref=f35e652]:
+                      - link "View" [ref=f35e653] [cursor=pointer]:
+                        - /url: http://127.0.0.1:8090/staff/visa-cases/a3045ac4-0943-43cf-9d28-cc3b8502f142
+                      - link "Edit" [ref=f35e658] [cursor=pointer]:
+                        - /url: http://127.0.0.1:8090/staff/visa-cases/a3045ac4-0943-43cf-9d28-cc3b8502f142/edit
+                - row [ref=f35e663]:
+                  - cell "Select/deselect item a3045ac4-173a-4c8b-be26-e73080600c1e for bulk actions." [ref=f35e664]:
+                    - generic [ref=f35e666]:
+                      - checkbox "Select/deselect item a3045ac4-173a-4c8b-be26-e73080600c1e for bulk actions." [ref=f35e667]
+                      - generic [ref=f35e668]: Select/deselect item a3045ac4-173a-4c8b-be26-e73080600c1e for bulk actions.
+                  - cell [ref=f35e669]:
+                    - link "CS-2026-0051" [ref=f35e671] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/visa-cases/a3045ac4-173a-4c8b-be26-e73080600c1e
+                  - cell [ref=f35e677]:
+                    - link "Sheikh Hamad Al-Thani" [ref=f35e679] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/visa-cases/a3045ac4-173a-4c8b-be26-e73080600c1e
+                  - cell [ref=f35e685]:
+                    - link "United Kingdom" [ref=f35e687] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/visa-cases/a3045ac4-173a-4c8b-be26-e73080600c1e
+                  - cell [ref=f35e694]:
+                    - link "UK Standard Visitor Visa..." [ref=f35e696] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/visa-cases/a3045ac4-173a-4c8b-be26-e73080600c1e
+                  - cell [ref=f35e702]:
+                    - link "Under review" [ref=f35e704] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/visa-cases/a3045ac4-173a-4c8b-be26-e73080600c1e
+                  - cell [ref=f35e711]:
+                    - link "standard" [ref=f35e713] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/visa-cases/a3045ac4-173a-4c8b-be26-e73080600c1e
+                  - cell [ref=f35e720]:
+                    - link "Unassigned" [ref=f35e722] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/visa-cases/a3045ac4-173a-4c8b-be26-e73080600c1e
+                  - cell [ref=f35e725]:
+                    - link "QAR 0.00" [ref=f35e727] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/visa-cases/a3045ac4-173a-4c8b-be26-e73080600c1e
+                  - cell [ref=f35e733]:
+                    - generic [ref=f35e735]:
+                      - link "View" [ref=f35e736] [cursor=pointer]:
+                        - /url: http://127.0.0.1:8090/staff/visa-cases/a3045ac4-173a-4c8b-be26-e73080600c1e
+                      - link "Edit" [ref=f35e741] [cursor=pointer]:
+                        - /url: http://127.0.0.1:8090/staff/visa-cases/a3045ac4-173a-4c8b-be26-e73080600c1e/edit
+                - row "Select/deselect item a3045ac3-6fdf-48e5-b21a-1715ee79a014 for bulk actions. CS-2026-0049 Sheikh Hamad Al-Thani UK Express Tourist Visa 2... Submitted standard Unassigned QAR 0.00 View Edit" [ref=f35e746]:
+                  - cell "Select/deselect item a3045ac3-6fdf-48e5-b21a-1715ee79a014 for bulk actions." [ref=f35e747]:
+                    - generic [ref=f35e749]:
+                      - checkbox "Select/deselect item a3045ac3-6fdf-48e5-b21a-1715ee79a014 for bulk actions." [ref=f35e750]
+                      - generic [ref=f35e751]: Select/deselect item a3045ac3-6fdf-48e5-b21a-1715ee79a014 for bulk actions.
+                  - cell [ref=f35e752]:
+                    - link "CS-2026-0049" [ref=f35e754] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/visa-cases/a3045ac3-6fdf-48e5-b21a-1715ee79a014
+                  - cell [ref=f35e760]:
+                    - link "Sheikh Hamad Al-Thani" [ref=f35e762] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/visa-cases/a3045ac3-6fdf-48e5-b21a-1715ee79a014
+                  - cell [ref=f35e768]:
+                    - link [ref=f35e770] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/visa-cases/a3045ac3-6fdf-48e5-b21a-1715ee79a014
+                  - cell [ref=f35e772]:
+                    - link "UK Express Tourist Visa 2..." [ref=f35e774] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/visa-cases/a3045ac3-6fdf-48e5-b21a-1715ee79a014
+                  - cell [ref=f35e780]:
+                    - link "Submitted" [ref=f35e782] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/visa-cases/a3045ac3-6fdf-48e5-b21a-1715ee79a014
+                  - cell [ref=f35e789]:
+                    - link "standard" [ref=f35e791] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/visa-cases/a3045ac3-6fdf-48e5-b21a-1715ee79a014
+                  - cell [ref=f35e798]:
+                    - link "Unassigned" [ref=f35e800] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/visa-cases/a3045ac3-6fdf-48e5-b21a-1715ee79a014
+                  - cell [ref=f35e803]:
+                    - link "QAR 0.00" [ref=f35e805] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/visa-cases/a3045ac3-6fdf-48e5-b21a-1715ee79a014
+                  - cell [ref=f35e811]:
+                    - generic [ref=f35e813]:
+                      - link "View" [ref=f35e814] [cursor=pointer]:
+                        - /url: http://127.0.0.1:8090/staff/visa-cases/a3045ac3-6fdf-48e5-b21a-1715ee79a014
+                      - link "Edit" [ref=f35e819] [cursor=pointer]:
+                        - /url: http://127.0.0.1:8090/staff/visa-cases/a3045ac3-6fdf-48e5-b21a-1715ee79a014/edit
+                - row "Select/deselect item a3045ac3-6ce1-4843-9fba-1429d2427270 for bulk actions. CS-2026-0048 Sheikh Hamad Al-Thani UK Express Tourist Visa 2... Submitted standard Unassigned QAR 0.00 View Edit" [ref=f35e824]:
+                  - cell "Select/deselect item a3045ac3-6ce1-4843-9fba-1429d2427270 for bulk actions." [ref=f35e825]:
+                    - generic [ref=f35e827]:
+                      - checkbox "Select/deselect item a3045ac3-6ce1-4843-9fba-1429d2427270 for bulk actions." [ref=f35e828]
+                      - generic [ref=f35e829]: Select/deselect item a3045ac3-6ce1-4843-9fba-1429d2427270 for bulk actions.
+                  - cell [ref=f35e830]:
+                    - link "CS-2026-0048" [ref=f35e832] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/visa-cases/a3045ac3-6ce1-4843-9fba-1429d2427270
+                  - cell [ref=f35e838]:
+                    - link "Sheikh Hamad Al-Thani" [ref=f35e840] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/visa-cases/a3045ac3-6ce1-4843-9fba-1429d2427270
+                  - cell [ref=f35e846]:
+                    - link [ref=f35e848] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/visa-cases/a3045ac3-6ce1-4843-9fba-1429d2427270
+                  - cell [ref=f35e850]:
+                    - link "UK Express Tourist Visa 2..." [ref=f35e852] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/visa-cases/a3045ac3-6ce1-4843-9fba-1429d2427270
+                  - cell [ref=f35e858]:
+                    - link "Submitted" [ref=f35e860] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/visa-cases/a3045ac3-6ce1-4843-9fba-1429d2427270
+                  - cell [ref=f35e867]:
+                    - link "standard" [ref=f35e869] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/visa-cases/a3045ac3-6ce1-4843-9fba-1429d2427270
+                  - cell [ref=f35e876]:
+                    - link "Unassigned" [ref=f35e878] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/visa-cases/a3045ac3-6ce1-4843-9fba-1429d2427270
+                  - cell [ref=f35e881]:
+                    - link "QAR 0.00" [ref=f35e883] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/visa-cases/a3045ac3-6ce1-4843-9fba-1429d2427270
+                  - cell [ref=f35e889]:
+                    - generic [ref=f35e891]:
+                      - link "View" [ref=f35e892] [cursor=pointer]:
+                        - /url: http://127.0.0.1:8090/staff/visa-cases/a3045ac3-6ce1-4843-9fba-1429d2427270
+                      - link "Edit" [ref=f35e897] [cursor=pointer]:
+                        - /url: http://127.0.0.1:8090/staff/visa-cases/a3045ac3-6ce1-4843-9fba-1429d2427270/edit
+            - navigation "Pagination navigation" [ref=f35e902]:
+              - generic [ref=f35e905]:
+                - generic [ref=f35e906]: Per page
+                - combobox "Per page" [ref=f35e909]:
+                  - option "5"
+                  - option "10" [selected]
+                  - option "25"
+                  - option "50"
+                  - option "All"
+              - button "Next" [ref=f35e910] [cursor=pointer]
+    - complementary [ref=f35e912]:
+      - link "Venture Visionary CRM" [ref=f35e916] [cursor=pointer]:
+        - /url: http://127.0.0.1:8090/staff
+      - navigation [ref=f35e918]:
+        - list [ref=f35e919]:
+          - listitem [ref=f35e920]:
+            - list [ref=f35e921]:
+              - listitem [ref=f35e922]:
+                - link "Dashboard" [ref=f35e923] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8090/staff
+          - listitem [ref=f35e927]:
+            - generic [ref=f35e928] [cursor=pointer]:
+              - generic [ref=f35e929]: Master Database
+              - button "Master Database" [expanded] [ref=f35e930]
+            - list [ref=f35e934]:
+              - listitem [ref=f35e935]:
+                - link "Countries" [ref=f35e936] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8090/staff/countries
+              - listitem [ref=f35e940]:
+                - link "Services" [ref=f35e941] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8090/staff/services
+          - listitem [ref=f35e945]:
+            - generic [ref=f35e946] [cursor=pointer]:
+              - generic [ref=f35e947]: CRM & Sales
+              - button "CRM & Sales" [expanded] [ref=f35e948]
+            - list [ref=f35e952]:
+              - listitem [ref=f35e953]:
+                - link "Leads" [ref=f35e954] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8090/staff/leads
+              - listitem [ref=f35e958]:
+                - link "Clients" [ref=f35e959] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8090/staff/clients
+          - listitem [ref=f35e963]:
+            - generic [ref=f35e964] [cursor=pointer]:
+              - generic [ref=f35e965]: B2B & Affiliates
+              - button "B2B & Affiliates" [expanded] [ref=f35e966]
+            - list [ref=f35e970]:
+              - listitem [ref=f35e971]:
+                - link "Partners" [ref=f35e972] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8090/staff/partners
+          - listitem [ref=f35e976]:
+            - generic [ref=f35e977] [cursor=pointer]:
+              - generic [ref=f35e978]: Finance & Commercial
+              - button "Finance & Commercial" [expanded] [ref=f35e979]
+            - list [ref=f35e983]:
+              - listitem [ref=f35e984]:
+                - link "Quotations" [ref=f35e985] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8090/staff/quotations
+          - listitem [ref=f35e989]:
+            - generic [ref=f35e990] [cursor=pointer]:
+              - generic [ref=f35e991]: Administration & HR
+              - button "Administration & HR" [expanded] [ref=f35e992]
+            - list [ref=f35e996]:
+              - listitem [ref=f35e997]:
+                - link "Users" [ref=f35e998] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8090/staff/users
+          - listitem [ref=f35e1002]:
+            - generic [ref=f35e1003] [cursor=pointer]:
+              - generic [ref=f35e1004]: Case Processing
+              - button "Case Processing" [expanded] [ref=f35e1005]
+            - list [ref=f35e1009]:
+              - listitem [ref=f35e1010]:
+                - link "Visa Cases" [ref=f35e1011] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8090/staff/visa-cases
+  - generic:
+    - status

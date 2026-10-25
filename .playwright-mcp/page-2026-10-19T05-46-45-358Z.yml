@@ -1,0 +1,381 @@
+- generic [active] [ref=f30e1]:
+  - generic [ref=f30e2]:
+    - generic [ref=f30e3]:
+      - navigation [ref=f30e5]:
+        - button "User menu" [ref=f30e9] [cursor=pointer]:
+          - img "Avatar of Executive Super Admin" [ref=f30e10]
+      - main [ref=f30e11]:
+        - generic [ref=f30e13]:
+          - generic [ref=f30e14]:
+            - generic [ref=f30e15]:
+              - navigation [ref=f30e16]:
+                - list [ref=f30e17]:
+                  - listitem [ref=f30e18]:
+                    - link "Users" [ref=f30e19] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/users
+                  - listitem [ref=f30e20]:
+                    - generic [ref=f30e23]: List
+              - heading "Users" [level=1] [ref=f30e24]
+            - link "New user" [ref=f30e27] [cursor=pointer]:
+              - /url: http://127.0.0.1:8090/staff/users/create
+          - generic [ref=f30e33]:
+            - generic [ref=f30e36]:
+              - generic [ref=f30e37]:
+                - generic [ref=f30e38]: Search
+                - searchbox "Search" [ref=f30e44]
+              - button "Filter 0" [ref=f30e47] [cursor=pointer]:
+                - generic [ref=f30e48]: Filter
+                - generic [ref=f30e51]: "0"
+              - button "Toggle columns" [ref=f30e57] [cursor=pointer]
+            - table [ref=f30e62]:
+              - rowgroup [ref=f30e63]:
+                - row [ref=f30e64]:
+                  - columnheader "Select/deselect all items for bulk actions." [ref=f30e65]:
+                    - generic [ref=f30e67]:
+                      - checkbox "Select/deselect all items for bulk actions." [ref=f30e68]
+                      - generic [ref=f30e69]: Select/deselect all items for bulk actions.
+                  - columnheader [ref=f30e70]:
+                    - button "Staff Member" [ref=f30e71] [cursor=pointer]
+                  - columnheader "Corporate Email" [ref=f30e75]
+                  - columnheader "Department" [ref=f30e78]
+                  - columnheader "Designation" [ref=f30e81]
+                  - columnheader "Roles" [ref=f30e84]
+                  - columnheader "Active" [ref=f30e87]
+                  - columnheader "Action" [ref=f30e90]
+              - rowgroup [ref=f30e91]:
+                - row [ref=f30e92]:
+                  - cell "Select/deselect item a303fd7b-dcf8-4ab3-b421-7e66639808a8 for bulk actions." [ref=f30e93]:
+                    - generic [ref=f30e95]:
+                      - checkbox "Select/deselect item a303fd7b-dcf8-4ab3-b421-7e66639808a8 for bulk actions." [ref=f30e96]
+                      - generic [ref=f30e97]: Select/deselect item a303fd7b-dcf8-4ab3-b421-7e66639808a8 for bulk actions.
+                  - cell [ref=f30e98]:
+                    - link "Agent A" [ref=f30e100] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/users/a303fd7b-dcf8-4ab3-b421-7e66639808a8/edit
+                  - cell [ref=f30e106]:
+                    - link "userA@agency.qa" [ref=f30e108] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/users/a303fd7b-dcf8-4ab3-b421-7e66639808a8/edit
+                  - cell [ref=f30e117]:
+                    - link "General" [ref=f30e119] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/users/a303fd7b-dcf8-4ab3-b421-7e66639808a8/edit
+                  - cell [ref=f30e122]:
+                    - link "Staff" [ref=f30e124] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/users/a303fd7b-dcf8-4ab3-b421-7e66639808a8/edit
+                  - cell [ref=f30e127]:
+                    - link "b2b_agent" [ref=f30e129] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/users/a303fd7b-dcf8-4ab3-b421-7e66639808a8/edit
+                  - cell [ref=f30e136]:
+                    - link [ref=f30e138] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/users/a303fd7b-dcf8-4ab3-b421-7e66639808a8/edit
+                  - cell [ref=f30e142]:
+                    - link "Edit" [ref=f30e145] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/users/a303fd7b-dcf8-4ab3-b421-7e66639808a8/edit
+                - row [ref=f30e150]:
+                  - cell "Select/deselect item a303fd7b-eb67-4150-8aa4-f0b7b91b36c8 for bulk actions." [ref=f30e151]:
+                    - generic [ref=f30e153]:
+                      - checkbox "Select/deselect item a303fd7b-eb67-4150-8aa4-f0b7b91b36c8 for bulk actions." [ref=f30e154]
+                      - generic [ref=f30e155]: Select/deselect item a303fd7b-eb67-4150-8aa4-f0b7b91b36c8 for bulk actions.
+                  - cell [ref=f30e156]:
+                    - link "Agent B" [ref=f30e158] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/users/a303fd7b-eb67-4150-8aa4-f0b7b91b36c8/edit
+                  - cell [ref=f30e164]:
+                    - link "userB@agency.qa" [ref=f30e166] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/users/a303fd7b-eb67-4150-8aa4-f0b7b91b36c8/edit
+                  - cell [ref=f30e175]:
+                    - link "General" [ref=f30e177] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/users/a303fd7b-eb67-4150-8aa4-f0b7b91b36c8/edit
+                  - cell [ref=f30e180]:
+                    - link "Staff" [ref=f30e182] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/users/a303fd7b-eb67-4150-8aa4-f0b7b91b36c8/edit
+                  - cell [ref=f30e185]:
+                    - link "b2b_agent" [ref=f30e187] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/users/a303fd7b-eb67-4150-8aa4-f0b7b91b36c8/edit
+                  - cell [ref=f30e194]:
+                    - link [ref=f30e196] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/users/a303fd7b-eb67-4150-8aa4-f0b7b91b36c8/edit
+                  - cell [ref=f30e200]:
+                    - link "Edit" [ref=f30e203] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/users/a303fd7b-eb67-4150-8aa4-f0b7b91b36c8/edit
+                - row [ref=f30e208]:
+                  - cell "Select/deselect item a303fc22-9ba6-4ced-b040-1db91aedec76 for bulk actions." [ref=f30e209]:
+                    - generic [ref=f30e211]:
+                      - checkbox "Select/deselect item a303fc22-9ba6-4ced-b040-1db91aedec76 for bulk actions." [ref=f30e212]
+                      - generic [ref=f30e213]: Select/deselect item a303fc22-9ba6-4ced-b040-1db91aedec76 for bulk actions.
+                  - cell [ref=f30e214]:
+                    - link "Dr. Ziad Nabil" [ref=f30e216] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/users/a303fc22-9ba6-4ced-b040-1db91aedec76/edit
+                  - cell [ref=f30e222]:
+                    - link "research@venturevisionary.qa" [ref=f30e224] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/users/a303fc22-9ba6-4ced-b040-1db91aedec76/edit
+                  - cell [ref=f30e233]:
+                    - link "Visa Research & Governance" [ref=f30e235] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/users/a303fc22-9ba6-4ced-b040-1db91aedec76/edit
+                  - cell [ref=f30e242]:
+                    - link "Chief Immigration Intelligence Officer" [ref=f30e244] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/users/a303fc22-9ba6-4ced-b040-1db91aedec76/edit
+                  - cell [ref=f30e250]:
+                    - link "research_officer" [ref=f30e252] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/users/a303fc22-9ba6-4ced-b040-1db91aedec76/edit
+                  - cell [ref=f30e259]:
+                    - link [ref=f30e261] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/users/a303fc22-9ba6-4ced-b040-1db91aedec76/edit
+                  - cell [ref=f30e265]:
+                    - link "Edit" [ref=f30e268] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/users/a303fc22-9ba6-4ced-b040-1db91aedec76/edit
+                - row [ref=f30e273]:
+                  - cell "Select/deselect item a303fc21-ab39-4922-993f-92666752adaf for bulk actions." [ref=f30e274]:
+                    - generic [ref=f30e276]:
+                      - checkbox "Select/deselect item a303fc21-ab39-4922-993f-92666752adaf for bulk actions." [ref=f30e277]
+                      - generic [ref=f30e278]: Select/deselect item a303fc21-ab39-4922-993f-92666752adaf for bulk actions.
+                  - cell [ref=f30e279]:
+                    - link "Elena Rostova" [ref=f30e281] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/users/a303fc21-ab39-4922-993f-92666752adaf/edit
+                  - cell [ref=f30e287]:
+                    - link "qc@venturevisionary.qa" [ref=f30e289] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/users/a303fc21-ab39-4922-993f-92666752adaf/edit
+                  - cell [ref=f30e298]:
+                    - link "Visa Operations & QC" [ref=f30e300] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/users/a303fc21-ab39-4922-993f-92666752adaf/edit
+                  - cell [ref=f30e307]:
+                    - link "Quality Control Specialist" [ref=f30e309] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/users/a303fc21-ab39-4922-993f-92666752adaf/edit
+                  - cell [ref=f30e315]:
+                    - link "qc_officer" [ref=f30e317] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/users/a303fc21-ab39-4922-993f-92666752adaf/edit
+                  - cell [ref=f30e324]:
+                    - link [ref=f30e326] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/users/a303fc21-ab39-4922-993f-92666752adaf/edit
+                  - cell [ref=f30e330]:
+                    - link "Edit" [ref=f30e333] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/users/a303fc21-ab39-4922-993f-92666752adaf/edit
+                - row [ref=f30e338]:
+                  - cell "Select/deselect item 70bb778f-81cf-4be0-861d-175fe4c28415 for bulk actions." [ref=f30e339]:
+                    - generic [ref=f30e341]:
+                      - checkbox "Select/deselect item 70bb778f-81cf-4be0-861d-175fe4c28415 for bulk actions." [ref=f30e342]
+                      - generic [ref=f30e343]: Select/deselect item 70bb778f-81cf-4be0-861d-175fe4c28415 for bulk actions.
+                  - cell [ref=f30e344]:
+                    - link "Executive Super Admin" [ref=f30e346] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/users/70bb778f-81cf-4be0-861d-175fe4c28415/edit
+                  - cell [ref=f30e352]:
+                    - link "ceo@venturevisionary.qa" [ref=f30e354] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/users/70bb778f-81cf-4be0-861d-175fe4c28415/edit
+                  - cell [ref=f30e363]:
+                    - link "Executive Management" [ref=f30e365] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/users/70bb778f-81cf-4be0-861d-175fe4c28415/edit
+                  - cell [ref=f30e372]:
+                    - link "Chief Executive Officer" [ref=f30e374] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/users/70bb778f-81cf-4be0-861d-175fe4c28415/edit
+                  - cell [ref=f30e380]:
+                    - link "super_admin" [ref=f30e382] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/users/70bb778f-81cf-4be0-861d-175fe4c28415/edit
+                  - cell [ref=f30e389]:
+                    - link [ref=f30e391] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/users/70bb778f-81cf-4be0-861d-175fe4c28415/edit
+                  - cell [ref=f30e395]:
+                    - link "Edit" [ref=f30e398] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/users/70bb778f-81cf-4be0-861d-175fe4c28415/edit
+                - row [ref=f30e403]:
+                  - cell "Select/deselect item a303fc22-1923-4dbd-bd61-d27a5d540bd6 for bulk actions." [ref=f30e404]:
+                    - generic [ref=f30e406]:
+                      - checkbox "Select/deselect item a303fc22-1923-4dbd-bd61-d27a5d540bd6 for bulk actions." [ref=f30e407]
+                      - generic [ref=f30e408]: Select/deselect item a303fc22-1923-4dbd-bd61-d27a5d540bd6 for bulk actions.
+                  - cell [ref=f30e409]:
+                    - link "Farhan Qureshi" [ref=f30e411] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/users/a303fc22-1923-4dbd-bd61-d27a5d540bd6/edit
+                  - cell [ref=f30e417]:
+                    - link "accounts@venturevisionary.qa" [ref=f30e419] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/users/a303fc22-1923-4dbd-bd61-d27a5d540bd6/edit
+                  - cell [ref=f30e428]:
+                    - link "Finance & Accounts" [ref=f30e430] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/users/a303fc22-1923-4dbd-bd61-d27a5d540bd6/edit
+                  - cell [ref=f30e437]:
+                    - link "Finance Controller" [ref=f30e439] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/users/a303fc22-1923-4dbd-bd61-d27a5d540bd6/edit
+                  - cell [ref=f30e445]:
+                    - link "accounts_manager" [ref=f30e447] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/users/a303fc22-1923-4dbd-bd61-d27a5d540bd6/edit
+                  - cell [ref=f30e454]:
+                    - link [ref=f30e456] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/users/a303fc22-1923-4dbd-bd61-d27a5d540bd6/edit
+                  - cell [ref=f30e460]:
+                    - link "Edit" [ref=f30e463] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/users/a303fc22-1923-4dbd-bd61-d27a5d540bd6/edit
+                - row [ref=f30e468]:
+                  - cell "Select/deselect item a303fc5c-c572-49ed-a260-badf1c33bd4c for bulk actions." [ref=f30e469]:
+                    - generic [ref=f30e471]:
+                      - checkbox "Select/deselect item a303fc5c-c572-49ed-a260-badf1c33bd4c for bulk actions." [ref=f30e472]
+                      - generic [ref=f30e473]: Select/deselect item a303fc5c-c572-49ed-a260-badf1c33bd4c for bulk actions.
+                  - cell [ref=f30e474]:
+                    - link "Jassim Al-Sulaiti" [ref=f30e476] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/users/a303fc5c-c572-49ed-a260-badf1c33bd4c/edit
+                  - cell [ref=f30e482]:
+                    - link "partner@dohaglobaltravel.qa" [ref=f30e484] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/users/a303fc5c-c572-49ed-a260-badf1c33bd4c/edit
+                  - cell [ref=f30e493]:
+                    - link "General" [ref=f30e495] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/users/a303fc5c-c572-49ed-a260-badf1c33bd4c/edit
+                  - cell [ref=f30e498]:
+                    - link "Staff" [ref=f30e500] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/users/a303fc5c-c572-49ed-a260-badf1c33bd4c/edit
+                  - cell [ref=f30e503]:
+                    - link "b2b_agent" [ref=f30e505] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/users/a303fc5c-c572-49ed-a260-badf1c33bd4c/edit
+                  - cell [ref=f30e512]:
+                    - link [ref=f30e514] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/users/a303fc5c-c572-49ed-a260-badf1c33bd4c/edit
+                  - cell [ref=f30e518]:
+                    - link "Edit" [ref=f30e521] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/users/a303fc5c-c572-49ed-a260-badf1c33bd4c/edit
+                - row [ref=f30e526]:
+                  - cell "Select/deselect item a303fc21-3628-4c72-a8a3-149cf7c09203 for bulk actions." [ref=f30e527]:
+                    - generic [ref=f30e529]:
+                      - checkbox "Select/deselect item a303fc21-3628-4c72-a8a3-149cf7c09203 for bulk actions." [ref=f30e530]
+                      - generic [ref=f30e531]: Select/deselect item a303fc21-3628-4c72-a8a3-149cf7c09203 for bulk actions.
+                  - cell [ref=f30e532]:
+                    - link "Mohammed Hassan" [ref=f30e534] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/users/a303fc21-3628-4c72-a8a3-149cf7c09203/edit
+                  - cell [ref=f30e540]:
+                    - link "visa@venturevisionary.qa" [ref=f30e542] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/users/a303fc21-3628-4c72-a8a3-149cf7c09203/edit
+                  - cell [ref=f30e551]:
+                    - link "Visa Operations & QC" [ref=f30e553] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/users/a303fc21-3628-4c72-a8a3-149cf7c09203/edit
+                  - cell [ref=f30e560]:
+                    - link "Visa Processing Officer" [ref=f30e562] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/users/a303fc21-3628-4c72-a8a3-149cf7c09203/edit
+                  - cell [ref=f30e568]:
+                    - link "visa_officer" [ref=f30e570] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/users/a303fc21-3628-4c72-a8a3-149cf7c09203/edit
+                  - cell [ref=f30e577]:
+                    - link [ref=f30e579] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/users/a303fc21-3628-4c72-a8a3-149cf7c09203/edit
+                  - cell [ref=f30e583]:
+                    - link "Edit" [ref=f30e586] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/users/a303fc21-3628-4c72-a8a3-149cf7c09203/edit
+                - row [ref=f30e591]:
+                  - cell "Select/deselect item a3038c68-0588-4ecb-aa8b-c7bbaccde7a0 for bulk actions." [ref=f30e592]:
+                    - generic [ref=f30e594]:
+                      - checkbox "Select/deselect item a3038c68-0588-4ecb-aa8b-c7bbaccde7a0 for bulk actions." [ref=f30e595]
+                      - generic [ref=f30e596]: Select/deselect item a3038c68-0588-4ecb-aa8b-c7bbaccde7a0 for bulk actions.
+                  - cell [ref=f30e597]:
+                    - link "Portal Test Client" [ref=f30e599] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/users/a3038c68-0588-4ecb-aa8b-c7bbaccde7a0/edit
+                  - cell [ref=f30e605]:
+                    - link "client.portal@example.com" [ref=f30e607] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/users/a3038c68-0588-4ecb-aa8b-c7bbaccde7a0/edit
+                  - cell [ref=f30e616]:
+                    - link "General" [ref=f30e618] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/users/a3038c68-0588-4ecb-aa8b-c7bbaccde7a0/edit
+                  - cell [ref=f30e621]:
+                    - link "Staff" [ref=f30e623] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/users/a3038c68-0588-4ecb-aa8b-c7bbaccde7a0/edit
+                  - cell [ref=f30e626]:
+                    - link "client" [ref=f30e628] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/users/a3038c68-0588-4ecb-aa8b-c7bbaccde7a0/edit
+                  - cell [ref=f30e635]:
+                    - link [ref=f30e637] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/users/a3038c68-0588-4ecb-aa8b-c7bbaccde7a0/edit
+                  - cell [ref=f30e641]:
+                    - link "Edit" [ref=f30e644] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/users/a3038c68-0588-4ecb-aa8b-c7bbaccde7a0/edit
+                - row [ref=f30e649]:
+                  - cell "Select/deselect item a303fc1f-dff8-4ee8-8f6a-6106472c6eb4 for bulk actions." [ref=f30e650]:
+                    - generic [ref=f30e652]:
+                      - checkbox "Select/deselect item a303fc1f-dff8-4ee8-8f6a-6106472c6eb4 for bulk actions." [ref=f30e653]
+                      - generic [ref=f30e654]: Select/deselect item a303fc1f-dff8-4ee8-8f6a-6106472c6eb4 for bulk actions.
+                  - cell [ref=f30e655]:
+                    - link "Rashid Al-Kuwari" [ref=f30e657] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/users/a303fc1f-dff8-4ee8-8f6a-6106472c6eb4/edit
+                  - cell [ref=f30e663]:
+                    - link "ops@venturevisionary.qa" [ref=f30e665] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/users/a303fc1f-dff8-4ee8-8f6a-6106472c6eb4/edit
+                  - cell [ref=f30e674]:
+                    - link "Visa Operations & QC" [ref=f30e676] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/users/a303fc1f-dff8-4ee8-8f6a-6106472c6eb4/edit
+                  - cell [ref=f30e683]:
+                    - link "Operations Director" [ref=f30e685] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/users/a303fc1f-dff8-4ee8-8f6a-6106472c6eb4/edit
+                  - cell [ref=f30e691]:
+                    - link "operations_manager" [ref=f30e693] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/users/a303fc1f-dff8-4ee8-8f6a-6106472c6eb4/edit
+                  - cell [ref=f30e700]:
+                    - link [ref=f30e702] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/users/a303fc1f-dff8-4ee8-8f6a-6106472c6eb4/edit
+                  - cell [ref=f30e706]:
+                    - link "Edit" [ref=f30e709] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/users/a303fc1f-dff8-4ee8-8f6a-6106472c6eb4/edit
+            - navigation "Pagination navigation" [ref=f30e714]:
+              - generic [ref=f30e717]:
+                - generic [ref=f30e718]: Per page
+                - combobox "Per page" [ref=f30e721]:
+                  - option "5"
+                  - option "10" [selected]
+                  - option "25"
+                  - option "50"
+                  - option "All"
+              - button "Next" [ref=f30e722] [cursor=pointer]
+    - complementary [ref=f30e724]:
+      - link "Venture Visionary CRM" [ref=f30e728] [cursor=pointer]:
+        - /url: http://127.0.0.1:8090/staff
+      - navigation [ref=f30e730]:
+        - list [ref=f30e731]:
+          - listitem [ref=f30e732]:
+            - list [ref=f30e733]:
+              - listitem [ref=f30e734]:
+                - link "Dashboard" [ref=f30e735] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8090/staff
+          - listitem [ref=f30e739]:
+            - generic [ref=f30e740] [cursor=pointer]:
+              - generic [ref=f30e741]: Master Database
+              - button "Master Database" [expanded] [ref=f30e742]
+            - list [ref=f30e746]:
+              - listitem [ref=f30e747]:
+                - link "Countries" [ref=f30e748] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8090/staff/countries
+              - listitem [ref=f30e752]:
+                - link "Services" [ref=f30e753] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8090/staff/services
+          - listitem [ref=f30e757]:
+            - generic [ref=f30e758] [cursor=pointer]:
+              - generic [ref=f30e759]: CRM & Sales
+              - button "CRM & Sales" [expanded] [ref=f30e760]
+            - list [ref=f30e764]:
+              - listitem [ref=f30e765]:
+                - link "Leads" [ref=f30e766] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8090/staff/leads
+              - listitem [ref=f30e770]:
+                - link "Clients" [ref=f30e771] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8090/staff/clients
+          - listitem [ref=f30e775]:
+            - generic [ref=f30e776] [cursor=pointer]:
+              - generic [ref=f30e777]: B2B & Affiliates
+              - button "B2B & Affiliates" [expanded] [ref=f30e778]
+            - list [ref=f30e782]:
+              - listitem [ref=f30e783]:
+                - link "Partners" [ref=f30e784] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8090/staff/partners
+          - listitem [ref=f30e788]:
+            - generic [ref=f30e789] [cursor=pointer]:
+              - generic [ref=f30e790]: Finance & Commercial
+              - button "Finance & Commercial" [expanded] [ref=f30e791]
+            - list [ref=f30e795]:
+              - listitem [ref=f30e796]:
+                - link "Quotations" [ref=f30e797] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8090/staff/quotations
+          - listitem [ref=f30e801]:
+            - generic [ref=f30e802] [cursor=pointer]:
+              - generic [ref=f30e803]: Administration & HR
+              - button "Administration & HR" [expanded] [ref=f30e804]
+            - list [ref=f30e808]:
+              - listitem [ref=f30e809]:
+                - link "Users" [ref=f30e810] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8090/staff/users
+          - listitem [ref=f30e814]:
+            - generic [ref=f30e815] [cursor=pointer]:
+              - generic [ref=f30e816]: Case Processing
+              - button "Case Processing" [expanded] [ref=f30e817]
+            - list [ref=f30e821]:
+              - listitem [ref=f30e822]:
+                - link "Visa Cases" [ref=f30e823] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8090/staff/visa-cases
+  - generic:
+    - status

@@ -1,0 +1,98 @@
+{
+    "name": "bavix/laravel-wallet",
+    "description": "It's easy to work with a virtual wallet.",
+    "keywords": [
+        "laravel",
+        "credits",
+        "bavix",
+        "currency",
+        "laravel-wallet",
+        "laravel-package",
+        "virtual",
+        "wallet",
+        "payments"
+    ],
+    "minimum-stability": "stable",
+    "homepage": "https://bavix.github.io/laravel-wallet/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Babichev Maxim",
+            "email": "info@babichev.net"
+        }
+    ],
+    "require": {
+        "php": "^8.3",
+        "ext-json": "*",
+        "ext-pdo": "*",
+        "brick/math": ">=0.12.0 <0.19.0 || ^1.0",
+        "illuminate/contracts": "^11.0|^12.0|^13.0",
+        "illuminate/database": "^11.0|^12.0|^13.0",
+        "ramsey/uuid": "^4.0"
+    },
+    "require-dev": {
+        "deptrac/deptrac": "^4.2",
+        "driftingly/rector-laravel": "^2.0",
+        "ergebnis/phpstan-rules": "^2.1",
+        "infection/infection": "~0.27",
+        "larastan/larastan": "^3.0",
+        "laravel/cashier": "^15.0|^16.0",
+        "nunomaduro/collision": "^8.1",
+        "orchestra/testbench": "^9.0|^10.0|^11.0",
+        "phpstan/phpstan": "^2.1",
+        "phpunit/phpunit": "^11.0|^12.5.12",
+        "rector/rector": "^2.0",
+        "symplify/easy-coding-standard": "^13.0"
+    },
+    "suggest": {
+        "bavix/laravel-wallet-swap": "Addition to the laravel-wallet library for quick setting of exchange rates",
+        "bavix/laravel-wallet-uuid": "Addition to the laravel-wallet library uuid support in laravel-wallet",
+        "bavix/laravel-wallet-warmup": "Addition to the laravel-wallet library for refresh balance wallets"
+    },
+    "autoload": {
+        "psr-4": {
+            "Bavix\\Wallet\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Bavix\\Wallet\\Test\\": "tests/"
+        }
+    },
+    "scripts": {
+        "parabench": "@php ./vendor/bin/testbench package:test --coverage-xml=build --log-junit=build/junit.xml",
+        "infect": "@php vendor/bin/infection --coverage=build --min-msi=50 -j$(nproc) --only-covering-test-cases",
+        "phpstan": [
+            "@phpstan-src",
+            "@phpstan-tests"
+        ],
+        "phpstan-src": "@php vendor/bin/phpstan analyse -vvv --memory-limit 2G -c phpstan.src.neon",
+        "phpstan-tests": "@php vendor/bin/phpstan analyse -vvv --memory-limit 2G -c phpstan.tests.neon",
+        "phpstan-baseline": [
+            "@phpstan-baseline-src",
+            "@phpstan-baseline-tests"
+        ],
+        "phpstan-baseline-src": "@php vendor/bin/phpstan analyse -vvv --memory-limit 2G -c phpstan.src.neon --generate-baseline phpstan.src.baseline.neon",
+        "phpstan-baseline-tests": "@php vendor/bin/phpstan analyse -vvv --memory-limit 2G -c phpstan.tests.neon --generate-baseline phpstan.tests.baseline.neon",
+        "ecs": "@php vendor/bin/ecs check",
+        "ecs-fix": "@php vendor/bin/ecs check --fix",
+        "ecs-cc": "@php vendor/bin/ecs --clear-cache",
+        "rector": "@php vendor/bin/rector process --dry-run",
+        "rector-fix": "@php vendor/bin/rector process",
+        "deptrac": "@php vendor/bin/deptrac analyse"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Bavix\\Wallet\\WalletServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "process-timeout": 0,
+        "sort-packages": true,
+        "allow-plugins": {
+            "infection/extension-installer": true
+        }
+    }
+}

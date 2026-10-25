@@ -1,0 +1,314 @@
+- generic [active] [ref=f21e1]:
+  - generic [ref=f21e2]:
+    - generic [ref=f21e3]:
+      - navigation [ref=f21e5]:
+        - button "User menu" [ref=f21e9] [cursor=pointer]:
+          - img "Avatar of Executive Super Admin" [ref=f21e10]
+      - main [ref=f21e11]:
+        - generic [ref=f21e13]:
+          - generic [ref=f21e14]:
+            - generic [ref=f21e15]:
+              - navigation [ref=f21e16]:
+                - list [ref=f21e17]:
+                  - listitem [ref=f21e18]:
+                    - link "Clients" [ref=f21e19] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/clients
+                  - listitem [ref=f21e20]:
+                    - generic [ref=f21e23]: List
+              - heading "Clients" [level=1] [ref=f21e24]
+            - link "New client" [ref=f21e27] [cursor=pointer]:
+              - /url: http://127.0.0.1:8090/staff/clients/create
+          - generic [ref=f21e33]:
+            - generic [ref=f21e36]:
+              - generic [ref=f21e37]:
+                - generic [ref=f21e38]: Search
+                - searchbox "Search" [ref=f21e44]
+              - button "Filter 0" [ref=f21e47] [cursor=pointer]:
+                - generic [ref=f21e48]: Filter
+                - generic [ref=f21e51]: "0"
+              - button "Toggle columns" [ref=f21e57] [cursor=pointer]
+            - table [ref=f21e62]:
+              - rowgroup [ref=f21e63]:
+                - row [ref=f21e64]:
+                  - columnheader "Select/deselect all items for bulk actions." [ref=f21e65]:
+                    - generic [ref=f21e67]:
+                      - checkbox "Select/deselect all items for bulk actions." [ref=f21e68]
+                      - generic [ref=f21e69]: Select/deselect all items for bulk actions.
+                  - columnheader [ref=f21e70]:
+                    - button "Client ID" [ref=f21e71] [cursor=pointer]
+                  - columnheader [ref=f21e75]:
+                    - button "Client Name" [ref=f21e76] [cursor=pointer]
+                  - columnheader "Nationality" [ref=f21e80]
+                  - columnheader "QID" [ref=f21e83]
+                  - 'columnheader "Passport #" [ref=f21e86]'
+                  - columnheader "WhatsApp" [ref=f21e89]
+                  - columnheader "Active Cases" [ref=f21e92]
+                  - columnheader "Actions" [ref=f21e95]
+              - rowgroup [ref=f21e96]:
+                - row [ref=f21e97]:
+                  - cell "Select/deselect item a3044d57-c2d4-494d-b122-a2944c012eaa for bulk actions." [ref=f21e98]:
+                    - generic [ref=f21e100]:
+                      - checkbox "Select/deselect item a3044d57-c2d4-494d-b122-a2944c012eaa for bulk actions." [ref=f21e101]
+                      - generic [ref=f21e102]: Select/deselect item a3044d57-c2d4-494d-b122-a2944c012eaa for bulk actions.
+                  - cell [ref=f21e103]:
+                    - link "CL-2026-0006" [ref=f21e105] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/clients/a3044d57-c2d4-494d-b122-a2944c012eaa
+                  - cell [ref=f21e111]:
+                    - link "Hamad Al-Kuwari" [ref=f21e113] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/clients/a3044d57-c2d4-494d-b122-a2944c012eaa
+                  - cell [ref=f21e119]:
+                    - link "Qatar" [ref=f21e121] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/clients/a3044d57-c2d4-494d-b122-a2944c012eaa
+                  - cell [ref=f21e128]:
+                    - link "29063409999" [ref=f21e130] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/clients/a3044d57-c2d4-494d-b122-a2944c012eaa
+                  - cell [ref=f21e136]:
+                    - link "QA-999999" [ref=f21e138] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/clients/a3044d57-c2d4-494d-b122-a2944c012eaa
+                  - cell [ref=f21e144]:
+                    - link "+97449985091" [ref=f21e146] [cursor=pointer]:
+                      - /url: https://wa.me/97449985091
+                  - cell [ref=f21e154]:
+                    - link "0" [ref=f21e156] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/clients/a3044d57-c2d4-494d-b122-a2944c012eaa
+                  - cell [ref=f21e163]:
+                    - generic [ref=f21e165]:
+                      - link "View" [ref=f21e166] [cursor=pointer]:
+                        - /url: http://127.0.0.1:8090/staff/clients/a3044d57-c2d4-494d-b122-a2944c012eaa
+                      - link "Edit" [ref=f21e171] [cursor=pointer]:
+                        - /url: http://127.0.0.1:8090/staff/clients/a3044d57-c2d4-494d-b122-a2944c012eaa/edit
+                - row [ref=f21e176]:
+                  - cell "Select/deselect item a30448a4-9c26-4ce3-9ae6-050efa04ccbf for bulk actions." [ref=f21e177]:
+                    - generic [ref=f21e179]:
+                      - checkbox "Select/deselect item a30448a4-9c26-4ce3-9ae6-050efa04ccbf for bulk actions." [ref=f21e180]
+                      - generic [ref=f21e181]: Select/deselect item a30448a4-9c26-4ce3-9ae6-050efa04ccbf for bulk actions.
+                  - cell [ref=f21e182]:
+                    - link "CL-2026-0005" [ref=f21e184] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/clients/a30448a4-9c26-4ce3-9ae6-050efa04ccbf
+                  - cell [ref=f21e190]:
+                    - link "Hamad Al-Kuwari" [ref=f21e192] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/clients/a30448a4-9c26-4ce3-9ae6-050efa04ccbf
+                  - cell [ref=f21e198]:
+                    - link "Qatar" [ref=f21e200] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/clients/a30448a4-9c26-4ce3-9ae6-050efa04ccbf
+                  - cell [ref=f21e207]:
+                    - link "29063409999" [ref=f21e209] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/clients/a30448a4-9c26-4ce3-9ae6-050efa04ccbf
+                  - cell [ref=f21e215]:
+                    - link "QA-999999" [ref=f21e217] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/clients/a30448a4-9c26-4ce3-9ae6-050efa04ccbf
+                  - cell [ref=f21e223]:
+                    - link "+97448017330" [ref=f21e225] [cursor=pointer]:
+                      - /url: https://wa.me/97448017330
+                  - cell [ref=f21e233]:
+                    - link "0" [ref=f21e235] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/clients/a30448a4-9c26-4ce3-9ae6-050efa04ccbf
+                  - cell [ref=f21e242]:
+                    - generic [ref=f21e244]:
+                      - link "View" [ref=f21e245] [cursor=pointer]:
+                        - /url: http://127.0.0.1:8090/staff/clients/a30448a4-9c26-4ce3-9ae6-050efa04ccbf
+                      - link "Edit" [ref=f21e250] [cursor=pointer]:
+                        - /url: http://127.0.0.1:8090/staff/clients/a30448a4-9c26-4ce3-9ae6-050efa04ccbf/edit
+                - row [ref=f21e255]:
+                  - cell "Select/deselect item a303fd8a-687b-48c2-9568-a47363ca125f for bulk actions." [ref=f21e256]:
+                    - generic [ref=f21e258]:
+                      - checkbox "Select/deselect item a303fd8a-687b-48c2-9568-a47363ca125f for bulk actions." [ref=f21e259]
+                      - generic [ref=f21e260]: Select/deselect item a303fd8a-687b-48c2-9568-a47363ca125f for bulk actions.
+                  - cell [ref=f21e261]:
+                    - link "CL-2026-0004" [ref=f21e263] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/clients/a303fd8a-687b-48c2-9568-a47363ca125f
+                  - cell [ref=f21e269]:
+                    - link "Hamad Al-Kuwari" [ref=f21e271] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/clients/a303fd8a-687b-48c2-9568-a47363ca125f
+                  - cell [ref=f21e277]:
+                    - link "Qatar" [ref=f21e279] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/clients/a303fd8a-687b-48c2-9568-a47363ca125f
+                  - cell [ref=f21e286]:
+                    - link "29063409999" [ref=f21e288] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/clients/a303fd8a-687b-48c2-9568-a47363ca125f
+                  - cell [ref=f21e294]:
+                    - link "QA-999999" [ref=f21e296] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/clients/a303fd8a-687b-48c2-9568-a47363ca125f
+                  - cell [ref=f21e302]:
+                    - link "+97448335333" [ref=f21e304] [cursor=pointer]:
+                      - /url: https://wa.me/97448335333
+                  - cell [ref=f21e312]:
+                    - link "0" [ref=f21e314] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/clients/a303fd8a-687b-48c2-9568-a47363ca125f
+                  - cell [ref=f21e321]:
+                    - generic [ref=f21e323]:
+                      - link "View" [ref=f21e324] [cursor=pointer]:
+                        - /url: http://127.0.0.1:8090/staff/clients/a303fd8a-687b-48c2-9568-a47363ca125f
+                      - link "Edit" [ref=f21e329] [cursor=pointer]:
+                        - /url: http://127.0.0.1:8090/staff/clients/a303fd8a-687b-48c2-9568-a47363ca125f/edit
+                - row [ref=f21e334]:
+                  - cell "Select/deselect item a303fd3b-3adf-40cb-bafb-647856587eca for bulk actions." [ref=f21e335]:
+                    - generic [ref=f21e337]:
+                      - checkbox "Select/deselect item a303fd3b-3adf-40cb-bafb-647856587eca for bulk actions." [ref=f21e338]
+                      - generic [ref=f21e339]: Select/deselect item a303fd3b-3adf-40cb-bafb-647856587eca for bulk actions.
+                  - cell [ref=f21e340]:
+                    - link "CL-2026-0003" [ref=f21e342] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/clients/a303fd3b-3adf-40cb-bafb-647856587eca
+                  - cell [ref=f21e348]:
+                    - link "Hamad Al-Kuwari" [ref=f21e350] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/clients/a303fd3b-3adf-40cb-bafb-647856587eca
+                  - cell [ref=f21e356]:
+                    - link "Qatar" [ref=f21e358] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/clients/a303fd3b-3adf-40cb-bafb-647856587eca
+                  - cell [ref=f21e365]:
+                    - link "29063409999" [ref=f21e367] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/clients/a303fd3b-3adf-40cb-bafb-647856587eca
+                  - cell [ref=f21e373]:
+                    - link "QA-999999" [ref=f21e375] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/clients/a303fd3b-3adf-40cb-bafb-647856587eca
+                  - cell [ref=f21e381]:
+                    - link "+97447516645" [ref=f21e383] [cursor=pointer]:
+                      - /url: https://wa.me/97447516645
+                  - cell [ref=f21e391]:
+                    - link "0" [ref=f21e393] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/clients/a303fd3b-3adf-40cb-bafb-647856587eca
+                  - cell [ref=f21e400]:
+                    - generic [ref=f21e402]:
+                      - link "View" [ref=f21e403] [cursor=pointer]:
+                        - /url: http://127.0.0.1:8090/staff/clients/a303fd3b-3adf-40cb-bafb-647856587eca
+                      - link "Edit" [ref=f21e408] [cursor=pointer]:
+                        - /url: http://127.0.0.1:8090/staff/clients/a303fd3b-3adf-40cb-bafb-647856587eca/edit
+                - row [ref=f21e413]:
+                  - cell "Select/deselect item a303fc5e-0a8c-4eae-8546-062ccb2c57a9 for bulk actions." [ref=f21e414]:
+                    - generic [ref=f21e416]:
+                      - checkbox "Select/deselect item a303fc5e-0a8c-4eae-8546-062ccb2c57a9 for bulk actions." [ref=f21e417]
+                      - generic [ref=f21e418]: Select/deselect item a303fc5e-0a8c-4eae-8546-062ccb2c57a9 for bulk actions.
+                  - cell [ref=f21e419]:
+                    - link "CL-2026-0002" [ref=f21e421] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/clients/a303fc5e-0a8c-4eae-8546-062ccb2c57a9
+                  - cell [ref=f21e427]:
+                    - link "Sheikh Khalid Al-Kuwari" [ref=f21e429] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/clients/a303fc5e-0a8c-4eae-8546-062ccb2c57a9
+                  - cell [ref=f21e435]:
+                    - link "Qatar" [ref=f21e437] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/clients/a303fc5e-0a8c-4eae-8546-062ccb2c57a9
+                  - cell [ref=f21e444]:
+                    - link "29063401928" [ref=f21e446] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/clients/a303fc5e-0a8c-4eae-8546-062ccb2c57a9
+                  - cell [ref=f21e452]:
+                    - link "QA-8829102" [ref=f21e454] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/clients/a303fc5e-0a8c-4eae-8546-062ccb2c57a9
+                  - cell [ref=f21e460]:
+                    - link "+97455009988" [ref=f21e462] [cursor=pointer]:
+                      - /url: https://wa.me/97455009988
+                  - cell [ref=f21e470]:
+                    - link "1" [ref=f21e472] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/clients/a303fc5e-0a8c-4eae-8546-062ccb2c57a9
+                  - cell [ref=f21e479]:
+                    - generic [ref=f21e481]:
+                      - link "View" [ref=f21e482] [cursor=pointer]:
+                        - /url: http://127.0.0.1:8090/staff/clients/a303fc5e-0a8c-4eae-8546-062ccb2c57a9
+                      - link "Edit" [ref=f21e487] [cursor=pointer]:
+                        - /url: http://127.0.0.1:8090/staff/clients/a303fc5e-0a8c-4eae-8546-062ccb2c57a9/edit
+                - row [ref=f21e492]:
+                  - cell "Select/deselect item a3038c21-188c-4cb6-bbb1-adf646b4ffd1 for bulk actions." [ref=f21e493]:
+                    - generic [ref=f21e495]:
+                      - checkbox "Select/deselect item a3038c21-188c-4cb6-bbb1-adf646b4ffd1 for bulk actions." [ref=f21e496]
+                      - generic [ref=f21e497]: Select/deselect item a3038c21-188c-4cb6-bbb1-adf646b4ffd1 for bulk actions.
+                  - cell [ref=f21e498]:
+                    - link "CL-2026-0001" [ref=f21e500] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/clients/a3038c21-188c-4cb6-bbb1-adf646b4ffd1
+                  - cell [ref=f21e506]:
+                    - link "Sheikh Hamad Al-Thani" [ref=f21e508] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/clients/a3038c21-188c-4cb6-bbb1-adf646b4ffd1
+                  - cell [ref=f21e514]:
+                    - link "Qatar" [ref=f21e516] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/clients/a3038c21-188c-4cb6-bbb1-adf646b4ffd1
+                  - cell [ref=f21e523]:
+                    - link "N/A" [ref=f21e525] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/clients/a3038c21-188c-4cb6-bbb1-adf646b4ffd1
+                  - cell [ref=f21e528]:
+                    - link "N/A" [ref=f21e530] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/clients/a3038c21-188c-4cb6-bbb1-adf646b4ffd1
+                  - cell [ref=f21e533]:
+                    - link "+97455551234" [ref=f21e535] [cursor=pointer]:
+                      - /url: https://wa.me/97455551234
+                  - cell [ref=f21e543]:
+                    - link "21" [ref=f21e545] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/clients/a3038c21-188c-4cb6-bbb1-adf646b4ffd1
+                  - cell [ref=f21e552]:
+                    - generic [ref=f21e554]:
+                      - link "View" [ref=f21e555] [cursor=pointer]:
+                        - /url: http://127.0.0.1:8090/staff/clients/a3038c21-188c-4cb6-bbb1-adf646b4ffd1
+                      - link "Edit" [ref=f21e560] [cursor=pointer]:
+                        - /url: http://127.0.0.1:8090/staff/clients/a3038c21-188c-4cb6-bbb1-adf646b4ffd1/edit
+            - navigation "Pagination navigation" [ref=f21e565]:
+              - generic [ref=f21e568]:
+                - generic [ref=f21e569]: Per page
+                - combobox "Per page" [ref=f21e572]:
+                  - option "5"
+                  - option "10" [selected]
+                  - option "25"
+                  - option "50"
+                  - option "All"
+    - complementary [ref=f21e573]:
+      - link "Venture Visionary CRM" [ref=f21e577] [cursor=pointer]:
+        - /url: http://127.0.0.1:8090/staff
+      - navigation [ref=f21e579]:
+        - list [ref=f21e580]:
+          - listitem [ref=f21e581]:
+            - list [ref=f21e582]:
+              - listitem [ref=f21e583]:
+                - link "Dashboard" [ref=f21e584] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8090/staff
+          - listitem [ref=f21e588]:
+            - generic [ref=f21e589] [cursor=pointer]:
+              - generic [ref=f21e590]: Master Database
+              - button "Master Database" [expanded] [ref=f21e591]
+            - list [ref=f21e595]:
+              - listitem [ref=f21e596]:
+                - link "Countries" [ref=f21e597] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8090/staff/countries
+              - listitem [ref=f21e601]:
+                - link "Services" [ref=f21e602] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8090/staff/services
+          - listitem [ref=f21e606]:
+            - generic [ref=f21e607] [cursor=pointer]:
+              - generic [ref=f21e608]: CRM & Sales
+              - button "CRM & Sales" [expanded] [ref=f21e609]
+            - list [ref=f21e613]:
+              - listitem [ref=f21e614]:
+                - link "Leads" [ref=f21e615] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8090/staff/leads
+              - listitem [ref=f21e619]:
+                - link "Clients" [ref=f21e620] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8090/staff/clients
+          - listitem [ref=f21e624]:
+            - generic [ref=f21e625] [cursor=pointer]:
+              - generic [ref=f21e626]: B2B & Affiliates
+              - button "B2B & Affiliates" [expanded] [ref=f21e627]
+            - list [ref=f21e631]:
+              - listitem [ref=f21e632]:
+                - link "Partners" [ref=f21e633] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8090/staff/partners
+          - listitem [ref=f21e637]:
+            - generic [ref=f21e638] [cursor=pointer]:
+              - generic [ref=f21e639]: Finance & Commercial
+              - button "Finance & Commercial" [expanded] [ref=f21e640]
+            - list [ref=f21e644]:
+              - listitem [ref=f21e645]:
+                - link "Quotations" [ref=f21e646] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8090/staff/quotations
+          - listitem [ref=f21e650]:
+            - generic [ref=f21e651] [cursor=pointer]:
+              - generic [ref=f21e652]: Administration & HR
+              - button "Administration & HR" [expanded] [ref=f21e653]
+            - list [ref=f21e657]:
+              - listitem [ref=f21e658]:
+                - link "Users" [ref=f21e659] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8090/staff/users
+          - listitem [ref=f21e663]:
+            - generic [ref=f21e664] [cursor=pointer]:
+              - generic [ref=f21e665]: Case Processing
+              - button "Case Processing" [expanded] [ref=f21e666]
+            - list [ref=f21e670]:
+              - listitem [ref=f21e671]:
+                - link "Visa Cases" [ref=f21e672] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8090/staff/visa-cases
+  - generic:
+    - status

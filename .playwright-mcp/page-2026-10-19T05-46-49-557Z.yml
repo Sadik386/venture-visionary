@@ -1,0 +1,137 @@
+- generic [active] [ref=f31e1]:
+  - generic [ref=f31e2]:
+    - generic [ref=f31e3]:
+      - navigation [ref=f31e5]:
+        - button "User menu" [ref=f31e9] [cursor=pointer]:
+          - img "Avatar of Executive Super Admin" [ref=f31e10]
+      - main [ref=f31e11]:
+        - generic [ref=f31e13]:
+          - generic [ref=f31e15]:
+            - navigation [ref=f31e16]:
+              - list [ref=f31e17]:
+                - listitem [ref=f31e18]:
+                  - link "Users" [ref=f31e19] [cursor=pointer]:
+                    - /url: http://127.0.0.1:8090/staff/users
+                - listitem [ref=f31e20]:
+                  - generic [ref=f31e23]: Create
+            - heading "Create User" [level=1] [ref=f31e24]
+          - generic [ref=f31e27]:
+            - generic [ref=f31e28]:
+              - generic [ref=f31e30]:
+                - generic [ref=f31e33]:
+                  - heading "Staff Credentials & Profile" [level=3] [ref=f31e34]
+                  - paragraph [ref=f31e35]: User account information and system access credentials
+                - generic [ref=f31e38]:
+                  - generic [ref=f31e41]:
+                    - generic [ref=f31e44]:
+                      - text: Full Name
+                      - superscript [ref=f31e45]: "*"
+                    - textbox "Full Name*" [ref=f31e49]
+                  - generic [ref=f31e52]:
+                    - generic [ref=f31e55]:
+                      - text: Email
+                      - superscript [ref=f31e56]: "*"
+                    - textbox "Email*" [ref=f31e60]
+                  - generic [ref=f31e63]:
+                    - generic [ref=f31e66]:
+                      - text: Account Password
+                      - superscript [ref=f31e67]: "*"
+                    - textbox "Account Password*" [ref=f31e71]
+                  - generic [ref=f31e74]:
+                    - generic [ref=f31e75]: Phone
+                    - textbox "Phone" [ref=f31e81]
+                  - generic [ref=f31e84]:
+                    - generic [ref=f31e85]: Staff WhatsApp
+                    - textbox "Staff WhatsApp" [ref=f31e91]
+                  - generic [ref=f31e94]:
+                    - generic [ref=f31e95]: Job Designation
+                    - textbox "Job Designation" [ref=f31e101]:
+                      - /placeholder: e.g. Senior Visa Consultant
+              - generic [ref=f31e103]:
+                - generic [ref=f31e106]:
+                  - heading "Department & RBAC Role Assignment" [level=3] [ref=f31e107]
+                  - paragraph [ref=f31e108]: Enforces 12-role strict RBAC hierarchy across portals
+                - generic [ref=f31e111]:
+                  - generic [ref=f31e114]:
+                    - generic [ref=f31e115]: Department
+                    - combobox [ref=f31e122]:
+                      - generic [ref=f31e123]: Select an option
+                  - generic [ref=f31e128]:
+                    - generic [ref=f31e131]:
+                      - text: Assigned Roles
+                      - superscript [ref=f31e132]: "*"
+                    - combobox [ref=f31e137]:
+                      - textbox "Select an option" [ref=f31e139]
+                  - generic [ref=f31e144]:
+                    - switch "Account Active" [checked] [ref=f31e145] [cursor=pointer]
+                    - generic [ref=f31e146]: Account Active
+            - generic [ref=f31e148]:
+              - button "Create" [ref=f31e149] [cursor=pointer]
+              - button "Create & create another" [ref=f31e151] [cursor=pointer]
+              - button "Cancel" [ref=f31e153] [cursor=pointer]
+    - complementary [ref=f31e155]:
+      - link "Venture Visionary CRM" [ref=f31e159] [cursor=pointer]:
+        - /url: http://127.0.0.1:8090/staff
+      - navigation [ref=f31e161]:
+        - list [ref=f31e162]:
+          - listitem [ref=f31e163]:
+            - list [ref=f31e164]:
+              - listitem [ref=f31e165]:
+                - link "Dashboard" [ref=f31e166] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8090/staff
+          - listitem [ref=f31e170]:
+            - generic [ref=f31e171] [cursor=pointer]:
+              - generic [ref=f31e172]: Master Database
+              - button "Master Database" [expanded] [ref=f31e173]
+            - list [ref=f31e177]:
+              - listitem [ref=f31e178]:
+                - link "Countries" [ref=f31e179] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8090/staff/countries
+              - listitem [ref=f31e183]:
+                - link "Services" [ref=f31e184] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8090/staff/services
+          - listitem [ref=f31e188]:
+            - generic [ref=f31e189] [cursor=pointer]:
+              - generic [ref=f31e190]: CRM & Sales
+              - button "CRM & Sales" [expanded] [ref=f31e191]
+            - list [ref=f31e195]:
+              - listitem [ref=f31e196]:
+                - link "Leads" [ref=f31e197] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8090/staff/leads
+              - listitem [ref=f31e201]:
+                - link "Clients" [ref=f31e202] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8090/staff/clients
+          - listitem [ref=f31e206]:
+            - generic [ref=f31e207] [cursor=pointer]:
+              - generic [ref=f31e208]: B2B & Affiliates
+              - button "B2B & Affiliates" [expanded] [ref=f31e209]
+            - list [ref=f31e213]:
+              - listitem [ref=f31e214]:
+                - link "Partners" [ref=f31e215] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8090/staff/partners
+          - listitem [ref=f31e219]:
+            - generic [ref=f31e220] [cursor=pointer]:
+              - generic [ref=f31e221]: Finance & Commercial
+              - button "Finance & Commercial" [expanded] [ref=f31e222]
+            - list [ref=f31e226]:
+              - listitem [ref=f31e227]:
+                - link "Quotations" [ref=f31e228] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8090/staff/quotations
+          - listitem [ref=f31e232]:
+            - generic [ref=f31e233] [cursor=pointer]:
+              - generic [ref=f31e234]: Administration & HR
+              - button "Administration & HR" [expanded] [ref=f31e235]
+            - list [ref=f31e239]:
+              - listitem [ref=f31e240]:
+                - link "Users" [ref=f31e241] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8090/staff/users
+          - listitem [ref=f31e245]:
+            - generic [ref=f31e246] [cursor=pointer]:
+              - generic [ref=f31e247]: Case Processing
+              - button "Case Processing" [expanded] [ref=f31e248]
+            - list [ref=f31e252]:
+              - listitem [ref=f31e253]:
+                - link "Visa Cases" [ref=f31e254] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8090/staff/visa-cases
+  - generic:
+    - status

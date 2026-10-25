@@ -1,0 +1,85 @@
+- generic [active] [ref=f49e1]:
+  - generic [ref=f49e2]:
+    - generic [ref=f49e3]:
+      - navigation [ref=f49e5]:
+        - button "User menu" [ref=f49e9] [cursor=pointer]:
+          - img "Avatar of Sheikh Khalid Al-Kuwari" [ref=f49e10]
+      - main [ref=f49e11]:
+        - generic [ref=f49e13]:
+          - generic [ref=f49e15]:
+            - navigation [ref=f49e16]:
+              - list [ref=f49e17]:
+                - listitem [ref=f49e18]:
+                  - link "My Visa Cases" [ref=f49e19] [cursor=pointer]:
+                    - /url: http://127.0.0.1:8090/portal/visa-cases
+                - listitem [ref=f49e20]:
+                  - generic [ref=f49e23]: View
+            - heading "View My Visa Case" [level=1] [ref=f49e24]
+          - generic [ref=f49e28]:
+            - generic [ref=f49e30]:
+              - generic [ref=f49e33]:
+                - heading "Visa Application Overview" [level=3] [ref=f49e34]
+                - paragraph [ref=f49e35]: Real-time progress of your application
+              - generic [ref=f49e38]:
+                - generic [ref=f49e41]:
+                  - generic [ref=f49e42]: Application Reference
+                  - generic [ref=f49e45]: CS-2026-0002
+                - generic [ref=f49e49]:
+                  - generic [ref=f49e50]: Target Destination
+                  - generic [ref=f49e53]: United Kingdom
+                - generic [ref=f49e57]:
+                  - generic [ref=f49e58]: Service Track
+                  - generic [ref=f49e61]: UK Standard Visitor Visa (6 Months)
+                - generic [ref=f49e65]:
+                  - generic [ref=f49e66]: Application Progress
+                  - generic [ref=f49e69]: Under Verification & Review
+                - generic [ref=f49e73]:
+                  - generic [ref=f49e74]: Planned Travel Date
+                  - generic [ref=f49e77]: 03 Dec 2026
+                - generic [ref=f49e81]:
+                  - generic [ref=f49e82]: Remaining Balance
+                  - generic [ref=f49e85]: QAR 820.00
+            - generic [ref=f49e88]:
+              - generic [ref=f49e91]:
+                - heading "Consultant Guidance & Important Instructions" [level=3] [ref=f49e92]
+                - paragraph [ref=f49e93]: Verified instructions from your assigned Venture Visionary case officer
+              - generic [ref=f49e99]:
+                - generic [ref=f49e100]: Instructions for Applicant
+                - textbox "Instructions for Applicant" [disabled] [ref=f49e107]:
+                  - /placeholder: No specific instructions at this time.
+                  - text: Your documents are currently under internal verification. Biometrics will take place at VFS Global Doha on Tuesday.
+            - generic [ref=f49e109]:
+              - generic [ref=f49e112]:
+                - heading "Required Documents Checklist" [level=3] [ref=f49e113]
+                - paragraph [ref=f49e114]: Mandatory documents required by the embassy for your application
+              - generic [ref=f49e123]:
+                - generic [ref=f49e124]:
+                  - generic [ref=f49e125]: Qatar ID (QID)
+                  - generic [ref=f49e126]: Required
+                - generic [ref=f49e127]:
+                  - generic [ref=f49e128]: Recent Passport Photograph
+                  - generic [ref=f49e129]: Required
+                - generic [ref=f49e130]:
+                  - generic [ref=f49e131]: Company Salary Certificate / NOC
+                  - generic [ref=f49e132]: Required
+                - generic [ref=f49e133]:
+                  - generic [ref=f49e134]: Passport Biodata Page
+                  - generic [ref=f49e135]: Required
+                - generic [ref=f49e136]:
+                  - generic [ref=f49e137]: 6-Month Bank Statement
+                  - generic [ref=f49e138]: Required
+    - complementary [ref=f49e139]:
+      - link "Venture Visionary Client Portal" [ref=f49e143] [cursor=pointer]:
+        - /url: http://127.0.0.1:8090/portal
+      - navigation [ref=f49e145]:
+        - list [ref=f49e146]:
+          - listitem [ref=f49e147]:
+            - list [ref=f49e148]:
+              - listitem [ref=f49e149]:
+                - link "Dashboard" [ref=f49e150] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8090/portal
+              - listitem [ref=f49e154]:
+                - link "My Visa Cases" [ref=f49e155] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8090/portal/visa-cases
+  - generic:
+    - status

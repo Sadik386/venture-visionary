@@ -1,0 +1,30 @@
+- generic [active] [ref=f47e1]:
+  - generic [ref=f47e2]:
+    - generic [ref=f47e3]:
+      - navigation [ref=f47e5]:
+        - button "User menu" [ref=f47e9] [cursor=pointer]:
+          - img "Avatar of Sheikh Khalid Al-Kuwari" [ref=f47e10]
+      - main [ref=f47e11]:
+        - generic [ref=f47e13]:
+          - heading "Dashboard" [level=1] [ref=f47e16]
+          - generic [ref=f47e24]:
+            - img "Avatar of Sheikh Khalid Al-Kuwari" [ref=f47e25]
+            - generic [ref=f47e26]:
+              - heading "Welcome" [level=2] [ref=f47e27]
+              - paragraph [ref=f47e28]: Sheikh Khalid Al-Kuwari
+            - button "Sign out" [ref=f47e30] [cursor=pointer]
+    - complementary [ref=f47e35]:
+      - link "Venture Visionary Client Portal" [ref=f47e39] [cursor=pointer]:
+        - /url: http://127.0.0.1:8090/portal
+      - navigation [ref=f47e41]:
+        - list [ref=f47e42]:
+          - listitem [ref=f47e43]:
+            - list [ref=f47e44]:
+              - listitem [ref=f47e45]:
+                - link "Dashboard" [ref=f47e46] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8090/portal
+              - listitem [ref=f47e50]:
+                - link "My Visa Cases" [ref=f47e51] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8090/portal/visa-cases
+  - generic:
+    - status

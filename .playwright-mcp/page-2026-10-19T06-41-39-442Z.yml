@@ -1,0 +1,79 @@
+- generic [active] [ref=f48e1]:
+  - generic [ref=f48e2]:
+    - generic [ref=f48e3]:
+      - navigation [ref=f48e5]:
+        - button "User menu" [ref=f48e9] [cursor=pointer]:
+          - img "Avatar of Sheikh Khalid Al-Kuwari" [ref=f48e10]
+      - main [ref=f48e11]:
+        - generic [ref=f48e13]:
+          - generic [ref=f48e15]:
+            - navigation [ref=f48e16]:
+              - list [ref=f48e17]:
+                - listitem [ref=f48e18]:
+                  - link "My Visa Cases" [ref=f48e19] [cursor=pointer]:
+                    - /url: http://127.0.0.1:8090/portal/visa-cases
+                - listitem [ref=f48e20]:
+                  - generic [ref=f48e23]: List
+            - heading "My Visa Cases" [level=1] [ref=f48e24]
+          - generic [ref=f48e29]:
+            - generic [ref=f48e33]:
+              - generic [ref=f48e34]: Search
+              - searchbox "Search" [ref=f48e40]
+            - table [ref=f48e42]:
+              - rowgroup [ref=f48e43]:
+                - row [ref=f48e44]:
+                  - columnheader [ref=f48e45]:
+                    - 'button "Application #" [ref=f48e46] [cursor=pointer]'
+                  - columnheader "Destination" [ref=f48e50]
+                  - columnheader "Service Track" [ref=f48e53]
+                  - columnheader "Status" [ref=f48e56]
+                  - columnheader "Travel Date" [ref=f48e59]
+                  - columnheader "Balance Due" [ref=f48e62]
+                  - columnheader "Action" [ref=f48e65]
+              - rowgroup [ref=f48e66]:
+                - row [ref=f48e67]:
+                  - cell [ref=f48e68]:
+                    - link "CS-2026-0002" [ref=f48e70] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/portal/visa-cases/a303fc5e-1252-49a5-b168-30f322c585fe
+                  - cell [ref=f48e76]:
+                    - link "United Kingdom" [ref=f48e78] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/portal/visa-cases/a303fc5e-1252-49a5-b168-30f322c585fe
+                  - cell [ref=f48e85]:
+                    - link "UK Standard Visitor Visa (6 Months)" [ref=f48e87] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/portal/visa-cases/a303fc5e-1252-49a5-b168-30f322c585fe
+                  - cell [ref=f48e93]:
+                    - link "Under Review" [ref=f48e95] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/portal/visa-cases/a303fc5e-1252-49a5-b168-30f322c585fe
+                  - cell [ref=f48e102]:
+                    - link "03 Dec 2026" [ref=f48e104] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/portal/visa-cases/a303fc5e-1252-49a5-b168-30f322c585fe
+                  - cell [ref=f48e110]:
+                    - link "QAR 820.00" [ref=f48e112] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/portal/visa-cases/a303fc5e-1252-49a5-b168-30f322c585fe
+                  - cell [ref=f48e118]:
+                    - link "View" [ref=f48e121] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/portal/visa-cases/a303fc5e-1252-49a5-b168-30f322c585fe
+            - navigation "Pagination navigation" [ref=f48e126]:
+              - generic [ref=f48e129]:
+                - generic [ref=f48e130]: Per page
+                - combobox "Per page" [ref=f48e133]:
+                  - option "5"
+                  - option "10" [selected]
+                  - option "25"
+                  - option "50"
+                  - option "All"
+    - complementary [ref=f48e134]:
+      - link "Venture Visionary Client Portal" [ref=f48e138] [cursor=pointer]:
+        - /url: http://127.0.0.1:8090/portal
+      - navigation [ref=f48e140]:
+        - list [ref=f48e141]:
+          - listitem [ref=f48e142]:
+            - list [ref=f48e143]:
+              - listitem [ref=f48e144]:
+                - link "Dashboard" [ref=f48e145] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8090/portal
+              - listitem [ref=f48e149]:
+                - link "My Visa Cases" [ref=f48e150] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8090/portal/visa-cases
+  - generic:
+    - status

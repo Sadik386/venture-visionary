@@ -1,0 +1,18 @@
+- generic [active] [ref=f2e1]:
+  - banner [ref=f2e2]:
+    - generic [ref=f2e3]:
+      - generic [ref=f2e4]:
+        - generic [ref=f2e5]: VV
+        - generic [ref=f2e6]:
+          - heading "Venture Visionary" [level=1] [ref=f2e7]
+          - paragraph [ref=f2e8]: Executive Immigration & Advisory Desk
+      - generic [ref=f2e9]: Client Quality Assurance
+  - main [ref=f2e10]:
+    - generic [ref=f2e11]:
+      - generic [ref=f2e12]: ✓
+      - heading "Feedback Already Received" [level=2] [ref=f2e13]
+      - paragraph [ref=f2e14]:
+        - text: Thank you! Your rating of
+        - strong [ref=f2e15]: 5 / 5 stars
+        - text: was recorded on Oct 21, 2026.
+  - contentinfo [ref=f2e16]: © 2026 Venture Visionary Qatar • Developer Handover Specification v2.0

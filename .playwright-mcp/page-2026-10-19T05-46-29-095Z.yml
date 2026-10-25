@@ -1,0 +1,250 @@
+- generic [active] [ref=f27e1]:
+  - generic [ref=f27e2]:
+    - generic [ref=f27e3]:
+      - navigation [ref=f27e5]:
+        - button "User menu" [ref=f27e9] [cursor=pointer]:
+          - img "Avatar of Executive Super Admin" [ref=f27e10]
+      - main [ref=f27e11]:
+        - generic [ref=f27e13]:
+          - generic [ref=f27e14]:
+            - generic [ref=f27e15]:
+              - navigation [ref=f27e16]:
+                - list [ref=f27e17]:
+                  - listitem [ref=f27e18]:
+                    - link "Services" [ref=f27e19] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/services
+                  - listitem [ref=f27e20]:
+                    - generic [ref=f27e23]: List
+              - heading "Services" [level=1] [ref=f27e24]
+            - link "New service" [ref=f27e27] [cursor=pointer]:
+              - /url: http://127.0.0.1:8090/staff/services/create
+          - generic [ref=f27e33]:
+            - generic [ref=f27e36]:
+              - generic [ref=f27e37]:
+                - generic [ref=f27e38]: Search
+                - searchbox "Search" [ref=f27e44]
+              - button "Filter 0" [ref=f27e47] [cursor=pointer]:
+                - generic [ref=f27e48]: Filter
+                - generic [ref=f27e51]: "0"
+            - table [ref=f27e56]:
+              - rowgroup [ref=f27e57]:
+                - row [ref=f27e58]:
+                  - columnheader "Select/deselect all items for bulk actions." [ref=f27e59]:
+                    - generic [ref=f27e61]:
+                      - checkbox "Select/deselect all items for bulk actions." [ref=f27e62]
+                      - generic [ref=f27e63]: Select/deselect all items for bulk actions.
+                  - columnheader [ref=f27e64]:
+                    - button "Service" [ref=f27e65] [cursor=pointer]
+                  - columnheader "Code" [ref=f27e69]
+                  - columnheader "Country" [ref=f27e72]
+                  - columnheader [ref=f27e75]:
+                    - button "Agency Fee" [ref=f27e76] [cursor=pointer]
+                  - columnheader "SLA" [ref=f27e80]
+                  - columnheader "Active" [ref=f27e83]
+                  - columnheader "Action" [ref=f27e86]
+              - rowgroup [ref=f27e87]:
+                - row [ref=f27e88]:
+                  - cell "Select/deselect item a303fc22-ab32-4ed9-8730-87bebe98fa76 for bulk actions." [ref=f27e89]:
+                    - generic [ref=f27e91]:
+                      - checkbox "Select/deselect item a303fc22-ab32-4ed9-8730-87bebe98fa76 for bulk actions." [ref=f27e92]
+                      - generic [ref=f27e93]: Select/deselect item a303fc22-ab32-4ed9-8730-87bebe98fa76 for bulk actions.
+                  - cell [ref=f27e94]:
+                    - link "France / Schengen Short Stay Visa" [ref=f27e96] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/services/a303fc22-ab32-4ed9-8730-87bebe98fa76/edit
+                  - cell [ref=f27e102]:
+                    - link "FR-SCHENGEN-TOURIST" [ref=f27e104] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/services/a303fc22-ab32-4ed9-8730-87bebe98fa76/edit
+                  - cell [ref=f27e111]:
+                    - link "France (Schengen)" [ref=f27e113] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/services/a303fc22-ab32-4ed9-8730-87bebe98fa76/edit
+                  - cell [ref=f27e119]:
+                    - link "QAR 850.00" [ref=f27e121] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/services/a303fc22-ab32-4ed9-8730-87bebe98fa76/edit
+                  - cell [ref=f27e127]:
+                    - link "12 days" [ref=f27e129] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/services/a303fc22-ab32-4ed9-8730-87bebe98fa76/edit
+                  - cell [ref=f27e135]:
+                    - link [ref=f27e137] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/services/a303fc22-ab32-4ed9-8730-87bebe98fa76/edit
+                  - cell [ref=f27e141]:
+                    - link "Edit" [ref=f27e144] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/services/a303fc22-ab32-4ed9-8730-87bebe98fa76/edit
+                - row [ref=f27e149]:
+                  - cell "Select/deselect item a303fc22-aedd-4ab2-9f1e-f8a12270825d for bulk actions." [ref=f27e150]:
+                    - generic [ref=f27e152]:
+                      - checkbox "Select/deselect item a303fc22-aedd-4ab2-9f1e-f8a12270825d for bulk actions." [ref=f27e153]
+                      - generic [ref=f27e154]: Select/deselect item a303fc22-aedd-4ab2-9f1e-f8a12270825d for bulk actions.
+                  - cell [ref=f27e155]:
+                    - link "Qatar 100% Foreign Ownership LLC Formation" [ref=f27e157] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/services/a303fc22-aedd-4ab2-9f1e-f8a12270825d/edit
+                  - cell [ref=f27e163]:
+                    - link "QA-CORP-LLC" [ref=f27e165] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/services/a303fc22-aedd-4ab2-9f1e-f8a12270825d/edit
+                  - cell [ref=f27e172]:
+                    - link "Qatar" [ref=f27e174] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/services/a303fc22-aedd-4ab2-9f1e-f8a12270825d/edit
+                  - cell [ref=f27e180]:
+                    - link "QAR 7,500.00" [ref=f27e182] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/services/a303fc22-aedd-4ab2-9f1e-f8a12270825d/edit
+                  - cell [ref=f27e188]:
+                    - link "25 days" [ref=f27e190] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/services/a303fc22-aedd-4ab2-9f1e-f8a12270825d/edit
+                  - cell [ref=f27e196]:
+                    - link [ref=f27e198] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/services/a303fc22-aedd-4ab2-9f1e-f8a12270825d/edit
+                  - cell [ref=f27e202]:
+                    - link "Edit" [ref=f27e205] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/services/a303fc22-aedd-4ab2-9f1e-f8a12270825d/edit
+                - row [ref=f27e210]:
+                  - cell "Select/deselect item a3038c2b-80ef-4789-95c5-086f8b87b309 for bulk actions." [ref=f27e211]:
+                    - generic [ref=f27e213]:
+                      - checkbox "Select/deselect item a3038c2b-80ef-4789-95c5-086f8b87b309 for bulk actions." [ref=f27e214]
+                      - generic [ref=f27e215]: Select/deselect item a3038c2b-80ef-4789-95c5-086f8b87b309 for bulk actions.
+                  - cell [ref=f27e216]:
+                    - link "UK Express Tourist Visa 2026" [ref=f27e218] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/services/a3038c2b-80ef-4789-95c5-086f8b87b309/edit
+                  - cell [ref=f27e224]:
+                    - link "UK-TOURIST-EXP" [ref=f27e226] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/services/a3038c2b-80ef-4789-95c5-086f8b87b309/edit
+                  - cell [ref=f27e233]:
+                    - link "United Kingdom" [ref=f27e235] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/services/a3038c2b-80ef-4789-95c5-086f8b87b309/edit
+                  - cell [ref=f27e241]:
+                    - link "QAR 1,200.00" [ref=f27e243] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/services/a3038c2b-80ef-4789-95c5-086f8b87b309/edit
+                  - cell [ref=f27e249]:
+                    - link "7 days" [ref=f27e251] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/services/a3038c2b-80ef-4789-95c5-086f8b87b309/edit
+                  - cell [ref=f27e257]:
+                    - link [ref=f27e259] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/services/a3038c2b-80ef-4789-95c5-086f8b87b309/edit
+                  - cell [ref=f27e263]:
+                    - link "Edit" [ref=f27e266] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/services/a3038c2b-80ef-4789-95c5-086f8b87b309/edit
+                - row [ref=f27e271]:
+                  - cell "Select/deselect item a303fc22-a9dd-44d5-919c-5b0dbcc0abc1 for bulk actions." [ref=f27e272]:
+                    - generic [ref=f27e274]:
+                      - checkbox "Select/deselect item a303fc22-a9dd-44d5-919c-5b0dbcc0abc1 for bulk actions." [ref=f27e275]
+                      - generic [ref=f27e276]: Select/deselect item a303fc22-a9dd-44d5-919c-5b0dbcc0abc1 for bulk actions.
+                  - cell [ref=f27e277]:
+                    - link "UK Standard Visitor Visa (6 Months)" [ref=f27e279] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/services/a303fc22-a9dd-44d5-919c-5b0dbcc0abc1/edit
+                  - cell [ref=f27e285]:
+                    - link "UK-TOURIST-STD" [ref=f27e287] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/services/a303fc22-a9dd-44d5-919c-5b0dbcc0abc1/edit
+                  - cell [ref=f27e294]:
+                    - link "United Kingdom" [ref=f27e296] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/services/a303fc22-a9dd-44d5-919c-5b0dbcc0abc1/edit
+                  - cell [ref=f27e302]:
+                    - link "QAR 950.00" [ref=f27e304] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/services/a303fc22-a9dd-44d5-919c-5b0dbcc0abc1/edit
+                  - cell [ref=f27e310]:
+                    - link "15 days" [ref=f27e312] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/services/a303fc22-a9dd-44d5-919c-5b0dbcc0abc1/edit
+                  - cell [ref=f27e318]:
+                    - link [ref=f27e320] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/services/a303fc22-a9dd-44d5-919c-5b0dbcc0abc1/edit
+                  - cell [ref=f27e324]:
+                    - link "Edit" [ref=f27e327] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/services/a303fc22-a9dd-44d5-919c-5b0dbcc0abc1/edit
+                - row [ref=f27e332]:
+                  - cell "Select/deselect item a303fc22-ad0b-4f54-9e75-49ddb391f03a for bulk actions." [ref=f27e333]:
+                    - generic [ref=f27e335]:
+                      - checkbox "Select/deselect item a303fc22-ad0b-4f54-9e75-49ddb391f03a for bulk actions." [ref=f27e336]
+                      - generic [ref=f27e337]: Select/deselect item a303fc22-ad0b-4f54-9e75-49ddb391f03a for bulk actions.
+                  - cell [ref=f27e338]:
+                    - link "United States B1/B2 Visitor Visa" [ref=f27e340] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/services/a303fc22-ad0b-4f54-9e75-49ddb391f03a/edit
+                  - cell [ref=f27e346]:
+                    - link "US-B1B2-VISIT" [ref=f27e348] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/services/a303fc22-ad0b-4f54-9e75-49ddb391f03a/edit
+                  - cell [ref=f27e355]:
+                    - link "United States" [ref=f27e357] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/services/a303fc22-ad0b-4f54-9e75-49ddb391f03a/edit
+                  - cell [ref=f27e363]:
+                    - link "QAR 1,200.00" [ref=f27e365] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/services/a303fc22-ad0b-4f54-9e75-49ddb391f03a/edit
+                  - cell [ref=f27e371]:
+                    - link "20 days" [ref=f27e373] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/services/a303fc22-ad0b-4f54-9e75-49ddb391f03a/edit
+                  - cell [ref=f27e379]:
+                    - link [ref=f27e381] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/services/a303fc22-ad0b-4f54-9e75-49ddb391f03a/edit
+                  - cell [ref=f27e385]:
+                    - link "Edit" [ref=f27e388] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/services/a303fc22-ad0b-4f54-9e75-49ddb391f03a/edit
+            - navigation "Pagination navigation" [ref=f27e393]:
+              - generic [ref=f27e396]:
+                - generic [ref=f27e397]: Per page
+                - combobox "Per page" [ref=f27e400]:
+                  - option "5"
+                  - option "10" [selected]
+                  - option "25"
+                  - option "50"
+                  - option "All"
+    - complementary [ref=f27e401]:
+      - link "Venture Visionary CRM" [ref=f27e405] [cursor=pointer]:
+        - /url: http://127.0.0.1:8090/staff
+      - navigation [ref=f27e407]:
+        - list [ref=f27e408]:
+          - listitem [ref=f27e409]:
+            - list [ref=f27e410]:
+              - listitem [ref=f27e411]:
+                - link "Dashboard" [ref=f27e412] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8090/staff
+          - listitem [ref=f27e416]:
+            - generic [ref=f27e417] [cursor=pointer]:
+              - generic [ref=f27e418]: Master Database
+              - button "Master Database" [expanded] [ref=f27e419]
+            - list [ref=f27e423]:
+              - listitem [ref=f27e424]:
+                - link "Countries" [ref=f27e425] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8090/staff/countries
+              - listitem [ref=f27e429]:
+                - link "Services" [ref=f27e430] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8090/staff/services
+          - listitem [ref=f27e434]:
+            - generic [ref=f27e435] [cursor=pointer]:
+              - generic [ref=f27e436]: CRM & Sales
+              - button "CRM & Sales" [expanded] [ref=f27e437]
+            - list [ref=f27e441]:
+              - listitem [ref=f27e442]:
+                - link "Leads" [ref=f27e443] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8090/staff/leads
+              - listitem [ref=f27e447]:
+                - link "Clients" [ref=f27e448] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8090/staff/clients
+          - listitem [ref=f27e452]:
+            - generic [ref=f27e453] [cursor=pointer]:
+              - generic [ref=f27e454]: B2B & Affiliates
+              - button "B2B & Affiliates" [expanded] [ref=f27e455]
+            - list [ref=f27e459]:
+              - listitem [ref=f27e460]:
+                - link "Partners" [ref=f27e461] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8090/staff/partners
+          - listitem [ref=f27e465]:
+            - generic [ref=f27e466] [cursor=pointer]:
+              - generic [ref=f27e467]: Finance & Commercial
+              - button "Finance & Commercial" [expanded] [ref=f27e468]
+            - list [ref=f27e472]:
+              - listitem [ref=f27e473]:
+                - link "Quotations" [ref=f27e474] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8090/staff/quotations
+          - listitem [ref=f27e478]:
+            - generic [ref=f27e479] [cursor=pointer]:
+              - generic [ref=f27e480]: Administration & HR
+              - button "Administration & HR" [expanded] [ref=f27e481]
+            - list [ref=f27e485]:
+              - listitem [ref=f27e486]:
+                - link "Users" [ref=f27e487] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8090/staff/users
+          - listitem [ref=f27e491]:
+            - generic [ref=f27e492] [cursor=pointer]:
+              - generic [ref=f27e493]: Case Processing
+              - button "Case Processing" [expanded] [ref=f27e494]
+            - list [ref=f27e498]:
+              - listitem [ref=f27e499]:
+                - link "Visa Cases" [ref=f27e500] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8090/staff/visa-cases
+  - generic:
+    - status

@@ -1,0 +1,26 @@
+- generic [ref=f12e1]:
+  - main [ref=f12e4]:
+    - generic [ref=f12e6]:
+      - generic [ref=f12e7]:
+        - generic [ref=f12e8]: Venture Visionary B2B Partner Portal
+        - heading "Sign in" [level=1] [ref=f12e9]
+      - generic [ref=f12e10]:
+        - generic [ref=f12e11]:
+          - generic [ref=f12e14]:
+            - generic [ref=f12e17]:
+              - text: Email address
+              - superscript [ref=f12e18]: "*"
+            - textbox "Email address*" [active] [ref=f12e22]
+          - generic [ref=f12e25]:
+            - generic [ref=f12e28]:
+              - text: Password
+              - superscript [ref=f12e29]: "*"
+            - generic [ref=f12e31]:
+              - textbox "Password*" [ref=f12e33]
+              - button "Show password" [ref=f12e36] [cursor=pointer]
+          - generic [ref=f12e45]:
+            - checkbox "Remember me" [ref=f12e46]
+            - generic [ref=f12e47]: Remember me
+        - button "Sign in" [ref=f12e50] [cursor=pointer]
+  - generic:
+    - status

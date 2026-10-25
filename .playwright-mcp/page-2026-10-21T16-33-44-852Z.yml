@@ -1,0 +1,88 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - generic [ref=e5]: VV
+        - generic [ref=e6]:
+          - heading "Venture Visionary" [level=1] [ref=e7]
+          - paragraph [ref=e8]: Visa & Business Advisory • Doha, Qatar
+      - generic [ref=e9]:
+        - generic [ref=e10]: Need Urgent Assistance?
+        - text: "WhatsApp: +974 5555 1234"
+  - main [ref=e11]:
+    - generic [ref=e12]:
+      - generic [ref=e13]: ⚡ Instant Calendar Scheduling
+      - heading "Schedule Your 1-on-1 Visa Consultation" [level=2] [ref=e14]
+      - paragraph [ref=e15]: Select your intended travel destination and reserve a confirmed time slot with one of our licensed Doha visa advisors.
+    - generic [ref=e17]:
+      - generic [ref=e18]:
+        - heading "1 Service & Destination" [level=4] [ref=e19]:
+          - generic [ref=e20]: "1"
+          - text: Service & Destination
+        - generic [ref=e21]:
+          - generic [ref=e22]:
+            - generic [ref=e23]: Target Destination Country *
+            - combobox [ref=e24]:
+              - option "Select country..." [selected]
+              - option "Bangladesh"
+              - option "Canada"
+              - option "France (Schengen)"
+              - option "India"
+              - option "Qatar"
+              - option "Saudi Arabia"
+              - option "Turkey"
+              - option "United Arab Emirates"
+              - option "United Kingdom"
+              - option "United States"
+              - option "United Kingdom"
+              - option "Schengen Area (Europe)"
+              - option "Canada"
+              - option "United States"
+              - option "Qatar LLC Company Formation"
+          - generic [ref=e25]:
+            - generic [ref=e26]: Visa or Service Category *
+            - combobox [ref=e27]:
+              - option "Tourist / Visit Visa" [selected]
+              - option "Business & Commercial Visa"
+              - option "Family Sponsorship / Residence"
+              - option "Student / University Visa"
+              - option "Qatar Corporate Business Setup"
+      - generic [ref=e28]:
+        - heading "2 Pick Appointment Slot" [level=4] [ref=e29]:
+          - generic [ref=e30]: "2"
+          - text: Pick Appointment Slot
+        - generic [ref=e31]:
+          - generic [ref=e32]:
+            - generic [ref=e33]: Select Consultation Date *
+            - textbox [ref=e34]: 2026-10-22
+          - generic [ref=e35]:
+            - generic [ref=e36]: Available Time Slots (Qatar Standard Time) *
+            - generic [ref=e37]:
+              - button "09:30 AM" [ref=e38] [cursor=pointer]
+              - button "11:00 AM" [ref=e39] [cursor=pointer]
+              - button "01:00 PM" [ref=e40] [cursor=pointer]
+              - button "02:30 PM" [ref=e41] [cursor=pointer]
+              - button "04:00 PM" [ref=e42] [cursor=pointer]
+              - button "05:30 PM" [ref=e43] [cursor=pointer]
+      - generic [ref=e44]:
+        - heading "3 Your Contact Details" [level=4] [ref=e45]:
+          - generic [ref=e46]: "3"
+          - text: Your Contact Details
+        - generic [ref=e47]:
+          - generic [ref=e48]:
+            - generic [ref=e49]: Full Legal Name *
+            - textbox "e.g. Mohammed Al-Kuwari" [ref=e50]
+          - generic [ref=e51]:
+            - generic [ref=e52]: WhatsApp / Phone *
+            - textbox "+974 5555 1234" [ref=e53]
+          - generic [ref=e54]:
+            - generic [ref=e55]: Email Address
+            - textbox "client@example.com" [ref=e56]
+        - generic [ref=e57]:
+          - generic [ref=e58]: Special Requests or Application Details (Optional)
+          - textbox "Briefly describe your current travel timeline or Qatar residency status..." [ref=e59]
+      - generic [ref=e60]:
+        - generic [ref=e61]: 🔒 Free Consultation • No Credit Card Required
+        - button "Confirm Appointment Booking →" [disabled] [ref=e62]
+  - contentinfo [ref=e63]:
+    - paragraph [ref=e64]: © 2026 Venture Visionary Visa and Business Consultancy, Doha, Qatar. All rights reserved.

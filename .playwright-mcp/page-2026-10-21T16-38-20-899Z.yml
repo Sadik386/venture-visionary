@@ -1,0 +1,264 @@
+- generic [active] [ref=f8e1]:
+  - generic [ref=f8e2]:
+    - generic [ref=f8e3]:
+      - navigation [ref=f8e5]:
+        - button "User menu" [ref=f8e9] [cursor=pointer]:
+          - img "Avatar of Executive Super Admin" [ref=f8e10]
+      - main [ref=f8e11]:
+        - generic [ref=f8e13]:
+          - generic [ref=f8e14]:
+            - generic [ref=f8e15]:
+              - navigation [ref=f8e16]:
+                - list [ref=f8e17]:
+                  - listitem [ref=f8e18]:
+                    - link "Workflows" [ref=f8e19] [cursor=pointer]:
+                      - /url: http://localhost:8090/staff/workflows
+                  - listitem [ref=f8e20]:
+                    - generic [ref=f8e23]: List
+              - heading "Workflows" [level=1] [ref=f8e24]
+            - link "New Automation Workflow" [ref=f8e27] [cursor=pointer]:
+              - /url: http://localhost:8090/staff/workflows/create
+          - generic [ref=f8e33]:
+            - generic [ref=f8e37]:
+              - generic [ref=f8e38]: Search
+              - searchbox "Search" [ref=f8e44]
+            - table [ref=f8e46]:
+              - rowgroup [ref=f8e47]:
+                - row [ref=f8e48]:
+                  - columnheader "Select/deselect all items for bulk actions." [ref=f8e49]:
+                    - generic [ref=f8e51]:
+                      - checkbox "Select/deselect all items for bulk actions." [ref=f8e52]
+                      - generic [ref=f8e53]: Select/deselect all items for bulk actions.
+                  - columnheader [ref=f8e54]:
+                    - button "Workflow Name" [ref=f8e55] [cursor=pointer]
+                  - columnheader "Trigger Event" [ref=f8e59]
+                  - columnheader "Steps" [ref=f8e62]
+                  - columnheader [ref=f8e65]:
+                    - button "Total Executions" [ref=f8e66] [cursor=pointer]
+                  - columnheader "Active" [ref=f8e70]
+                  - columnheader [ref=f8e73]:
+                    - button "Last Run" [ref=f8e74] [cursor=pointer]
+                  - columnheader "Actions" [ref=f8e78]
+              - rowgroup [ref=f8e79]:
+                - row [ref=f8e80]:
+                  - cell "Select/deselect item a309359d-82d2-45f2-b228-e612cee12cf2 for bulk actions." [ref=f8e81]:
+                    - generic [ref=f8e83]:
+                      - checkbox "Select/deselect item a309359d-82d2-45f2-b228-e612cee12cf2 for bulk actions." [ref=f8e84]
+                      - generic [ref=f8e85]: Select/deselect item a309359d-82d2-45f2-b228-e612cee12cf2 for bulk actions.
+                  - cell [ref=f8e86]:
+                    - link "Instant Lead Welcome & WhatsApp Acknowledgment" [ref=f8e88] [cursor=pointer]:
+                      - /url: http://localhost:8090/staff/workflows/a309359d-82d2-45f2-b228-e612cee12cf2/edit
+                  - cell [ref=f8e94]:
+                    - link "lead.created" [ref=f8e96] [cursor=pointer]:
+                      - /url: http://localhost:8090/staff/workflows/a309359d-82d2-45f2-b228-e612cee12cf2/edit
+                  - cell [ref=f8e103]:
+                    - link "2" [ref=f8e105] [cursor=pointer]:
+                      - /url: http://localhost:8090/staff/workflows/a309359d-82d2-45f2-b228-e612cee12cf2/edit
+                  - cell [ref=f8e112]:
+                    - link "13" [ref=f8e114] [cursor=pointer]:
+                      - /url: http://localhost:8090/staff/workflows/a309359d-82d2-45f2-b228-e612cee12cf2/edit
+                  - cell [ref=f8e120]:
+                    - switch [checked] [ref=f8e125] [cursor=pointer]
+                  - cell [ref=f8e126]:
+                    - link "Oct 21, 2026 19:34:50" [ref=f8e128] [cursor=pointer]:
+                      - /url: http://localhost:8090/staff/workflows/a309359d-82d2-45f2-b228-e612cee12cf2/edit
+                  - cell [ref=f8e134]:
+                    - generic [ref=f8e136]:
+                      - link "Edit" [ref=f8e137] [cursor=pointer]:
+                        - /url: http://localhost:8090/staff/workflows/a309359d-82d2-45f2-b228-e612cee12cf2/edit
+                      - button "Delete" [ref=f8e142] [cursor=pointer]
+                - row [ref=f8e146]:
+                  - cell "Select/deselect item a309359d-b02c-46b3-9791-125cd7d6a82b for bulk actions." [ref=f8e147]:
+                    - generic [ref=f8e149]:
+                      - checkbox "Select/deselect item a309359d-b02c-46b3-9791-125cd7d6a82b for bulk actions." [ref=f8e150]
+                      - generic [ref=f8e151]: Select/deselect item a309359d-b02c-46b3-9791-125cd7d6a82b for bulk actions.
+                  - cell [ref=f8e152]:
+                    - link "VIP Hot Lead Escalation & Immediate Task" [ref=f8e154] [cursor=pointer]:
+                      - /url: http://localhost:8090/staff/workflows/a309359d-b02c-46b3-9791-125cd7d6a82b/edit
+                  - cell [ref=f8e160]:
+                    - link "lead.created" [ref=f8e162] [cursor=pointer]:
+                      - /url: http://localhost:8090/staff/workflows/a309359d-b02c-46b3-9791-125cd7d6a82b/edit
+                  - cell [ref=f8e169]:
+                    - link "1" [ref=f8e171] [cursor=pointer]:
+                      - /url: http://localhost:8090/staff/workflows/a309359d-b02c-46b3-9791-125cd7d6a82b/edit
+                  - cell [ref=f8e178]:
+                    - link "3" [ref=f8e180] [cursor=pointer]:
+                      - /url: http://localhost:8090/staff/workflows/a309359d-b02c-46b3-9791-125cd7d6a82b/edit
+                  - cell [ref=f8e186]:
+                    - switch [checked] [ref=f8e191] [cursor=pointer]
+                  - cell [ref=f8e192]:
+                    - link "Oct 21, 2026 19:21:33" [ref=f8e194] [cursor=pointer]:
+                      - /url: http://localhost:8090/staff/workflows/a309359d-b02c-46b3-9791-125cd7d6a82b/edit
+                  - cell [ref=f8e200]:
+                    - generic [ref=f8e202]:
+                      - link "Edit" [ref=f8e203] [cursor=pointer]:
+                        - /url: http://localhost:8090/staff/workflows/a309359d-b02c-46b3-9791-125cd7d6a82b/edit
+                      - button "Delete" [ref=f8e208] [cursor=pointer]
+                - row [ref=f8e212]:
+                  - cell "Select/deselect item a309359d-bc29-492e-8fbf-44254664f049 for bulk actions." [ref=f8e213]:
+                    - generic [ref=f8e215]:
+                      - checkbox "Select/deselect item a309359d-bc29-492e-8fbf-44254664f049 for bulk actions." [ref=f8e216]
+                      - generic [ref=f8e217]: Select/deselect item a309359d-bc29-492e-8fbf-44254664f049 for bulk actions.
+                  - cell [ref=f8e218]:
+                    - link "Qualified Lead Consultation Task Creation" [ref=f8e220] [cursor=pointer]:
+                      - /url: http://localhost:8090/staff/workflows/a309359d-bc29-492e-8fbf-44254664f049/edit
+                  - cell [ref=f8e226]:
+                    - link "lead.stage_changed" [ref=f8e228] [cursor=pointer]:
+                      - /url: http://localhost:8090/staff/workflows/a309359d-bc29-492e-8fbf-44254664f049/edit
+                  - cell [ref=f8e235]:
+                    - link "1" [ref=f8e237] [cursor=pointer]:
+                      - /url: http://localhost:8090/staff/workflows/a309359d-bc29-492e-8fbf-44254664f049/edit
+                  - cell [ref=f8e244]:
+                    - link "5" [ref=f8e246] [cursor=pointer]:
+                      - /url: http://localhost:8090/staff/workflows/a309359d-bc29-492e-8fbf-44254664f049/edit
+                  - cell [ref=f8e252]:
+                    - switch [checked] [ref=f8e257] [cursor=pointer]
+                  - cell [ref=f8e258]:
+                    - link "Oct 21, 2026 19:37:26" [ref=f8e260] [cursor=pointer]:
+                      - /url: http://localhost:8090/staff/workflows/a309359d-bc29-492e-8fbf-44254664f049/edit
+                  - cell [ref=f8e266]:
+                    - generic [ref=f8e268]:
+                      - link "Edit" [ref=f8e269] [cursor=pointer]:
+                        - /url: http://localhost:8090/staff/workflows/a309359d-bc29-492e-8fbf-44254664f049/edit
+                      - button "Delete" [ref=f8e274] [cursor=pointer]
+                - row "Select/deselect item a309359d-c71c-4297-a791-5f2570c8af25 for bulk actions. Automated 5-Star Review Request on Visa Approval case.status_changed 1 0 Edit Delete" [ref=f8e278]:
+                  - cell "Select/deselect item a309359d-c71c-4297-a791-5f2570c8af25 for bulk actions." [ref=f8e279]:
+                    - generic [ref=f8e281]:
+                      - checkbox "Select/deselect item a309359d-c71c-4297-a791-5f2570c8af25 for bulk actions." [ref=f8e282]
+                      - generic [ref=f8e283]: Select/deselect item a309359d-c71c-4297-a791-5f2570c8af25 for bulk actions.
+                  - cell [ref=f8e284]:
+                    - link "Automated 5-Star Review Request on Visa Approval" [ref=f8e286] [cursor=pointer]:
+                      - /url: http://localhost:8090/staff/workflows/a309359d-c71c-4297-a791-5f2570c8af25/edit
+                  - cell [ref=f8e292]:
+                    - link "case.status_changed" [ref=f8e294] [cursor=pointer]:
+                      - /url: http://localhost:8090/staff/workflows/a309359d-c71c-4297-a791-5f2570c8af25/edit
+                  - cell [ref=f8e301]:
+                    - link "1" [ref=f8e303] [cursor=pointer]:
+                      - /url: http://localhost:8090/staff/workflows/a309359d-c71c-4297-a791-5f2570c8af25/edit
+                  - cell [ref=f8e310]:
+                    - link "0" [ref=f8e312] [cursor=pointer]:
+                      - /url: http://localhost:8090/staff/workflows/a309359d-c71c-4297-a791-5f2570c8af25/edit
+                  - cell [ref=f8e318]:
+                    - switch [checked] [ref=f8e323] [cursor=pointer]
+                  - cell [ref=f8e324]:
+                    - link [ref=f8e326] [cursor=pointer]:
+                      - /url: http://localhost:8090/staff/workflows/a309359d-c71c-4297-a791-5f2570c8af25/edit
+                  - cell [ref=f8e328]:
+                    - generic [ref=f8e330]:
+                      - link "Edit" [ref=f8e331] [cursor=pointer]:
+                        - /url: http://localhost:8090/staff/workflows/a309359d-c71c-4297-a791-5f2570c8af25/edit
+                      - button "Delete" [ref=f8e336] [cursor=pointer]
+            - navigation "Pagination navigation" [ref=f8e340]:
+              - generic [ref=f8e343]:
+                - generic [ref=f8e344]: Per page
+                - combobox "Per page" [ref=f8e347]:
+                  - option "5"
+                  - option "10" [selected]
+                  - option "25"
+                  - option "50"
+                  - option "All"
+    - complementary [ref=f8e348]:
+      - link "Venture Visionary CRM" [ref=f8e352] [cursor=pointer]:
+        - /url: http://localhost:8090/staff
+      - navigation [ref=f8e354]:
+        - list [ref=f8e355]:
+          - listitem [ref=f8e356]:
+            - list [ref=f8e357]:
+              - listitem [ref=f8e358]:
+                - link "Dashboard" [ref=f8e359] [cursor=pointer]:
+                  - /url: http://localhost:8090/staff
+          - listitem [ref=f8e363]:
+            - generic [ref=f8e364] [cursor=pointer]:
+              - generic [ref=f8e365]: Governance & Audit
+              - button "Governance & Audit" [expanded] [ref=f8e366]
+            - list [ref=f8e370]:
+              - listitem [ref=f8e371]:
+                - link "Executive Analytics & BI" [ref=f8e372] [cursor=pointer]:
+                  - /url: http://localhost:8090/staff/analytics-dashboard
+              - listitem [ref=f8e376]:
+                - link "Audit Logs" [ref=f8e377] [cursor=pointer]:
+                  - /url: http://localhost:8090/staff/audit-logs
+          - listitem [ref=f8e381]:
+            - generic [ref=f8e382] [cursor=pointer]:
+              - generic [ref=f8e383]: Master Database
+              - button "Master Database" [expanded] [ref=f8e384]
+            - list [ref=f8e388]:
+              - listitem [ref=f8e389]:
+                - link "Countries" [ref=f8e390] [cursor=pointer]:
+                  - /url: http://localhost:8090/staff/countries
+              - listitem [ref=f8e394]:
+                - link "Services" [ref=f8e395] [cursor=pointer]:
+                  - /url: http://localhost:8090/staff/services
+          - listitem [ref=f8e399]:
+            - generic [ref=f8e400] [cursor=pointer]:
+              - generic [ref=f8e401]: CRM & Sales
+              - button "CRM & Sales" [expanded] [ref=f8e402]
+            - list [ref=f8e406]:
+              - listitem [ref=f8e407]:
+                - link "Leads" [ref=f8e408] [cursor=pointer]:
+                  - /url: http://localhost:8090/staff/leads
+              - listitem [ref=f8e412]:
+                - link "Visual Sales Pipeline" [ref=f8e413] [cursor=pointer]:
+                  - /url: http://localhost:8090/staff/lead-pipeline-board
+              - listitem [ref=f8e417]:
+                - link "Clients" [ref=f8e418] [cursor=pointer]:
+                  - /url: http://localhost:8090/staff/clients
+              - listitem [ref=f8e422]:
+                - link "Reputation & Reviews" [ref=f8e423] [cursor=pointer]:
+                  - /url: http://localhost:8090/staff/review-requests
+          - listitem [ref=f8e427]:
+            - generic [ref=f8e428] [cursor=pointer]:
+              - generic [ref=f8e429]: B2B & Affiliates
+              - button "B2B & Affiliates" [expanded] [ref=f8e430]
+            - list [ref=f8e434]:
+              - listitem [ref=f8e435]:
+                - link "Partners" [ref=f8e436] [cursor=pointer]:
+                  - /url: http://localhost:8090/staff/partners
+          - listitem [ref=f8e440]:
+            - generic [ref=f8e441] [cursor=pointer]:
+              - generic [ref=f8e442]: Finance & Commercial
+              - button "Finance & Commercial" [expanded] [ref=f8e443]
+            - list [ref=f8e447]:
+              - listitem [ref=f8e448]:
+                - link "Quotations" [ref=f8e449] [cursor=pointer]:
+                  - /url: http://localhost:8090/staff/quotations
+              - listitem [ref=f8e453]:
+                - link "Invoices" [ref=f8e454] [cursor=pointer]:
+                  - /url: http://localhost:8090/staff/invoices
+          - listitem [ref=f8e458]:
+            - generic [ref=f8e459] [cursor=pointer]:
+              - generic [ref=f8e460]: Administration & HR
+              - button "Administration & HR" [expanded] [ref=f8e461]
+            - list [ref=f8e465]:
+              - listitem [ref=f8e466]:
+                - link "Users" [ref=f8e467] [cursor=pointer]:
+                  - /url: http://localhost:8090/staff/users
+          - listitem [ref=f8e471]:
+            - generic [ref=f8e472] [cursor=pointer]:
+              - generic [ref=f8e473]: Case Processing
+              - button "Case Processing" [expanded] [ref=f8e474]
+            - list [ref=f8e478]:
+              - listitem [ref=f8e479]:
+                - link "Visa Cases" [ref=f8e480] [cursor=pointer]:
+                  - /url: http://localhost:8090/staff/visa-cases
+              - listitem [ref=f8e484]:
+                - link "Tasks" [ref=f8e485] [cursor=pointer]:
+                  - /url: http://localhost:8090/staff/tasks
+          - listitem [ref=f8e489]:
+            - generic [ref=f8e490] [cursor=pointer]:
+              - generic [ref=f8e491]: Automations & Workflows
+              - button "Automations & Workflows" [expanded] [ref=f8e492]
+            - list [ref=f8e496]:
+              - listitem [ref=f8e497]:
+                - link "Workflow Engine" [ref=f8e498] [cursor=pointer]:
+                  - /url: http://localhost:8090/staff/workflows
+          - listitem [ref=f8e502]:
+            - generic [ref=f8e503] [cursor=pointer]:
+              - generic [ref=f8e504]: Operations & Delivery
+              - button "Operations & Delivery" [expanded] [ref=f8e505]
+            - list [ref=f8e509]:
+              - listitem [ref=f8e510]:
+                - link "Appointment Calendar" [ref=f8e511] [cursor=pointer]:
+                  - /url: http://localhost:8090/staff/appointments
+  - generic:
+    - status

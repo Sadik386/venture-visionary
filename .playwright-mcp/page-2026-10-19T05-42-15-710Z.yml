@@ -1,0 +1,30 @@
+- generic [active] [ref=f6e1]:
+  - generic [ref=f6e2]:
+    - generic [ref=f6e3]:
+      - navigation [ref=f6e5]:
+        - button "User menu" [ref=f6e9] [cursor=pointer]:
+          - img "Avatar of Executive Super Admin" [ref=f6e10]
+      - main [ref=f6e11]:
+        - generic [ref=f6e13]:
+          - heading "Dashboard" [level=1] [ref=f6e16]
+          - generic [ref=f6e24]:
+            - img "Avatar of Executive Super Admin" [ref=f6e25]
+            - generic [ref=f6e26]:
+              - heading "Welcome" [level=2] [ref=f6e27]
+              - paragraph [ref=f6e28]: Executive Super Admin
+            - button "Sign out" [ref=f6e30] [cursor=pointer]
+    - complementary [ref=f6e35]:
+      - link "Venture Visionary Client Portal" [ref=f6e39] [cursor=pointer]:
+        - /url: http://127.0.0.1:8090/portal
+      - navigation [ref=f6e41]:
+        - list [ref=f6e42]:
+          - listitem [ref=f6e43]:
+            - list [ref=f6e44]:
+              - listitem [ref=f6e45]:
+                - link "Dashboard" [ref=f6e46] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8090/portal
+              - listitem [ref=f6e50]:
+                - link "My Visa Cases" [ref=f6e51] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8090/portal/visa-cases
+  - generic:
+    - status

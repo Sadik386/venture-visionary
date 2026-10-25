@@ -1,0 +1,351 @@
+- generic [active] [ref=f14e1]:
+  - generic [ref=f14e2]:
+    - generic [ref=f14e3]:
+      - navigation [ref=f14e5]:
+        - button "User menu" [ref=f14e9] [cursor=pointer]:
+          - img "Avatar of Executive Super Admin" [ref=f14e10]
+      - main [ref=f14e11]:
+        - generic [ref=f14e13]:
+          - generic [ref=f14e14]:
+            - generic [ref=f14e15]:
+              - navigation [ref=f14e16]:
+                - list [ref=f14e17]:
+                  - listitem [ref=f14e18]:
+                    - link "Review Requests" [ref=f14e19] [cursor=pointer]:
+                      - /url: http://localhost:8090/staff/review-requests
+                  - listitem [ref=f14e20]:
+                    - generic [ref=f14e23]: List
+              - heading "Review Requests" [level=1] [ref=f14e24]
+            - button "Dispatch Review Request" [ref=f14e27] [cursor=pointer]
+          - generic [ref=f14e35]:
+            - generic [ref=f14e38]:
+              - generic [ref=f14e39]:
+                - generic [ref=f14e40]: Search
+                - searchbox "Search" [ref=f14e46]
+              - button "Filter 0" [ref=f14e49] [cursor=pointer]:
+                - generic [ref=f14e50]: Filter
+                - generic [ref=f14e53]: "0"
+            - table [ref=f14e58]:
+              - rowgroup [ref=f14e59]:
+                - row [ref=f14e60]:
+                  - columnheader "Select/deselect all items for bulk actions." [ref=f14e61]:
+                    - generic [ref=f14e63]:
+                      - checkbox "Select/deselect all items for bulk actions." [ref=f14e64]
+                      - generic [ref=f14e65]: Select/deselect all items for bulk actions.
+                  - columnheader [ref=f14e66]:
+                    - button "Dispatched" [ref=f14e67] [cursor=pointer]
+                  - columnheader "Client" [ref=f14e71]
+                  - columnheader "Channel" [ref=f14e74]
+                  - columnheader "Status" [ref=f14e77]
+                  - columnheader [ref=f14e80]:
+                    - button "Rating" [ref=f14e81] [cursor=pointer]
+                  - columnheader "Google Diverted" [ref=f14e85]
+                  - columnheader "Testimonial" [ref=f14e88]
+                  - columnheader "Actions" [ref=f14e91]
+              - rowgroup [ref=f14e92]:
+                - row [ref=f14e93]:
+                  - cell "Select/deselect item a3093bac-2849-4599-8de6-6a52d6258ce9 for bulk actions." [ref=f14e94]:
+                    - generic [ref=f14e96]:
+                      - checkbox "Select/deselect item a3093bac-2849-4599-8de6-6a52d6258ce9 for bulk actions." [ref=f14e97]
+                      - generic [ref=f14e98]: Select/deselect item a3093bac-2849-4599-8de6-6a52d6258ce9 for bulk actions.
+                  - cell [ref=f14e99]:
+                    - button "Oct 21, 2026 07:35 PM" [ref=f14e101] [cursor=pointer]
+                  - cell [ref=f14e107]:
+                    - button "Fatima Al-Ansari" [ref=f14e109] [cursor=pointer]
+                  - cell [ref=f14e115]:
+                    - button "whatsapp" [ref=f14e117] [cursor=pointer]
+                  - cell [ref=f14e124]:
+                    - button "completed" [ref=f14e126] [cursor=pointer]
+                  - cell [ref=f14e133]:
+                    - button "★★★★★ (5/5)" [ref=f14e135] [cursor=pointer]
+                  - cell [ref=f14e142]:
+                    - button [ref=f14e144] [cursor=pointer]
+                  - cell [ref=f14e148]:
+                    - button "Outstanding guidance on my UK visa appli..." [ref=f14e150] [cursor=pointer]
+                  - cell [ref=f14e156]:
+                    - generic [ref=f14e158]:
+                      - link "Copy Review Link" [ref=f14e159] [cursor=pointer]:
+                        - /url: http://localhost:8090/review/live-browser-test-token
+                      - button "Edit" [ref=f14e164] [cursor=pointer]
+                - row [ref=f14e169]:
+                  - cell "Select/deselect item a30936cd-7635-4ead-9100-d126d273836c for bulk actions." [ref=f14e170]:
+                    - generic [ref=f14e172]:
+                      - checkbox "Select/deselect item a30936cd-7635-4ead-9100-d126d273836c for bulk actions." [ref=f14e173]
+                      - generic [ref=f14e174]: Select/deselect item a30936cd-7635-4ead-9100-d126d273836c for bulk actions.
+                  - cell [ref=f14e175]:
+                    - button "Oct 21, 2026 07:21 PM" [ref=f14e177] [cursor=pointer]
+                  - cell [ref=f14e183]:
+                    - button "Happy Client Reviewer" [ref=f14e185] [cursor=pointer]
+                  - cell [ref=f14e191]:
+                    - button "whatsapp" [ref=f14e193] [cursor=pointer]
+                  - cell [ref=f14e200]:
+                    - button "completed" [ref=f14e202] [cursor=pointer]
+                  - cell [ref=f14e209]:
+                    - button "★★★★★ (5/5)" [ref=f14e211] [cursor=pointer]
+                  - cell [ref=f14e218]:
+                    - button [ref=f14e220] [cursor=pointer]
+                  - cell [ref=f14e224]:
+                    - button "Exceptional visa consulting experience i..." [ref=f14e226] [cursor=pointer]
+                  - cell [ref=f14e232]:
+                    - generic [ref=f14e234]:
+                      - link "Copy Review Link" [ref=f14e235] [cursor=pointer]:
+                        - /url: http://localhost:8090/review/KD38FNb4vrtV3jZJmSLIZsnrjPXiU0F7
+                      - button "Edit" [ref=f14e240] [cursor=pointer]
+                - row "Select/deselect item a30936cd-85b2-4f7f-8d31-1c9ebb813aae for bulk actions. Dissatisfied Prospect whatsapp completed ★★ (2/5) Staff took 3 days to answer my query. Copy Review Link Edit" [ref=f14e245]:
+                  - cell "Select/deselect item a30936cd-85b2-4f7f-8d31-1c9ebb813aae for bulk actions." [ref=f14e246]:
+                    - generic [ref=f14e248]:
+                      - checkbox "Select/deselect item a30936cd-85b2-4f7f-8d31-1c9ebb813aae for bulk actions." [ref=f14e249]
+                      - generic [ref=f14e250]: Select/deselect item a30936cd-85b2-4f7f-8d31-1c9ebb813aae for bulk actions.
+                  - cell [ref=f14e251]:
+                    - button [ref=f14e253] [cursor=pointer]
+                  - cell [ref=f14e255]:
+                    - button "Dissatisfied Prospect" [ref=f14e257] [cursor=pointer]
+                  - cell [ref=f14e263]:
+                    - button "whatsapp" [ref=f14e265] [cursor=pointer]
+                  - cell [ref=f14e272]:
+                    - button "completed" [ref=f14e274] [cursor=pointer]
+                  - cell [ref=f14e281]:
+                    - button "★★ (2/5)" [ref=f14e283] [cursor=pointer]
+                  - cell [ref=f14e290]:
+                    - button [ref=f14e292] [cursor=pointer]
+                  - cell [ref=f14e296]:
+                    - button "Staff took 3 days to answer my query." [ref=f14e298] [cursor=pointer]
+                  - cell [ref=f14e304]:
+                    - generic [ref=f14e306]:
+                      - link "Copy Review Link" [ref=f14e307] [cursor=pointer]:
+                        - /url: http://localhost:8090/review/neg-token-10822
+                      - button "Edit" [ref=f14e312] [cursor=pointer]
+                - row "Select/deselect item a30936bb-1c4d-4090-a563-82c4beceff4a for bulk actions. Dissatisfied Prospect whatsapp completed ★★ (2/5) Staff took 3 days to answer my query. Copy Review Link Edit" [ref=f14e317]:
+                  - cell "Select/deselect item a30936bb-1c4d-4090-a563-82c4beceff4a for bulk actions." [ref=f14e318]:
+                    - generic [ref=f14e320]:
+                      - checkbox "Select/deselect item a30936bb-1c4d-4090-a563-82c4beceff4a for bulk actions." [ref=f14e321]
+                      - generic [ref=f14e322]: Select/deselect item a30936bb-1c4d-4090-a563-82c4beceff4a for bulk actions.
+                  - cell [ref=f14e323]:
+                    - button [ref=f14e325] [cursor=pointer]
+                  - cell [ref=f14e327]:
+                    - button "Dissatisfied Prospect" [ref=f14e329] [cursor=pointer]
+                  - cell [ref=f14e335]:
+                    - button "whatsapp" [ref=f14e337] [cursor=pointer]
+                  - cell [ref=f14e344]:
+                    - button "completed" [ref=f14e346] [cursor=pointer]
+                  - cell [ref=f14e353]:
+                    - button "★★ (2/5)" [ref=f14e355] [cursor=pointer]
+                  - cell [ref=f14e362]:
+                    - button [ref=f14e364] [cursor=pointer]
+                  - cell [ref=f14e368]:
+                    - button "Staff took 3 days to answer my query." [ref=f14e370] [cursor=pointer]
+                  - cell [ref=f14e376]:
+                    - generic [ref=f14e378]:
+                      - link "Copy Review Link" [ref=f14e379] [cursor=pointer]:
+                        - /url: http://localhost:8090/review/neg-token-76407
+                      - button "Edit" [ref=f14e384] [cursor=pointer]
+                - row [ref=f14e389]:
+                  - cell "Select/deselect item a30936bb-0a22-48d2-b63f-7a4301b42ff8 for bulk actions." [ref=f14e390]:
+                    - generic [ref=f14e392]:
+                      - checkbox "Select/deselect item a30936bb-0a22-48d2-b63f-7a4301b42ff8 for bulk actions." [ref=f14e393]
+                      - generic [ref=f14e394]: Select/deselect item a30936bb-0a22-48d2-b63f-7a4301b42ff8 for bulk actions.
+                  - cell [ref=f14e395]:
+                    - button "Oct 21, 2026 07:21 PM" [ref=f14e397] [cursor=pointer]
+                  - cell [ref=f14e403]:
+                    - button "Happy Client Reviewer" [ref=f14e405] [cursor=pointer]
+                  - cell [ref=f14e411]:
+                    - button "whatsapp" [ref=f14e413] [cursor=pointer]
+                  - cell [ref=f14e420]:
+                    - button "completed" [ref=f14e422] [cursor=pointer]
+                  - cell [ref=f14e429]:
+                    - button "★★★★★ (5/5)" [ref=f14e431] [cursor=pointer]
+                  - cell [ref=f14e438]:
+                    - button [ref=f14e440] [cursor=pointer]
+                  - cell [ref=f14e444]:
+                    - button "Exceptional visa consulting experience i..." [ref=f14e446] [cursor=pointer]
+                  - cell [ref=f14e452]:
+                    - generic [ref=f14e454]:
+                      - link "Copy Review Link" [ref=f14e455] [cursor=pointer]:
+                        - /url: http://localhost:8090/review/W6iG3ZCXJyupdOjlDB8B2PckFo5nMcK0
+                      - button "Edit" [ref=f14e460] [cursor=pointer]
+                - row "Select/deselect item a3093632-ec7a-4920-adc4-28dc37d2566a for bulk actions. Oct 21, 2026 07:19 PM Happy Client Reviewer whatsapp sent Copy Review Link Edit" [ref=f14e465]:
+                  - cell "Select/deselect item a3093632-ec7a-4920-adc4-28dc37d2566a for bulk actions." [ref=f14e466]:
+                    - generic [ref=f14e468]:
+                      - checkbox "Select/deselect item a3093632-ec7a-4920-adc4-28dc37d2566a for bulk actions." [ref=f14e469]
+                      - generic [ref=f14e470]: Select/deselect item a3093632-ec7a-4920-adc4-28dc37d2566a for bulk actions.
+                  - cell [ref=f14e471]:
+                    - button "Oct 21, 2026 07:19 PM" [ref=f14e473] [cursor=pointer]
+                  - cell [ref=f14e479]:
+                    - button "Happy Client Reviewer" [ref=f14e481] [cursor=pointer]
+                  - cell [ref=f14e487]:
+                    - button "whatsapp" [ref=f14e489] [cursor=pointer]
+                  - cell [ref=f14e496]:
+                    - button "sent" [ref=f14e498] [cursor=pointer]
+                  - cell [ref=f14e505]:
+                    - button [ref=f14e507] [cursor=pointer]
+                  - cell [ref=f14e509]:
+                    - button [ref=f14e511] [cursor=pointer]
+                  - cell [ref=f14e515]:
+                    - button [ref=f14e517] [cursor=pointer]
+                  - cell [ref=f14e519]:
+                    - generic [ref=f14e521]:
+                      - link "Copy Review Link" [ref=f14e522] [cursor=pointer]:
+                        - /url: http://localhost:8090/review/TbjxqYaD5iPgCTEhLsUSyzX00itoy3bV
+                      - button "Edit" [ref=f14e527] [cursor=pointer]
+                - row "Select/deselect item a30935e9-97fb-4f7d-b918-0924109545df for bulk actions. Oct 21, 2026 07:19 PM Happy Client Reviewer whatsapp sent Copy Review Link Edit" [ref=f14e532]:
+                  - cell "Select/deselect item a30935e9-97fb-4f7d-b918-0924109545df for bulk actions." [ref=f14e533]:
+                    - generic [ref=f14e535]:
+                      - checkbox "Select/deselect item a30935e9-97fb-4f7d-b918-0924109545df for bulk actions." [ref=f14e536]
+                      - generic [ref=f14e537]: Select/deselect item a30935e9-97fb-4f7d-b918-0924109545df for bulk actions.
+                  - cell [ref=f14e538]:
+                    - button "Oct 21, 2026 07:19 PM" [ref=f14e540] [cursor=pointer]
+                  - cell [ref=f14e546]:
+                    - button "Happy Client Reviewer" [ref=f14e548] [cursor=pointer]
+                  - cell [ref=f14e554]:
+                    - button "whatsapp" [ref=f14e556] [cursor=pointer]
+                  - cell [ref=f14e563]:
+                    - button "sent" [ref=f14e565] [cursor=pointer]
+                  - cell [ref=f14e572]:
+                    - button [ref=f14e574] [cursor=pointer]
+                  - cell [ref=f14e576]:
+                    - button [ref=f14e578] [cursor=pointer]
+                  - cell [ref=f14e582]:
+                    - button [ref=f14e584] [cursor=pointer]
+                  - cell [ref=f14e586]:
+                    - generic [ref=f14e588]:
+                      - link "Copy Review Link" [ref=f14e589] [cursor=pointer]:
+                        - /url: http://localhost:8090/review/lVdLBnddmhFiQP3G7AGdAmeWUfr1vWGv
+                      - button "Edit" [ref=f14e594] [cursor=pointer]
+                - row [ref=f14e599]:
+                  - cell "Select/deselect item a309359d-fa76-4810-89a8-508df68929b4 for bulk actions." [ref=f14e600]:
+                    - generic [ref=f14e602]:
+                      - checkbox "Select/deselect item a309359d-fa76-4810-89a8-508df68929b4 for bulk actions." [ref=f14e603]
+                      - generic [ref=f14e604]: Select/deselect item a309359d-fa76-4810-89a8-508df68929b4 for bulk actions.
+                  - cell [ref=f14e605]:
+                    - button "Oct 18, 2026 07:18 PM" [ref=f14e607] [cursor=pointer]
+                  - cell [ref=f14e613]:
+                    - button "Ahmed Mansour" [ref=f14e615] [cursor=pointer]
+                  - cell [ref=f14e621]:
+                    - button "whatsapp" [ref=f14e623] [cursor=pointer]
+                  - cell [ref=f14e630]:
+                    - button "completed" [ref=f14e632] [cursor=pointer]
+                  - cell [ref=f14e639]:
+                    - button "★★★★★ (5/5)" [ref=f14e641] [cursor=pointer]
+                  - cell [ref=f14e648]:
+                    - button [ref=f14e650] [cursor=pointer]
+                  - cell [ref=f14e654]:
+                    - button "Great" [ref=f14e656] [cursor=pointer]
+                  - cell [ref=f14e662]:
+                    - generic [ref=f14e664]:
+                      - link "Copy Review Link" [ref=f14e665] [cursor=pointer]:
+                        - /url: http://localhost:8090/review/sample-5star-token-2026
+                      - button "Edit" [ref=f14e670] [cursor=pointer]
+            - navigation "Pagination navigation" [ref=f14e675]:
+              - generic [ref=f14e678]:
+                - generic [ref=f14e679]: Per page
+                - combobox "Per page" [ref=f14e682]:
+                  - option "5"
+                  - option "10" [selected]
+                  - option "25"
+                  - option "50"
+                  - option "All"
+    - complementary [ref=f14e683]:
+      - link "Venture Visionary CRM" [ref=f14e687] [cursor=pointer]:
+        - /url: http://localhost:8090/staff
+      - navigation [ref=f14e689]:
+        - list [ref=f14e690]:
+          - listitem [ref=f14e691]:
+            - list [ref=f14e692]:
+              - listitem [ref=f14e693]:
+                - link "Dashboard" [ref=f14e694] [cursor=pointer]:
+                  - /url: http://localhost:8090/staff
+          - listitem [ref=f14e698]:
+            - generic [ref=f14e699] [cursor=pointer]:
+              - generic [ref=f14e700]: Governance & Audit
+              - button "Governance & Audit" [expanded] [ref=f14e701]
+            - list [ref=f14e705]:
+              - listitem [ref=f14e706]:
+                - link "Executive Analytics & BI" [ref=f14e707] [cursor=pointer]:
+                  - /url: http://localhost:8090/staff/analytics-dashboard
+              - listitem [ref=f14e711]:
+                - link "Audit Logs" [ref=f14e712] [cursor=pointer]:
+                  - /url: http://localhost:8090/staff/audit-logs
+          - listitem [ref=f14e716]:
+            - generic [ref=f14e717] [cursor=pointer]:
+              - generic [ref=f14e718]: Master Database
+              - button "Master Database" [expanded] [ref=f14e719]
+            - list [ref=f14e723]:
+              - listitem [ref=f14e724]:
+                - link "Countries" [ref=f14e725] [cursor=pointer]:
+                  - /url: http://localhost:8090/staff/countries
+              - listitem [ref=f14e729]:
+                - link "Services" [ref=f14e730] [cursor=pointer]:
+                  - /url: http://localhost:8090/staff/services
+          - listitem [ref=f14e734]:
+            - generic [ref=f14e735] [cursor=pointer]:
+              - generic [ref=f14e736]: CRM & Sales
+              - button "CRM & Sales" [expanded] [ref=f14e737]
+            - list [ref=f14e741]:
+              - listitem [ref=f14e742]:
+                - link "Leads" [ref=f14e743] [cursor=pointer]:
+                  - /url: http://localhost:8090/staff/leads
+              - listitem [ref=f14e747]:
+                - link "Visual Sales Pipeline" [ref=f14e748] [cursor=pointer]:
+                  - /url: http://localhost:8090/staff/lead-pipeline-board
+              - listitem [ref=f14e752]:
+                - link "Clients" [ref=f14e753] [cursor=pointer]:
+                  - /url: http://localhost:8090/staff/clients
+              - listitem [ref=f14e757]:
+                - link "Reputation & Reviews" [ref=f14e758] [cursor=pointer]:
+                  - /url: http://localhost:8090/staff/review-requests
+          - listitem [ref=f14e762]:
+            - generic [ref=f14e763] [cursor=pointer]:
+              - generic [ref=f14e764]: B2B & Affiliates
+              - button "B2B & Affiliates" [expanded] [ref=f14e765]
+            - list [ref=f14e769]:
+              - listitem [ref=f14e770]:
+                - link "Partners" [ref=f14e771] [cursor=pointer]:
+                  - /url: http://localhost:8090/staff/partners
+          - listitem [ref=f14e775]:
+            - generic [ref=f14e776] [cursor=pointer]:
+              - generic [ref=f14e777]: Finance & Commercial
+              - button "Finance & Commercial" [expanded] [ref=f14e778]
+            - list [ref=f14e782]:
+              - listitem [ref=f14e783]:
+                - link "Quotations" [ref=f14e784] [cursor=pointer]:
+                  - /url: http://localhost:8090/staff/quotations
+              - listitem [ref=f14e788]:
+                - link "Invoices" [ref=f14e789] [cursor=pointer]:
+                  - /url: http://localhost:8090/staff/invoices
+          - listitem [ref=f14e793]:
+            - generic [ref=f14e794] [cursor=pointer]:
+              - generic [ref=f14e795]: Administration & HR
+              - button "Administration & HR" [expanded] [ref=f14e796]
+            - list [ref=f14e800]:
+              - listitem [ref=f14e801]:
+                - link "Users" [ref=f14e802] [cursor=pointer]:
+                  - /url: http://localhost:8090/staff/users
+          - listitem [ref=f14e806]:
+            - generic [ref=f14e807] [cursor=pointer]:
+              - generic [ref=f14e808]: Case Processing
+              - button "Case Processing" [expanded] [ref=f14e809]
+            - list [ref=f14e813]:
+              - listitem [ref=f14e814]:
+                - link "Visa Cases" [ref=f14e815] [cursor=pointer]:
+                  - /url: http://localhost:8090/staff/visa-cases
+              - listitem [ref=f14e819]:
+                - link "Tasks" [ref=f14e820] [cursor=pointer]:
+                  - /url: http://localhost:8090/staff/tasks
+          - listitem [ref=f14e824]:
+            - generic [ref=f14e825] [cursor=pointer]:
+              - generic [ref=f14e826]: Automations & Workflows
+              - button "Automations & Workflows" [expanded] [ref=f14e827]
+            - list [ref=f14e831]:
+              - listitem [ref=f14e832]:
+                - link "Workflow Engine" [ref=f14e833] [cursor=pointer]:
+                  - /url: http://localhost:8090/staff/workflows
+          - listitem [ref=f14e837]:
+            - generic [ref=f14e838] [cursor=pointer]:
+              - generic [ref=f14e839]: Operations & Delivery
+              - button "Operations & Delivery" [expanded] [ref=f14e840]
+            - list [ref=f14e844]:
+              - listitem [ref=f14e845]:
+                - link "Appointment Calendar" [ref=f14e846] [cursor=pointer]:
+                  - /url: http://localhost:8090/staff/appointments
+  - generic:
+    - status

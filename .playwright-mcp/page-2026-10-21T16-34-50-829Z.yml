@@ -1,0 +1,40 @@
+- generic [active] [ref=f1e1]:
+  - banner [ref=f1e2]:
+    - generic [ref=f1e3]:
+      - generic [ref=f1e4]:
+        - generic [ref=f1e5]: VV
+        - generic [ref=f1e6]:
+          - heading "Venture Visionary" [level=1] [ref=f1e7]
+          - paragraph [ref=f1e8]: Visa & Business Advisory • Doha, Qatar
+      - generic [ref=f1e9]:
+        - generic [ref=f1e10]: Need Urgent Assistance?
+        - text: "WhatsApp: +974 5555 1234"
+  - main [ref=f1e11]:
+    - generic [ref=f1e12]:
+      - generic [ref=f1e13]: ⚡ Instant Calendar Scheduling
+      - heading "Schedule Your 1-on-1 Visa Consultation" [level=2] [ref=f1e14]
+      - paragraph [ref=f1e15]: Select your intended travel destination and reserve a confirmed time slot with one of our licensed Doha visa advisors.
+    - generic [ref=f1e16]:
+      - generic [ref=f1e17]: ✓
+      - heading "Appointment Confirmed!" [level=3] [ref=f1e18]
+      - paragraph [ref=f1e19]:
+        - text: Your consultation reference is
+        - strong [ref=f1e20]: LD-2026-0185
+        - text: .
+      - generic [ref=f1e21]:
+        - paragraph [ref=f1e22]:
+          - strong [ref=f1e23]: "Scheduled Time:"
+          - text: Thursday, October 22, 2026 at 11:00 AM (Qatar Standard Time)
+        - paragraph [ref=f1e24]:
+          - strong [ref=f1e25]: "Assigned Consultant:"
+          - text: Sarah Jenkins
+        - paragraph [ref=f1e26]:
+          - strong [ref=f1e27]: "Location:"
+          - text: Venture Visionary Executive Office / Google Meet link will be messaged to you on WhatsApp.
+      - generic [ref=f1e28]:
+        - link "Back to Home" [ref=f1e29] [cursor=pointer]:
+          - /url: /
+        - link "Book Another" [ref=f1e30] [cursor=pointer]:
+          - /url: /book-appointment
+  - contentinfo [ref=f1e31]:
+    - paragraph [ref=f1e32]: © 2026 Venture Visionary Visa and Business Consultancy, Doha, Qatar. All rights reserved.

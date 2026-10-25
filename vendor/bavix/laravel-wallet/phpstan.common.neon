@@ -1,0 +1,9 @@
+includes:
+	- vendor/larastan/larastan/extension.neon
+	- vendor/ergebnis/phpstan-rules/rules.neon
+
+parameters:
+    level: 9
+    reportUnmatchedIgnoredErrors: false
+    fileExtensions:
+        - php

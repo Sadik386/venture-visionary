@@ -1,0 +1,89 @@
+- generic [ref=f44e1]:
+  - generic [ref=f44e2]:
+    - generic [ref=f44e3]:
+      - navigation [ref=f44e5]:
+        - generic [ref=f44e7]:
+          - button "User menu" [active] [ref=f44e9] [cursor=pointer]:
+            - img "Avatar of Jassim Al-Sulaiti" [ref=f44e10]
+          - generic [ref=f44e169]:
+            - generic [ref=f44e170]: Jassim Al-Sulaiti
+            - generic [ref=f44e175]:
+              - button "Enable light theme" [ref=f44e176] [cursor=pointer]
+              - button "Enable dark theme" [ref=f44e179] [cursor=pointer]
+              - button "Enable system theme" [ref=f44e182] [cursor=pointer]
+            - button "Sign out" [ref=f44e187] [cursor=pointer]
+      - main [ref=f44e11]:
+        - generic [ref=f44e13]:
+          - generic [ref=f44e15]:
+            - navigation [ref=f44e16]:
+              - list [ref=f44e17]:
+                - listitem [ref=f44e18]:
+                  - link "Agency Applications" [ref=f44e19] [cursor=pointer]:
+                    - /url: http://127.0.0.1:8090/partner/visa-cases
+                - listitem [ref=f44e20]:
+                  - generic [ref=f44e23]: Create
+            - heading "Create Agency Visa Application" [level=1] [ref=f44e24]
+          - generic [ref=f44e27]:
+            - generic [ref=f44e28]:
+              - generic [ref=f44e30]:
+                - generic [ref=f44e33]:
+                  - heading "Agency Case Details" [level=3] [ref=f44e34]
+                  - paragraph [ref=f44e35]: Submit and track visa files processed under your B2B corporate account
+                - generic [ref=f44e38]:
+                  - generic [ref=f44e41]:
+                    - generic [ref=f44e42]: Case number
+                    - textbox "Case number" [disabled] [ref=f44e48]:
+                      - /placeholder: Auto-generated upon submission
+                  - generic [ref=f44e51]:
+                    - generic [ref=f44e54]:
+                      - text: Client / Applicant Profile
+                      - superscript [ref=f44e55]: "*"
+                    - generic [ref=f44e57]:
+                      - combobox [ref=f44e60]:
+                        - generic [ref=f44e61]: Select an option
+                      - button "Create" [ref=f44e66] [cursor=pointer]
+                  - generic [ref=f44e72]:
+                    - generic [ref=f44e75]:
+                      - text: Destination Country
+                      - superscript [ref=f44e76]: "*"
+                    - combobox [ref=f44e81]:
+                      - generic [ref=f44e82]: Select an option
+                  - generic [ref=f44e87]:
+                    - generic [ref=f44e90]:
+                      - text: Service Track
+                      - superscript [ref=f44e91]: "*"
+                    - combobox [ref=f44e96]:
+                      - generic [ref=f44e97]: Select an option
+                  - generic [ref=f44e102]:
+                    - generic [ref=f44e103]: Intended Travel Date
+                    - textbox "Intended Travel Date" [ref=f44e109]
+                  - generic [ref=f44e112]:
+                    - generic [ref=f44e113]: Filing Deadline
+                    - textbox "Filing Deadline" [ref=f44e119]
+              - generic [ref=f44e121]:
+                - generic [ref=f44e124]:
+                  - heading "Applicant Guidance & Notes" [level=3] [ref=f44e125]
+                  - paragraph [ref=f44e126]: Notes and travel instructions visible to applicant
+                - generic [ref=f44e132]:
+                  - generic [ref=f44e133]: Application Notes / Client Instructions
+                  - textbox "Application Notes / Client Instructions" [ref=f44e140]:
+                    - /placeholder: e.g. Applicant will provide biometric appointment in Doha directly.
+            - generic [ref=f44e142]:
+              - button "Create" [ref=f44e143] [cursor=pointer]
+              - button "Create & create another" [ref=f44e145] [cursor=pointer]
+              - button "Cancel" [ref=f44e147] [cursor=pointer]
+    - complementary [ref=f44e149]:
+      - link "Venture Visionary B2B Partner Portal" [ref=f44e153] [cursor=pointer]:
+        - /url: http://127.0.0.1:8090/partner
+      - navigation [ref=f44e155]:
+        - list [ref=f44e156]:
+          - listitem [ref=f44e157]:
+            - list [ref=f44e158]:
+              - listitem [ref=f44e159]:
+                - link "Dashboard" [ref=f44e160] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8090/partner
+              - listitem [ref=f44e164]:
+                - link "Agency Applications" [ref=f44e165] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8090/partner/visa-cases
+  - generic:
+    - status

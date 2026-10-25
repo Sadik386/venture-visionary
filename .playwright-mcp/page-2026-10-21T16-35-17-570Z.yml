@@ -1,0 +1,32 @@
+- generic [active] [ref=f3e1]:
+  - banner [ref=f3e2]:
+    - generic [ref=f3e3]:
+      - generic [ref=f3e4]:
+        - generic [ref=f3e5]: VV
+        - generic [ref=f3e6]:
+          - heading "Venture Visionary" [level=1] [ref=f3e7]
+          - paragraph [ref=f3e8]: Executive Immigration & Advisory Desk
+      - generic [ref=f3e9]: Client Quality Assurance
+  - main [ref=f3e10]:
+    - generic [ref=f3e11]:
+      - generic [ref=f3e12]:
+        - generic [ref=f3e13]: Client Experience Survey
+        - heading "How was your experience?" [level=2] [ref=f3e14]
+        - paragraph [ref=f3e15]:
+          - text: Hello
+          - strong [ref=f3e16]: Fatima Al-Ansari
+          - text: ", your feedback helps us maintain Doha's highest visa success rate."
+      - generic [ref=f3e17]:
+        - generic [ref=f3e18]:
+          - generic [ref=f3e19]: Rate Your Experience With Our Team
+          - generic [ref=f3e20]:
+            - button "★" [ref=f3e21] [cursor=pointer]
+            - button "★" [ref=f3e22] [cursor=pointer]
+            - button "★" [ref=f3e23] [cursor=pointer]
+            - button "★" [ref=f3e24] [cursor=pointer]
+            - button "★" [ref=f3e25] [cursor=pointer]
+        - generic [ref=f3e27]:
+          - generic [ref=f3e28]: Share Any Remarks or Compliments (Optional)
+          - textbox "Tell us about the advisor who assisted you, speed of service, or any suggestions..." [ref=f3e29]
+        - button "Submit Feedback →" [disabled] [ref=f3e30]
+  - contentinfo [ref=f3e31]: © 2026 Venture Visionary Qatar • Developer Handover Specification v2.0

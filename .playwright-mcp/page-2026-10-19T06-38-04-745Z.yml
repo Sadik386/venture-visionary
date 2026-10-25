@@ -1,0 +1,26 @@
+- generic [ref=f40e1]:
+  - main [ref=f40e4]:
+    - generic [ref=f40e6]:
+      - generic [ref=f40e7]:
+        - generic [ref=f40e8]: Venture Visionary CRM
+        - heading "Sign in" [level=1] [ref=f40e9]
+      - generic [ref=f40e10]:
+        - generic [ref=f40e11]:
+          - generic [ref=f40e14]:
+            - generic [ref=f40e17]:
+              - text: Email address
+              - superscript [ref=f40e18]: "*"
+            - textbox "Email address*" [active] [ref=f40e22]
+          - generic [ref=f40e25]:
+            - generic [ref=f40e28]:
+              - text: Password
+              - superscript [ref=f40e29]: "*"
+            - generic [ref=f40e31]:
+              - textbox "Password*" [ref=f40e33]
+              - button "Show password" [ref=f40e36] [cursor=pointer]
+          - generic [ref=f40e45]:
+            - checkbox "Remember me" [ref=f40e46]
+            - generic [ref=f40e47]: Remember me
+        - button "Sign in" [ref=f40e50] [cursor=pointer]
+  - generic:
+    - status

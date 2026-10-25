@@ -1,0 +1,198 @@
+- generic [active] [ref=f24e1]:
+  - generic [ref=f24e2]:
+    - generic [ref=f24e3]:
+      - navigation [ref=f24e5]:
+        - button "User menu" [ref=f24e9] [cursor=pointer]:
+          - img "Avatar of Executive Super Admin" [ref=f24e10]
+      - main [ref=f24e11]:
+        - generic [ref=f24e13]:
+          - generic [ref=f24e15]:
+            - navigation [ref=f24e16]:
+              - list [ref=f24e17]:
+                - listitem [ref=f24e18]:
+                  - link "Visa Cases" [ref=f24e19] [cursor=pointer]:
+                    - /url: http://127.0.0.1:8090/staff/visa-cases
+                - listitem [ref=f24e20]:
+                  - generic [ref=f24e23]: Create
+            - heading "Create Visa Case" [level=1] [ref=f24e24]
+          - generic [ref=f24e27]:
+            - generic [ref=f24e28]:
+              - generic [ref=f24e30]:
+                - generic [ref=f24e33]:
+                  - heading "Case Identification & Service Assignment" [level=3] [ref=f24e34]
+                  - paragraph [ref=f24e35]: Client link and service configuration (1 Client -> Multiple Cases)
+                - generic [ref=f24e38]:
+                  - generic [ref=f24e41]:
+                    - generic [ref=f24e42]: Case number
+                    - textbox "Case number" [disabled] [ref=f24e48]:
+                      - /placeholder: Auto-generated (e.g. CS-2026-0001)
+                  - generic [ref=f24e51]:
+                    - generic [ref=f24e54]:
+                      - text: Client Profile
+                      - superscript [ref=f24e55]: "*"
+                    - combobox [ref=f24e60]:
+                      - generic [ref=f24e61]: Select an option
+                  - generic [ref=f24e66]:
+                    - generic [ref=f24e69]:
+                      - text: Destination Country
+                      - superscript [ref=f24e70]: "*"
+                    - combobox [ref=f24e75]:
+                      - generic [ref=f24e76]: Select an option
+                  - generic [ref=f24e81]:
+                    - generic [ref=f24e84]:
+                      - text: Service / Visa Track
+                      - superscript [ref=f24e85]: "*"
+                    - combobox [ref=f24e90]:
+                      - generic [ref=f24e91]: Select an option
+                  - generic [ref=f24e96]:
+                    - generic [ref=f24e97]: Assigned Visa Officer
+                    - combobox [ref=f24e104]:
+                      - generic [ref=f24e105]: Select an option
+                  - generic [ref=f24e110]:
+                    - generic [ref=f24e111]: Priority
+                    - combobox "Priority" [ref=f24e117]:
+                      - option "Select an option"
+                      - option "Normal Priority" [selected]
+                      - option "Urgent / Express"
+                      - option "VIP Executive Handling"
+              - generic [ref=f24e119]:
+                - generic [ref=f24e122]:
+                  - heading "Workflow Status & Milestones" [level=3] [ref=f24e123]
+                  - paragraph [ref=f24e124]: Operational milestones and processing deadlines
+                - generic [ref=f24e127]:
+                  - generic [ref=f24e130]:
+                    - generic [ref=f24e133]:
+                      - text: Status
+                      - superscript [ref=f24e134]: "*"
+                    - combobox "Status*" [ref=f24e138]:
+                      - option "Select an option"
+                      - option "Initial Inquiry"
+                      - option "Documents Pending" [selected]
+                      - option "Under Internal QC Review"
+                      - option "VAC / Embassy Appointment Booked"
+                      - option "Application Submitted"
+                      - option "Embassy Decision Pending"
+                      - option "Visa Approved / Issued"
+                      - option "Visa Refused / Rejected"
+                      - option "Appeal / Reapplication In Progress"
+                      - option "Case Closed / Delivered"
+                  - generic [ref=f24e141]:
+                    - generic [ref=f24e142]: Planned Travel Date
+                    - textbox "Planned Travel Date" [ref=f24e148]
+                  - generic [ref=f24e151]:
+                    - generic [ref=f24e152]: Filing Deadline
+                    - textbox "Filing Deadline" [ref=f24e158]
+                  - generic [ref=f24e161]:
+                    - generic [ref=f24e162]: SLA Resolution Target
+                    - textbox "SLA Resolution Target" [ref=f24e168]
+              - generic [ref=f24e170]:
+                - generic [ref=f24e173]:
+                  - heading "Commercial & Payments (QAR)" [level=3] [ref=f24e174]
+                  - paragraph [ref=f24e175]: Financial summary and payment tracking
+                - generic [ref=f24e178]:
+                  - generic [ref=f24e181]:
+                    - generic [ref=f24e182]: Total Agreed Fee
+                    - generic [ref=f24e186]:
+                      - generic [ref=f24e187]: QAR
+                      - spinbutton "Total Agreed Fee" [ref=f24e190]: "0"
+                  - generic [ref=f24e193]:
+                    - generic [ref=f24e194]: Paid Amount
+                    - generic [ref=f24e198]:
+                      - generic [ref=f24e199]: QAR
+                      - spinbutton "Paid Amount" [ref=f24e202]: "0"
+                  - generic [ref=f24e205]:
+                    - generic [ref=f24e206]: Remaining Balance
+                    - generic [ref=f24e210]:
+                      - generic [ref=f24e211]: QAR
+                      - spinbutton "Remaining Balance" [ref=f24e214]: "0"
+                  - generic [ref=f24e217]:
+                    - generic [ref=f24e218]: Payment status
+                    - combobox "Payment status" [ref=f24e224]:
+                      - option "Select an option"
+                      - option "Unpaid" [selected]
+                      - option "Partially Paid"
+                      - option "Fully Paid"
+                      - option "Refunded"
+              - generic [ref=f24e226]:
+                - generic [ref=f24e229]:
+                  - heading "Internal vs. Client Communication (Strict Separation)" [level=3] [ref=f24e230]
+                  - paragraph [ref=f24e231]: Ensures internal notes are NEVER exposed on the client portal
+                - generic [ref=f24e234]:
+                  - generic [ref=f24e237]:
+                    - generic [ref=f24e238]: Client-Visible Guidance
+                    - textbox "Client-Visible Guidance" [ref=f24e245]:
+                      - /placeholder: Instructions shown in the client portal (e.g. Please bring original passport to TLScontact on Wednesday).
+                  - generic [ref=f24e248]:
+                    - generic [ref=f24e249]: Staff Internal Notes (Confidential)
+                    - textbox "Staff Internal Notes (Confidential)" [ref=f24e256]:
+                      - /placeholder: Internal officer discussion, document doubts, embassy intelligence. NEVER visible to clients.
+            - generic [ref=f24e258]:
+              - button "Create" [ref=f24e259] [cursor=pointer]
+              - button "Create & create another" [ref=f24e261] [cursor=pointer]
+              - button "Cancel" [ref=f24e263] [cursor=pointer]
+    - complementary [ref=f24e265]:
+      - link "Venture Visionary CRM" [ref=f24e269] [cursor=pointer]:
+        - /url: http://127.0.0.1:8090/staff
+      - navigation [ref=f24e271]:
+        - list [ref=f24e272]:
+          - listitem [ref=f24e273]:
+            - list [ref=f24e274]:
+              - listitem [ref=f24e275]:
+                - link "Dashboard" [ref=f24e276] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8090/staff
+          - listitem [ref=f24e280]:
+            - generic [ref=f24e281] [cursor=pointer]:
+              - generic [ref=f24e282]: Master Database
+              - button "Master Database" [expanded] [ref=f24e283]
+            - list [ref=f24e287]:
+              - listitem [ref=f24e288]:
+                - link "Countries" [ref=f24e289] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8090/staff/countries
+              - listitem [ref=f24e293]:
+                - link "Services" [ref=f24e294] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8090/staff/services
+          - listitem [ref=f24e298]:
+            - generic [ref=f24e299] [cursor=pointer]:
+              - generic [ref=f24e300]: CRM & Sales
+              - button "CRM & Sales" [expanded] [ref=f24e301]
+            - list [ref=f24e305]:
+              - listitem [ref=f24e306]:
+                - link "Leads" [ref=f24e307] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8090/staff/leads
+              - listitem [ref=f24e311]:
+                - link "Clients" [ref=f24e312] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8090/staff/clients
+          - listitem [ref=f24e316]:
+            - generic [ref=f24e317] [cursor=pointer]:
+              - generic [ref=f24e318]: B2B & Affiliates
+              - button "B2B & Affiliates" [expanded] [ref=f24e319]
+            - list [ref=f24e323]:
+              - listitem [ref=f24e324]:
+                - link "Partners" [ref=f24e325] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8090/staff/partners
+          - listitem [ref=f24e329]:
+            - generic [ref=f24e330] [cursor=pointer]:
+              - generic [ref=f24e331]: Finance & Commercial
+              - button "Finance & Commercial" [expanded] [ref=f24e332]
+            - list [ref=f24e336]:
+              - listitem [ref=f24e337]:
+                - link "Quotations" [ref=f24e338] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8090/staff/quotations
+          - listitem [ref=f24e342]:
+            - generic [ref=f24e343] [cursor=pointer]:
+              - generic [ref=f24e344]: Administration & HR
+              - button "Administration & HR" [expanded] [ref=f24e345]
+            - list [ref=f24e349]:
+              - listitem [ref=f24e350]:
+                - link "Users" [ref=f24e351] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8090/staff/users
+          - listitem [ref=f24e355]:
+            - generic [ref=f24e356] [cursor=pointer]:
+              - generic [ref=f24e357]: Case Processing
+              - button "Case Processing" [expanded] [ref=f24e358]
+            - list [ref=f24e362]:
+              - listitem [ref=f24e363]:
+                - link "Visa Cases" [ref=f24e364] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8090/staff/visa-cases
+  - generic:
+    - status

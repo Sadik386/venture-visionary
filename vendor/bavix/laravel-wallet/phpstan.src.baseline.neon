@@ -1,0 +1,355 @@
+parameters:
+	ignoreErrors:
+		-
+			message: '#^Constructor in Bavix\\Wallet\\External\\Dto\\Extra has parameter \$extra with default value\.$#'
+			identifier: ergebnis.noConstructorParameterWithDefaultValue
+			count: 1
+			path: src/External/Dto/Extra.php
+
+		-
+			message: '#^Constructor in Bavix\\Wallet\\External\\Dto\\Extra has parameter \$uuid with default value\.$#'
+			identifier: ergebnis.noConstructorParameterWithDefaultValue
+			count: 1
+			path: src/External/Dto/Extra.php
+
+		-
+			message: '#^Constructor in Bavix\\Wallet\\External\\Dto\\Option has parameter \$confirmed with default value\.$#'
+			identifier: ergebnis.noConstructorParameterWithDefaultValue
+			count: 1
+			path: src/External/Dto/Option.php
+
+		-
+			message: '#^Constructor in Bavix\\Wallet\\External\\Dto\\Option has parameter \$uuid with default value\.$#'
+			identifier: ergebnis.noConstructorParameterWithDefaultValue
+			count: 1
+			path: src/External/Dto/Option.php
+
+		-
+			message: '#^Type Bavix\\Wallet\\Interfaces\\Wallet in generic type Illuminate\\Database\\Eloquent\\Relations\\HasMany\<Bavix\\Wallet\\Models\\Transaction, Bavix\\Wallet\\Interfaces\\Wallet\> in PHPDoc tag @return is not subtype of template type TDeclaringModel of Illuminate\\Database\\Eloquent\\Model of class Illuminate\\Database\\Eloquent\\Relations\\HasMany\.$#'
+			identifier: generics.notSubtype
+			count: 1
+			path: src/Interfaces/Wallet.php
+
+		-
+			message: '#^Type Bavix\\Wallet\\Interfaces\\Wallet in generic type Illuminate\\Database\\Eloquent\\Relations\\HasMany\<Bavix\\Wallet\\Models\\Transfer, Bavix\\Wallet\\Interfaces\\Wallet\> in PHPDoc tag @return is not subtype of template type TDeclaringModel of Illuminate\\Database\\Eloquent\\Model of class Illuminate\\Database\\Eloquent\\Relations\\HasMany\.$#'
+			identifier: generics.notSubtype
+			count: 2
+			path: src/Interfaces/Wallet.php
+
+		-
+			message: '#^Parameter \#1 \$value of method Illuminate\\Database\\Connection\:\:raw\(\) expects float\|int\|literal\-string, non\-falsy\-string given\.$#'
+			identifier: argument.type
+			count: 1
+			path: src/Internal/Repository/WalletRepository.php
+
+		-
+			message: '#^Access to undefined constant Brick\\Math\\RoundingMode\:\:CEILING\.$#'
+			identifier: classConstant.notFound
+			count: 1
+			path: src/Internal/Service/MathService.php
+
+		-
+			message: '#^Access to undefined constant Brick\\Math\\RoundingMode\:\:DOWN\.$#'
+			identifier: classConstant.notFound
+			count: 1
+			path: src/Internal/Service/MathService.php
+
+		-
+			message: '#^Access to undefined constant Brick\\Math\\RoundingMode\:\:FLOOR\.$#'
+			identifier: classConstant.notFound
+			count: 1
+			path: src/Internal/Service/MathService.php
+
+		-
+			message: '#^Access to undefined constant Brick\\Math\\RoundingMode\:\:HALF_UP\.$#'
+			identifier: classConstant.notFound
+			count: 1
+			path: src/Internal/Service/MathService.php
+
+		-
+			message: '#^Method Bavix\\Wallet\\Internal\\Service\\MathService\:\:detectRoundingModes\(\) return type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/Internal/Service/MathService.php
+
+		-
+			message: '#^Parameter \#1 \$exponent of method Brick\\Math\\BigDecimal\:\:power\(\) expects int\<0, max\>, int given\.$#'
+			identifier: argument.type
+			count: 1
+			path: src/Internal/Service/MathService.php
+
+		-
+			message: '#^Parameter \#1 \$scale of method Brick\\Math\\BigDecimal\:\:toScale\(\) expects int\<0, max\>, int given\.$#'
+			identifier: argument.type
+			count: 4
+			path: src/Internal/Service/MathService.php
+
+		-
+			message: '#^Parameter \#2 \$scale of method Brick\\Math\\BigDecimal\:\:dividedBy\(\) expects int\<0, max\>, int given\.$#'
+			identifier: argument.type
+			count: 2
+			path: src/Internal/Service/MathService.php
+
+		-
+			message: '#^Property Bavix\\Wallet\\Internal\\Service\\MathService\:\:\$roundingModes type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/Internal/Service/MathService.php
+
+		-
+			message: '#^Method Bavix\\Wallet\\Models\\Transaction\:\:payable\(\) should return Illuminate\\Database\\Eloquent\\Relations\\MorphTo\<Illuminate\\Database\\Eloquent\\Model, Bavix\\Wallet\\Models\\Transaction\> but returns Illuminate\\Database\\Eloquent\\Relations\\MorphTo\<Illuminate\\Database\\Eloquent\\Model, \$this\(Bavix\\Wallet\\Models\\Transaction\)\>\.$#'
+			identifier: return.type
+			count: 1
+			path: src/Models/Transaction.php
+
+		-
+			message: '#^PHPDoc type array\<int, string\> of property Bavix\\Wallet\\Models\\Transaction\:\:\$fillable is not covariant with PHPDoc type list\<string\> of overridden property Illuminate\\Database\\Eloquent\\Model\:\:\$fillable\.$#'
+			identifier: property.phpDocType
+			count: 1
+			path: src/Models/Transaction.php
+
+		-
+			message: '#^PHPDoc type array\<int, string\> of property Bavix\\Wallet\\Models\\Transfer\:\:\$fillable is not covariant with PHPDoc type list\<string\> of overridden property Illuminate\\Database\\Eloquent\\Model\:\:\$fillable\.$#'
+			identifier: property.phpDocType
+			count: 1
+			path: src/Models/Transfer.php
+
+		-
+			message: '#^Binary operation "\." between literal\-string&non\-falsy\-string and mixed results in an error\.$#'
+			identifier: binaryOp.invalid
+			count: 1
+			path: src/Models/Wallet.php
+
+		-
+			message: '#^Cannot cast mixed to string\.$#'
+			identifier: cast.string
+			count: 5
+			path: src/Models/Wallet.php
+
+		-
+			message: '#^Method Bavix\\Wallet\\Models\\Wallet\:\:holder\(\) should return Illuminate\\Database\\Eloquent\\Relations\\MorphTo\<Illuminate\\Database\\Eloquent\\Model, Bavix\\Wallet\\Models\\Wallet\> but returns Illuminate\\Database\\Eloquent\\Relations\\MorphTo\<Illuminate\\Database\\Eloquent\\Model, \$this\(Bavix\\Wallet\\Models\\Wallet\)\>\.$#'
+			identifier: return.type
+			count: 1
+			path: src/Models/Wallet.php
+
+		-
+			message: '#^PHPDoc type array\<int, string\> of property Bavix\\Wallet\\Models\\Wallet\:\:\$fillable is not covariant with PHPDoc type list\<string\> of overridden property Illuminate\\Database\\Eloquent\\Model\:\:\$fillable\.$#'
+			identifier: property.phpDocType
+			count: 1
+			path: src/Models/Wallet.php
+
+		-
+			message: '#^Parameter \#1 \$first of method Bavix\\Wallet\\Internal\\Service\\MathServiceInterface\:\:add\(\) expects float\|int\|non\-empty\-string, int\|string given\.$#'
+			identifier: argument.type
+			count: 1
+			path: src/Models/Wallet.php
+
+		-
+			message: '#^Parameter \#1 \$first of method Bavix\\Wallet\\Internal\\Service\\MathServiceInterface\:\:mul\(\) expects float\|int\|non\-empty\-string, int\|string given\.$#'
+			identifier: argument.type
+			count: 1
+			path: src/Models/Wallet.php
+
+		-
+			message: '#^Parameter \#2 \$second of method Bavix\\Wallet\\Internal\\Service\\MathServiceInterface\:\:add\(\) expects float\|int\|non\-empty\-string, string given\.$#'
+			identifier: argument.type
+			count: 3
+			path: src/Models/Wallet.php
+
+		-
+			message: '#^Parameter \#2 \$second of method Bavix\\Wallet\\Internal\\Service\\MathServiceInterface\:\:mul\(\) expects float\|int\|non\-empty\-string, string given\.$#'
+			identifier: argument.type
+			count: 1
+			path: src/Models/Wallet.php
+
+		-
+			message: '#^Return type \(Illuminate\\Database\\Eloquent\\Relations\\HasMany\<Bavix\\Wallet\\Models\\Transaction, Bavix\\Wallet\\Models\\Wallet\>\) of method Bavix\\Wallet\\Models\\Wallet\:\:walletTransactions\(\) should be compatible with return type \(Illuminate\\Database\\Eloquent\\Relations\\HasMany\<Bavix\\Wallet\\Models\\Transaction, Bavix\\Wallet\\Interfaces\\Wallet\>\) of method Bavix\\Wallet\\Interfaces\\Wallet\:\:walletTransactions\(\)$#'
+			identifier: method.childReturnType
+			count: 4
+			path: src/Models/Wallet.php
+
+		-
+			message: '#^Return type \(Illuminate\\Database\\Eloquent\\Relations\\HasMany\<Bavix\\Wallet\\Models\\Transfer, Bavix\\Wallet\\Models\\Wallet\>\) of method Bavix\\Wallet\\Models\\Wallet\:\:receivedTransfers\(\) should be compatible with return type \(Illuminate\\Database\\Eloquent\\Relations\\HasMany\<Bavix\\Wallet\\Models\\Transfer, Bavix\\Wallet\\Interfaces\\Wallet\>\) of method Bavix\\Wallet\\Interfaces\\Wallet\:\:receivedTransfers\(\)$#'
+			identifier: method.childReturnType
+			count: 4
+			path: src/Models/Wallet.php
+
+		-
+			message: '#^Return type \(Illuminate\\Database\\Eloquent\\Relations\\HasMany\<Bavix\\Wallet\\Models\\Transfer, Bavix\\Wallet\\Models\\Wallet\>\) of method Bavix\\Wallet\\Models\\Wallet\:\:transfers\(\) should be compatible with return type \(Illuminate\\Database\\Eloquent\\Relations\\HasMany\<Bavix\\Wallet\\Models\\Transfer, Bavix\\Wallet\\Interfaces\\Wallet\>\) of method Bavix\\Wallet\\Interfaces\\Wallet\:\:transfers\(\)$#'
+			identifier: method.childReturnType
+			count: 4
+			path: src/Models/Wallet.php
+
+		-
+			message: '#^Binary operation "\." between literal\-string&non\-falsy\-string and mixed results in an error\.$#'
+			identifier: binaryOp.invalid
+			count: 1
+			path: src/Objects/Cart.php
+
+		-
+			message: '#^Parameter \#1 \$objects \(non\-empty\-array\<Bavix\\Wallet\\Internal\\Dto\\TransactionDtoInterface\|Bavix\\Wallet\\Internal\\Dto\\TransferDtoInterface\>\) of method Bavix\\Wallet\\Services\\AssistantService\:\:getUuids\(\) should be compatible with parameter \$objects \(non\-empty\-array\<string\>\) of method Bavix\\Wallet\\Services\\AssistantServiceInterface\:\:getUuids\(\)$#'
+			identifier: method.childParameterType
+			count: 1
+			path: src/Services/AssistantService.php
+
+		-
+			message: '#^Parameter \#1 \$objects of method Bavix\\Wallet\\Services\\AssistantServiceInterface\:\:getUuids\(\) expects non\-empty\-array\<string\>, non\-empty\-array\<Bavix\\Wallet\\Internal\\Dto\\TransactionDtoInterface\> given\.$#'
+			identifier: argument.type
+			count: 1
+			path: src/Services/AtmService.php
+
+		-
+			message: '#^Parameter \#1 \$objects of method Bavix\\Wallet\\Services\\AssistantServiceInterface\:\:getUuids\(\) expects non\-empty\-array\<string\>, non\-empty\-array\<Bavix\\Wallet\\Internal\\Dto\\TransferDtoInterface\> given\.$#'
+			identifier: argument.type
+			count: 1
+			path: src/Services/AtmService.php
+
+		-
+			message: '#^Parameter \#1 \$uuid of method Bavix\\Wallet\\Internal\\Service\\StateServiceInterface\:\:drop\(\) expects non\-empty\-string, string given\.$#'
+			identifier: argument.type
+			count: 1
+			path: src/Services/AtomicService.php
+
+		-
+			message: '#^Parameter \#1 \$uuids of method Bavix\\Wallet\\Internal\\Service\\StateServiceInterface\:\:multiFork\(\) expects array\<non\-empty\-string\>, non\-empty\-list\<string\> given\.$#'
+			identifier: argument.type
+			count: 1
+			path: src/Services/AtomicService.php
+
+		-
+			message: '#^Parameter \#2 \$value of method Bavix\\Wallet\\Internal\\Service\\StateServiceInterface\:\:multiFork\(\) expects callable\(\)\: array\<non\-empty\-string, non\-empty\-string\>, Closure\(\)\: non\-empty\-array\<string, string\> given\.$#'
+			identifier: argument.type
+			count: 1
+			path: src/Services/AtomicService.php
+
+		-
+			message: '#^Parameter \#1 \$inputs of method Bavix\\Wallet\\Internal\\Service\\StorageServiceInterface\:\:multiIncrease\(\) expects non\-empty\-array\<non\-empty\-string, float\|int\|non\-empty\-string\>, T of non\-empty\-array\<string, float\|int\|string\> given\.$#'
+			identifier: argument.type
+			count: 2
+			path: src/Services/BookkeeperService.php
+
+		-
+			message: '#^Parameter \#1 \$inputs of method Bavix\\Wallet\\Internal\\Service\\StorageServiceInterface\:\:multiSync\(\) expects non\-empty\-array\<non\-empty\-string, float\|int\|non\-empty\-string\>, non\-empty\-array\<string, float\|int\|string\> given\.$#'
+			identifier: argument.type
+			count: 1
+			path: src/Services/BookkeeperService.php
+
+		-
+			message: '#^Parameter \#1 \$uuids of method Bavix\\Wallet\\Internal\\Service\\StorageServiceInterface\:\:multiGet\(\) expects non\-empty\-array\<non\-empty\-string\>, non\-empty\-list\<string\> given\.$#'
+			identifier: argument.type
+			count: 2
+			path: src/Services/BookkeeperService.php
+
+		-
+			message: '#^Parameter \#1 \$first of method Bavix\\Wallet\\Internal\\Service\\MathServiceInterface\:\:compare\(\) expects float\|int\|non\-empty\-string, float\|int\|string given\.$#'
+			identifier: argument.type
+			count: 4
+			path: src/Services/ConsistencyService.php
+
+		-
+			message: '#^Parameter \#2 \$second of method Bavix\\Wallet\\Internal\\Service\\MathServiceInterface\:\:add\(\) expects float\|int\|non\-empty\-string, string given\.$#'
+			identifier: argument.type
+			count: 1
+			path: src/Services/ConsistencyService.php
+
+		-
+			message: '#^Parameter \#2 \$second of method Bavix\\Wallet\\Internal\\Service\\MathServiceInterface\:\:compare\(\) expects float\|int\|non\-empty\-string, float\|int\|string given\.$#'
+			identifier: argument.type
+			count: 1
+			path: src/Services/ConsistencyService.php
+
+		-
+			message: '#^Parameter \#1 \$array of function array_unique expects an array of values castable to string, array\<mixed\> given\.$#'
+			identifier: argument.type
+			count: 1
+			path: src/Services/EagerLoaderService.php
+
+		-
+			message: '#^Parameter \#2 \$holderIds of method Bavix\\Wallet\\Internal\\Repository\\WalletRepositoryInterface\:\:findDefaultAll\(\) expects array\<int\|string\>, array\<mixed\> given\.$#'
+			identifier: argument.type
+			count: 1
+			path: src/Services/EagerLoaderService.php
+
+		-
+			message: '#^Possibly invalid array key type mixed\.$#'
+			identifier: offsetAccess.invalidOffset
+			count: 1
+			path: src/Services/EagerLoaderService.php
+
+		-
+			message: '#^Access to undefined constant Brick\\Math\\RoundingMode\:\:DOWN\.$#'
+			identifier: classConstant.notFound
+			count: 1
+			path: src/Services/FormatterService.php
+
+		-
+			message: '#^Parameter \#1 \$first of method Bavix\\Wallet\\Internal\\Service\\MathServiceInterface\:\:sub\(\) expects float\|int\|non\-empty\-string, float\|int\|string given\.$#'
+			identifier: argument.type
+			count: 1
+			path: src/Services/PrepareService.php
+
+		-
+			message: '#^Parameter \#1 \$number of method Bavix\\Wallet\\Internal\\Service\\MathServiceInterface\:\:negative\(\) expects float\|int\|non\-empty\-string, float\|int\|string given\.$#'
+			identifier: argument.type
+			count: 1
+			path: src/Services/PrepareService.php
+
+		-
+			message: '#^Parameter \#1 \$first of method Bavix\\Wallet\\Internal\\Service\\MathServiceInterface\:\:add\(\) expects float\|int\|non\-empty\-string, string given\.$#'
+			identifier: argument.type
+			count: 1
+			path: src/Services/RegulatorService.php
+
+		-
+			message: '#^Parameter \#1 \$number of method Bavix\\Wallet\\Internal\\Service\\MathServiceInterface\:\:negative\(\) expects float\|int\|non\-empty\-string, float\|int\|string given\.$#'
+			identifier: argument.type
+			count: 1
+			path: src/Services/RegulatorService.php
+
+		-
+			message: '#^Parameter \#1 \$first of method Bavix\\Wallet\\Internal\\Service\\MathServiceInterface\:\:mul\(\) expects float\|int\|non\-empty\-string, float\|int\|string given\.$#'
+			identifier: argument.type
+			count: 1
+			path: src/Services/TaxService.php
+
+		-
+			message: '#^Parameter \#2 \$value of method Bavix\\Wallet\\Services\\RegulatorServiceInterface\:\:increase\(\) expects float\|int\|non\-empty\-string, string given\.$#'
+			identifier: argument.type
+			count: 1
+			path: src/Services/TransactionService.php
+
+		-
+			message: '#^Parameter \#1 \$attributes of method Bavix\\Wallet\\Internal\\Repository\\WalletRepositoryInterface\:\:create\(\) expects array\{holder_type\: string, holder_id\: int\|string, name\: string, slug\?\: string, uuid\: string, description\?\: string, meta\: array\<mixed\>\|null, balance\?\: int, \.\.\.\}, non\-empty\-array\<mixed, mixed\> given\.$#'
+			identifier: argument.type
+			count: 1
+			path: src/Services/WalletService.php
+
+		-
+			message: '#^Parameter \#1 \.\.\.\$arrays of function array_merge expects array, mixed given\.$#'
+			identifier: argument.type
+			count: 1
+			path: src/Services/WalletService.php
+
+		-
+			message: '#^Parameter \#2 \$holderId of method Bavix\\Wallet\\Internal\\Repository\\WalletRepositoryInterface\:\:findBySlug\(\) expects int\|string, mixed given\.$#'
+			identifier: argument.type
+			count: 1
+			path: src/Services/WalletService.php
+
+		-
+			message: '#^Parameter \#2 \$holderId of method Bavix\\Wallet\\Internal\\Repository\\WalletRepositoryInterface\:\:getBySlug\(\) expects int\|string, mixed given\.$#'
+			identifier: argument.type
+			count: 1
+			path: src/Services/WalletService.php
+
+		-
+			message: '#^PHPDoc tag @property for property Bavix\\Wallet\\Traits\\HasWallets\:\:\$wallets contains generic class Illuminate\\Support\\Collection but does not specify its types\: TKey, TValue$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/Traits/HasWallets.php
+
+		-
+			message: '#^Trait Bavix\\Wallet\\Traits\\HasWallets is used zero times and is not analysed\.$#'
+			identifier: trait.unused
+			count: 1
+			path: src/Traits/HasWallets.php

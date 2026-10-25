@@ -1,0 +1,282 @@
+- generic [active] [ref=f2e1]:
+  - generic [ref=f2e2]:
+    - generic [ref=f2e3]:
+      - navigation [ref=f2e5]:
+        - button "User menu" [ref=f2e9] [cursor=pointer]:
+          - img "Avatar of Executive Super Admin" [ref=f2e10]
+      - main [ref=f2e11]:
+        - generic [ref=f2e13]:
+          - generic [ref=f2e14]:
+            - generic [ref=f2e15]:
+              - navigation [ref=f2e16]:
+                - list [ref=f2e17]:
+                  - listitem [ref=f2e18]:
+                    - link "Clients" [ref=f2e19] [cursor=pointer]:
+                      - /url: http://localhost:8090/staff/clients
+                  - listitem [ref=f2e20]:
+                    - generic [ref=f2e23]: List
+              - heading "Clients" [level=1] [ref=f2e24]
+            - link "New client" [ref=f2e27] [cursor=pointer]:
+              - /url: http://localhost:8090/staff/clients/create
+          - generic [ref=f2e33]:
+            - generic [ref=f2e36]:
+              - generic [ref=f2e37]:
+                - generic [ref=f2e38]: Search
+                - searchbox "Search" [ref=f2e44]
+              - button "Filter 0" [ref=f2e47] [cursor=pointer]:
+                - generic [ref=f2e48]: Filter
+                - generic [ref=f2e51]: "0"
+              - button "Toggle columns" [ref=f2e57] [cursor=pointer]
+            - table [ref=f2e62]:
+              - rowgroup [ref=f2e63]:
+                - row [ref=f2e64]:
+                  - columnheader "Select/deselect all items for bulk actions." [ref=f2e65]:
+                    - generic [ref=f2e67]:
+                      - checkbox "Select/deselect all items for bulk actions." [ref=f2e68]
+                      - generic [ref=f2e69]: Select/deselect all items for bulk actions.
+                  - columnheader [ref=f2e70]:
+                    - button "Client ID" [ref=f2e71] [cursor=pointer]
+                  - columnheader [ref=f2e75]:
+                    - button "Client Name" [ref=f2e76] [cursor=pointer]
+                  - columnheader "Nationality" [ref=f2e80]
+                  - columnheader "QID" [ref=f2e83]
+                  - 'columnheader "Passport #" [ref=f2e86]'
+                  - columnheader "WhatsApp" [ref=f2e89]
+                  - columnheader "Active Cases" [ref=f2e92]
+                  - columnheader "Actions" [ref=f2e95]
+              - rowgroup [ref=f2e96]:
+                - row [ref=f2e97]:
+                  - cell "Select/deselect item a30448a4-9c26-4ce3-9ae6-050efa04ccbf for bulk actions." [ref=f2e98]:
+                    - generic [ref=f2e100]:
+                      - checkbox "Select/deselect item a30448a4-9c26-4ce3-9ae6-050efa04ccbf for bulk actions." [ref=f2e101]
+                      - generic [ref=f2e102]: Select/deselect item a30448a4-9c26-4ce3-9ae6-050efa04ccbf for bulk actions.
+                  - cell [ref=f2e103]:
+                    - link "CL-2026-0005" [ref=f2e105] [cursor=pointer]:
+                      - /url: http://localhost:8090/staff/clients/a30448a4-9c26-4ce3-9ae6-050efa04ccbf
+                  - cell [ref=f2e111]:
+                    - link "Hamad Al-Kuwari" [ref=f2e113] [cursor=pointer]:
+                      - /url: http://localhost:8090/staff/clients/a30448a4-9c26-4ce3-9ae6-050efa04ccbf
+                  - cell [ref=f2e119]:
+                    - link "Qatar" [ref=f2e121] [cursor=pointer]:
+                      - /url: http://localhost:8090/staff/clients/a30448a4-9c26-4ce3-9ae6-050efa04ccbf
+                  - cell [ref=f2e128]:
+                    - link "29063409999" [ref=f2e130] [cursor=pointer]:
+                      - /url: http://localhost:8090/staff/clients/a30448a4-9c26-4ce3-9ae6-050efa04ccbf
+                  - cell [ref=f2e136]:
+                    - link "QA-999999" [ref=f2e138] [cursor=pointer]:
+                      - /url: http://localhost:8090/staff/clients/a30448a4-9c26-4ce3-9ae6-050efa04ccbf
+                  - cell [ref=f2e144]:
+                    - link "+97448017330" [ref=f2e146] [cursor=pointer]:
+                      - /url: https://wa.me/97448017330
+                  - cell [ref=f2e154]:
+                    - link "0" [ref=f2e156] [cursor=pointer]:
+                      - /url: http://localhost:8090/staff/clients/a30448a4-9c26-4ce3-9ae6-050efa04ccbf
+                  - cell [ref=f2e163]:
+                    - generic [ref=f2e165]:
+                      - link "View" [ref=f2e166] [cursor=pointer]:
+                        - /url: http://localhost:8090/staff/clients/a30448a4-9c26-4ce3-9ae6-050efa04ccbf
+                      - link "Edit" [ref=f2e171] [cursor=pointer]:
+                        - /url: http://localhost:8090/staff/clients/a30448a4-9c26-4ce3-9ae6-050efa04ccbf/edit
+                - row [ref=f2e176]:
+                  - cell "Select/deselect item a303fd8a-687b-48c2-9568-a47363ca125f for bulk actions." [ref=f2e177]:
+                    - generic [ref=f2e179]:
+                      - checkbox "Select/deselect item a303fd8a-687b-48c2-9568-a47363ca125f for bulk actions." [ref=f2e180]
+                      - generic [ref=f2e181]: Select/deselect item a303fd8a-687b-48c2-9568-a47363ca125f for bulk actions.
+                  - cell [ref=f2e182]:
+                    - link "CL-2026-0004" [ref=f2e184] [cursor=pointer]:
+                      - /url: http://localhost:8090/staff/clients/a303fd8a-687b-48c2-9568-a47363ca125f
+                  - cell [ref=f2e190]:
+                    - link "Hamad Al-Kuwari" [ref=f2e192] [cursor=pointer]:
+                      - /url: http://localhost:8090/staff/clients/a303fd8a-687b-48c2-9568-a47363ca125f
+                  - cell [ref=f2e198]:
+                    - link "Qatar" [ref=f2e200] [cursor=pointer]:
+                      - /url: http://localhost:8090/staff/clients/a303fd8a-687b-48c2-9568-a47363ca125f
+                  - cell [ref=f2e207]:
+                    - link "29063409999" [ref=f2e209] [cursor=pointer]:
+                      - /url: http://localhost:8090/staff/clients/a303fd8a-687b-48c2-9568-a47363ca125f
+                  - cell [ref=f2e215]:
+                    - link "QA-999999" [ref=f2e217] [cursor=pointer]:
+                      - /url: http://localhost:8090/staff/clients/a303fd8a-687b-48c2-9568-a47363ca125f
+                  - cell [ref=f2e223]:
+                    - link "+97448335333" [ref=f2e225] [cursor=pointer]:
+                      - /url: https://wa.me/97448335333
+                  - cell [ref=f2e233]:
+                    - link "0" [ref=f2e235] [cursor=pointer]:
+                      - /url: http://localhost:8090/staff/clients/a303fd8a-687b-48c2-9568-a47363ca125f
+                  - cell [ref=f2e242]:
+                    - generic [ref=f2e244]:
+                      - link "View" [ref=f2e245] [cursor=pointer]:
+                        - /url: http://localhost:8090/staff/clients/a303fd8a-687b-48c2-9568-a47363ca125f
+                      - link "Edit" [ref=f2e250] [cursor=pointer]:
+                        - /url: http://localhost:8090/staff/clients/a303fd8a-687b-48c2-9568-a47363ca125f/edit
+                - row [ref=f2e255]:
+                  - cell "Select/deselect item a303fd3b-3adf-40cb-bafb-647856587eca for bulk actions." [ref=f2e256]:
+                    - generic [ref=f2e258]:
+                      - checkbox "Select/deselect item a303fd3b-3adf-40cb-bafb-647856587eca for bulk actions." [ref=f2e259]
+                      - generic [ref=f2e260]: Select/deselect item a303fd3b-3adf-40cb-bafb-647856587eca for bulk actions.
+                  - cell [ref=f2e261]:
+                    - link "CL-2026-0003" [ref=f2e263] [cursor=pointer]:
+                      - /url: http://localhost:8090/staff/clients/a303fd3b-3adf-40cb-bafb-647856587eca
+                  - cell [ref=f2e269]:
+                    - link "Hamad Al-Kuwari" [ref=f2e271] [cursor=pointer]:
+                      - /url: http://localhost:8090/staff/clients/a303fd3b-3adf-40cb-bafb-647856587eca
+                  - cell [ref=f2e277]:
+                    - link "Qatar" [ref=f2e279] [cursor=pointer]:
+                      - /url: http://localhost:8090/staff/clients/a303fd3b-3adf-40cb-bafb-647856587eca
+                  - cell [ref=f2e286]:
+                    - link "29063409999" [ref=f2e288] [cursor=pointer]:
+                      - /url: http://localhost:8090/staff/clients/a303fd3b-3adf-40cb-bafb-647856587eca
+                  - cell [ref=f2e294]:
+                    - link "QA-999999" [ref=f2e296] [cursor=pointer]:
+                      - /url: http://localhost:8090/staff/clients/a303fd3b-3adf-40cb-bafb-647856587eca
+                  - cell [ref=f2e302]:
+                    - link "+97447516645" [ref=f2e304] [cursor=pointer]:
+                      - /url: https://wa.me/97447516645
+                  - cell [ref=f2e312]:
+                    - link "0" [ref=f2e314] [cursor=pointer]:
+                      - /url: http://localhost:8090/staff/clients/a303fd3b-3adf-40cb-bafb-647856587eca
+                  - cell [ref=f2e321]:
+                    - generic [ref=f2e323]:
+                      - link "View" [ref=f2e324] [cursor=pointer]:
+                        - /url: http://localhost:8090/staff/clients/a303fd3b-3adf-40cb-bafb-647856587eca
+                      - link "Edit" [ref=f2e329] [cursor=pointer]:
+                        - /url: http://localhost:8090/staff/clients/a303fd3b-3adf-40cb-bafb-647856587eca/edit
+                - row [ref=f2e334]:
+                  - cell "Select/deselect item a303fc5e-0a8c-4eae-8546-062ccb2c57a9 for bulk actions." [ref=f2e335]:
+                    - generic [ref=f2e337]:
+                      - checkbox "Select/deselect item a303fc5e-0a8c-4eae-8546-062ccb2c57a9 for bulk actions." [ref=f2e338]
+                      - generic [ref=f2e339]: Select/deselect item a303fc5e-0a8c-4eae-8546-062ccb2c57a9 for bulk actions.
+                  - cell [ref=f2e340]:
+                    - link "CL-2026-0002" [ref=f2e342] [cursor=pointer]:
+                      - /url: http://localhost:8090/staff/clients/a303fc5e-0a8c-4eae-8546-062ccb2c57a9
+                  - cell [ref=f2e348]:
+                    - link "Sheikh Khalid Al-Kuwari" [ref=f2e350] [cursor=pointer]:
+                      - /url: http://localhost:8090/staff/clients/a303fc5e-0a8c-4eae-8546-062ccb2c57a9
+                  - cell [ref=f2e356]:
+                    - link "Qatar" [ref=f2e358] [cursor=pointer]:
+                      - /url: http://localhost:8090/staff/clients/a303fc5e-0a8c-4eae-8546-062ccb2c57a9
+                  - cell [ref=f2e365]:
+                    - link "29063401928" [ref=f2e367] [cursor=pointer]:
+                      - /url: http://localhost:8090/staff/clients/a303fc5e-0a8c-4eae-8546-062ccb2c57a9
+                  - cell [ref=f2e373]:
+                    - link "QA-8829102" [ref=f2e375] [cursor=pointer]:
+                      - /url: http://localhost:8090/staff/clients/a303fc5e-0a8c-4eae-8546-062ccb2c57a9
+                  - cell [ref=f2e381]:
+                    - link "+97455009988" [ref=f2e383] [cursor=pointer]:
+                      - /url: https://wa.me/97455009988
+                  - cell [ref=f2e391]:
+                    - link "1" [ref=f2e393] [cursor=pointer]:
+                      - /url: http://localhost:8090/staff/clients/a303fc5e-0a8c-4eae-8546-062ccb2c57a9
+                  - cell [ref=f2e400]:
+                    - generic [ref=f2e402]:
+                      - link "View" [ref=f2e403] [cursor=pointer]:
+                        - /url: http://localhost:8090/staff/clients/a303fc5e-0a8c-4eae-8546-062ccb2c57a9
+                      - link "Edit" [ref=f2e408] [cursor=pointer]:
+                        - /url: http://localhost:8090/staff/clients/a303fc5e-0a8c-4eae-8546-062ccb2c57a9/edit
+                - row [ref=f2e413]:
+                  - cell "Select/deselect item a3038c21-188c-4cb6-bbb1-adf646b4ffd1 for bulk actions." [ref=f2e414]:
+                    - generic [ref=f2e416]:
+                      - checkbox "Select/deselect item a3038c21-188c-4cb6-bbb1-adf646b4ffd1 for bulk actions." [ref=f2e417]
+                      - generic [ref=f2e418]: Select/deselect item a3038c21-188c-4cb6-bbb1-adf646b4ffd1 for bulk actions.
+                  - cell [ref=f2e419]:
+                    - link "CL-2026-0001" [ref=f2e421] [cursor=pointer]:
+                      - /url: http://localhost:8090/staff/clients/a3038c21-188c-4cb6-bbb1-adf646b4ffd1
+                  - cell [ref=f2e427]:
+                    - link "Sheikh Hamad Al-Thani" [ref=f2e429] [cursor=pointer]:
+                      - /url: http://localhost:8090/staff/clients/a3038c21-188c-4cb6-bbb1-adf646b4ffd1
+                  - cell [ref=f2e435]:
+                    - link "Qatar" [ref=f2e437] [cursor=pointer]:
+                      - /url: http://localhost:8090/staff/clients/a3038c21-188c-4cb6-bbb1-adf646b4ffd1
+                  - cell [ref=f2e444]:
+                    - link "N/A" [ref=f2e446] [cursor=pointer]:
+                      - /url: http://localhost:8090/staff/clients/a3038c21-188c-4cb6-bbb1-adf646b4ffd1
+                  - cell [ref=f2e449]:
+                    - link "N/A" [ref=f2e451] [cursor=pointer]:
+                      - /url: http://localhost:8090/staff/clients/a3038c21-188c-4cb6-bbb1-adf646b4ffd1
+                  - cell [ref=f2e454]:
+                    - link "+97455551234" [ref=f2e456] [cursor=pointer]:
+                      - /url: https://wa.me/97455551234
+                  - cell [ref=f2e464]:
+                    - link "16" [ref=f2e466] [cursor=pointer]:
+                      - /url: http://localhost:8090/staff/clients/a3038c21-188c-4cb6-bbb1-adf646b4ffd1
+                  - cell [ref=f2e473]:
+                    - generic [ref=f2e475]:
+                      - link "View" [ref=f2e476] [cursor=pointer]:
+                        - /url: http://localhost:8090/staff/clients/a3038c21-188c-4cb6-bbb1-adf646b4ffd1
+                      - link "Edit" [ref=f2e481] [cursor=pointer]:
+                        - /url: http://localhost:8090/staff/clients/a3038c21-188c-4cb6-bbb1-adf646b4ffd1/edit
+            - navigation "Pagination navigation" [ref=f2e486]:
+              - generic [ref=f2e489]:
+                - generic [ref=f2e490]: Per page
+                - combobox "Per page" [ref=f2e493]:
+                  - option "5"
+                  - option "10" [selected]
+                  - option "25"
+                  - option "50"
+                  - option "All"
+    - complementary [ref=f2e494]:
+      - link "Venture Visionary CRM" [ref=f2e498] [cursor=pointer]:
+        - /url: http://localhost:8090/staff
+      - navigation [ref=f2e500]:
+        - list [ref=f2e501]:
+          - listitem [ref=f2e502]:
+            - list [ref=f2e503]:
+              - listitem [ref=f2e504]:
+                - link "Dashboard" [ref=f2e505] [cursor=pointer]:
+                  - /url: http://localhost:8090/staff
+          - listitem [ref=f2e509]:
+            - generic [ref=f2e510] [cursor=pointer]:
+              - generic [ref=f2e511]: Master Database
+              - button "Master Database" [expanded] [ref=f2e512]
+            - list [ref=f2e516]:
+              - listitem [ref=f2e517]:
+                - link "Countries" [ref=f2e518] [cursor=pointer]:
+                  - /url: http://localhost:8090/staff/countries
+              - listitem [ref=f2e522]:
+                - link "Services" [ref=f2e523] [cursor=pointer]:
+                  - /url: http://localhost:8090/staff/services
+          - listitem [ref=f2e527]:
+            - generic [ref=f2e528] [cursor=pointer]:
+              - generic [ref=f2e529]: CRM & Sales
+              - button "CRM & Sales" [expanded] [ref=f2e530]
+            - list [ref=f2e534]:
+              - listitem [ref=f2e535]:
+                - link "Leads" [ref=f2e536] [cursor=pointer]:
+                  - /url: http://localhost:8090/staff/leads
+              - listitem [ref=f2e540]:
+                - link "Clients" [ref=f2e541] [cursor=pointer]:
+                  - /url: http://localhost:8090/staff/clients
+          - listitem [ref=f2e545]:
+            - generic [ref=f2e546] [cursor=pointer]:
+              - generic [ref=f2e547]: B2B & Affiliates
+              - button "B2B & Affiliates" [expanded] [ref=f2e548]
+            - list [ref=f2e552]:
+              - listitem [ref=f2e553]:
+                - link "Partners" [ref=f2e554] [cursor=pointer]:
+                  - /url: http://localhost:8090/staff/partners
+          - listitem [ref=f2e558]:
+            - generic [ref=f2e559] [cursor=pointer]:
+              - generic [ref=f2e560]: Finance & Commercial
+              - button "Finance & Commercial" [expanded] [ref=f2e561]
+            - list [ref=f2e565]:
+              - listitem [ref=f2e566]:
+                - link "Quotations" [ref=f2e567] [cursor=pointer]:
+                  - /url: http://localhost:8090/staff/quotations
+          - listitem [ref=f2e571]:
+            - generic [ref=f2e572] [cursor=pointer]:
+              - generic [ref=f2e573]: Administration & HR
+              - button "Administration & HR" [expanded] [ref=f2e574]
+            - list [ref=f2e578]:
+              - listitem [ref=f2e579]:
+                - link "Users" [ref=f2e580] [cursor=pointer]:
+                  - /url: http://localhost:8090/staff/users
+          - listitem [ref=f2e584]:
+            - generic [ref=f2e585] [cursor=pointer]:
+              - generic [ref=f2e586]: Case Processing
+              - button "Case Processing" [expanded] [ref=f2e587]
+            - list [ref=f2e591]:
+              - listitem [ref=f2e592]:
+                - link "Visa Cases" [ref=f2e593] [cursor=pointer]:
+                  - /url: http://localhost:8090/staff/visa-cases
+  - generic:
+    - status

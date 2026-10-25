@@ -1,0 +1,103 @@
+- generic [active] [ref=f20e1]:
+  - generic [ref=f20e2]:
+    - generic [ref=f20e3]:
+      - navigation [ref=f20e5]:
+        - generic [ref=f20e6]:
+          - button "Open notifications 4" [ref=f20e9] [cursor=pointer]:
+            - generic [ref=f20e10]: Open notifications
+            - generic [ref=f20e13]: "4"
+          - button "User menu" [ref=f20e19] [cursor=pointer]:
+            - img "Avatar of Executive Super Admin" [ref=f20e20]
+      - main [ref=f20e21]:
+        - generic [ref=f20e23]:
+          - heading "Dashboard" [level=1] [ref=f20e26]
+          - generic [ref=f20e29]:
+            - generic [ref=f20e34]:
+              - img "Avatar of Executive Super Admin" [ref=f20e35]
+              - generic [ref=f20e36]:
+                - heading "Welcome" [level=2] [ref=f20e37]
+                - paragraph [ref=f20e38]: Executive Super Admin
+              - button "Sign out" [ref=f20e40] [cursor=pointer]
+            - generic [ref=f20e46]:
+              - generic [ref=f20e48]:
+                - generic [ref=f20e49]: Active Inbound Leads
+                - generic [ref=f20e51]: "15"
+                - generic [ref=f20e52]: Pending consultation & qualification
+              - generic [ref=f20e59]:
+                - generic [ref=f20e60]: Active Visa Cases
+                - generic [ref=f20e62]: "22"
+                - generic [ref=f20e63]: Under review or submitted to embassy
+              - generic [ref=f20e71]:
+                - generic [ref=f20e72]: Master Clients 360
+                - generic [ref=f20e74]: "6"
+                - generic [ref=f20e75]: Registered Qatar individuals & VIPs
+              - generic [ref=f20e80]:
+                - generic [ref=f20e81]: Pipeline Value (QAR)
+                - generic [ref=f20e83]: QAR 11,170.00
+                - generic [ref=f20e84]: Total agreed service & visa revenue
+    - complementary [ref=f20e88]:
+      - link "Venture Visionary CRM" [ref=f20e92] [cursor=pointer]:
+        - /url: http://127.0.0.1:8090/staff
+      - navigation [ref=f20e94]:
+        - list [ref=f20e95]:
+          - listitem [ref=f20e96]:
+            - list [ref=f20e97]:
+              - listitem [ref=f20e98]:
+                - link "Dashboard" [ref=f20e99] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8090/staff
+          - listitem [ref=f20e103]:
+            - generic [ref=f20e104] [cursor=pointer]:
+              - generic [ref=f20e105]: Master Database
+              - button "Master Database" [expanded] [ref=f20e106]
+            - list [ref=f20e110]:
+              - listitem [ref=f20e111]:
+                - link "Countries" [ref=f20e112] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8090/staff/countries
+              - listitem [ref=f20e116]:
+                - link "Services" [ref=f20e117] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8090/staff/services
+          - listitem [ref=f20e121]:
+            - generic [ref=f20e122] [cursor=pointer]:
+              - generic [ref=f20e123]: CRM & Sales
+              - button "CRM & Sales" [expanded] [ref=f20e124]
+            - list [ref=f20e128]:
+              - listitem [ref=f20e129]:
+                - link "Leads" [ref=f20e130] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8090/staff/leads
+              - listitem [ref=f20e134]:
+                - link "Clients" [ref=f20e135] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8090/staff/clients
+          - listitem [ref=f20e139]:
+            - generic [ref=f20e140] [cursor=pointer]:
+              - generic [ref=f20e141]: B2B & Affiliates
+              - button "B2B & Affiliates" [expanded] [ref=f20e142]
+            - list [ref=f20e146]:
+              - listitem [ref=f20e147]:
+                - link "Partners" [ref=f20e148] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8090/staff/partners
+          - listitem [ref=f20e152]:
+            - generic [ref=f20e153] [cursor=pointer]:
+              - generic [ref=f20e154]: Finance & Commercial
+              - button "Finance & Commercial" [expanded] [ref=f20e155]
+            - list [ref=f20e159]:
+              - listitem [ref=f20e160]:
+                - link "Quotations" [ref=f20e161] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8090/staff/quotations
+          - listitem [ref=f20e165]:
+            - generic [ref=f20e166] [cursor=pointer]:
+              - generic [ref=f20e167]: Administration & HR
+              - button "Administration & HR" [expanded] [ref=f20e168]
+            - list [ref=f20e172]:
+              - listitem [ref=f20e173]:
+                - link "Users" [ref=f20e174] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8090/staff/users
+          - listitem [ref=f20e178]:
+            - generic [ref=f20e179] [cursor=pointer]:
+              - generic [ref=f20e180]: Case Processing
+              - button "Case Processing" [expanded] [ref=f20e181]
+            - list [ref=f20e185]:
+              - listitem [ref=f20e186]:
+                - link "Visa Cases" [ref=f20e187] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8090/staff/visa-cases
+  - generic:
+    - status

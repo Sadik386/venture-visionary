@@ -1,0 +1,81 @@
+- generic [active] [ref=f2e1]:
+  - generic [ref=f2e2]:
+    - generic [ref=f2e3]:
+      - navigation [ref=f2e5]:
+        - button "User menu" [ref=f2e9] [cursor=pointer]:
+          - img "Avatar of Executive Super Admin" [ref=f2e10]
+      - main [ref=f2e11]:
+        - generic [ref=f2e13]:
+          - heading "Dashboard" [level=1] [ref=f2e16]
+          - generic [ref=f2e24]:
+            - img "Avatar of Executive Super Admin" [ref=f2e25]
+            - generic [ref=f2e26]:
+              - heading "Welcome" [level=2] [ref=f2e27]
+              - paragraph [ref=f2e28]: Executive Super Admin
+            - button "Sign out" [ref=f2e30] [cursor=pointer]
+    - complementary [ref=f2e39]:
+      - link "Venture Visionary CRM" [ref=f2e43] [cursor=pointer]:
+        - /url: http://localhost:8090/staff
+      - navigation [ref=f2e45]:
+        - list [ref=f2e46]:
+          - listitem [ref=f2e47]:
+            - list [ref=f2e48]:
+              - listitem [ref=f2e49]:
+                - link "Dashboard" [ref=f2e50] [cursor=pointer]:
+                  - /url: http://localhost:8090/staff
+          - listitem [ref=f2e54]:
+            - generic [ref=f2e55] [cursor=pointer]:
+              - generic [ref=f2e56]: Master Database
+              - button "Master Database" [expanded] [ref=f2e57]
+            - list [ref=f2e61]:
+              - listitem [ref=f2e62]:
+                - link "Countries" [ref=f2e63] [cursor=pointer]:
+                  - /url: http://localhost:8090/staff/countries
+              - listitem [ref=f2e67]:
+                - link "Services" [ref=f2e68] [cursor=pointer]:
+                  - /url: http://localhost:8090/staff/services
+          - listitem [ref=f2e72]:
+            - generic [ref=f2e73] [cursor=pointer]:
+              - generic [ref=f2e74]: CRM & Sales
+              - button "CRM & Sales" [expanded] [ref=f2e75]
+            - list [ref=f2e79]:
+              - listitem [ref=f2e80]:
+                - link "Leads" [ref=f2e81] [cursor=pointer]:
+                  - /url: http://localhost:8090/staff/leads
+              - listitem [ref=f2e85]:
+                - link "Clients" [ref=f2e86] [cursor=pointer]:
+                  - /url: http://localhost:8090/staff/clients
+          - listitem [ref=f2e90]:
+            - generic [ref=f2e91] [cursor=pointer]:
+              - generic [ref=f2e92]: B2B & Affiliates
+              - button "B2B & Affiliates" [expanded] [ref=f2e93]
+            - list [ref=f2e97]:
+              - listitem [ref=f2e98]:
+                - link "Partners" [ref=f2e99] [cursor=pointer]:
+                  - /url: http://localhost:8090/staff/partners
+          - listitem [ref=f2e103]:
+            - generic [ref=f2e104] [cursor=pointer]:
+              - generic [ref=f2e105]: Finance & Commercial
+              - button "Finance & Commercial" [expanded] [ref=f2e106]
+            - list [ref=f2e110]:
+              - listitem [ref=f2e111]:
+                - link "Quotations" [ref=f2e112] [cursor=pointer]:
+                  - /url: http://localhost:8090/staff/quotations
+          - listitem [ref=f2e116]:
+            - generic [ref=f2e117] [cursor=pointer]:
+              - generic [ref=f2e118]: Administration & HR
+              - button "Administration & HR" [expanded] [ref=f2e119]
+            - list [ref=f2e123]:
+              - listitem [ref=f2e124]:
+                - link "Users" [ref=f2e125] [cursor=pointer]:
+                  - /url: http://localhost:8090/staff/users
+          - listitem [ref=f2e129]:
+            - generic [ref=f2e130] [cursor=pointer]:
+              - generic [ref=f2e131]: Case Processing
+              - button "Case Processing" [expanded] [ref=f2e132]
+            - list [ref=f2e136]:
+              - listitem [ref=f2e137]:
+                - link "Visa Cases" [ref=f2e138] [cursor=pointer]:
+                  - /url: http://localhost:8090/staff/visa-cases
+  - generic:
+    - status

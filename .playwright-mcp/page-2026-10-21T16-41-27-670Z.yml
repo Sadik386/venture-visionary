@@ -1,0 +1,249 @@
+- generic [active] [ref=f11e1]:
+  - generic [ref=f11e2]:
+    - generic [ref=f11e3]:
+      - navigation [ref=f11e5]:
+        - generic [ref=f11e6]:
+          - button "Open notifications 8" [ref=f11e391] [cursor=pointer]:
+            - generic [ref=f11e392]: Open notifications
+            - generic [ref=f11e395]: "8"
+          - button "User menu" [ref=f11e9] [cursor=pointer]:
+            - img "Avatar of Executive Super Admin" [ref=f11e10]
+      - main [ref=f11e11]:
+        - generic [ref=f11e13]:
+          - generic [ref=f11e14]:
+            - generic [ref=f11e15]:
+              - navigation [ref=f11e16]:
+                - list [ref=f11e17]:
+                  - listitem [ref=f11e18]:
+                    - link "Workflows" [ref=f11e19] [cursor=pointer]:
+                      - /url: http://localhost:8090/staff/workflows
+                  - listitem [ref=f11e20]:
+                    - generic [ref=f11e23]: Edit
+              - heading "Edit Workflow" [level=1] [ref=f11e24]
+            - button "Delete" [ref=f11e27] [cursor=pointer]
+          - generic [ref=f11e30]:
+            - generic [ref=f11e31]:
+              - generic [ref=f11e32]:
+                - generic [ref=f11e34]:
+                  - generic [ref=f11e37]:
+                    - heading "Workflow Definition & Trigger" [level=3] [ref=f11e38]
+                    - paragraph [ref=f11e39]: Specify the business event that triggers this automated workflow
+                  - generic [ref=f11e42]:
+                    - generic [ref=f11e45]:
+                      - generic [ref=f11e48]:
+                        - text: Name
+                        - superscript [ref=f11e49]: "*"
+                      - textbox "Name*" [ref=f11e53]:
+                        - /placeholder: e.g. Instant WhatsApp Welcome for New Inquiries
+                        - text: Automated 5-Star Review Request on Visa Approval
+                    - generic [ref=f11e56]:
+                      - generic [ref=f11e59]:
+                        - text: Triggering Event
+                        - superscript [ref=f11e60]: "*"
+                      - combobox "Triggering Event*" [ref=f11e64]:
+                        - option "Select an option"
+                        - option "⚡ Lead Created (Website / WhatsApp / Meta Inbound)"
+                        - option "🔄 Lead Stage Transitioned"
+                        - option "📅 Appointment Booked / Scheduled"
+                        - option "✅ Appointment Completed / Attended"
+                        - option "🛡️ Visa Case Status Changed (e.g. Approved)" [selected]
+                    - generic [ref=f11e67]:
+                      - generic [ref=f11e68]: Description
+                      - textbox "Description" [ref=f11e75]:
+                        - /placeholder: Describe what business logic this workflow carries out...
+                        - text: Dispatches smart review invitation link to client immediately upon visa approval.
+                    - generic [ref=f11e80]:
+                      - switch "Workflow Enabled" [checked] [ref=f11e81] [cursor=pointer]
+                      - generic [ref=f11e82]: Workflow Enabled
+                - generic [ref=f11e84]:
+                  - generic [ref=f11e87]:
+                    - heading "Trigger Conditions (Optional Filter)" [level=3] [ref=f11e88]
+                    - paragraph [ref=f11e89]: Leave blank to run on all events, or specify criteria (e.g. status => qualified, lead_score_gte => 70)
+                  - generic [ref=f11e95]:
+                    - generic [ref=f11e96]: Matching Conditions
+                    - generic [ref=f11e99]:
+                      - generic [ref=f11e102]:
+                        - table [ref=f11e103]:
+                          - rowgroup [ref=f11e104]:
+                            - row [ref=f11e105]:
+                              - columnheader "Condition Attribute" [ref=f11e106]
+                              - columnheader "Expected Value" [ref=f11e107]
+                              - columnheader [ref=f11e108]
+                          - rowgroup [ref=f11e109]:
+                            - row [ref=f11e110]:
+                              - cell [ref=f11e111]:
+                                - textbox [ref=f11e112]: status
+                              - cell [ref=f11e113]:
+                                - textbox [ref=f11e114]: approved
+                              - cell [ref=f11e115]:
+                                - button "Delete row" [ref=f11e117] [cursor=pointer]
+                        - button "Add row" [ref=f11e123] [cursor=pointer]
+                      - generic [ref=f11e125]: "Supported keys: status, lead_score_gte, destination_country, is_duplicate"
+                - generic [ref=f11e127]:
+                  - generic [ref=f11e130]:
+                    - heading "Sequential Automation Actions" [level=3] [ref=f11e131]
+                    - paragraph [ref=f11e132]: Ordered steps executed when triggers and conditions are fulfilled
+                  - generic [ref=f11e138]:
+                    - generic [ref=f11e139]: Actions
+                    - generic [ref=f11e143]:
+                      - list [ref=f11e144]:
+                        - listitem [ref=f11e146]:
+                          - generic [ref=f11e147] [cursor=pointer]:
+                            - list [ref=f11e148]:
+                              - listitem [ref=f11e149]:
+                                - button "Move" [ref=f11e150]
+                            - list [ref=f11e154]:
+                              - listitem [ref=f11e155]:
+                                - button "Delete" [ref=f11e156]
+                              - listitem [ref=f11e160]:
+                                - button "Collapse" [ref=f11e162]
+                                - generic:
+                                  - button "Expand"
+                          - generic [ref=f11e167]:
+                            - generic [ref=f11e170]:
+                              - generic [ref=f11e173]:
+                                - text: Action Type
+                                - superscript [ref=f11e174]: "*"
+                              - combobox "Action Type*" [ref=f11e178]:
+                                - option "Select an option"
+                                - option "📝 Create Operational Task for Staff"
+                                - option "🔔 Send Staff Database Notification"
+                                - option "💬 Send Automated WhatsApp Message"
+                                - option "👤 Reassign Sales / Visa Agent"
+                                - option "⭐ Dispatch 5-Star Review Request" [selected]
+                                - option "🌐 Send Webhook to External Integration"
+                            - generic [ref=f11e181]:
+                              - generic [ref=f11e182]: Action Configuration
+                              - generic [ref=f11e185]:
+                                - generic [ref=f11e188]:
+                                  - table [ref=f11e189]:
+                                    - rowgroup [ref=f11e190]:
+                                      - row [ref=f11e191]:
+                                        - columnheader "Parameter" [ref=f11e192]
+                                        - columnheader "Value" [ref=f11e193]
+                                        - columnheader [ref=f11e194]
+                                    - rowgroup [ref=f11e399]:
+                                      - row [ref=f11e400]:
+                                        - cell [ref=f11e401]:
+                                          - textbox [ref=f11e402]: channel
+                                        - cell [ref=f11e403]:
+                                          - textbox [ref=f11e404]: whatsapp
+                                        - cell [ref=f11e405]:
+                                          - button "Delete row" [ref=f11e407] [cursor=pointer]
+                                  - button "Add row" [ref=f11e197] [cursor=pointer]
+                                - generic [ref=f11e199]: "Examples: title, description, due_days, message, priority"
+                            - generic [ref=f11e204]:
+                              - switch "Step Active" [checked] [ref=f11e205] [cursor=pointer]
+                              - generic [ref=f11e206]: Step Active
+                      - button "Add to actions" [ref=f11e208] [cursor=pointer]
+              - generic [ref=f11e211]:
+                - button "Save changes" [ref=f11e212] [cursor=pointer]
+                - button "Cancel" [ref=f11e214] [cursor=pointer]
+            - generic [ref=f11e412]:
+              - heading "Execution Audit Logs" [level=3] [ref=f11e416]
+              - heading "No workflow logs" [level=4] [ref=f11e423]
+    - complementary [ref=f11e222]:
+      - link "Venture Visionary CRM" [ref=f11e226] [cursor=pointer]:
+        - /url: http://localhost:8090/staff
+      - navigation [ref=f11e228]:
+        - list [ref=f11e229]:
+          - listitem [ref=f11e230]:
+            - list [ref=f11e231]:
+              - listitem [ref=f11e232]:
+                - link "Dashboard" [ref=f11e233] [cursor=pointer]:
+                  - /url: http://localhost:8090/staff
+          - listitem [ref=f11e237]:
+            - generic [ref=f11e238] [cursor=pointer]:
+              - generic [ref=f11e239]: Governance & Audit
+              - button "Governance & Audit" [expanded] [ref=f11e240]
+            - list [ref=f11e244]:
+              - listitem [ref=f11e245]:
+                - link "Executive Analytics & BI" [ref=f11e246] [cursor=pointer]:
+                  - /url: http://localhost:8090/staff/analytics-dashboard
+              - listitem [ref=f11e250]:
+                - link "Audit Logs" [ref=f11e251] [cursor=pointer]:
+                  - /url: http://localhost:8090/staff/audit-logs
+          - listitem [ref=f11e255]:
+            - generic [ref=f11e256] [cursor=pointer]:
+              - generic [ref=f11e257]: Master Database
+              - button "Master Database" [expanded] [ref=f11e258]
+            - list [ref=f11e262]:
+              - listitem [ref=f11e263]:
+                - link "Countries" [ref=f11e264] [cursor=pointer]:
+                  - /url: http://localhost:8090/staff/countries
+              - listitem [ref=f11e268]:
+                - link "Services" [ref=f11e269] [cursor=pointer]:
+                  - /url: http://localhost:8090/staff/services
+          - listitem [ref=f11e273]:
+            - generic [ref=f11e274] [cursor=pointer]:
+              - generic [ref=f11e275]: CRM & Sales
+              - button "CRM & Sales" [expanded] [ref=f11e276]
+            - list [ref=f11e280]:
+              - listitem [ref=f11e281]:
+                - link "Leads" [ref=f11e282] [cursor=pointer]:
+                  - /url: http://localhost:8090/staff/leads
+              - listitem [ref=f11e286]:
+                - link "Visual Sales Pipeline" [ref=f11e287] [cursor=pointer]:
+                  - /url: http://localhost:8090/staff/lead-pipeline-board
+              - listitem [ref=f11e291]:
+                - link "Clients" [ref=f11e292] [cursor=pointer]:
+                  - /url: http://localhost:8090/staff/clients
+              - listitem [ref=f11e296]:
+                - link "Reputation & Reviews" [ref=f11e297] [cursor=pointer]:
+                  - /url: http://localhost:8090/staff/review-requests
+          - listitem [ref=f11e301]:
+            - generic [ref=f11e302] [cursor=pointer]:
+              - generic [ref=f11e303]: B2B & Affiliates
+              - button "B2B & Affiliates" [expanded] [ref=f11e304]
+            - list [ref=f11e308]:
+              - listitem [ref=f11e309]:
+                - link "Partners" [ref=f11e310] [cursor=pointer]:
+                  - /url: http://localhost:8090/staff/partners
+          - listitem [ref=f11e314]:
+            - generic [ref=f11e315] [cursor=pointer]:
+              - generic [ref=f11e316]: Finance & Commercial
+              - button "Finance & Commercial" [expanded] [ref=f11e317]
+            - list [ref=f11e321]:
+              - listitem [ref=f11e322]:
+                - link "Quotations" [ref=f11e323] [cursor=pointer]:
+                  - /url: http://localhost:8090/staff/quotations
+              - listitem [ref=f11e327]:
+                - link "Invoices" [ref=f11e328] [cursor=pointer]:
+                  - /url: http://localhost:8090/staff/invoices
+          - listitem [ref=f11e332]:
+            - generic [ref=f11e333] [cursor=pointer]:
+              - generic [ref=f11e334]: Administration & HR
+              - button "Administration & HR" [expanded] [ref=f11e335]
+            - list [ref=f11e339]:
+              - listitem [ref=f11e340]:
+                - link "Users" [ref=f11e341] [cursor=pointer]:
+                  - /url: http://localhost:8090/staff/users
+          - listitem [ref=f11e345]:
+            - generic [ref=f11e346] [cursor=pointer]:
+              - generic [ref=f11e347]: Case Processing
+              - button "Case Processing" [expanded] [ref=f11e348]
+            - list [ref=f11e352]:
+              - listitem [ref=f11e353]:
+                - link "Visa Cases" [ref=f11e354] [cursor=pointer]:
+                  - /url: http://localhost:8090/staff/visa-cases
+              - listitem [ref=f11e358]:
+                - link "Tasks" [ref=f11e359] [cursor=pointer]:
+                  - /url: http://localhost:8090/staff/tasks
+          - listitem [ref=f11e363]:
+            - generic [ref=f11e364] [cursor=pointer]:
+              - generic [ref=f11e365]: Automations & Workflows
+              - button "Automations & Workflows" [expanded] [ref=f11e366]
+            - list [ref=f11e370]:
+              - listitem [ref=f11e371]:
+                - link "Workflow Engine" [ref=f11e372] [cursor=pointer]:
+                  - /url: http://localhost:8090/staff/workflows
+          - listitem [ref=f11e376]:
+            - generic [ref=f11e377] [cursor=pointer]:
+              - generic [ref=f11e378]: Operations & Delivery
+              - button "Operations & Delivery" [expanded] [ref=f11e379]
+            - list [ref=f11e383]:
+              - listitem [ref=f11e384]:
+                - link "Appointment Calendar" [ref=f11e385] [cursor=pointer]:
+                  - /url: http://localhost:8090/staff/appointments
+  - generic:
+    - status

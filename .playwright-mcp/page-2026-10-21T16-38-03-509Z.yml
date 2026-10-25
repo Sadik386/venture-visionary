@@ -1,0 +1,271 @@
+- generic [active] [ref=f7e1]:
+  - generic [ref=f7e2]:
+    - generic [ref=f7e3]:
+      - navigation [ref=f7e5]:
+        - generic [ref=f7e6]:
+          - button "Open notifications 8" [ref=f7e3080] [cursor=pointer]:
+            - generic [ref=f7e3081]: Open notifications
+            - generic [ref=f7e3084]: "8"
+          - button "User menu" [ref=f7e9] [cursor=pointer]:
+            - img "Avatar of Executive Super Admin" [ref=f7e10]
+      - main [ref=f7e11]:
+        - generic [ref=f7e13]:
+          - heading "Visual Lead Pipeline (Kanban)" [level=1] [ref=f7e16]
+          - generic [ref=f7e19]:
+            - generic [ref=f7e20]:
+              - generic [ref=f7e21]:
+                - generic [ref=f7e22]: "Smart Lists:"
+                - button "All Leads" [ref=f7e23] [cursor=pointer]
+                - button "🔥 Hot Leads (≥70)" [ref=f7e24] [cursor=pointer]:
+                  - generic [ref=f7e25]: 🔥
+                  - text: Hot Leads (≥70)
+                - button "⏰ Follow-up Needed" [ref=f7e26] [cursor=pointer]:
+                  - generic [ref=f7e27]: ⏰
+                  - text: Follow-up Needed
+                - button "👤 Unassigned" [ref=f7e28] [cursor=pointer]:
+                  - generic [ref=f7e29]: 👤
+                  - text: Unassigned
+                - button "⭐ VIP Destinations" [ref=f7e30] [cursor=pointer]:
+                  - generic [ref=f7e31]: ⭐
+                  - text: VIP Destinations
+              - generic [ref=f7e32]:
+                - 'textbox "Search leads, phone, #..." [ref=f7e34]'
+                - combobox [ref=f7e35]:
+                  - option "All Destinations" [selected]
+                  - option "United Kingdom"
+                  - option "Canada"
+                  - option "Bangladesh"
+                  - option "France"
+                - link "Table View" [ref=f7e36] [cursor=pointer]:
+                  - /url: /staff/leads
+            - generic [ref=f7e39]:
+              - generic [ref=f7e40]:
+                - generic [ref=f7e42]:
+                  - heading "New Inbound" [level=3] [ref=f7e44]
+                  - generic [ref=f7e45]: "2"
+                - generic [ref=f7e46]:
+                  - generic [ref=f7e47]:
+                    - generic [ref=f7e48]:
+                      - generic [ref=f7e49]: LD-2026-0171
+                      - generic [ref=f7e50]: "Score: 85/100"
+                    - link "Ahmad High-Intent Prospect" [ref=f7e3088] [cursor=pointer]:
+                      - /url: /staff/leads/a30936b8-a45b-4668-8932-0730738b44dd
+                    - generic [ref=f7e53]:
+                      - generic [ref=f7e54]: 🌍 Canada
+                      - generic [ref=f7e55]: Express Entry
+                    - generic [ref=f7e56]:
+                      - generic [ref=f7e57]: Sarah Jenkins
+                      - generic [ref=f7e59]:
+                        - link "Direct WhatsApp Chat" [ref=f7e60] [cursor=pointer]:
+                          - /url: https://wa.me/97471815805
+                        - link "Edit Lead" [ref=f7e63] [cursor=pointer]:
+                          - /url: /staff/leads/a30936b8-a45b-4668-8932-0730738b44dd/edit
+                    - generic [ref=f7e67]:
+                      - combobox [ref=f7e68]:
+                        - 'option "Move: New Inbound"'
+                        - 'option "Move: Contacted"'
+                        - 'option "Move: Qualified" [selected]'
+                        - 'option "Move: Consultation Scheduled"'
+                        - 'option "Move: Quotation Sent"'
+                        - 'option "Move: Follow-up Required"'
+                        - 'option "Move: Converted to Client"'
+                        - 'option "Move: Lost / Disqualified"'
+                      - button "+ Client 360" [ref=f7e69] [cursor=pointer]
+                  - generic [ref=f7e70]:
+                    - generic [ref=f7e71]:
+                      - generic [ref=f7e72]: LD-2026-0163
+                      - generic [ref=f7e73]: "Score: 85/100"
+                    - link "Ahmad High-Intent Prospect" [ref=f7e3089] [cursor=pointer]:
+                      - /url: /staff/leads/a30935e5-9440-4733-88ed-26b24d9d10c2
+                    - generic [ref=f7e3090]:
+                      - generic [ref=f7e3091]: 🌍 Canada
+                      - generic [ref=f7e3092]: Express Entry
+                    - generic [ref=f7e76]:
+                      - generic [ref=f7e77]: Sarah Jenkins
+                      - generic [ref=f7e79]:
+                        - link "Direct WhatsApp Chat" [ref=f7e80] [cursor=pointer]:
+                          - /url: https://wa.me/97466778899
+                        - link "Edit Lead" [ref=f7e83] [cursor=pointer]:
+                          - /url: /staff/leads/a30935e5-9440-4733-88ed-26b24d9d10c2/edit
+                    - generic [ref=f7e87]:
+                      - combobox [ref=f7e88]:
+                        - 'option "Move: New Inbound" [selected]'
+                        - 'option "Move: Contacted"'
+                        - 'option "Move: Qualified"'
+                        - 'option "Move: Consultation Scheduled"'
+                        - 'option "Move: Quotation Sent"'
+                        - 'option "Move: Follow-up Required"'
+                        - 'option "Move: Converted to Client"'
+                        - 'option "Move: Lost / Disqualified"'
+                      - button "+ Client 360" [ref=f7e89] [cursor=pointer]
+              - generic [ref=f7e2078]:
+                - generic [ref=f7e2080]:
+                  - heading "Contacted" [level=3] [ref=f7e2082]
+                  - generic [ref=f7e2083]: "0"
+                - generic [ref=f7e2084]: No leads in this stage
+              - generic [ref=f7e2086]:
+                - generic [ref=f7e2088]:
+                  - heading "Qualified" [level=3] [ref=f7e2090]
+                  - generic [ref=f7e2091]: "0"
+                - generic [ref=f7e2092]: No leads in this stage
+              - generic [ref=f7e2181]:
+                - generic [ref=f7e2183]:
+                  - heading "Consultation Scheduled" [level=3] [ref=f7e2185]
+                  - generic [ref=f7e2186]: "0"
+                - generic [ref=f7e2187]: No leads in this stage
+              - generic [ref=f7e2280]:
+                - generic [ref=f7e2282]:
+                  - heading "Quotation Sent" [level=3] [ref=f7e2284]
+                  - generic [ref=f7e2285]: "0"
+                - generic [ref=f7e2286]: No leads in this stage
+              - generic [ref=f7e2288]:
+                - generic [ref=f7e2290]:
+                  - heading "Follow-up Required" [level=3] [ref=f7e2292]
+                  - generic [ref=f7e2293]: "0"
+                - generic [ref=f7e2294]: No leads in this stage
+              - generic [ref=f7e2296]:
+                - generic [ref=f7e2298]:
+                  - heading "Converted to Client" [level=3] [ref=f7e2300]
+                  - generic [ref=f7e2301]: "1"
+                - generic [ref=f7e2303]:
+                  - generic [ref=f7e3129]:
+                    - generic [ref=f7e3130]: LD-2026-0175
+                    - generic [ref=f7e3131]: "Score: 85/100"
+                  - link "Ahmad High-Intent Prospect" [ref=f7e3133] [cursor=pointer]:
+                    - /url: /staff/leads/a30936cb-0475-47f4-b238-d6a2b07dbd4b
+                  - generic [ref=f7e3134]:
+                    - generic [ref=f7e3135]: 🌍 Canada
+                    - generic [ref=f7e3136]: Express Entry
+                  - generic [ref=f7e3137]:
+                    - generic [ref=f7e3138]: Sarah Jenkins
+                    - generic [ref=f7e3140]:
+                      - link "Direct WhatsApp Chat" [ref=f7e3141] [cursor=pointer]:
+                        - /url: https://wa.me/97473484696
+                      - link "Edit Lead" [ref=f7e3144] [cursor=pointer]:
+                        - /url: /staff/leads/a30936cb-0475-47f4-b238-d6a2b07dbd4b/edit
+                  - generic [ref=f7e3148]:
+                    - combobox [ref=f7e3149]:
+                      - 'option "Move: New Inbound"'
+                      - 'option "Move: Contacted"'
+                      - 'option "Move: Qualified"'
+                      - 'option "Move: Consultation Scheduled"'
+                      - 'option "Move: Quotation Sent"'
+                      - 'option "Move: Follow-up Required"'
+                      - 'option "Move: Converted to Client" [selected]'
+                      - 'option "Move: Lost / Disqualified"'
+                    - generic [ref=f7e3150]: ✓ Client
+              - generic [ref=f7e2903]:
+                - generic [ref=f7e2905]:
+                  - heading "Lost / Disqualified" [level=3] [ref=f7e2907]
+                  - generic [ref=f7e2908]: "0"
+                - generic [ref=f7e2909]: No leads in this stage
+    - complementary [ref=f7e2911]:
+      - link "Venture Visionary CRM" [ref=f7e2915] [cursor=pointer]:
+        - /url: http://localhost:8090/staff
+      - navigation [ref=f7e2917]:
+        - list [ref=f7e2918]:
+          - listitem [ref=f7e2919]:
+            - list [ref=f7e2920]:
+              - listitem [ref=f7e2921]:
+                - link "Dashboard" [ref=f7e2922] [cursor=pointer]:
+                  - /url: http://localhost:8090/staff
+          - listitem [ref=f7e2926]:
+            - generic [ref=f7e2927] [cursor=pointer]:
+              - generic [ref=f7e2928]: Governance & Audit
+              - button "Governance & Audit" [expanded] [ref=f7e2929]
+            - list [ref=f7e2933]:
+              - listitem [ref=f7e2934]:
+                - link "Executive Analytics & BI" [ref=f7e2935] [cursor=pointer]:
+                  - /url: http://localhost:8090/staff/analytics-dashboard
+              - listitem [ref=f7e2939]:
+                - link "Audit Logs" [ref=f7e2940] [cursor=pointer]:
+                  - /url: http://localhost:8090/staff/audit-logs
+          - listitem [ref=f7e2944]:
+            - generic [ref=f7e2945] [cursor=pointer]:
+              - generic [ref=f7e2946]: Master Database
+              - button "Master Database" [expanded] [ref=f7e2947]
+            - list [ref=f7e2951]:
+              - listitem [ref=f7e2952]:
+                - link "Countries" [ref=f7e2953] [cursor=pointer]:
+                  - /url: http://localhost:8090/staff/countries
+              - listitem [ref=f7e2957]:
+                - link "Services" [ref=f7e2958] [cursor=pointer]:
+                  - /url: http://localhost:8090/staff/services
+          - listitem [ref=f7e2962]:
+            - generic [ref=f7e2963] [cursor=pointer]:
+              - generic [ref=f7e2964]: CRM & Sales
+              - button "CRM & Sales" [expanded] [ref=f7e2965]
+            - list [ref=f7e2969]:
+              - listitem [ref=f7e2970]:
+                - link "Leads" [ref=f7e2971] [cursor=pointer]:
+                  - /url: http://localhost:8090/staff/leads
+              - listitem [ref=f7e2975]:
+                - link "Visual Sales Pipeline" [ref=f7e2976] [cursor=pointer]:
+                  - /url: http://localhost:8090/staff/lead-pipeline-board
+              - listitem [ref=f7e2980]:
+                - link "Clients" [ref=f7e2981] [cursor=pointer]:
+                  - /url: http://localhost:8090/staff/clients
+              - listitem [ref=f7e2985]:
+                - link "Reputation & Reviews" [ref=f7e2986] [cursor=pointer]:
+                  - /url: http://localhost:8090/staff/review-requests
+          - listitem [ref=f7e2990]:
+            - generic [ref=f7e2991] [cursor=pointer]:
+              - generic [ref=f7e2992]: B2B & Affiliates
+              - button "B2B & Affiliates" [expanded] [ref=f7e2993]
+            - list [ref=f7e2997]:
+              - listitem [ref=f7e2998]:
+                - link "Partners" [ref=f7e2999] [cursor=pointer]:
+                  - /url: http://localhost:8090/staff/partners
+          - listitem [ref=f7e3003]:
+            - generic [ref=f7e3004] [cursor=pointer]:
+              - generic [ref=f7e3005]: Finance & Commercial
+              - button "Finance & Commercial" [expanded] [ref=f7e3006]
+            - list [ref=f7e3010]:
+              - listitem [ref=f7e3011]:
+                - link "Quotations" [ref=f7e3012] [cursor=pointer]:
+                  - /url: http://localhost:8090/staff/quotations
+              - listitem [ref=f7e3016]:
+                - link "Invoices" [ref=f7e3017] [cursor=pointer]:
+                  - /url: http://localhost:8090/staff/invoices
+          - listitem [ref=f7e3021]:
+            - generic [ref=f7e3022] [cursor=pointer]:
+              - generic [ref=f7e3023]: Administration & HR
+              - button "Administration & HR" [expanded] [ref=f7e3024]
+            - list [ref=f7e3028]:
+              - listitem [ref=f7e3029]:
+                - link "Users" [ref=f7e3030] [cursor=pointer]:
+                  - /url: http://localhost:8090/staff/users
+          - listitem [ref=f7e3034]:
+            - generic [ref=f7e3035] [cursor=pointer]:
+              - generic [ref=f7e3036]: Case Processing
+              - button "Case Processing" [expanded] [ref=f7e3037]
+            - list [ref=f7e3041]:
+              - listitem [ref=f7e3042]:
+                - link "Visa Cases" [ref=f7e3043] [cursor=pointer]:
+                  - /url: http://localhost:8090/staff/visa-cases
+              - listitem [ref=f7e3047]:
+                - link "Tasks" [ref=f7e3048] [cursor=pointer]:
+                  - /url: http://localhost:8090/staff/tasks
+          - listitem [ref=f7e3052]:
+            - generic [ref=f7e3053] [cursor=pointer]:
+              - generic [ref=f7e3054]: Automations & Workflows
+              - button "Automations & Workflows" [expanded] [ref=f7e3055]
+            - list [ref=f7e3059]:
+              - listitem [ref=f7e3060]:
+                - link "Workflow Engine" [ref=f7e3061] [cursor=pointer]:
+                  - /url: http://localhost:8090/staff/workflows
+          - listitem [ref=f7e3065]:
+            - generic [ref=f7e3066] [cursor=pointer]:
+              - generic [ref=f7e3067]: Operations & Delivery
+              - button "Operations & Delivery" [expanded] [ref=f7e3068]
+            - list [ref=f7e3072]:
+              - listitem [ref=f7e3073]:
+                - link "Appointment Calendar" [ref=f7e3074] [cursor=pointer]:
+                  - /url: http://localhost:8090/staff/appointments
+  - generic:
+    - status:
+      - generic [ref=f7e3152]:
+        - generic [ref=f7e3155]:
+          - heading "Converted to Client 360" [level=3] [ref=f7e3156]
+          - generic [ref=f7e3157]: Created Client Profile CL-2026-0031 for Ahmad High-Intent Prospect.
+        - button [ref=f7e3158] [cursor=pointer]

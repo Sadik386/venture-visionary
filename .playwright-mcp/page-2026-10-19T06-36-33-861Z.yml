@@ -1,0 +1,200 @@
+- generic [active] [ref=f38e1]:
+  - generic [ref=f38e2]:
+    - generic [ref=f38e3]:
+      - navigation [ref=f38e5]:
+        - button "User menu" [ref=f38e9] [cursor=pointer]:
+          - img "Avatar of Executive Super Admin" [ref=f38e10]
+      - main [ref=f38e11]:
+        - generic [ref=f38e13]:
+          - generic [ref=f38e14]:
+            - generic [ref=f38e15]:
+              - navigation [ref=f38e16]:
+                - list [ref=f38e17]:
+                  - listitem [ref=f38e18]:
+                    - link "Partners" [ref=f38e19] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/partners
+                  - listitem [ref=f38e20]:
+                    - generic [ref=f38e23]: List
+              - heading "Partners" [level=1] [ref=f38e24]
+            - link "New partner" [ref=f38e27] [cursor=pointer]:
+              - /url: http://127.0.0.1:8090/staff/partners/create
+          - generic [ref=f38e33]:
+            - generic [ref=f38e36]:
+              - generic [ref=f38e37]:
+                - generic [ref=f38e38]: Search
+                - searchbox "Search" [ref=f38e44]
+              - button "Filter 0" [ref=f38e47] [cursor=pointer]:
+                - generic [ref=f38e48]: Filter
+                - generic [ref=f38e51]: "0"
+              - button "Toggle columns" [ref=f38e57] [cursor=pointer]
+            - table [ref=f38e62]:
+              - rowgroup [ref=f38e63]:
+                - row [ref=f38e64]:
+                  - columnheader "Select/deselect all items for bulk actions." [ref=f38e65]:
+                    - generic [ref=f38e67]:
+                      - checkbox "Select/deselect all items for bulk actions." [ref=f38e68]
+                      - generic [ref=f38e69]: Select/deselect all items for bulk actions.
+                  - columnheader [ref=f38e70]:
+                    - 'button "Partner #" [ref=f38e71] [cursor=pointer]'
+                  - columnheader [ref=f38e75]:
+                    - button "Company / Agency" [ref=f38e76] [cursor=pointer]
+                  - columnheader "Key Contact" [ref=f38e80]
+                  - columnheader "Phone" [ref=f38e83]
+                  - columnheader "Status" [ref=f38e86]
+                  - columnheader [ref=f38e89]:
+                    - button "Credit Line" [ref=f38e90] [cursor=pointer]
+                  - columnheader "Action" [ref=f38e94]
+              - rowgroup [ref=f38e95]:
+                - row [ref=f38e96]:
+                  - cell "Select/deselect item a303fd7b-d4dd-4083-a898-e671a890e3ae for bulk actions." [ref=f38e97]:
+                    - generic [ref=f38e99]:
+                      - checkbox "Select/deselect item a303fd7b-d4dd-4083-a898-e671a890e3ae for bulk actions." [ref=f38e100]
+                      - generic [ref=f38e101]: Select/deselect item a303fd7b-d4dd-4083-a898-e671a890e3ae for bulk actions.
+                  - cell [ref=f38e102]:
+                    - link "B2B-2026-0002" [ref=f38e104] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/partners/a303fd7b-d4dd-4083-a898-e671a890e3ae/edit
+                  - cell [ref=f38e110]:
+                    - link "Agency Alpha Qatar" [ref=f38e112] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/partners/a303fd7b-d4dd-4083-a898-e671a890e3ae/edit
+                  - cell [ref=f38e118]:
+                    - link "Agent A" [ref=f38e120] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/partners/a303fd7b-d4dd-4083-a898-e671a890e3ae/edit
+                  - cell [ref=f38e126]:
+                    - link "+97433001122" [ref=f38e128] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/partners/a303fd7b-d4dd-4083-a898-e671a890e3ae/edit
+                  - cell [ref=f38e134]:
+                    - link "Active" [ref=f38e136] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/partners/a303fd7b-d4dd-4083-a898-e671a890e3ae/edit
+                  - cell [ref=f38e143]:
+                    - link "QAR 0.00" [ref=f38e145] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/partners/a303fd7b-d4dd-4083-a898-e671a890e3ae/edit
+                  - cell [ref=f38e151]:
+                    - link "Edit" [ref=f38e154] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/partners/a303fd7b-d4dd-4083-a898-e671a890e3ae/edit
+                - row [ref=f38e159]:
+                  - cell "Select/deselect item a303fd7b-e9a9-4de1-9460-e9af7cbf2a6b for bulk actions." [ref=f38e160]:
+                    - generic [ref=f38e162]:
+                      - checkbox "Select/deselect item a303fd7b-e9a9-4de1-9460-e9af7cbf2a6b for bulk actions." [ref=f38e163]
+                      - generic [ref=f38e164]: Select/deselect item a303fd7b-e9a9-4de1-9460-e9af7cbf2a6b for bulk actions.
+                  - cell [ref=f38e165]:
+                    - link "B2B-2026-0003" [ref=f38e167] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/partners/a303fd7b-e9a9-4de1-9460-e9af7cbf2a6b/edit
+                  - cell [ref=f38e173]:
+                    - link "Agency Beta Qatar" [ref=f38e175] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/partners/a303fd7b-e9a9-4de1-9460-e9af7cbf2a6b/edit
+                  - cell [ref=f38e181]:
+                    - link "Agent B" [ref=f38e183] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/partners/a303fd7b-e9a9-4de1-9460-e9af7cbf2a6b/edit
+                  - cell [ref=f38e189]:
+                    - link "+97433002233" [ref=f38e191] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/partners/a303fd7b-e9a9-4de1-9460-e9af7cbf2a6b/edit
+                  - cell [ref=f38e197]:
+                    - link "Active" [ref=f38e199] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/partners/a303fd7b-e9a9-4de1-9460-e9af7cbf2a6b/edit
+                  - cell [ref=f38e206]:
+                    - link "QAR 0.00" [ref=f38e208] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/partners/a303fd7b-e9a9-4de1-9460-e9af7cbf2a6b/edit
+                  - cell [ref=f38e214]:
+                    - link "Edit" [ref=f38e217] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/partners/a303fd7b-e9a9-4de1-9460-e9af7cbf2a6b/edit
+                - row [ref=f38e222]:
+                  - cell "Select/deselect item a303fc22-b079-4eed-a36e-5e94fdb68d19 for bulk actions." [ref=f38e223]:
+                    - generic [ref=f38e225]:
+                      - checkbox "Select/deselect item a303fc22-b079-4eed-a36e-5e94fdb68d19 for bulk actions." [ref=f38e226]
+                      - generic [ref=f38e227]: Select/deselect item a303fc22-b079-4eed-a36e-5e94fdb68d19 for bulk actions.
+                  - cell [ref=f38e228]:
+                    - link "B2B-2026-0001" [ref=f38e230] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/partners/a303fc22-b079-4eed-a36e-5e94fdb68d19/edit
+                  - cell [ref=f38e236]:
+                    - link "Doha Global Travels & Tourism WLL" [ref=f38e238] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/partners/a303fc22-b079-4eed-a36e-5e94fdb68d19/edit
+                  - cell [ref=f38e244]:
+                    - link "Jassim Al-Sulaiti" [ref=f38e246] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/partners/a303fc22-b079-4eed-a36e-5e94fdb68d19/edit
+                  - cell [ref=f38e252]:
+                    - link "+97444112233" [ref=f38e254] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/partners/a303fc22-b079-4eed-a36e-5e94fdb68d19/edit
+                  - cell [ref=f38e260]:
+                    - link "Active" [ref=f38e262] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/partners/a303fc22-b079-4eed-a36e-5e94fdb68d19/edit
+                  - cell [ref=f38e269]:
+                    - link "QAR 75,000.00" [ref=f38e271] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/partners/a303fc22-b079-4eed-a36e-5e94fdb68d19/edit
+                  - cell [ref=f38e277]:
+                    - link "Edit" [ref=f38e280] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/partners/a303fc22-b079-4eed-a36e-5e94fdb68d19/edit
+            - navigation "Pagination navigation" [ref=f38e285]:
+              - generic [ref=f38e288]:
+                - generic [ref=f38e289]: Per page
+                - combobox "Per page" [ref=f38e292]:
+                  - option "5"
+                  - option "10" [selected]
+                  - option "25"
+                  - option "50"
+                  - option "All"
+    - complementary [ref=f38e293]:
+      - link "Venture Visionary CRM" [ref=f38e297] [cursor=pointer]:
+        - /url: http://127.0.0.1:8090/staff
+      - navigation [ref=f38e299]:
+        - list [ref=f38e300]:
+          - listitem [ref=f38e301]:
+            - list [ref=f38e302]:
+              - listitem [ref=f38e303]:
+                - link "Dashboard" [ref=f38e304] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8090/staff
+          - listitem [ref=f38e308]:
+            - generic [ref=f38e309] [cursor=pointer]:
+              - generic [ref=f38e310]: Master Database
+              - button "Master Database" [expanded] [ref=f38e311]
+            - list [ref=f38e315]:
+              - listitem [ref=f38e316]:
+                - link "Countries" [ref=f38e317] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8090/staff/countries
+              - listitem [ref=f38e321]:
+                - link "Services" [ref=f38e322] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8090/staff/services
+          - listitem [ref=f38e326]:
+            - generic [ref=f38e327] [cursor=pointer]:
+              - generic [ref=f38e328]: CRM & Sales
+              - button "CRM & Sales" [expanded] [ref=f38e329]
+            - list [ref=f38e333]:
+              - listitem [ref=f38e334]:
+                - link "Leads" [ref=f38e335] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8090/staff/leads
+              - listitem [ref=f38e339]:
+                - link "Clients" [ref=f38e340] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8090/staff/clients
+          - listitem [ref=f38e344]:
+            - generic [ref=f38e345] [cursor=pointer]:
+              - generic [ref=f38e346]: B2B & Affiliates
+              - button "B2B & Affiliates" [expanded] [ref=f38e347]
+            - list [ref=f38e351]:
+              - listitem [ref=f38e352]:
+                - link "Partners" [ref=f38e353] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8090/staff/partners
+          - listitem [ref=f38e357]:
+            - generic [ref=f38e358] [cursor=pointer]:
+              - generic [ref=f38e359]: Finance & Commercial
+              - button "Finance & Commercial" [expanded] [ref=f38e360]
+            - list [ref=f38e364]:
+              - listitem [ref=f38e365]:
+                - link "Quotations" [ref=f38e366] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8090/staff/quotations
+          - listitem [ref=f38e370]:
+            - generic [ref=f38e371] [cursor=pointer]:
+              - generic [ref=f38e372]: Administration & HR
+              - button "Administration & HR" [expanded] [ref=f38e373]
+            - list [ref=f38e377]:
+              - listitem [ref=f38e378]:
+                - link "Users" [ref=f38e379] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8090/staff/users
+          - listitem [ref=f38e383]:
+            - generic [ref=f38e384] [cursor=pointer]:
+              - generic [ref=f38e385]: Case Processing
+              - button "Case Processing" [expanded] [ref=f38e386]
+            - list [ref=f38e390]:
+              - listitem [ref=f38e391]:
+                - link "Visa Cases" [ref=f38e392] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8090/staff/visa-cases
+  - generic:
+    - status

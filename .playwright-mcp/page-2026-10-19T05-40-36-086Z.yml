@@ -1,0 +1,452 @@
+- generic [active] [ref=f2e1]:
+  - generic [ref=f2e2]:
+    - generic [ref=f2e3]:
+      - navigation [ref=f2e5]:
+        - button "User menu" [ref=f2e9] [cursor=pointer]:
+          - img "Avatar of Executive Super Admin" [ref=f2e10]
+      - main [ref=f2e11]:
+        - generic [ref=f2e13]:
+          - generic [ref=f2e14]:
+            - generic [ref=f2e15]:
+              - navigation [ref=f2e16]:
+                - list [ref=f2e17]:
+                  - listitem [ref=f2e18]:
+                    - link "Leads" [ref=f2e19] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/leads
+                  - listitem [ref=f2e20]:
+                    - generic [ref=f2e23]: List
+              - heading "Leads" [level=1] [ref=f2e24]
+            - link "New lead" [ref=f2e27] [cursor=pointer]:
+              - /url: http://127.0.0.1:8090/staff/leads/create
+          - generic [ref=f2e33]:
+            - generic [ref=f2e36]:
+              - generic [ref=f2e37]:
+                - generic [ref=f2e38]: Search
+                - searchbox "Search" [ref=f2e44]
+              - button "Filter 0" [ref=f2e47] [cursor=pointer]:
+                - generic [ref=f2e48]: Filter
+                - generic [ref=f2e51]: "0"
+              - button "Toggle columns" [ref=f2e57] [cursor=pointer]
+            - table [ref=f2e62]:
+              - rowgroup [ref=f2e63]:
+                - row [ref=f2e64]:
+                  - columnheader "Select/deselect all items for bulk actions." [ref=f2e65]:
+                    - generic [ref=f2e67]:
+                      - checkbox "Select/deselect all items for bulk actions." [ref=f2e68]
+                      - generic [ref=f2e69]: Select/deselect all items for bulk actions.
+                  - columnheader [ref=f2e70]:
+                    - 'button "Lead #" [ref=f2e71] [cursor=pointer]'
+                  - columnheader [ref=f2e75]:
+                    - button "Prospect Name" [ref=f2e76] [cursor=pointer]
+                  - columnheader "WhatsApp" [ref=f2e80]
+                  - columnheader "Destination" [ref=f2e83]
+                  - columnheader "Status" [ref=f2e86]
+                  - columnheader [ref=f2e89]:
+                    - button "Score" [ref=f2e90] [cursor=pointer]
+                  - columnheader "Assigned To" [ref=f2e94]
+                  - columnheader "Actions" [ref=f2e97]
+              - rowgroup [ref=f2e98]:
+                - row "Select/deselect item a30448a4-7dd4-4080-bb80-d42dddee4ff6 for bulk actions. LD-2026-0020 Sequence Test User New 50 Unassigned Convert to Client View Edit" [ref=f2e99]:
+                  - cell "Select/deselect item a30448a4-7dd4-4080-bb80-d42dddee4ff6 for bulk actions." [ref=f2e100]:
+                    - generic [ref=f2e102]:
+                      - checkbox "Select/deselect item a30448a4-7dd4-4080-bb80-d42dddee4ff6 for bulk actions." [ref=f2e103]
+                      - generic [ref=f2e104]: Select/deselect item a30448a4-7dd4-4080-bb80-d42dddee4ff6 for bulk actions.
+                  - cell [ref=f2e105]:
+                    - link "LD-2026-0020" [ref=f2e107] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/leads/a30448a4-7dd4-4080-bb80-d42dddee4ff6
+                  - cell [ref=f2e113]:
+                    - link "Sequence Test User" [ref=f2e115] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/leads/a30448a4-7dd4-4080-bb80-d42dddee4ff6
+                  - cell [ref=f2e121]:
+                    - link [ref=f2e123] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/leads/a30448a4-7dd4-4080-bb80-d42dddee4ff6
+                  - cell [ref=f2e125]:
+                    - link [ref=f2e127] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/leads/a30448a4-7dd4-4080-bb80-d42dddee4ff6
+                  - cell [ref=f2e129]:
+                    - link "New" [ref=f2e131] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/leads/a30448a4-7dd4-4080-bb80-d42dddee4ff6
+                  - cell [ref=f2e138]:
+                    - link "50" [ref=f2e140] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/leads/a30448a4-7dd4-4080-bb80-d42dddee4ff6
+                  - cell [ref=f2e147]:
+                    - link "Unassigned" [ref=f2e149] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/leads/a30448a4-7dd4-4080-bb80-d42dddee4ff6
+                  - cell [ref=f2e152]:
+                    - generic [ref=f2e154]:
+                      - button "Convert to Client" [ref=f2e155] [cursor=pointer]
+                      - link "View" [ref=f2e159] [cursor=pointer]:
+                        - /url: http://127.0.0.1:8090/staff/leads/a30448a4-7dd4-4080-bb80-d42dddee4ff6
+                      - link "Edit" [ref=f2e164] [cursor=pointer]:
+                        - /url: http://127.0.0.1:8090/staff/leads/a30448a4-7dd4-4080-bb80-d42dddee4ff6/edit
+                - row "Select/deselect item a30448a4-70fc-4850-bfaa-ebff8f8300b1 for bulk actions. LD-2026-0019 Sarah Al-Attiyah +97461803475 New 50 Sarah Jenkins Convert to Client View Edit" [ref=f2e169]:
+                  - cell "Select/deselect item a30448a4-70fc-4850-bfaa-ebff8f8300b1 for bulk actions." [ref=f2e170]:
+                    - generic [ref=f2e172]:
+                      - checkbox "Select/deselect item a30448a4-70fc-4850-bfaa-ebff8f8300b1 for bulk actions." [ref=f2e173]
+                      - generic [ref=f2e174]: Select/deselect item a30448a4-70fc-4850-bfaa-ebff8f8300b1 for bulk actions.
+                  - cell [ref=f2e175]:
+                    - link "LD-2026-0019" [ref=f2e177] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/leads/a30448a4-70fc-4850-bfaa-ebff8f8300b1
+                  - cell [ref=f2e183]:
+                    - link "Sarah Al-Attiyah" [ref=f2e185] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/leads/a30448a4-70fc-4850-bfaa-ebff8f8300b1
+                  - cell [ref=f2e191]:
+                    - link "+97461803475" [ref=f2e193] [cursor=pointer]:
+                      - /url: https://wa.me/97461803475
+                  - cell [ref=f2e201]:
+                    - link [ref=f2e203] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/leads/a30448a4-70fc-4850-bfaa-ebff8f8300b1
+                  - cell [ref=f2e205]:
+                    - link "New" [ref=f2e207] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/leads/a30448a4-70fc-4850-bfaa-ebff8f8300b1
+                  - cell [ref=f2e214]:
+                    - link "50" [ref=f2e216] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/leads/a30448a4-70fc-4850-bfaa-ebff8f8300b1
+                  - cell [ref=f2e223]:
+                    - link "Sarah Jenkins" [ref=f2e225] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/leads/a30448a4-70fc-4850-bfaa-ebff8f8300b1
+                  - cell [ref=f2e231]:
+                    - generic [ref=f2e233]:
+                      - button "Convert to Client" [ref=f2e234] [cursor=pointer]
+                      - link "View" [ref=f2e238] [cursor=pointer]:
+                        - /url: http://127.0.0.1:8090/staff/leads/a30448a4-70fc-4850-bfaa-ebff8f8300b1
+                      - link "Edit" [ref=f2e243] [cursor=pointer]:
+                        - /url: http://127.0.0.1:8090/staff/leads/a30448a4-70fc-4850-bfaa-ebff8f8300b1/edit
+                - row "Select/deselect item a30448a4-9023-4c17-8b4e-29dfbd23153d for bulk actions. LD-2026-0021 Hamad Al-Kuwari +97448017330 Converted 50 Unassigned View Edit" [ref=f2e248]:
+                  - cell "Select/deselect item a30448a4-9023-4c17-8b4e-29dfbd23153d for bulk actions." [ref=f2e249]:
+                    - generic [ref=f2e251]:
+                      - checkbox "Select/deselect item a30448a4-9023-4c17-8b4e-29dfbd23153d for bulk actions." [ref=f2e252]
+                      - generic [ref=f2e253]: Select/deselect item a30448a4-9023-4c17-8b4e-29dfbd23153d for bulk actions.
+                  - cell [ref=f2e254]:
+                    - link "LD-2026-0021" [ref=f2e256] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/leads/a30448a4-9023-4c17-8b4e-29dfbd23153d
+                  - cell [ref=f2e262]:
+                    - link "Hamad Al-Kuwari" [ref=f2e264] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/leads/a30448a4-9023-4c17-8b4e-29dfbd23153d
+                  - cell [ref=f2e270]:
+                    - link "+97448017330" [ref=f2e272] [cursor=pointer]:
+                      - /url: https://wa.me/97448017330
+                  - cell [ref=f2e280]:
+                    - link [ref=f2e282] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/leads/a30448a4-9023-4c17-8b4e-29dfbd23153d
+                  - cell [ref=f2e284]:
+                    - link "Converted" [ref=f2e286] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/leads/a30448a4-9023-4c17-8b4e-29dfbd23153d
+                  - cell [ref=f2e293]:
+                    - link "50" [ref=f2e295] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/leads/a30448a4-9023-4c17-8b4e-29dfbd23153d
+                  - cell [ref=f2e302]:
+                    - link "Unassigned" [ref=f2e304] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/leads/a30448a4-9023-4c17-8b4e-29dfbd23153d
+                  - cell [ref=f2e307]:
+                    - generic [ref=f2e309]:
+                      - link "View" [ref=f2e310] [cursor=pointer]:
+                        - /url: http://127.0.0.1:8090/staff/leads/a30448a4-9023-4c17-8b4e-29dfbd23153d
+                      - link "Edit" [ref=f2e315] [cursor=pointer]:
+                        - /url: http://127.0.0.1:8090/staff/leads/a30448a4-9023-4c17-8b4e-29dfbd23153d/edit
+                - row [ref=f2e320]:
+                  - cell "Select/deselect item a30448a4-228c-414f-bf18-a6e82e977af8 for bulk actions." [ref=f2e321]:
+                    - generic [ref=f2e323]:
+                      - checkbox "Select/deselect item a30448a4-228c-414f-bf18-a6e82e977af8 for bulk actions." [ref=f2e324]
+                      - generic [ref=f2e325]: Select/deselect item a30448a4-228c-414f-bf18-a6e82e977af8 for bulk actions.
+                  - cell [ref=f2e326]:
+                    - link "LD-2026-0016" [ref=f2e328] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/leads/a30448a4-228c-414f-bf18-a6e82e977af8
+                  - cell [ref=f2e334]:
+                    - link "Dr. Jamal Al-Kuwari" [ref=f2e336] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/leads/a30448a4-228c-414f-bf18-a6e82e977af8
+                  - cell [ref=f2e342]:
+                    - link "+97451607777" [ref=f2e344] [cursor=pointer]:
+                      - /url: https://wa.me/97451607777
+                  - cell [ref=f2e352]:
+                    - link "United Kingdom" [ref=f2e354] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/leads/a30448a4-228c-414f-bf18-a6e82e977af8
+                  - cell [ref=f2e361]:
+                    - link "New" [ref=f2e363] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/leads/a30448a4-228c-414f-bf18-a6e82e977af8
+                  - cell [ref=f2e370]:
+                    - link "50" [ref=f2e372] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/leads/a30448a4-228c-414f-bf18-a6e82e977af8
+                  - cell [ref=f2e379]:
+                    - link "Sarah Jenkins" [ref=f2e381] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/leads/a30448a4-228c-414f-bf18-a6e82e977af8
+                  - cell [ref=f2e387]:
+                    - generic [ref=f2e389]:
+                      - button "Convert to Client" [ref=f2e390] [cursor=pointer]
+                      - link "View" [ref=f2e394] [cursor=pointer]:
+                        - /url: http://127.0.0.1:8090/staff/leads/a30448a4-228c-414f-bf18-a6e82e977af8
+                      - link "Edit" [ref=f2e399] [cursor=pointer]:
+                        - /url: http://127.0.0.1:8090/staff/leads/a30448a4-228c-414f-bf18-a6e82e977af8/edit
+                - row [ref=f2e404]:
+                  - cell "Select/deselect item a30448a4-5650-441b-a27a-b5081c1e4399 for bulk actions." [ref=f2e405]:
+                    - generic [ref=f2e407]:
+                      - checkbox "Select/deselect item a30448a4-5650-441b-a27a-b5081c1e4399 for bulk actions." [ref=f2e408]
+                      - generic [ref=f2e409]: Select/deselect item a30448a4-5650-441b-a27a-b5081c1e4399 for bulk actions.
+                  - cell [ref=f2e410]:
+                    - link "LD-2026-0018" [ref=f2e412] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/leads/a30448a4-5650-441b-a27a-b5081c1e4399
+                  - cell [ref=f2e418]:
+                    - link "Repeat Prospect 2" [ref=f2e420] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/leads/a30448a4-5650-441b-a27a-b5081c1e4399
+                  - cell [ref=f2e426]:
+                    - link "+97477112233" [ref=f2e428] [cursor=pointer]:
+                      - /url: https://wa.me/97477112233
+                  - cell [ref=f2e436]:
+                    - link "France" [ref=f2e438] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/leads/a30448a4-5650-441b-a27a-b5081c1e4399
+                  - cell [ref=f2e445]:
+                    - link "Duplicate" [ref=f2e447] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/leads/a30448a4-5650-441b-a27a-b5081c1e4399
+                  - cell [ref=f2e454]:
+                    - link "20" [ref=f2e456] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/leads/a30448a4-5650-441b-a27a-b5081c1e4399
+                  - cell [ref=f2e463]:
+                    - link "Executive Super Admin" [ref=f2e465] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/leads/a30448a4-5650-441b-a27a-b5081c1e4399
+                  - cell [ref=f2e471]:
+                    - generic [ref=f2e473]:
+                      - button "Convert to Client" [ref=f2e474] [cursor=pointer]
+                      - link "View" [ref=f2e478] [cursor=pointer]:
+                        - /url: http://127.0.0.1:8090/staff/leads/a30448a4-5650-441b-a27a-b5081c1e4399
+                      - link "Edit" [ref=f2e483] [cursor=pointer]:
+                        - /url: http://127.0.0.1:8090/staff/leads/a30448a4-5650-441b-a27a-b5081c1e4399/edit
+                - row [ref=f2e488]:
+                  - cell "Select/deselect item a30448a4-4d2e-4dc7-adac-0d932e2066bf for bulk actions." [ref=f2e489]:
+                    - generic [ref=f2e491]:
+                      - checkbox "Select/deselect item a30448a4-4d2e-4dc7-adac-0d932e2066bf for bulk actions." [ref=f2e492]
+                      - generic [ref=f2e493]: Select/deselect item a30448a4-4d2e-4dc7-adac-0d932e2066bf for bulk actions.
+                  - cell [ref=f2e494]:
+                    - link "LD-2026-0017" [ref=f2e496] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/leads/a30448a4-4d2e-4dc7-adac-0d932e2066bf
+                  - cell [ref=f2e502]:
+                    - link "Repeat Prospect" [ref=f2e504] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/leads/a30448a4-4d2e-4dc7-adac-0d932e2066bf
+                  - cell [ref=f2e510]:
+                    - link "+97477112233" [ref=f2e512] [cursor=pointer]:
+                      - /url: https://wa.me/97477112233
+                  - cell [ref=f2e520]:
+                    - link "France" [ref=f2e522] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/leads/a30448a4-4d2e-4dc7-adac-0d932e2066bf
+                  - cell [ref=f2e529]:
+                    - link "Duplicate" [ref=f2e531] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/leads/a30448a4-4d2e-4dc7-adac-0d932e2066bf
+                  - cell [ref=f2e538]:
+                    - link "20" [ref=f2e540] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/leads/a30448a4-4d2e-4dc7-adac-0d932e2066bf
+                  - cell [ref=f2e547]:
+                    - link "Executive Super Admin" [ref=f2e549] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/leads/a30448a4-4d2e-4dc7-adac-0d932e2066bf
+                  - cell [ref=f2e555]:
+                    - generic [ref=f2e557]:
+                      - button "Convert to Client" [ref=f2e558] [cursor=pointer]
+                      - link "View" [ref=f2e562] [cursor=pointer]:
+                        - /url: http://127.0.0.1:8090/staff/leads/a30448a4-4d2e-4dc7-adac-0d932e2066bf
+                      - link "Edit" [ref=f2e567] [cursor=pointer]:
+                        - /url: http://127.0.0.1:8090/staff/leads/a30448a4-4d2e-4dc7-adac-0d932e2066bf/edit
+                - row [ref=f2e572]:
+                  - cell "Select/deselect item a303fd8a-1bcc-482a-8f3e-f8331f0701e8 for bulk actions." [ref=f2e573]:
+                    - generic [ref=f2e575]:
+                      - checkbox "Select/deselect item a303fd8a-1bcc-482a-8f3e-f8331f0701e8 for bulk actions." [ref=f2e576]
+                      - generic [ref=f2e577]: Select/deselect item a303fd8a-1bcc-482a-8f3e-f8331f0701e8 for bulk actions.
+                  - cell [ref=f2e578]:
+                    - link "LD-2026-0012" [ref=f2e580] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/leads/a303fd8a-1bcc-482a-8f3e-f8331f0701e8
+                  - cell [ref=f2e586]:
+                    - link "Repeat Prospect 2" [ref=f2e588] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/leads/a303fd8a-1bcc-482a-8f3e-f8331f0701e8
+                  - cell [ref=f2e594]:
+                    - link "+97477112233" [ref=f2e596] [cursor=pointer]:
+                      - /url: https://wa.me/97477112233
+                  - cell [ref=f2e604]:
+                    - link "France" [ref=f2e606] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/leads/a303fd8a-1bcc-482a-8f3e-f8331f0701e8
+                  - cell [ref=f2e613]:
+                    - link "Duplicate" [ref=f2e615] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/leads/a303fd8a-1bcc-482a-8f3e-f8331f0701e8
+                  - cell [ref=f2e622]:
+                    - link "20" [ref=f2e624] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/leads/a303fd8a-1bcc-482a-8f3e-f8331f0701e8
+                  - cell [ref=f2e631]:
+                    - link "Executive Super Admin" [ref=f2e633] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/leads/a303fd8a-1bcc-482a-8f3e-f8331f0701e8
+                  - cell [ref=f2e639]:
+                    - generic [ref=f2e641]:
+                      - button "Convert to Client" [ref=f2e642] [cursor=pointer]
+                      - link "View" [ref=f2e646] [cursor=pointer]:
+                        - /url: http://127.0.0.1:8090/staff/leads/a303fd8a-1bcc-482a-8f3e-f8331f0701e8
+                      - link "Edit" [ref=f2e651] [cursor=pointer]:
+                        - /url: http://127.0.0.1:8090/staff/leads/a303fd8a-1bcc-482a-8f3e-f8331f0701e8/edit
+                - row "Select/deselect item a303fd8a-5e91-423f-b76a-594de4e82b0b for bulk actions. LD-2026-0015 Hamad Al-Kuwari +97448335333 Converted 50 Unassigned View Edit" [ref=f2e656]:
+                  - cell "Select/deselect item a303fd8a-5e91-423f-b76a-594de4e82b0b for bulk actions." [ref=f2e657]:
+                    - generic [ref=f2e659]:
+                      - checkbox "Select/deselect item a303fd8a-5e91-423f-b76a-594de4e82b0b for bulk actions." [ref=f2e660]
+                      - generic [ref=f2e661]: Select/deselect item a303fd8a-5e91-423f-b76a-594de4e82b0b for bulk actions.
+                  - cell [ref=f2e662]:
+                    - link "LD-2026-0015" [ref=f2e664] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/leads/a303fd8a-5e91-423f-b76a-594de4e82b0b
+                  - cell [ref=f2e670]:
+                    - link "Hamad Al-Kuwari" [ref=f2e672] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/leads/a303fd8a-5e91-423f-b76a-594de4e82b0b
+                  - cell [ref=f2e678]:
+                    - link "+97448335333" [ref=f2e680] [cursor=pointer]:
+                      - /url: https://wa.me/97448335333
+                  - cell [ref=f2e688]:
+                    - link [ref=f2e690] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/leads/a303fd8a-5e91-423f-b76a-594de4e82b0b
+                  - cell [ref=f2e692]:
+                    - link "Converted" [ref=f2e694] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/leads/a303fd8a-5e91-423f-b76a-594de4e82b0b
+                  - cell [ref=f2e701]:
+                    - link "50" [ref=f2e703] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/leads/a303fd8a-5e91-423f-b76a-594de4e82b0b
+                  - cell [ref=f2e710]:
+                    - link "Unassigned" [ref=f2e712] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/leads/a303fd8a-5e91-423f-b76a-594de4e82b0b
+                  - cell [ref=f2e715]:
+                    - generic [ref=f2e717]:
+                      - link "View" [ref=f2e718] [cursor=pointer]:
+                        - /url: http://127.0.0.1:8090/staff/leads/a303fd8a-5e91-423f-b76a-594de4e82b0b
+                      - link "Edit" [ref=f2e723] [cursor=pointer]:
+                        - /url: http://127.0.0.1:8090/staff/leads/a303fd8a-5e91-423f-b76a-594de4e82b0b/edit
+                - row "Select/deselect item a303fd8a-399c-41a3-ab8d-f2d9c938d095 for bulk actions. LD-2026-0013 Sarah Al-Attiyah +97464985254 New 50 Sarah Jenkins Convert to Client View Edit" [ref=f2e728]:
+                  - cell "Select/deselect item a303fd8a-399c-41a3-ab8d-f2d9c938d095 for bulk actions." [ref=f2e729]:
+                    - generic [ref=f2e731]:
+                      - checkbox "Select/deselect item a303fd8a-399c-41a3-ab8d-f2d9c938d095 for bulk actions." [ref=f2e732]
+                      - generic [ref=f2e733]: Select/deselect item a303fd8a-399c-41a3-ab8d-f2d9c938d095 for bulk actions.
+                  - cell [ref=f2e734]:
+                    - link "LD-2026-0013" [ref=f2e736] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/leads/a303fd8a-399c-41a3-ab8d-f2d9c938d095
+                  - cell [ref=f2e742]:
+                    - link "Sarah Al-Attiyah" [ref=f2e744] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/leads/a303fd8a-399c-41a3-ab8d-f2d9c938d095
+                  - cell [ref=f2e750]:
+                    - link "+97464985254" [ref=f2e752] [cursor=pointer]:
+                      - /url: https://wa.me/97464985254
+                  - cell [ref=f2e760]:
+                    - link [ref=f2e762] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/leads/a303fd8a-399c-41a3-ab8d-f2d9c938d095
+                  - cell [ref=f2e764]:
+                    - link "New" [ref=f2e766] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/leads/a303fd8a-399c-41a3-ab8d-f2d9c938d095
+                  - cell [ref=f2e773]:
+                    - link "50" [ref=f2e775] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/leads/a303fd8a-399c-41a3-ab8d-f2d9c938d095
+                  - cell [ref=f2e782]:
+                    - link "Sarah Jenkins" [ref=f2e784] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/leads/a303fd8a-399c-41a3-ab8d-f2d9c938d095
+                  - cell [ref=f2e790]:
+                    - generic [ref=f2e792]:
+                      - button "Convert to Client" [ref=f2e793] [cursor=pointer]
+                      - link "View" [ref=f2e797] [cursor=pointer]:
+                        - /url: http://127.0.0.1:8090/staff/leads/a303fd8a-399c-41a3-ab8d-f2d9c938d095
+                      - link "Edit" [ref=f2e802] [cursor=pointer]:
+                        - /url: http://127.0.0.1:8090/staff/leads/a303fd8a-399c-41a3-ab8d-f2d9c938d095/edit
+                - row [ref=f2e807]:
+                  - cell "Select/deselect item a303fd8a-14d1-40d8-a9c7-afb71ae108b6 for bulk actions." [ref=f2e808]:
+                    - generic [ref=f2e810]:
+                      - checkbox "Select/deselect item a303fd8a-14d1-40d8-a9c7-afb71ae108b6 for bulk actions." [ref=f2e811]
+                      - generic [ref=f2e812]: Select/deselect item a303fd8a-14d1-40d8-a9c7-afb71ae108b6 for bulk actions.
+                  - cell [ref=f2e813]:
+                    - link "LD-2026-0011" [ref=f2e815] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/leads/a303fd8a-14d1-40d8-a9c7-afb71ae108b6
+                  - cell [ref=f2e821]:
+                    - link "Repeat Prospect" [ref=f2e823] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/leads/a303fd8a-14d1-40d8-a9c7-afb71ae108b6
+                  - cell [ref=f2e829]:
+                    - link "+97477112233" [ref=f2e831] [cursor=pointer]:
+                      - /url: https://wa.me/97477112233
+                  - cell [ref=f2e839]:
+                    - link "France" [ref=f2e841] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/leads/a303fd8a-14d1-40d8-a9c7-afb71ae108b6
+                  - cell [ref=f2e848]:
+                    - link "Duplicate" [ref=f2e850] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/leads/a303fd8a-14d1-40d8-a9c7-afb71ae108b6
+                  - cell [ref=f2e857]:
+                    - link "20" [ref=f2e859] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/leads/a303fd8a-14d1-40d8-a9c7-afb71ae108b6
+                  - cell [ref=f2e866]:
+                    - link "Executive Super Admin" [ref=f2e868] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/staff/leads/a303fd8a-14d1-40d8-a9c7-afb71ae108b6
+                  - cell [ref=f2e874]:
+                    - generic [ref=f2e876]:
+                      - button "Convert to Client" [ref=f2e877] [cursor=pointer]
+                      - link "View" [ref=f2e881] [cursor=pointer]:
+                        - /url: http://127.0.0.1:8090/staff/leads/a303fd8a-14d1-40d8-a9c7-afb71ae108b6
+                      - link "Edit" [ref=f2e886] [cursor=pointer]:
+                        - /url: http://127.0.0.1:8090/staff/leads/a303fd8a-14d1-40d8-a9c7-afb71ae108b6/edit
+            - navigation "Pagination navigation" [ref=f2e891]:
+              - generic [ref=f2e894]:
+                - generic [ref=f2e895]: Per page
+                - combobox "Per page" [ref=f2e898]:
+                  - option "5"
+                  - option "10" [selected]
+                  - option "25"
+                  - option "50"
+                  - option "All"
+              - button "Next" [ref=f2e899] [cursor=pointer]
+    - complementary [ref=f2e901]:
+      - link "Venture Visionary CRM" [ref=f2e905] [cursor=pointer]:
+        - /url: http://127.0.0.1:8090/staff
+      - navigation [ref=f2e907]:
+        - list [ref=f2e908]:
+          - listitem [ref=f2e909]:
+            - list [ref=f2e910]:
+              - listitem [ref=f2e911]:
+                - link "Dashboard" [ref=f2e912] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8090/staff
+          - listitem [ref=f2e916]:
+            - generic [ref=f2e917] [cursor=pointer]:
+              - generic [ref=f2e918]: Master Database
+              - button "Master Database" [expanded] [ref=f2e919]
+            - list [ref=f2e923]:
+              - listitem [ref=f2e924]:
+                - link "Countries" [ref=f2e925] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8090/staff/countries
+              - listitem [ref=f2e929]:
+                - link "Services" [ref=f2e930] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8090/staff/services
+          - listitem [ref=f2e934]:
+            - generic [ref=f2e935] [cursor=pointer]:
+              - generic [ref=f2e936]: CRM & Sales
+              - button "CRM & Sales" [expanded] [ref=f2e937]
+            - list [ref=f2e941]:
+              - listitem [ref=f2e942]:
+                - link "Leads" [ref=f2e943] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8090/staff/leads
+              - listitem [ref=f2e947]:
+                - link "Clients" [ref=f2e948] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8090/staff/clients
+          - listitem [ref=f2e952]:
+            - generic [ref=f2e953] [cursor=pointer]:
+              - generic [ref=f2e954]: B2B & Affiliates
+              - button "B2B & Affiliates" [expanded] [ref=f2e955]
+            - list [ref=f2e959]:
+              - listitem [ref=f2e960]:
+                - link "Partners" [ref=f2e961] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8090/staff/partners
+          - listitem [ref=f2e965]:
+            - generic [ref=f2e966] [cursor=pointer]:
+              - generic [ref=f2e967]: Finance & Commercial
+              - button "Finance & Commercial" [expanded] [ref=f2e968]
+            - list [ref=f2e972]:
+              - listitem [ref=f2e973]:
+                - link "Quotations" [ref=f2e974] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8090/staff/quotations
+          - listitem [ref=f2e978]:
+            - generic [ref=f2e979] [cursor=pointer]:
+              - generic [ref=f2e980]: Administration & HR
+              - button "Administration & HR" [expanded] [ref=f2e981]
+            - list [ref=f2e985]:
+              - listitem [ref=f2e986]:
+                - link "Users" [ref=f2e987] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8090/staff/users
+          - listitem [ref=f2e991]:
+            - generic [ref=f2e992] [cursor=pointer]:
+              - generic [ref=f2e993]: Case Processing
+              - button "Case Processing" [expanded] [ref=f2e994]
+            - list [ref=f2e998]:
+              - listitem [ref=f2e999]:
+                - link "Visa Cases" [ref=f2e1000] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8090/staff/visa-cases
+  - generic:
+    - status

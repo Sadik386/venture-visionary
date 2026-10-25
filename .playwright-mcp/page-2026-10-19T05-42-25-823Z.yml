@@ -1,0 +1,26 @@
+- generic [ref=f7e1]:
+  - main [ref=f7e4]:
+    - generic [ref=f7e6]:
+      - generic [ref=f7e7]:
+        - generic [ref=f7e8]: Venture Visionary Client Portal
+        - heading "Sign in" [level=1] [ref=f7e9]
+      - generic [ref=f7e10]:
+        - generic [ref=f7e11]:
+          - generic [ref=f7e14]:
+            - generic [ref=f7e17]:
+              - text: Email address
+              - superscript [ref=f7e18]: "*"
+            - textbox "Email address*" [active] [ref=f7e22]
+          - generic [ref=f7e25]:
+            - generic [ref=f7e28]:
+              - text: Password
+              - superscript [ref=f7e29]: "*"
+            - generic [ref=f7e31]:
+              - textbox "Password*" [ref=f7e33]
+              - button "Show password" [ref=f7e36] [cursor=pointer]
+          - generic [ref=f7e45]:
+            - checkbox "Remember me" [ref=f7e46]
+            - generic [ref=f7e47]: Remember me
+        - button "Sign in" [ref=f7e50] [cursor=pointer]
+  - generic:
+    - status

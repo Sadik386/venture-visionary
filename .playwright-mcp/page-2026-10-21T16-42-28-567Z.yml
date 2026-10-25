@@ -1,0 +1,380 @@
+- generic [active] [ref=f12e1]:
+  - generic [ref=f12e2]:
+    - generic [ref=f12e3]:
+      - navigation [ref=f12e5]:
+        - generic [ref=f12e6]:
+          - button "Open notifications 8" [ref=f12e459] [cursor=pointer]:
+            - generic [ref=f12e460]: Open notifications
+            - generic [ref=f12e463]: "8"
+          - button "User menu" [ref=f12e9] [cursor=pointer]:
+            - img "Avatar of Executive Super Admin" [ref=f12e10]
+      - main [ref=f12e11]:
+        - generic [ref=f12e13]:
+          - generic [ref=f12e14]:
+            - generic [ref=f12e15]:
+              - navigation [ref=f12e16]:
+                - list [ref=f12e17]:
+                  - listitem [ref=f12e18]:
+                    - link "Workflows" [ref=f12e19] [cursor=pointer]:
+                      - /url: http://localhost:8090/staff/workflows
+                  - listitem [ref=f12e20]:
+                    - generic [ref=f12e23]: Edit
+              - heading "Edit Workflow" [level=1] [ref=f12e24]
+            - button "Delete" [ref=f12e27] [cursor=pointer]
+          - generic [ref=f12e30]:
+            - generic [ref=f12e31]:
+              - generic [ref=f12e32]:
+                - generic [ref=f12e34]:
+                  - generic [ref=f12e37]:
+                    - heading "Workflow Definition & Trigger" [level=3] [ref=f12e38]
+                    - paragraph [ref=f12e39]: Specify the business event that triggers this automated workflow
+                  - generic [ref=f12e42]:
+                    - generic [ref=f12e45]:
+                      - generic [ref=f12e48]:
+                        - text: Name
+                        - superscript [ref=f12e49]: "*"
+                      - textbox "Name*" [ref=f12e53]:
+                        - /placeholder: e.g. Instant WhatsApp Welcome for New Inquiries
+                        - text: Instant Lead Welcome & WhatsApp Acknowledgment
+                    - generic [ref=f12e56]:
+                      - generic [ref=f12e59]:
+                        - text: Triggering Event
+                        - superscript [ref=f12e60]: "*"
+                      - combobox "Triggering Event*" [ref=f12e64]:
+                        - option "Select an option"
+                        - option "⚡ Lead Created (Website / WhatsApp / Meta Inbound)" [selected]
+                        - option "🔄 Lead Stage Transitioned"
+                        - option "📅 Appointment Booked / Scheduled"
+                        - option "✅ Appointment Completed / Attended"
+                        - option "🛡️ Visa Case Status Changed (e.g. Approved)"
+                    - generic [ref=f12e67]:
+                      - generic [ref=f12e68]: Description
+                      - textbox "Description" [ref=f12e75]:
+                        - /placeholder: Describe what business logic this workflow carries out...
+                        - text: Instantly sends WhatsApp acknowledgment to new prospect and alerts staff desk.
+                    - generic [ref=f12e80]:
+                      - switch "Workflow Enabled" [checked] [ref=f12e81] [cursor=pointer]
+                      - generic [ref=f12e82]: Workflow Enabled
+                - generic [ref=f12e84]:
+                  - generic [ref=f12e87]:
+                    - heading "Trigger Conditions (Optional Filter)" [level=3] [ref=f12e88]
+                    - paragraph [ref=f12e89]: Leave blank to run on all events, or specify criteria (e.g. status => qualified, lead_score_gte => 70)
+                  - generic [ref=f12e95]:
+                    - generic [ref=f12e96]: Matching Conditions
+                    - generic [ref=f12e99]:
+                      - generic [ref=f12e102]:
+                        - table [ref=f12e103]:
+                          - rowgroup [ref=f12e104]:
+                            - row [ref=f12e105]:
+                              - columnheader "Condition Attribute" [ref=f12e106]
+                              - columnheader "Expected Value" [ref=f12e107]
+                              - columnheader [ref=f12e108]
+                          - rowgroup [ref=f12e109]:
+                            - row [ref=f12e110]:
+                              - cell [ref=f12e111]:
+                                - textbox [ref=f12e112]
+                              - cell [ref=f12e113]:
+                                - textbox [ref=f12e114]
+                              - cell [ref=f12e115]:
+                                - button "Delete row" [ref=f12e117] [cursor=pointer]
+                        - button "Add row" [ref=f12e123] [cursor=pointer]
+                      - generic [ref=f12e125]: "Supported keys: status, lead_score_gte, destination_country, is_duplicate"
+                - generic [ref=f12e127]:
+                  - generic [ref=f12e130]:
+                    - heading "Sequential Automation Actions" [level=3] [ref=f12e131]
+                    - paragraph [ref=f12e132]: Ordered steps executed when triggers and conditions are fulfilled
+                  - generic [ref=f12e138]:
+                    - generic [ref=f12e139]: Actions
+                    - generic [ref=f12e143]:
+                      - generic [ref=f12e144]:
+                        - button "Collapse all" [ref=f12e146] [cursor=pointer]
+                        - button "Expand all" [ref=f12e149] [cursor=pointer]
+                      - list [ref=f12e151]:
+                        - generic [ref=f12e152]:
+                          - listitem [ref=f12e153]:
+                            - generic [ref=f12e154] [cursor=pointer]:
+                              - list [ref=f12e155]:
+                                - listitem [ref=f12e156]:
+                                  - button "Move" [ref=f12e157]
+                              - list [ref=f12e161]:
+                                - listitem [ref=f12e162]:
+                                  - button "Delete" [ref=f12e163]
+                                - listitem [ref=f12e167]:
+                                  - button "Collapse" [ref=f12e169]
+                                  - generic:
+                                    - button "Expand"
+                            - generic [ref=f12e174]:
+                              - generic [ref=f12e177]:
+                                - generic [ref=f12e180]:
+                                  - text: Action Type
+                                  - superscript [ref=f12e181]: "*"
+                                - combobox "Action Type*" [ref=f12e185]:
+                                  - option "Select an option"
+                                  - option "📝 Create Operational Task for Staff"
+                                  - option "🔔 Send Staff Database Notification"
+                                  - option "💬 Send Automated WhatsApp Message" [selected]
+                                  - option "👤 Reassign Sales / Visa Agent"
+                                  - option "⭐ Dispatch 5-Star Review Request"
+                                  - option "🌐 Send Webhook to External Integration"
+                              - generic [ref=f12e188]:
+                                - generic [ref=f12e189]: Action Configuration
+                                - generic [ref=f12e192]:
+                                  - generic [ref=f12e195]:
+                                    - table [ref=f12e196]:
+                                      - rowgroup [ref=f12e197]:
+                                        - row [ref=f12e198]:
+                                          - columnheader "Parameter" [ref=f12e199]
+                                          - columnheader "Value" [ref=f12e200]
+                                          - columnheader [ref=f12e201]
+                                      - rowgroup
+                                    - button "Add row" [ref=f12e204] [cursor=pointer]
+                                  - generic [ref=f12e206]: "Examples: title, description, due_days, message, priority"
+                              - generic [ref=f12e211]:
+                                - switch "Step Active" [checked] [ref=f12e212] [cursor=pointer]
+                                - generic [ref=f12e213]: Step Active
+                          - listitem [ref=f12e214]:
+                            - generic [ref=f12e215] [cursor=pointer]:
+                              - list [ref=f12e216]:
+                                - listitem [ref=f12e217]:
+                                  - button "Move" [ref=f12e218]
+                              - list [ref=f12e222]:
+                                - listitem [ref=f12e223]:
+                                  - button "Delete" [ref=f12e224]
+                                - listitem [ref=f12e228]:
+                                  - button "Collapse" [ref=f12e230]
+                                  - generic:
+                                    - button "Expand"
+                            - generic [ref=f12e235]:
+                              - generic [ref=f12e238]:
+                                - generic [ref=f12e241]:
+                                  - text: Action Type
+                                  - superscript [ref=f12e242]: "*"
+                                - combobox "Action Type*" [ref=f12e246]:
+                                  - option "Select an option"
+                                  - option "📝 Create Operational Task for Staff"
+                                  - option "🔔 Send Staff Database Notification" [selected]
+                                  - option "💬 Send Automated WhatsApp Message"
+                                  - option "👤 Reassign Sales / Visa Agent"
+                                  - option "⭐ Dispatch 5-Star Review Request"
+                                  - option "🌐 Send Webhook to External Integration"
+                              - generic [ref=f12e249]:
+                                - generic [ref=f12e250]: Action Configuration
+                                - generic [ref=f12e253]:
+                                  - generic [ref=f12e256]:
+                                    - table [ref=f12e257]:
+                                      - rowgroup [ref=f12e258]:
+                                        - row [ref=f12e259]:
+                                          - columnheader "Parameter" [ref=f12e260]
+                                          - columnheader "Value" [ref=f12e261]
+                                          - columnheader [ref=f12e262]
+                                      - rowgroup [ref=f12e467]:
+                                        - row [ref=f12e468]:
+                                          - cell [ref=f12e469]:
+                                            - textbox [ref=f12e470]: body
+                                          - cell [ref=f12e471]:
+                                            - textbox [ref=f12e472]: "New inquiry registered for {name} ({destination})."
+                                          - cell [ref=f12e473]:
+                                            - button "Delete row" [ref=f12e475] [cursor=pointer]
+                                        - row [ref=f12e479]:
+                                          - cell [ref=f12e480]:
+                                            - textbox [ref=f12e481]: title
+                                          - cell [ref=f12e482]:
+                                            - textbox [ref=f12e483]: New Inbound Prospect
+                                          - cell [ref=f12e484]:
+                                            - button "Delete row" [ref=f12e486] [cursor=pointer]
+                                    - button "Add row" [ref=f12e265] [cursor=pointer]
+                                  - generic [ref=f12e267]: "Examples: title, description, due_days, message, priority"
+                              - generic [ref=f12e272]:
+                                - switch "Step Active" [checked] [ref=f12e273] [cursor=pointer]
+                                - generic [ref=f12e274]: Step Active
+                      - button "Add to actions" [ref=f12e276] [cursor=pointer]
+              - generic [ref=f12e279]:
+                - button "Save changes" [ref=f12e280] [cursor=pointer]
+                - button "Cancel" [ref=f12e282] [cursor=pointer]
+            - generic [ref=f12e491]:
+              - heading "Execution Audit Logs" [level=3] [ref=f12e495]
+              - table [ref=f12e497]:
+                - rowgroup [ref=f12e498]:
+                  - row [ref=f12e499]:
+                    - columnheader [ref=f12e500]:
+                      - button "Executed At" [ref=f12e501] [cursor=pointer]
+                    - columnheader "Status" [ref=f12e505]
+                    - columnheader "Trigger" [ref=f12e508]
+                    - columnheader "Target Entity" [ref=f12e511]
+                    - columnheader "Outcome Details" [ref=f12e514]
+                - rowgroup [ref=f12e517]:
+                  - row [ref=f12e518]:
+                    - cell "Oct 21, 2026 19:34:50" [ref=f12e519]
+                    - cell "success" [ref=f12e527]
+                    - cell "lead.created" [ref=f12e536]
+                    - 'cell "Lead #a3093b8a" [ref=f12e545]'
+                    - 'cell "[{\"action\":\"send_whatsapp\",\"result\":{\"message\":\"Hello Sheikh Hamad Live Test, thank you for contacti..." [ref=f12e553]'
+                  - row [ref=f12e561]:
+                    - cell "Oct 21, 2026 19:21:38" [ref=f12e562]
+                    - cell "success" [ref=f12e570]
+                    - cell "lead.created" [ref=f12e579]
+                    - 'cell "Lead #a30936d2" [ref=f12e588]'
+                    - 'cell "[{\"action\":\"send_whatsapp\",\"result\":{\"message\":\"Hello Sarah Al-Attiyah, thank you for contacting Ven..." [ref=f12e596]'
+                  - row [ref=f12e604]:
+                    - cell "Oct 21, 2026 19:21:37" [ref=f12e605]
+                    - cell "success" [ref=f12e613]
+                    - cell "lead.created" [ref=f12e622]
+                    - 'cell "Lead #a30936d1" [ref=f12e631]'
+                    - 'cell "[{\"action\":\"send_whatsapp\",\"result\":{\"message\":\"Hello Dr. Jamal Al-Kuwari, thank you for contacting..." [ref=f12e639]'
+                  - row [ref=f12e647]:
+                    - cell "Oct 21, 2026 19:21:37" [ref=f12e648]
+                    - cell "success" [ref=f12e656]
+                    - cell "lead.created" [ref=f12e665]
+                    - 'cell "Lead #a30936d2" [ref=f12e674]'
+                    - 'cell "[{\"action\":\"send_whatsapp\",\"result\":{\"message\":\"Hello Repeat Prospect 2, thank you for contacting Ve..." [ref=f12e682]'
+                  - row [ref=f12e690]:
+                    - cell "Oct 21, 2026 19:21:37" [ref=f12e691]
+                    - cell "success" [ref=f12e699]
+                    - cell "lead.created" [ref=f12e708]
+                    - 'cell "Lead #a30936d2" [ref=f12e717]'
+                    - 'cell "[{\"action\":\"send_whatsapp\",\"result\":{\"message\":\"Hello Repeat Prospect, thank you for contacting Vent..." [ref=f12e725]'
+                  - row [ref=f12e733]:
+                    - cell "Oct 21, 2026 19:21:33" [ref=f12e734]
+                    - cell "success" [ref=f12e742]
+                    - cell "lead.created" [ref=f12e751]
+                    - 'cell "Lead #a30936cb" [ref=f12e760]'
+                    - 'cell "[{\"action\":\"send_whatsapp\",\"result\":{\"message\":\"Hello Ahmad High-Intent Prospect, thank you for cont..." [ref=f12e768]'
+                  - row [ref=f12e776]:
+                    - cell "Oct 21, 2026 19:21:33" [ref=f12e777]
+                    - cell "success" [ref=f12e785]
+                    - cell "lead.created" [ref=f12e794]
+                    - 'cell "Lead #a30936cb" [ref=f12e803]'
+                    - 'cell "[{\"action\":\"send_whatsapp\",\"result\":{\"message\":\"Hello Fatima Al-Ansari, thank you for contacting Ven..." [ref=f12e811]'
+                  - row [ref=f12e819]:
+                    - cell "Oct 21, 2026 19:21:21" [ref=f12e820]
+                    - cell "success" [ref=f12e828]
+                    - cell "lead.created" [ref=f12e837]
+                    - 'cell "Lead #a30936b9" [ref=f12e846]'
+                    - 'cell "[{\"action\":\"send_whatsapp\",\"result\":{\"message\":\"Hello Fatima Al-Ansari, thank you for contacting Ven..." [ref=f12e854]'
+                  - row [ref=f12e862]:
+                    - cell "Oct 21, 2026 19:21:21" [ref=f12e863]
+                    - cell "success" [ref=f12e871]
+                    - cell "lead.created" [ref=f12e880]
+                    - 'cell "Lead #a30936b8" [ref=f12e889]'
+                    - 'cell "[{\"action\":\"send_whatsapp\",\"result\":{\"message\":\"Hello Ahmad High-Intent Prospect, thank you for cont..." [ref=f12e897]'
+                  - row [ref=f12e905]:
+                    - cell "Oct 21, 2026 19:19:50" [ref=f12e906]
+                    - cell "success" [ref=f12e914]
+                    - cell "lead.created" [ref=f12e923]
+                    - 'cell "Lead #a309362e" [ref=f12e932]'
+                    - 'cell "[{\"action\":\"send_whatsapp\",\"result\":{\"message\":\"Hello Fatima Al-Ansari, thank you for contacting Ven..." [ref=f12e940]'
+              - navigation "Pagination navigation" [ref=f12e948]:
+                - generic [ref=f12e951]:
+                  - generic [ref=f12e952]: Per page
+                  - combobox "Per page" [ref=f12e955]:
+                    - option "5"
+                    - option "10" [selected]
+                    - option "25"
+                    - option "50"
+                    - option "All"
+                - button "Next" [ref=f12e956] [cursor=pointer]
+    - complementary [ref=f12e290]:
+      - link "Venture Visionary CRM" [ref=f12e294] [cursor=pointer]:
+        - /url: http://localhost:8090/staff
+      - navigation [ref=f12e296]:
+        - list [ref=f12e297]:
+          - listitem [ref=f12e298]:
+            - list [ref=f12e299]:
+              - listitem [ref=f12e300]:
+                - link "Dashboard" [ref=f12e301] [cursor=pointer]:
+                  - /url: http://localhost:8090/staff
+          - listitem [ref=f12e305]:
+            - generic [ref=f12e306] [cursor=pointer]:
+              - generic [ref=f12e307]: Governance & Audit
+              - button "Governance & Audit" [expanded] [ref=f12e308]
+            - list [ref=f12e312]:
+              - listitem [ref=f12e313]:
+                - link "Executive Analytics & BI" [ref=f12e314] [cursor=pointer]:
+                  - /url: http://localhost:8090/staff/analytics-dashboard
+              - listitem [ref=f12e318]:
+                - link "Audit Logs" [ref=f12e319] [cursor=pointer]:
+                  - /url: http://localhost:8090/staff/audit-logs
+          - listitem [ref=f12e323]:
+            - generic [ref=f12e324] [cursor=pointer]:
+              - generic [ref=f12e325]: Master Database
+              - button "Master Database" [expanded] [ref=f12e326]
+            - list [ref=f12e330]:
+              - listitem [ref=f12e331]:
+                - link "Countries" [ref=f12e332] [cursor=pointer]:
+                  - /url: http://localhost:8090/staff/countries
+              - listitem [ref=f12e336]:
+                - link "Services" [ref=f12e337] [cursor=pointer]:
+                  - /url: http://localhost:8090/staff/services
+          - listitem [ref=f12e341]:
+            - generic [ref=f12e342] [cursor=pointer]:
+              - generic [ref=f12e343]: CRM & Sales
+              - button "CRM & Sales" [expanded] [ref=f12e344]
+            - list [ref=f12e348]:
+              - listitem [ref=f12e349]:
+                - link "Leads" [ref=f12e350] [cursor=pointer]:
+                  - /url: http://localhost:8090/staff/leads
+              - listitem [ref=f12e354]:
+                - link "Visual Sales Pipeline" [ref=f12e355] [cursor=pointer]:
+                  - /url: http://localhost:8090/staff/lead-pipeline-board
+              - listitem [ref=f12e359]:
+                - link "Clients" [ref=f12e360] [cursor=pointer]:
+                  - /url: http://localhost:8090/staff/clients
+              - listitem [ref=f12e364]:
+                - link "Reputation & Reviews" [ref=f12e365] [cursor=pointer]:
+                  - /url: http://localhost:8090/staff/review-requests
+          - listitem [ref=f12e369]:
+            - generic [ref=f12e370] [cursor=pointer]:
+              - generic [ref=f12e371]: B2B & Affiliates
+              - button "B2B & Affiliates" [expanded] [ref=f12e372]
+            - list [ref=f12e376]:
+              - listitem [ref=f12e377]:
+                - link "Partners" [ref=f12e378] [cursor=pointer]:
+                  - /url: http://localhost:8090/staff/partners
+          - listitem [ref=f12e382]:
+            - generic [ref=f12e383] [cursor=pointer]:
+              - generic [ref=f12e384]: Finance & Commercial
+              - button "Finance & Commercial" [expanded] [ref=f12e385]
+            - list [ref=f12e389]:
+              - listitem [ref=f12e390]:
+                - link "Quotations" [ref=f12e391] [cursor=pointer]:
+                  - /url: http://localhost:8090/staff/quotations
+              - listitem [ref=f12e395]:
+                - link "Invoices" [ref=f12e396] [cursor=pointer]:
+                  - /url: http://localhost:8090/staff/invoices
+          - listitem [ref=f12e400]:
+            - generic [ref=f12e401] [cursor=pointer]:
+              - generic [ref=f12e402]: Administration & HR
+              - button "Administration & HR" [expanded] [ref=f12e403]
+            - list [ref=f12e407]:
+              - listitem [ref=f12e408]:
+                - link "Users" [ref=f12e409] [cursor=pointer]:
+                  - /url: http://localhost:8090/staff/users
+          - listitem [ref=f12e413]:
+            - generic [ref=f12e414] [cursor=pointer]:
+              - generic [ref=f12e415]: Case Processing
+              - button "Case Processing" [expanded] [ref=f12e416]
+            - list [ref=f12e420]:
+              - listitem [ref=f12e421]:
+                - link "Visa Cases" [ref=f12e422] [cursor=pointer]:
+                  - /url: http://localhost:8090/staff/visa-cases
+              - listitem [ref=f12e426]:
+                - link "Tasks" [ref=f12e427] [cursor=pointer]:
+                  - /url: http://localhost:8090/staff/tasks
+          - listitem [ref=f12e431]:
+            - generic [ref=f12e432] [cursor=pointer]:
+              - generic [ref=f12e433]: Automations & Workflows
+              - button "Automations & Workflows" [expanded] [ref=f12e434]
+            - list [ref=f12e438]:
+              - listitem [ref=f12e439]:
+                - link "Workflow Engine" [ref=f12e440] [cursor=pointer]:
+                  - /url: http://localhost:8090/staff/workflows
+          - listitem [ref=f12e444]:
+            - generic [ref=f12e445] [cursor=pointer]:
+              - generic [ref=f12e446]: Operations & Delivery
+              - button "Operations & Delivery" [expanded] [ref=f12e447]
+            - list [ref=f12e451]:
+              - listitem [ref=f12e452]:
+                - link "Appointment Calendar" [ref=f12e453] [cursor=pointer]:
+                  - /url: http://localhost:8090/staff/appointments
+  - generic:
+    - status

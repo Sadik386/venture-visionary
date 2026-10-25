@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ECOMMERCIFY — Motion Graphics Explainer Sequence</title>
+  <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@500;700&family=Plus+Jakarta+Sans:wght@600;800&family=JetBrains+Mono:wght@600&display=swap" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <style>
+    :root {
+      --bg: #040A07;
+      --card: #07150E;
+      --green: #00FF88;
+      --red: #FF4D4D;
+      --white: #FFFFFF;
+      --muted: #8AB89E;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: var(--bg);
+      color: var(--white);
+      font-family: 'Hind Siliguri', 'Plus Jakarta Sans', sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      overflow: hidden;
+      background-image:
+        linear-gradient(rgba(0, 255, 136, 0.05) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(0, 255, 136, 0.05) 1px, transparent 1px);
+      background-size: 48px 48px;
+    }
+    .stage {
+      width: 960px;
+      height: 540px;
+      position: relative;
+      border: 2px solid rgba(0, 255, 136, 0.35);
+      border-radius: 24px;
+      background: radial-gradient(circle at 50% 20%, rgba(0, 255, 136, 0.10), rgba(4, 10, 7, 0.96) 70%);
+      box-shadow: 0 0 60px rgba(0, 255, 136, 0.12);
+      overflow: hidden;
+      padding: 36px;
+    }
+    .top-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      padding: 8px 20px;
+      border-radius: 999px;
+      background: rgba(0, 255, 136, 0.08);
+      border: 1.5px solid var(--green);
+      color: var(--green);
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-size: 13px;
+      font-weight: 800;
+      letter-spacing: 1px;
+    }
+    .scene {
+      position: absolute;
+      inset: 90px 48px 90px 48px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      opacity: 0;
+      pointer-events: none;
+    }
+    .search-box {
+      width: 100%;
+      max-width: 720px;
+      padding: 18px 24px;
+      border-radius: 16px;
+      background: #081A11;
+      border: 2px solid var(--green);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 20px;
+      margin-bottom: 28px;
+    }
+    .search-box.error { border-color: var(--red); background: #1A0808; }
+    .badge {
+      padding: 6px 14px;
+      border-radius: 999px;
+      background: var(--green);
+      color: #041009;
+      font-size: 13px;
+      font-weight: 800;
+    }
+    .badge.red { background: var(--red); color: var(--white); }
+    .cards-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 18px;
+      width: 100%;
+      max-width: 760px;
+    }
+    .prod-card {
+      background: var(--card);
+      border: 1.5px solid rgba(0, 255, 136, 0.5);
+      border-radius: 16px;
+      padding: 20px;
+      text-align: center;
+      transform: translateY(30px);
+      opacity: 0;
+    }
+    .prod-card h4 { font-size: 16px; margin: 10px 0 6px; }
+    .prod-card .price { color: var(--green); font-size: 22px; font-weight: 700; }
+    .pos-card {
+      width: 480px;
+      background: var(--card);
+      border: 2px solid var(--green);
+      border-radius: 20px;
+      padding: 28px;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+    .laser {
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 40px;
+      height: 3px;
+      background: var(--green);
+      box-shadow: 0 0 18px var(--green);
+    }
+    .stock-num {
+      font-size: 42px;
+      font-weight: 800;
+      color: var(--green);
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      margin-top: 10px;
+    }
+    .subtitle-bar {
+      position: absolute;
+      bottom: 22px;
+      left: 48px;
+      right: 48px;
+      background: #06130C;
+      border: 1.5px solid var(--green);
+      border-radius: 14px;
+      padding: 12px 24px;
+      text-align: center;
+      font-size: 20px;
+      font-weight: 700;
+    }
+  </style>
+</head>
+<body>
+  <div class="stage">
+    <div class="top-pill">⚡ ECOMMERCIFY • AI-POWERED COMMERCE</div>
+
+    <!-- Scene A: Broken Search Hook -->
+    <div class="scene" id="scene-hook">
+      <div class="search-box error" id="err-box">
+        <span id="type-err">🔍 kom damer moddhe kalo cotton panjabi</span>
+        <span class="badge red">0 RESULTS ❌</span>
+      </div>
+      <h2 style="color: var(--red); font-size: 32px; text-align: center;">
+        সাধারণ ওয়েবসাইট বাংলিশ সার্চ বোঝে না!
+      </h2>
+    </div>
+
+    <!-- Scene B: AI Semantic Search -->
+    <div class="scene" id="scene-ai">
+      <div class="search-box">
+        <span>🔍 kom damer moddhe kalo cotton panjabi</span>
+        <span class="badge">AI SEMANTIC ✓</span>
+      </div>
+      <div class="cards-grid">
+        <div class="prod-card">
+          <div style="font-size:36px;">🧥</div>
+          <h4>Premium Black Panjabi</h4>
+          <div class="price">৳ ১,৪৫০</div>
+        </div>
+        <div class="prod-card">
+          <div style="font-size:36px;">👟</div>
+          <h4>White Everyday Sneakers</h4>
+          <div class="price">৳ ১,৮৯০</div>
+        </div>
+        <div class="prod-card">
+          <div style="font-size:36px;">🎧</div>
+          <h4>Pro Gaming Earbuds</h4>
+          <div class="price">৳ ১,৬৫০</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Scene C: Dokandar POS + 30s AI Studio CTA -->
+    <div class="scene" id="scene-pos">
+      <div class="pos-card">
+        <div class="laser" id="laser-line"></div>
+        <div style="color: var(--green); font-weight: 800; margin-bottom: 8px;">⚡ DOKANDAR POS LIVE SYNC</div>
+        <p style="color: var(--muted);">শোরুম + ওয়েবসাইট অটোমেটিক স্টক সিঙ্ক</p>
+        <div class="stock-num" id="stock-counter">STOCK: 15</div>
+      </div>
+    </div>
+
+    <div class="subtitle-bar" id="sub-text">
+      বাংলাদেশের ৯০% ই-কমার্স ওয়েবসাইট প্রতিদিন শত শত কাস্টমার হারাচ্ছে!
+    </div>
+  </div>
+
+  <script>
+    const tl = gsap.timeline({ repeat: -1, repeatDelay: 1 });
+    const sub = document.getElementById("sub-text");
+    const stock = document.getElementById("stock-counter");
+
+    // 1. Hook Scene
+    tl.set("#scene-hook", { autoAlpha: 1 })
+      .call(() => { sub.textContent = "বাংলাদেশের ৯০% ই-কমার্স সাইট বাংলিশ সার্চ বোঝে না—ফলে কাস্টমার হারায়!"; })
+      .from("#err-box", { scale: 0.9, duration: 0.4, ease: "back.out(1.7)" })
+      .to("#err-box", { x: -8, duration: 0.06, repeat: 5, yoyo: true }, "+=0.6")
+      .to("#scene-hook", { autoAlpha: 0, y: -20, duration: 0.35 }, "+=1.4")
+
+    // 2. AI Semantic Search Scene
+      .call(() => { sub.textContent = "কাস্টমার বাংলিশে যা-ই লিখুক, AI Semantic Search সাথে সাথে সঠিক প্রোডাক্ট দেখায়!"; })
+      .set("#scene-ai", { autoAlpha: 1 })
+      .to(".prod-card", {
+        y: 0,
+        opacity: 1,
+        duration: 0.45,
+        stagger: 0.14,
+        ease: "back.out(1.6)"
+      })
+      .to("#scene-ai", { autoAlpha: 0, scale: 0.95, duration: 0.35 }, "+=1.8")
+
+    // 3. Dokandar POS Scene
+      .call(() => {
+        sub.textContent = "Dokandar POS শোরুম ও ওয়েবসাইটের স্টক অটোমেটিক মিলিয়ে রাখে — কমেন্টে লিখুন 'AI'!";
+        stock.textContent = "STOCK: 15";
+      })
+      .set("#scene-pos", { autoAlpha: 1 })
+      .to("#laser-line", { top: "170px", duration: 0.8, repeat: 2, yoyo: true, ease: "sine.inOut" })
+      .call(() => { stock.textContent = "STOCK: 14 ✓"; }, null, "-=0.8")
+      .fromTo("#stock-counter", { scale: 1.25 }, { scale: 1, duration: 0.3, ease: "elastic.out(1, 0.4)" }, "-=0.8")
+      .to("#scene-pos", { autoAlpha: 0, duration: 0.4 }, "+=1.2");
+  </script>
+</body>
+</html>

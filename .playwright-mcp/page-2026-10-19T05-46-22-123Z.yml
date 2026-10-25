@@ -1,0 +1,171 @@
+- generic [active] [ref=f26e1]:
+  - generic [ref=f26e2]:
+    - generic [ref=f26e3]:
+      - navigation [ref=f26e5]:
+        - button "User menu" [ref=f26e9] [cursor=pointer]:
+          - img "Avatar of Executive Super Admin" [ref=f26e10]
+      - main [ref=f26e11]:
+        - generic [ref=f26e13]:
+          - generic [ref=f26e15]:
+            - navigation [ref=f26e16]:
+              - list [ref=f26e17]:
+                - listitem [ref=f26e18]:
+                  - link "Quotations" [ref=f26e19] [cursor=pointer]:
+                    - /url: http://127.0.0.1:8090/staff/quotations
+                - listitem [ref=f26e20]:
+                  - generic [ref=f26e23]: Create
+            - heading "Create Quotation" [level=1] [ref=f26e24]
+          - generic [ref=f26e27]:
+            - generic [ref=f26e28]:
+              - generic [ref=f26e30]:
+                - generic [ref=f26e33]:
+                  - heading "Quotation Details" [level=3] [ref=f26e34]
+                  - paragraph [ref=f26e35]: Client reference and validity
+                - generic [ref=f26e38]:
+                  - generic [ref=f26e41]:
+                    - generic [ref=f26e42]: Quotation number
+                    - textbox "Quotation number" [disabled] [ref=f26e48]:
+                      - /placeholder: Auto-generated (e.g. QT-2026-0001)
+                  - generic [ref=f26e51]:
+                    - generic [ref=f26e54]:
+                      - text: Client
+                      - superscript [ref=f26e55]: "*"
+                    - combobox [ref=f26e60]:
+                      - generic [ref=f26e61]: Select an option
+                  - generic [ref=f26e66]:
+                    - generic [ref=f26e67]: Associated Visa Case (Optional)
+                    - combobox [ref=f26e74]:
+                      - generic [ref=f26e75]: Select an option
+                  - generic [ref=f26e80]:
+                    - generic [ref=f26e83]:
+                      - text: Status
+                      - superscript [ref=f26e84]: "*"
+                    - combobox "Status*" [ref=f26e88]:
+                      - option "Select an option"
+                      - option "Draft" [selected]
+                      - option "Sent to Client"
+                      - option "Accepted by Client"
+                      - option "Rejected"
+                      - option "Expired"
+                  - generic [ref=f26e91]:
+                    - generic [ref=f26e92]: Valid Until
+                    - textbox "Valid Until" [ref=f26e98]: 2026-11-02
+                  - generic [ref=f26e101]:
+                    - generic [ref=f26e104]:
+                      - text: Currency
+                      - superscript [ref=f26e105]: "*"
+                    - combobox "Currency*" [ref=f26e109]:
+                      - option "Select an option"
+                      - option "QAR (Qatari Riyal)" [selected]
+                      - option "USD (US Dollar)"
+                      - option "EUR (Euro)"
+                      - option "GBP (British Pound)"
+              - generic [ref=f26e111]:
+                - generic [ref=f26e114]:
+                  - 'heading "Itemized Fee Breakdown (Rule 10: Fee Transparency)" [level=3] [ref=f26e115]'
+                  - paragraph [ref=f26e116]: Separate government fees, VAC charges, and consultancy fees
+                - generic [ref=f26e119]:
+                  - generic [ref=f26e122]:
+                    - generic [ref=f26e123]: Embassy / Government Fee
+                    - generic [ref=f26e127]:
+                      - generic [ref=f26e128]: QAR
+                      - spinbutton "Embassy / Government Fee" [ref=f26e131]: "0"
+                  - generic [ref=f26e134]:
+                    - generic [ref=f26e135]: VAC / TLS / VFS Center Fee
+                    - generic [ref=f26e139]:
+                      - generic [ref=f26e140]: QAR
+                      - spinbutton "VAC / TLS / VFS Center Fee" [ref=f26e143]: "0"
+                  - generic [ref=f26e146]:
+                    - generic [ref=f26e149]:
+                      - text: Venture Visionary Consultancy Fee
+                      - superscript [ref=f26e150]: "*"
+                    - generic [ref=f26e152]:
+                      - generic [ref=f26e153]: QAR
+                      - spinbutton "Venture Visionary Consultancy Fee*" [ref=f26e156]: "0"
+                  - generic [ref=f26e159]:
+                    - generic [ref=f26e160]: Translation / Courier / Other
+                    - generic [ref=f26e164]:
+                      - generic [ref=f26e165]: QAR
+                      - spinbutton "Translation / Courier / Other" [ref=f26e168]: "0"
+                  - generic [ref=f26e171]:
+                    - generic [ref=f26e172]: Discount / Promotional Deduction
+                    - generic [ref=f26e176]:
+                      - generic [ref=f26e177]: QAR
+                      - spinbutton "Discount / Promotional Deduction" [ref=f26e180]: "0"
+                  - generic [ref=f26e183]:
+                    - generic [ref=f26e184]: Final Payable Total
+                    - generic [ref=f26e187]:
+                      - generic [ref=f26e188]:
+                        - generic [ref=f26e189]: QAR
+                        - spinbutton "Final Payable Total" [ref=f26e192]
+                      - generic [ref=f26e193]: Leave empty to auto-sum all charges
+            - generic [ref=f26e195]:
+              - button "Create" [ref=f26e196] [cursor=pointer]
+              - button "Create & create another" [ref=f26e198] [cursor=pointer]
+              - button "Cancel" [ref=f26e200] [cursor=pointer]
+    - complementary [ref=f26e202]:
+      - link "Venture Visionary CRM" [ref=f26e206] [cursor=pointer]:
+        - /url: http://127.0.0.1:8090/staff
+      - navigation [ref=f26e208]:
+        - list [ref=f26e209]:
+          - listitem [ref=f26e210]:
+            - list [ref=f26e211]:
+              - listitem [ref=f26e212]:
+                - link "Dashboard" [ref=f26e213] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8090/staff
+          - listitem [ref=f26e217]:
+            - generic [ref=f26e218] [cursor=pointer]:
+              - generic [ref=f26e219]: Master Database
+              - button "Master Database" [expanded] [ref=f26e220]
+            - list [ref=f26e224]:
+              - listitem [ref=f26e225]:
+                - link "Countries" [ref=f26e226] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8090/staff/countries
+              - listitem [ref=f26e230]:
+                - link "Services" [ref=f26e231] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8090/staff/services
+          - listitem [ref=f26e235]:
+            - generic [ref=f26e236] [cursor=pointer]:
+              - generic [ref=f26e237]: CRM & Sales
+              - button "CRM & Sales" [expanded] [ref=f26e238]
+            - list [ref=f26e242]:
+              - listitem [ref=f26e243]:
+                - link "Leads" [ref=f26e244] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8090/staff/leads
+              - listitem [ref=f26e248]:
+                - link "Clients" [ref=f26e249] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8090/staff/clients
+          - listitem [ref=f26e253]:
+            - generic [ref=f26e254] [cursor=pointer]:
+              - generic [ref=f26e255]: B2B & Affiliates
+              - button "B2B & Affiliates" [expanded] [ref=f26e256]
+            - list [ref=f26e260]:
+              - listitem [ref=f26e261]:
+                - link "Partners" [ref=f26e262] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8090/staff/partners
+          - listitem [ref=f26e266]:
+            - generic [ref=f26e267] [cursor=pointer]:
+              - generic [ref=f26e268]: Finance & Commercial
+              - button "Finance & Commercial" [expanded] [ref=f26e269]
+            - list [ref=f26e273]:
+              - listitem [ref=f26e274]:
+                - link "Quotations" [ref=f26e275] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8090/staff/quotations
+          - listitem [ref=f26e279]:
+            - generic [ref=f26e280] [cursor=pointer]:
+              - generic [ref=f26e281]: Administration & HR
+              - button "Administration & HR" [expanded] [ref=f26e282]
+            - list [ref=f26e286]:
+              - listitem [ref=f26e287]:
+                - link "Users" [ref=f26e288] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8090/staff/users
+          - listitem [ref=f26e292]:
+            - generic [ref=f26e293] [cursor=pointer]:
+              - generic [ref=f26e294]: Case Processing
+              - button "Case Processing" [expanded] [ref=f26e295]
+            - list [ref=f26e299]:
+              - listitem [ref=f26e300]:
+                - link "Visa Cases" [ref=f26e301] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8090/staff/visa-cases
+  - generic:
+    - status

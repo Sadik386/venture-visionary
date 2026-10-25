@@ -1,0 +1,89 @@
+- generic [active] [ref=f9e154]:
+  - generic [ref=f9e155]:
+    - generic [ref=f9e156]:
+      - navigation [ref=f9e158]:
+        - button "User menu" [ref=f9e9] [cursor=pointer]:
+          - img "Avatar of Sheikh Khalid Al-Kuwari" [ref=f9e10]
+      - main [ref=f9e159]:
+        - generic [ref=f9e161]:
+          - generic [ref=f9e162]:
+            - generic [ref=f9e163]:
+              - navigation [ref=f9e164]:
+                - list [ref=f9e165]:
+                  - listitem [ref=f9e166]:
+                    - link "My Visa Cases" [ref=f9e167] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/portal/visa-cases
+                  - listitem [ref=f9e168]:
+                    - generic [ref=f9e171]: View
+              - heading "View My Visa Case" [level=1] [ref=f9e172]
+            - button "Edit" [ref=f9e175] [cursor=pointer]
+          - generic [ref=f9e180]:
+            - generic [ref=f9e182]:
+              - generic [ref=f9e185]:
+                - heading "Visa Application Overview" [level=3] [ref=f9e186]
+                - paragraph [ref=f9e187]: Real-time progress of your application
+              - generic [ref=f9e190]:
+                - generic [ref=f9e193]:
+                  - generic [ref=f9e194]: Application Reference
+                  - textbox "Application Reference" [disabled] [ref=f9e200]: CS-2026-0002
+                - generic [ref=f9e203]:
+                  - generic [ref=f9e204]: Target Destination
+                  - textbox "Target Destination" [disabled] [ref=f9e210]
+                - generic [ref=f9e213]:
+                  - generic [ref=f9e214]: Service Track
+                  - textbox "Service Track" [disabled] [ref=f9e220]
+                - generic [ref=f9e223]:
+                  - generic [ref=f9e224]: Application Progress
+                  - generic [ref=f9e227]: Under Verification & Review
+                - generic [ref=f9e231]:
+                  - generic [ref=f9e232]: Planned Travel Date
+                  - textbox "Planned Travel Date" [disabled] [ref=f9e238]: 2026-12-02T21:00:00.000000Z
+                - generic [ref=f9e241]:
+                  - generic [ref=f9e242]: Remaining Balance
+                  - generic [ref=f9e246]:
+                    - generic [ref=f9e247]: QAR
+                    - textbox "Remaining Balance" [disabled] [ref=f9e250]: "820.00"
+            - generic [ref=f9e252]:
+              - generic [ref=f9e255]:
+                - heading "Consultant Guidance & Important Instructions" [level=3] [ref=f9e256]
+                - paragraph [ref=f9e257]: Verified instructions from your assigned Venture Visionary case officer
+              - generic [ref=f9e263]:
+                - generic [ref=f9e264]: Instructions for Applicant
+                - textbox "Instructions for Applicant" [disabled] [ref=f9e271]:
+                  - /placeholder: No specific instructions at this time.
+                  - text: Your documents are currently under internal verification. Biometrics will take place at VFS Global Doha on Tuesday.
+            - generic [ref=f9e273]:
+              - generic [ref=f9e276]:
+                - heading "Required Documents Checklist" [level=3] [ref=f9e277]
+                - paragraph [ref=f9e278]: Mandatory documents required by the embassy for your application
+              - generic [ref=f9e287]:
+                - generic [ref=f9e288]:
+                  - generic [ref=f9e289]: Qatar ID (QID)
+                  - generic [ref=f9e290]: Required
+                - generic [ref=f9e291]:
+                  - generic [ref=f9e292]: Recent Passport Photograph
+                  - generic [ref=f9e293]: Required
+                - generic [ref=f9e294]:
+                  - generic [ref=f9e295]: Company Salary Certificate / NOC
+                  - generic [ref=f9e296]: Required
+                - generic [ref=f9e297]:
+                  - generic [ref=f9e298]: Passport Biodata Page
+                  - generic [ref=f9e299]: Required
+                - generic [ref=f9e300]:
+                  - generic [ref=f9e301]: 6-Month Bank Statement
+                  - generic [ref=f9e302]: Required
+    - complementary [ref=f9e303]:
+      - link "Venture Visionary Client Portal" [ref=f9e307] [cursor=pointer]:
+        - /url: http://127.0.0.1:8090/portal
+      - navigation [ref=f9e309]:
+        - list [ref=f9e310]:
+          - listitem [ref=f9e311]:
+            - list [ref=f9e312]:
+              - listitem [ref=f9e313]:
+                - link "Dashboard" [ref=f9e314] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8090/portal
+              - listitem [ref=f9e318]:
+                - link "My Visa Cases" [ref=f9e319] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8090/portal/visa-cases
+  - generic:
+    - status

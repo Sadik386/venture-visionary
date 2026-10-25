@@ -1,0 +1,514 @@
+[     432ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:8082/node_modules/.vite/deps/chunk-XQLYTHWV.js?v=c9d1301c:21550
+[     884ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:5001/api/auth/refresh-token:0
+[     894ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:5001/api/auth/refresh-token:0
+[  396352ms] [LOG] Connecting Live Voice WS: ws://localhost:5001/api/live-voice @ http://localhost:8082/src/components/AiSalesmanWidget.tsx:221
+[  396444ms] [WARNING] Microphone access failed or denied: Permission denied @ http://localhost:8082/src/components/AiSalesmanWidget.tsx:278
+[ 2239857ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:8082/@vite/client:559
+[ 3510175ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:8082/node_modules/.vite/deps/chunk-XQLYTHWV.js?v=c9d1301c:21550
+[ 3510838ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:5001/api/auth/refresh-token:0
+[ 3510839ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:5001/api/auth/refresh-token:0
+[ 3537727ms] [ERROR] Failed to load resource: net::ERR_NETWORK_IO_SUSPENDED @ http://localhost:5001/api/auth/track-visit:0
+[ 3537727ms] [ERROR] Failed to load resource: net::ERR_NETWORK_IO_SUSPENDED @ http://localhost:5001/api/auth/track-visit:0
+[ 3537727ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:8082/@vite/client:559
+[ 3537728ms] [ERROR] Failed to load resource: net::ERR_NETWORK_IO_SUSPENDED @ http://localhost:5001/api/products?limit=12:0
+[ 3537728ms] [WARNING] [useProducts] API fallback used: TypeError: Failed to fetch
+    at request (http://localhost:8082/src/lib/api.ts:29:23)
+    at Object.get (http://localhost:8082/src/lib/api.ts:119:18)
+    at queryFn (http://localhost:8082/src/hooks/useProducts.ts:72:39)
+    at Object.fetchFn [as fn] (http://localhost:8082/node_modules/.vite/deps/@tanstack_react-query.js?v=c9d1301c:881:14)
+    at run (http://localhost:8082/node_modules/.vite/deps/@tanstack_react-query.js?v=c9d1301c:513:49)
+    at Object.start (http://localhost:8082/node_modules/.vite/deps/@tanstack_react-query.js?v=c9d1301c:555:9)
+    at _a4.fetch (http://localhost:8082/node_modules/.vite/deps/@tanstack_react-query.js?v=c9d1301c:969:41)
+    at _a9.executeFetch_fn (http://localhost:8082/node_modules/.vite/deps/@tanstack_react-query.js?v=c9d1301c:2280:51)
+    at _a9.onSubscribe (http://localhost:8082/node_modules/.vite/deps/@tanstack_react-query.js?v=c9d1301c:1983:74)
+    at _a9.subscribe (http://localhost:8082/node_modules/.vite/deps/@tanstack_react-query.js?v=c9d1301c:24:10) @ http://localhost:8082/src/hooks/useProducts.ts:76
+[ 3537730ms] [ERROR] Failed to load resource: net::ERR_NETWORK_IO_SUSPENDED @ http://localhost:5001/api/recommendations?type=personalized&limit=4:0
+[ 3537730ms] [WARNING] [RecommendationGrid] Fetch error: TypeError: Failed to fetch
+    at request (http://localhost:8082/src/lib/api.ts:29:23)
+    at Object.get (http://localhost:8082/src/lib/api.ts:119:18)
+    at http://localhost:8082/src/components/RecommendationGrid.tsx:47:13
+    at commitHookEffectListMount (http://localhost:8082/node_modules/.vite/deps/chunk-XQLYTHWV.js?v=c9d1301c:16915:34)
+    at commitPassiveMountOnFiber (http://localhost:8082/node_modules/.vite/deps/chunk-XQLYTHWV.js?v=c9d1301c:18156:19)
+    at commitPassiveMountEffects_complete (http://localhost:8082/node_modules/.vite/deps/chunk-XQLYTHWV.js?v=c9d1301c:18129:17)
+    at commitPassiveMountEffects_begin (http://localhost:8082/node_modules/.vite/deps/chunk-XQLYTHWV.js?v=c9d1301c:18119:15)
+    at commitPassiveMountEffects (http://localhost:8082/node_modules/.vite/deps/chunk-XQLYTHWV.js?v=c9d1301c:18109:11)
+    at flushPassiveEffectsImpl (http://localhost:8082/node_modules/.vite/deps/chunk-XQLYTHWV.js?v=c9d1301c:19490:11)
+    at flushPassiveEffects (http://localhost:8082/node_modules/.vite/deps/chunk-XQLYTHWV.js?v=c9d1301c:19447:22) @ http://localhost:8082/src/components/RecommendationGrid.tsx:53
+[ 3537731ms] [ERROR] Failed to load resource: net::ERR_NETWORK_IO_SUSPENDED @ http://localhost:5001/api/settings/banners:0
+[ 3538009ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:8082/node_modules/.vite/deps/chunk-XQLYTHWV.js?v=c9d1301c:21550
+[ 3538214ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:5001/api/auth/refresh-token:0
+[ 3538225ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:5001/api/auth/refresh-token:0
+[ 3569570ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:8082/@vite/client:559
+[ 3569839ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:8082/node_modules/.vite/deps/chunk-XQLYTHWV.js?v=c9d1301c:21550
+[ 3569969ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/refresh-token:0
+[ 3569980ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/refresh-token:0
+[ 3572671ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/track-visit:0
+[ 3572793ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/track-visit:0
+[ 3601474ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:8082/@vite/client:559
+[ 3601806ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:8082/node_modules/.vite/deps/chunk-XQLYTHWV.js?v=c9d1301c:21550
+[ 3603578ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/refresh-token:0
+[ 3603583ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/refresh-token:0
+[ 3604157ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/track-visit:0
+[ 3604165ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/track-visit:0
+[ 3632411ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:8082/@vite/client:559
+[ 3632743ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:8082/node_modules/.vite/deps/chunk-XQLYTHWV.js?v=c9d1301c:21550
+[ 3632876ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/refresh-token:0
+[ 3634442ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/refresh-token:0
+[ 3634933ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/track-visit:0
+[ 3634944ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/track-visit:0
+[ 3663722ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:8082/@vite/client:559
+[ 3663879ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:8082/node_modules/.vite/deps/chunk-XQLYTHWV.js?v=c9d1301c:21550
+[ 3664011ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/refresh-token:0
+[ 3664013ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/refresh-token:0
+[ 3664033ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/track-visit:0
+[ 3664033ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/track-visit:0
+[ 3695568ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:8082/@vite/client:559
+[ 3695715ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:8082/node_modules/.vite/deps/chunk-XQLYTHWV.js?v=c9d1301c:21550
+[ 3695862ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/refresh-token:0
+[ 3695871ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/refresh-token:0
+[ 3695884ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/track-visit:0
+[ 3695888ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/track-visit:0
+[ 3726593ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:8082/@vite/client:559
+[ 3726978ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:8082/node_modules/.vite/deps/chunk-XQLYTHWV.js?v=c9d1301c:21550
+[ 3728464ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/refresh-token:0
+[ 3728705ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/refresh-token:0
+[ 3728841ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/track-visit:0
+[ 3728873ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/track-visit:0
+[ 3757529ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:8082/@vite/client:559
+[ 3757879ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:8082/node_modules/.vite/deps/chunk-XQLYTHWV.js?v=c9d1301c:21550
+[ 3759427ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/refresh-token:0
+[ 3759432ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/refresh-token:0
+[ 3759746ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/track-visit:0
+[ 3759750ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/track-visit:0
+[ 3788543ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:8082/@vite/client:559
+[ 3788784ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:8082/node_modules/.vite/deps/chunk-XQLYTHWV.js?v=c9d1301c:21550
+[ 3788864ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/refresh-token:0
+[ 3788865ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/refresh-token:0
+[ 3788993ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/track-visit:0
+[ 3788993ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/track-visit:0
+[ 3819507ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:8082/@vite/client:559
+[ 3819764ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:8082/node_modules/.vite/deps/chunk-XQLYTHWV.js?v=c9d1301c:21550
+[ 3819917ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:5001/api/auth/refresh-token:0
+[ 3819918ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:5001/api/auth/refresh-token:0
+[ 3850536ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:8082/@vite/client:559
+[ 3850938ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:8082/node_modules/.vite/deps/chunk-XQLYTHWV.js?v=c9d1301c:21550
+[ 3852513ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:5001/api/auth/refresh-token:0
+[ 3852515ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:5001/api/auth/refresh-token:0
+[ 3881509ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:8082/@vite/client:559
+[ 3881677ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:8082/node_modules/.vite/deps/chunk-XQLYTHWV.js?v=c9d1301c:21550
+[ 3881796ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/refresh-token:0
+[ 3881799ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/refresh-token:0
+[ 3881872ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/track-visit:0
+[ 3881874ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/track-visit:0
+[ 3912525ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:8082/@vite/client:559
+[ 3912754ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:8082/node_modules/.vite/deps/chunk-XQLYTHWV.js?v=c9d1301c:21550
+[ 3912837ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/refresh-token:0
+[ 3912838ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/refresh-token:0
+[ 3912852ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/track-visit:0
+[ 3912853ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/track-visit:0
+[ 3943522ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:8082/@vite/client:559
+[ 3943867ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:8082/node_modules/.vite/deps/chunk-XQLYTHWV.js?v=c9d1301c:21550
+[ 3945550ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/refresh-token:0
+[ 3945598ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/refresh-token:0
+[ 3945777ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/track-visit:0
+[ 3945807ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/track-visit:0
+[ 3974461ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:8082/@vite/client:559
+[ 3974884ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:8082/node_modules/.vite/deps/chunk-XQLYTHWV.js?v=c9d1301c:21550
+[ 3976495ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/refresh-token:0
+[ 3976501ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/refresh-token:0
+[ 3976637ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/track-visit:0
+[ 3976667ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/track-visit:0
+[ 4005632ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:8082/@vite/client:559
+[ 4006087ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:8082/node_modules/.vite/deps/chunk-XQLYTHWV.js?v=c9d1301c:21550
+[ 4008821ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/refresh-token:0
+[ 4008831ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/refresh-token:0
+[ 4009189ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/track-visit:0
+[ 4009195ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/track-visit:0
+[ 4037576ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:8082/@vite/client:559
+[ 4037905ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:8082/node_modules/.vite/deps/chunk-XQLYTHWV.js?v=c9d1301c:21550
+[ 4038063ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/refresh-token:0
+[ 4040343ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/refresh-token:0
+[ 4040561ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/track-visit:0
+[ 4040605ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/track-visit:0
+[ 4069696ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:8082/@vite/client:559
+[ 4070041ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:8082/node_modules/.vite/deps/chunk-XQLYTHWV.js?v=c9d1301c:21550
+[ 4072600ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/refresh-token:0
+[ 4072611ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/refresh-token:0
+[ 4072890ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/track-visit:0
+[ 4072906ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/track-visit:0
+[ 4101451ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:8082/@vite/client:559
+[ 4101904ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:8082/node_modules/.vite/deps/chunk-XQLYTHWV.js?v=c9d1301c:21550
+[ 4104821ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/refresh-token:0
+[ 4104824ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/refresh-token:0
+[ 4105238ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/track-visit:0
+[ 4105240ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/track-visit:0
+[ 4133640ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:8082/@vite/client:559
+[ 4133968ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:8082/node_modules/.vite/deps/chunk-XQLYTHWV.js?v=c9d1301c:21550
+[ 4136457ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:5001/api/auth/refresh-token:0
+[ 4136469ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:5001/api/auth/refresh-token:0
+[ 4165490ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:8082/@vite/client:559
+[ 4165872ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:8082/node_modules/.vite/deps/chunk-XQLYTHWV.js?v=c9d1301c:21550
+[ 4168548ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:5001/api/auth/refresh-token:0
+[ 4168577ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:5001/api/auth/refresh-token:0
+[ 4197707ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:8082/@vite/client:559
+[ 4198084ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:8082/node_modules/.vite/deps/chunk-XQLYTHWV.js?v=c9d1301c:21550
+[ 4200833ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/refresh-token:0
+[ 4200835ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/refresh-token:0
+[ 4201117ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/track-visit:0
+[ 4201119ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/track-visit:0
+[ 4229519ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:8082/@vite/client:559
+[ 4229968ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:8082/node_modules/.vite/deps/chunk-XQLYTHWV.js?v=c9d1301c:21550
+[ 4233017ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/refresh-token:0
+[ 4233035ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/refresh-token:0
+[ 4233333ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/track-visit:0
+[ 4233335ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/track-visit:0
+[ 4261656ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:8082/@vite/client:559
+[ 4261987ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:8082/node_modules/.vite/deps/chunk-XQLYTHWV.js?v=c9d1301c:21550
+[ 4264733ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/refresh-token:0
+[ 4264748ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/refresh-token:0
+[ 4264781ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/track-visit:0
+[ 4265045ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/track-visit:0
+[ 4293505ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:8082/@vite/client:559
+[ 4293834ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:8082/node_modules/.vite/deps/chunk-XQLYTHWV.js?v=c9d1301c:21550
+[ 4296271ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/refresh-token:0
+[ 4296307ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/refresh-token:0
+[ 4296385ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/track-visit:0
+[ 4296436ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/track-visit:0
+[ 4324474ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:8082/@vite/client:559
+[ 4324800ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:8082/node_modules/.vite/deps/chunk-XQLYTHWV.js?v=c9d1301c:21550
+[ 4326472ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/refresh-token:0
+[ 4326489ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/refresh-token:0
+[ 4326633ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/track-visit:0
+[ 4326635ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/track-visit:0
+[ 4355698ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:8082/@vite/client:559
+[ 4356129ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:8082/node_modules/.vite/deps/chunk-XQLYTHWV.js?v=c9d1301c:21550
+[ 4358601ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/refresh-token:0
+[ 4358765ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/refresh-token:0
+[ 4359081ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/track-visit:0
+[ 4359190ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/track-visit:0
+[ 4387527ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:8082/@vite/client:559
+[ 4387915ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:8082/node_modules/.vite/deps/chunk-XQLYTHWV.js?v=c9d1301c:21550
+[ 4390800ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/refresh-token:0
+[ 4390816ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/refresh-token:0
+[ 4391201ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/track-visit:0
+[ 4391205ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/track-visit:0
+[ 4419687ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:8082/@vite/client:559
+[ 4420121ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:8082/node_modules/.vite/deps/chunk-XQLYTHWV.js?v=c9d1301c:21550
+[ 4422827ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/refresh-token:0
+[ 4422955ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/refresh-token:0
+[ 4423043ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/track-visit:0
+[ 4423049ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/track-visit:0
+[ 4451611ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:8082/@vite/client:559
+[ 4452000ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:8082/node_modules/.vite/deps/chunk-XQLYTHWV.js?v=c9d1301c:21550
+[ 4454668ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:5001/api/auth/refresh-token:0
+[ 4454680ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:5001/api/auth/refresh-token:0
+[ 4483724ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:8082/@vite/client:559
+[ 4484025ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:8082/node_modules/.vite/deps/chunk-XQLYTHWV.js?v=c9d1301c:21550
+[ 4486548ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:5001/api/auth/refresh-token:0
+[ 4486550ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:5001/api/auth/refresh-token:0
+[ 4515480ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:8082/@vite/client:559
+[ 4515781ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:8082/node_modules/.vite/deps/chunk-XQLYTHWV.js?v=c9d1301c:21550
+[ 4517519ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/refresh-token:0
+[ 4517569ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/refresh-token:0
+[ 4517860ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/track-visit:0
+[ 4517860ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/track-visit:0
+[ 4546510ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:8082/@vite/client:559
+[ 4547010ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:8082/node_modules/.vite/deps/chunk-XQLYTHWV.js?v=c9d1301c:21550
+[ 4549656ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/refresh-token:0
+[ 4549672ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/refresh-token:0
+[ 4549904ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/track-visit:0
+[ 4549921ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/track-visit:0
+[ 4578592ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:8082/@vite/client:559
+[ 4578959ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:8082/node_modules/.vite/deps/chunk-XQLYTHWV.js?v=c9d1301c:21550
+[ 4581739ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/refresh-token:0
+[ 4581779ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/refresh-token:0
+[ 4581973ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/track-visit:0
+[ 4581984ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/track-visit:0
+[ 4610722ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:8082/@vite/client:559
+[ 4610967ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:8082/node_modules/.vite/deps/chunk-XQLYTHWV.js?v=c9d1301c:21550
+[ 4611227ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/refresh-token:0
+[ 4613413ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/refresh-token:0
+[ 4614020ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/track-visit:0
+[ 4614021ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/track-visit:0
+[ 4642667ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:8082/@vite/client:559
+[ 4643015ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:8082/node_modules/.vite/deps/chunk-XQLYTHWV.js?v=c9d1301c:21550
+[ 4645427ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/refresh-token:0
+[ 4645438ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/refresh-token:0
+[ 4645903ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/track-visit:0
+[ 4645914ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/track-visit:0
+[ 4674669ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:8082/@vite/client:559
+[ 4674979ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:8082/node_modules/.vite/deps/chunk-XQLYTHWV.js?v=c9d1301c:21550
+[ 4677510ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/refresh-token:0
+[ 4677511ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/refresh-token:0
+[ 4677926ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/track-visit:0
+[ 4678007ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/track-visit:0
+[ 4706333ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:8082/@vite/client:559
+[ 4706820ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:8082/node_modules/.vite/deps/chunk-XQLYTHWV.js?v=c9d1301c:21550
+[ 4708743ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/refresh-token:0
+[ 4708767ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/refresh-token:0
+[ 4709062ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/track-visit:0
+[ 4709063ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/track-visit:0
+[ 4737642ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:8082/@vite/client:559
+[ 4738064ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:8082/node_modules/.vite/deps/chunk-XQLYTHWV.js?v=c9d1301c:21550
+[ 4740956ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/refresh-token:0
+[ 4740964ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/refresh-token:0
+[ 4741110ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/track-visit:0
+[ 4741117ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/track-visit:0
+[ 4769467ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:8082/@vite/client:559
+[ 4772511ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:8082/node_modules/.vite/deps/chunk-XQLYTHWV.js?v=c9d1301c:21550
+[ 4773104ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:5001/api/auth/refresh-token:0
+[ 4773107ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:5001/api/auth/refresh-token:0
+[ 4801691ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:8082/@vite/client:559
+[ 4802029ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:8082/node_modules/.vite/deps/chunk-XQLYTHWV.js?v=c9d1301c:21550
+[ 4802174ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:5001/api/auth/refresh-token:0
+[ 4804347ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:5001/api/auth/refresh-token:0
+[ 4833698ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:8082/@vite/client:559
+[ 4834136ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:8082/node_modules/.vite/deps/chunk-XQLYTHWV.js?v=c9d1301c:21550
+[ 4836391ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/refresh-token:0
+[ 4836402ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/refresh-token:0
+[ 4836532ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/track-visit:0
+[ 4836788ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/track-visit:0
+[ 4865493ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:8082/@vite/client:559
+[ 4865962ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:8082/node_modules/.vite/deps/chunk-XQLYTHWV.js?v=c9d1301c:21550
+[ 4868986ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/refresh-token:0
+[ 4868997ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/refresh-token:0
+[ 4869131ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/track-visit:0
+[ 4869133ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/track-visit:0
+[ 4897595ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:8082/@vite/client:559
+[ 4897900ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:8082/node_modules/.vite/deps/chunk-XQLYTHWV.js?v=c9d1301c:21550
+[ 4900479ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/refresh-token:0
+[ 4900481ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/refresh-token:0
+[ 4900837ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/track-visit:0
+[ 4900867ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/track-visit:0
+[ 4929381ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:8082/@vite/client:559
+[ 4929652ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:8082/node_modules/.vite/deps/chunk-XQLYTHWV.js?v=c9d1301c:21550
+[ 4931423ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/refresh-token:0
+[ 4931435ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/refresh-token:0
+[ 4931608ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/track-visit:0
+[ 4931625ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/track-visit:0
+[ 4960476ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:8082/@vite/client:559
+[ 4960808ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:8082/node_modules/.vite/deps/chunk-XQLYTHWV.js?v=c9d1301c:21550
+[ 4962828ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/refresh-token:0
+[ 4962829ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/refresh-token:0
+[ 4962992ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/track-visit:0
+[ 4963198ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/track-visit:0
+[ 4991566ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:8082/@vite/client:559
+[ 4992058ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:8082/node_modules/.vite/deps/chunk-XQLYTHWV.js?v=c9d1301c:21550
+[ 4994951ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/refresh-token:0
+[ 4994960ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/refresh-token:0
+[ 4995037ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/track-visit:0
+[ 4995048ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/track-visit:0
+[ 5023622ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:8082/@vite/client:559
+[ 5024069ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:8082/node_modules/.vite/deps/chunk-XQLYTHWV.js?v=c9d1301c:21550
+[ 5027128ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/refresh-token:0
+[ 5027132ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/refresh-token:0
+[ 5027383ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/track-visit:0
+[ 5027385ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/track-visit:0
+[ 5055562ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:8082/@vite/client:559
+[ 5055951ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:8082/node_modules/.vite/deps/chunk-XQLYTHWV.js?v=c9d1301c:21550
+[ 5058816ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/refresh-token:0
+[ 5058821ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/refresh-token:0
+[ 5059216ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/track-visit:0
+[ 5059243ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/track-visit:0
+[ 5087642ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:8082/@vite/client:559
+[ 5088081ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ http://localhost:8082/src/components/ScrollToTop.tsx:0
+[ 5088082ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ http://localhost:8082/src/components/AnimatedRoutes.tsx:0
+[ 5088090ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ http://localhost:8082/src/components/ui/sonner.tsx:0
+[ 5119528ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:8082/@vite/client:559
+[ 5119939ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:8082/node_modules/.vite/deps/chunk-XQLYTHWV.js?v=c9d1301c:21550
+[ 5122825ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:5001/api/auth/refresh-token:0
+[ 5122871ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:5001/api/auth/refresh-token:0
+[ 5151571ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:8082/@vite/client:559
+[ 5151988ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:8082/node_modules/.vite/deps/chunk-XQLYTHWV.js?v=c9d1301c:21550
+[ 5154759ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:5001/api/auth/refresh-token:0
+[ 5154795ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:5001/api/auth/refresh-token:0
+[ 5183658ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:8082/@vite/client:559
+[ 5184033ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:8082/node_modules/.vite/deps/chunk-XQLYTHWV.js?v=c9d1301c:21550
+[ 5186860ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/refresh-token:0
+[ 5186886ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/refresh-token:0
+[ 5186990ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/track-visit:0
+[ 5187099ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/track-visit:0
+[ 5215690ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:8082/@vite/client:559
+[ 5216143ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:8082/node_modules/.vite/deps/chunk-XQLYTHWV.js?v=c9d1301c:21550
+[ 5218710ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/refresh-token:0
+[ 5218717ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/refresh-token:0
+[ 5218871ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/track-visit:0
+[ 5218889ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/track-visit:0
+[ 5247516ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:8082/@vite/client:559
+[ 5247932ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:8082/node_modules/.vite/deps/chunk-XQLYTHWV.js?v=c9d1301c:21550
+[ 5250630ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/refresh-token:0
+[ 5250660ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/refresh-token:0
+[ 5250823ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/track-visit:0
+[ 5250865ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/track-visit:0
+[ 5279688ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:8082/@vite/client:559
+[ 5280155ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:8082/node_modules/.vite/deps/chunk-XQLYTHWV.js?v=c9d1301c:21550
+[ 5282783ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/refresh-token:0
+[ 5282815ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/refresh-token:0
+[ 5283205ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/track-visit:0
+[ 5283212ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/track-visit:0
+[ 5311581ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:8082/@vite/client:559
+[ 5314614ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:8082/node_modules/.vite/deps/chunk-XQLYTHWV.js?v=c9d1301c:21550
+[ 5315124ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/refresh-token:0
+[ 5315127ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/refresh-token:0
+[ 5315208ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/track-visit:0
+[ 5315221ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/track-visit:0
+[ 5343627ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:8082/@vite/client:559
+[ 5346367ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:8082/node_modules/.vite/deps/chunk-XQLYTHWV.js?v=c9d1301c:21550
+[ 5347027ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/refresh-token:0
+[ 5347029ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/refresh-token:0
+[ 5347117ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/track-visit:0
+[ 5347401ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/track-visit:0
+[ 5375573ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:8082/@vite/client:559
+[ 5375834ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:8082/node_modules/.vite/deps/chunk-XQLYTHWV.js?v=c9d1301c:21550
+[ 5376028ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/refresh-token:0
+[ 5376029ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/refresh-token:0
+[ 5378837ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/track-visit:0
+[ 5378845ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/track-visit:0
+[ 5407682ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:8082/@vite/client:559
+[ 5408115ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:8082/node_modules/.vite/deps/chunk-XQLYTHWV.js?v=c9d1301c:21550
+[ 5410633ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:5001/api/auth/refresh-token:0
+[ 5410670ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:5001/api/auth/refresh-token:0
+[ 5439612ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:8082/@vite/client:559
+[ 5440144ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:8082/node_modules/.vite/deps/chunk-XQLYTHWV.js?v=c9d1301c:21550
+[ 5443027ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:5001/api/auth/refresh-token:0
+[ 5443055ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:5001/api/auth/refresh-token:0
+[ 5471642ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:8082/@vite/client:559
+[ 5471997ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:8082/node_modules/.vite/deps/chunk-XQLYTHWV.js?v=c9d1301c:21550
+[ 5474650ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/refresh-token:0
+[ 5474652ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/refresh-token:0
+[ 5474824ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/track-visit:0
+[ 5474836ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/track-visit:0
+[ 5503508ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:8082/@vite/client:559
+[ 5503893ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:8082/node_modules/.vite/deps/chunk-XQLYTHWV.js?v=c9d1301c:21550
+[ 5506686ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/refresh-token:0
+[ 5506781ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/refresh-token:0
+[ 5507236ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/track-visit:0
+[ 5507243ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/track-visit:0
+[ 5535549ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:8082/@vite/client:559
+[ 5535858ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:8082/node_modules/.vite/deps/chunk-XQLYTHWV.js?v=c9d1301c:21550
+[ 5538637ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/refresh-token:0
+[ 5538645ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/refresh-token:0
+[ 5538965ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/track-visit:0
+[ 5539014ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/track-visit:0
+[ 5567408ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:8082/@vite/client:559
+[ 5567832ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:8082/node_modules/.vite/deps/chunk-XQLYTHWV.js?v=c9d1301c:21550
+[ 5570506ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/refresh-token:0
+[ 5570516ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/refresh-token:0
+[ 5570907ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/track-visit:0
+[ 5570910ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/track-visit:0
+[ 5599657ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:8082/@vite/client:559
+[ 5599995ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:8082/node_modules/.vite/deps/chunk-XQLYTHWV.js?v=c9d1301c:21550
+[ 5602610ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/refresh-token:0
+[ 5602620ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/refresh-token:0
+[ 5602902ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/track-visit:0
+[ 5602914ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/track-visit:0
+[ 5631376ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:8082/@vite/client:559
+[ 5631785ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:8082/node_modules/.vite/deps/chunk-XQLYTHWV.js?v=c9d1301c:21550
+[ 5634541ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/refresh-token:0
+[ 5634572ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/refresh-token:0
+[ 5634644ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/track-visit:0
+[ 5634697ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/track-visit:0
+[ 5663585ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:8082/@vite/client:559
+[ 5663893ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:8082/node_modules/.vite/deps/chunk-XQLYTHWV.js?v=c9d1301c:21550
+[ 5666454ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/refresh-token:0
+[ 5666456ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/refresh-token:0
+[ 5666740ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/track-visit:0
+[ 5666847ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/track-visit:0
+[ 5695498ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:8082/@vite/client:559
+[ 5695815ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:8082/node_modules/.vite/deps/chunk-XQLYTHWV.js?v=c9d1301c:21550
+[ 5698553ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/refresh-token:0
+[ 5698557ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/refresh-token:0
+[ 5698707ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/track-visit:0
+[ 5698736ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/track-visit:0
+[ 5727517ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:8082/@vite/client:559
+[ 5727816ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:8082/node_modules/.vite/deps/chunk-XQLYTHWV.js?v=c9d1301c:21550
+[ 5730877ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:5001/api/auth/refresh-token:0
+[ 5730895ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:5001/api/auth/refresh-token:0
+[ 5759703ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:8082/@vite/client:559
+[ 5760019ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:8082/node_modules/.vite/deps/chunk-XQLYTHWV.js?v=c9d1301c:21550
+[ 5762372ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:5001/api/auth/refresh-token:0
+[ 5762409ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:5001/api/auth/refresh-token:0
+[ 5791527ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:8082/@vite/client:559
+[ 5791758ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:8082/node_modules/.vite/deps/chunk-XQLYTHWV.js?v=c9d1301c:21550
+[ 5791943ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/refresh-token:0
+[ 5791944ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/refresh-token:0
+[ 5791976ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/track-visit:0
+[ 5794689ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/track-visit:0
+[ 5823429ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:8082/@vite/client:559
+[ 5823750ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:8082/node_modules/.vite/deps/chunk-XQLYTHWV.js?v=c9d1301c:21550
+[ 5825525ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/refresh-token:0
+[ 5825564ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/refresh-token:0
+[ 5826046ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/track-visit:0
+[ 5826056ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/track-visit:0
+[ 5854400ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:8082/@vite/client:559
+[ 5854820ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:8082/node_modules/.vite/deps/chunk-XQLYTHWV.js?v=c9d1301c:21550
+[ 5856637ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/refresh-token:0
+[ 5856650ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/refresh-token:0
+[ 5856768ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/track-visit:0
+[ 5857029ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/track-visit:0
+[ 5885653ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:8082/@vite/client:559
+[ 5885987ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:8082/node_modules/.vite/deps/chunk-XQLYTHWV.js?v=c9d1301c:21550
+[ 5888472ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/refresh-token:0
+[ 5888473ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/refresh-token:0
+[ 5888910ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/track-visit:0
+[ 5888950ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/track-visit:0
+[ 5917476ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:8082/@vite/client:559
+[ 5917813ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:8082/node_modules/.vite/deps/chunk-XQLYTHWV.js?v=c9d1301c:21550
+[ 5920468ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/refresh-token:0
+[ 5920484ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/refresh-token:0
+[ 5921041ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/track-visit:0
+[ 5921042ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/track-visit:0
+[ 5949691ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:8082/@vite/client:559
+[ 5950048ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:8082/node_modules/.vite/deps/chunk-XQLYTHWV.js?v=c9d1301c:21550
+[ 5952693ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/refresh-token:0
+[ 5952705ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/refresh-token:0
+[ 5952962ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/track-visit:0
+[ 5952975ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/track-visit:0
+[ 5981693ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:8082/@vite/client:559
+[ 5982090ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:8082/node_modules/.vite/deps/chunk-XQLYTHWV.js?v=c9d1301c:21550
+[ 5984693ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/refresh-token:0
+[ 5984731ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/refresh-token:0
+[ 5985221ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/track-visit:0
+[ 5985228ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/track-visit:0
+[ 6013642ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:8082/@vite/client:559
+[ 6013990ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:8082/node_modules/.vite/deps/chunk-XQLYTHWV.js?v=c9d1301c:21550
+[ 6016708ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/refresh-token:0
+[ 6016725ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/refresh-token:0
+[ 6017160ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/track-visit:0
+[ 6017161ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/track-visit:0
+[ 6045695ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:8082/@vite/client:559
+[ 6046050ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:8082/node_modules/.vite/deps/chunk-XQLYTHWV.js?v=c9d1301c:21550
+[ 6048600ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:5001/api/auth/refresh-token:0
+[ 6048608ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:5001/api/auth/refresh-token:0
+[ 6077714ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:8082/@vite/client:559
+[ 6078165ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:8082/node_modules/.vite/deps/chunk-XQLYTHWV.js?v=c9d1301c:21550
+[ 6081239ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:5001/api/auth/refresh-token:0
+[ 6081248ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:5001/api/auth/refresh-token:0
+[ 6109599ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:8082/@vite/client:559
+[ 6109903ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:8082/node_modules/.vite/deps/chunk-XQLYTHWV.js?v=c9d1301c:21550
+[ 6112372ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/refresh-token:0
+[ 6112374ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/refresh-token:0
+[ 6112629ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/track-visit:0
+[ 6112664ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/track-visit:0
+[ 6141433ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:8082/@vite/client:559
+[ 6141640ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ http://localhost:8082/src/components/ScrollToTop.tsx:0
+[ 6141650ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ http://localhost:8082/src/components/AnimatedRoutes.tsx:0
+[ 6141650ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ http://localhost:8082/src/components/ui/sonner.tsx:0
+[ 6173579ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:8082/@vite/client:559
+[ 6173999ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:8082/node_modules/.vite/deps/chunk-XQLYTHWV.js?v=c9d1301c:21550
+[ 6176704ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/refresh-token:0
+[ 6176743ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/refresh-token:0
+[ 6177185ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/track-visit:0
+[ 6177189ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/track-visit:0
+[ 6205663ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:8082/@vite/client:559
+[ 6205963ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:8082/node_modules/.vite/deps/chunk-XQLYTHWV.js?v=c9d1301c:21550
+[ 6208476ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/refresh-token:0
+[ 6208477ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/refresh-token:0
+[ 6208585ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/track-visit:0
+[ 6208845ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/track-visit:0
+[ 6237628ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:8082/@vite/client:559
+[ 6238053ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:8082/node_modules/.vite/deps/chunk-XQLYTHWV.js?v=c9d1301c:21550
+[ 6240507ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/refresh-token:0
+[ 6240514ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/refresh-token:0
+[ 6240638ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/track-visit:0
+[ 6240657ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:5001/api/auth/track-visit:0

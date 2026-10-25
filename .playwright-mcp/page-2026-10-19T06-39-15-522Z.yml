@@ -1,0 +1,30 @@
+- generic [active] [ref=f42e1]:
+  - generic [ref=f42e2]:
+    - generic [ref=f42e3]:
+      - navigation [ref=f42e5]:
+        - button "User menu" [ref=f42e9] [cursor=pointer]:
+          - img "Avatar of Jassim Al-Sulaiti" [ref=f42e10]
+      - main [ref=f42e11]:
+        - generic [ref=f42e13]:
+          - heading "Dashboard" [level=1] [ref=f42e16]
+          - generic [ref=f42e24]:
+            - img "Avatar of Jassim Al-Sulaiti" [ref=f42e25]
+            - generic [ref=f42e26]:
+              - heading "Welcome" [level=2] [ref=f42e27]
+              - paragraph [ref=f42e28]: Jassim Al-Sulaiti
+            - button "Sign out" [ref=f42e30] [cursor=pointer]
+    - complementary [ref=f42e39]:
+      - link "Venture Visionary B2B Partner Portal" [ref=f42e43] [cursor=pointer]:
+        - /url: http://127.0.0.1:8090/partner
+      - navigation [ref=f42e45]:
+        - list [ref=f42e46]:
+          - listitem [ref=f42e47]:
+            - list [ref=f42e48]:
+              - listitem [ref=f42e49]:
+                - link "Dashboard" [ref=f42e50] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8090/partner
+              - listitem [ref=f42e54]:
+                - link "Agency Applications" [ref=f42e55] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8090/partner/visa-cases
+  - generic:
+    - status

@@ -1,0 +1,372 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]: Complimentary delivery in Dhaka on orders over ৳2,000
+      - generic [ref=e7]: •
+      - generic [ref=e8]: Cash on Delivery available nationwide
+    - generic [ref=e9]:
+      - link "BAZZAR.BD" [ref=e10] [cursor=pointer]:
+        - /url: /
+      - navigation [ref=e12]:
+        - link "Collection" [ref=e13] [cursor=pointer]:
+          - /url: /products
+        - link "T-Shirts" [ref=e14] [cursor=pointer]:
+          - /url: /products?category=t-shirts
+        - link "Hoodies" [ref=e15] [cursor=pointer]:
+          - /url: /products?category=hoodies
+        - link "Pants" [ref=e16] [cursor=pointer]:
+          - /url: /products?category=pants
+        - link "Jackets" [ref=e17] [cursor=pointer]:
+          - /url: /products?category=jackets
+        - link "About" [ref=e18] [cursor=pointer]:
+          - /url: /about
+      - generic [ref=e19]:
+        - button "Search ⌘K" [ref=e20] [cursor=pointer]:
+          - generic [ref=e24]: Search
+          - generic [ref=e25]: ⌘K
+        - link "Wishlist" [ref=e26] [cursor=pointer]:
+          - /url: /wishlist
+        - button "৳0" [ref=e29] [cursor=pointer]
+        - button "Account" [ref=e35] [cursor=pointer]
+  - main [ref=e39]:
+    - generic [ref=e41]:
+      - generic [ref=e43]:
+        - generic [ref=e44]:
+          - generic [ref=e45]: Autumn/Winter Architectural Drop
+          - heading "Architectural purity, handcrafted comfort." [level=1] [ref=e49]
+          - paragraph [ref=e50]: Heavyweight organic cotton apparel tailored with Scandinavian geometric restraint and Bangladeshi textile heritage. Built for tactile longevity.
+          - generic [ref=e51]:
+            - link "Explore Latest Drop" [ref=e52] [cursor=pointer]:
+              - /url: /products
+            - generic [ref=e55]: Next-day dispatch active in Dhaka
+        - generic [ref=e59]:
+          - img "BazzarBD Architectural Collection" [ref=e60]
+          - generic [ref=e61]:
+            - generic [ref=e62]: Limited Edition
+            - heading "Heavyweight Monolith Series" [level=3] [ref=e63]
+            - paragraph [ref=e64]: 240 GSM Combed Cotton • Dropped Shoulder Silhouette
+      - generic [ref=e65]:
+        - generic [ref=e66]:
+          - generic [ref=e67]:
+            - generic [ref=e68]: Curated Divisions
+            - heading "Form follows material." [level=2] [ref=e69]
+          - link "View All Categories" [ref=e70] [cursor=pointer]:
+            - /url: /products
+        - generic [ref=e73]:
+          - link "01 // DIVISION Heavyweight T-Shirts Structured 220-260 GSM drape Browse Category" [ref=e74] [cursor=pointer]:
+            - /url: /products?category=t-shirts
+            - generic [ref=e75]:
+              - generic [ref=e76]: 01 // DIVISION
+              - heading "Heavyweight T-Shirts" [level=3] [ref=e77]
+              - paragraph [ref=e78]: Structured 220-260 GSM drape
+            - generic [ref=e79]: Browse Category
+          - link "02 // DIVISION French Terry Hoodies Double-lined ergonomic hoods Browse Category" [ref=e83] [cursor=pointer]:
+            - /url: /products?category=hoodies
+            - generic [ref=e84]:
+              - generic [ref=e85]: 02 // DIVISION
+              - heading "French Terry Hoodies" [level=3] [ref=e86]
+              - paragraph [ref=e87]: Double-lined ergonomic hoods
+            - generic [ref=e88]: Browse Category
+          - link "03 // DIVISION Tailored Trousers Pleated & relaxed taper silhouettes Browse Category" [ref=e92] [cursor=pointer]:
+            - /url: /products?category=pants
+            - generic [ref=e93]:
+              - generic [ref=e94]: 03 // DIVISION
+              - heading "Tailored Trousers" [level=3] [ref=e95]
+              - paragraph [ref=e96]: Pleated & relaxed taper silhouettes
+            - generic [ref=e97]: Browse Category
+          - link "04 // DIVISION Over-shirts & Outerwear Layering garments for trans-seasonal wear Browse Category" [ref=e101] [cursor=pointer]:
+            - /url: /products?category=jackets
+            - generic [ref=e102]:
+              - generic [ref=e103]: 04 // DIVISION
+              - heading "Over-shirts & Outerwear" [level=3] [ref=e104]
+              - paragraph [ref=e105]: Layering garments for trans-seasonal wear
+            - generic [ref=e106]: Browse Category
+      - generic [ref=e110]:
+        - generic [ref=e111]:
+          - generic [ref=e112]:
+            - generic [ref=e113]: Curated Releases
+            - heading "Featured drops in stock." [level=2] [ref=e114]
+          - link "See all catalog items (99)" [ref=e228] [cursor=pointer]:
+            - /url: /products
+        - generic [ref=e118]:
+          - generic [ref=e229]:
+            - link "Versatile Sand Jacket Featured Drop Quick Add" [ref=e230] [cursor=pointer]:
+              - /url: /product/versatile-sand-jacket-99
+              - img "Versatile Sand Jacket" [ref=e231]
+              - generic [ref=e232]: Featured Drop
+              - button "Save to wishlist" [ref=e234]
+              - button "Quick Add" [ref=e238]
+            - generic [ref=e242]:
+              - generic [ref=e243]:
+                - generic [ref=e244]: jackets
+                - link "Versatile Sand Jacket" [ref=e245] [cursor=pointer]:
+                  - /url: /product/versatile-sand-jacket-99
+                - paragraph [ref=e246]: A versatile jacket in sand.
+              - generic [ref=e247]:
+                - generic [ref=e248]: ৳117
+                - generic [ref=e249]: 4 Variants
+          - generic [ref=e250]:
+            - link "Modern Sage T-Shirt Featured Drop Quick Add" [ref=e251] [cursor=pointer]:
+              - /url: /product/modern-sage-t-shirt-96
+              - img "Modern Sage T-Shirt" [ref=e252]
+              - generic [ref=e253]: Featured Drop
+              - button "Save to wishlist" [ref=e255]
+              - button "Quick Add" [ref=e259]
+            - generic [ref=e263]:
+              - generic [ref=e264]:
+                - generic [ref=e265]: t-shirts
+                - link "Modern Sage T-Shirt" [ref=e266] [cursor=pointer]:
+                  - /url: /product/modern-sage-t-shirt-96
+                - paragraph [ref=e267]: A modern t-shirt in sage.
+              - generic [ref=e268]:
+                - generic [ref=e269]: ৳26
+                - generic [ref=e270]: 4 Variants
+          - generic [ref=e271]:
+            - link "Versatile Forest T-Shirt Featured Drop Quick Add" [ref=e272] [cursor=pointer]:
+              - /url: /product/versatile-forest-t-shirt-92
+              - img "Versatile Forest T-Shirt" [ref=e273]
+              - generic [ref=e274]: Featured Drop
+              - button "Save to wishlist" [ref=e276]
+              - button "Quick Add" [ref=e280]
+            - generic [ref=e284]:
+              - generic [ref=e285]:
+                - generic [ref=e286]: t-shirts
+                - link "Versatile Forest T-Shirt" [ref=e287] [cursor=pointer]:
+                  - /url: /product/versatile-forest-t-shirt-92
+                - paragraph [ref=e288]: A versatile t-shirt in forest.
+              - generic [ref=e289]:
+                - generic [ref=e290]: ৳76
+                - generic [ref=e291]: 4 Variants
+          - generic [ref=e292]:
+            - link "Comfort Rust Pant Featured Drop Quick Add" [ref=e293] [cursor=pointer]:
+              - /url: /product/comfort-rust-pant-94
+              - img "Comfort Rust Pant" [ref=e294]
+              - generic [ref=e295]: Featured Drop
+              - button "Save to wishlist" [ref=e297]
+              - button "Quick Add" [ref=e301]
+            - generic [ref=e305]:
+              - generic [ref=e306]:
+                - generic [ref=e307]: pants
+                - link "Comfort Rust Pant" [ref=e308] [cursor=pointer]:
+                  - /url: /product/comfort-rust-pant-94
+                - paragraph [ref=e309]: A comfort pant in rust.
+              - generic [ref=e310]:
+                - generic [ref=e311]: ৳79
+                - generic [ref=e312]: 4 Variants
+          - generic [ref=e313]:
+            - link "Vintage Shadow Jacket Featured Drop Quick Add" [ref=e314] [cursor=pointer]:
+              - /url: /product/vintage-shadow-jacket-91
+              - img "Vintage Shadow Jacket" [ref=e315]
+              - generic [ref=e316]: Featured Drop
+              - button "Save to wishlist" [ref=e318]
+              - button "Quick Add" [ref=e322]
+            - generic [ref=e326]:
+              - generic [ref=e327]:
+                - generic [ref=e328]: jackets
+                - link "Vintage Shadow Jacket" [ref=e329] [cursor=pointer]:
+                  - /url: /product/vintage-shadow-jacket-91
+                - paragraph [ref=e330]: A vintage jacket in shadow.
+              - generic [ref=e331]:
+                - generic [ref=e332]: ৳86
+                - generic [ref=e333]: 4 Variants
+          - generic [ref=e334]:
+            - link "Daily Moss Hoodie Featured Drop Quick Add" [ref=e335] [cursor=pointer]:
+              - /url: /product/daily-moss-hoodie-89
+              - img "Daily Moss Hoodie" [ref=e336]
+              - generic [ref=e337]: Featured Drop
+              - button "Save to wishlist" [ref=e339]
+              - button "Quick Add" [ref=e343]
+            - generic [ref=e347]:
+              - generic [ref=e348]:
+                - generic [ref=e349]: hoodies
+                - link "Daily Moss Hoodie" [ref=e350] [cursor=pointer]:
+                  - /url: /product/daily-moss-hoodie-89
+                - paragraph [ref=e351]: A daily hoodie in moss.
+              - generic [ref=e352]:
+                - generic [ref=e353]: ৳46
+                - generic [ref=e354]: 4 Variants
+      - generic [ref=e356]:
+        - generic [ref=e357]:
+          - generic [ref=e358]:
+            - generic [ref=e359]: AI Discovery Engine
+            - heading "Recommended For You" [level=2] [ref=e363]
+            - paragraph [ref=e364]: Curated according to your aesthetic taste, recent browsing history, and bag signals.
+          - link "Explore Full Drop" [ref=e365] [cursor=pointer]:
+            - /url: /products
+        - generic [ref=e368]:
+          - generic [ref=e369]:
+            - link "Stretch Slate T-Shirt Recommended for You Quick Add" [ref=e370] [cursor=pointer]:
+              - /url: /product/stretch-slate-t-shirt-0
+              - img "Stretch Slate T-Shirt" [ref=e371]
+              - generic [ref=e372]: Recommended for You
+              - button "Save to wishlist" [ref=e374]
+              - button "Quick Add" [ref=e378]
+            - generic [ref=e382]:
+              - generic [ref=e383]:
+                - generic [ref=e384]: t-shirts
+                - link "Stretch Slate T-Shirt" [ref=e385] [cursor=pointer]:
+                  - /url: /product/stretch-slate-t-shirt-0
+                - paragraph [ref=e386]: A stretch t-shirt in slate.
+              - generic [ref=e387]:
+                - generic [ref=e388]: ৳119
+                - generic [ref=e389]: 4 Variants
+          - generic [ref=e390]:
+            - link "Heavyweight Sand Hoodie Recommended for You Quick Add" [ref=e391] [cursor=pointer]:
+              - /url: /product/heavyweight-sand-hoodie-1
+              - img "Heavyweight Sand Hoodie" [ref=e392]
+              - generic [ref=e393]: Recommended for You
+              - button "Save to wishlist" [ref=e395]
+              - button "Quick Add" [ref=e399]
+            - generic [ref=e403]:
+              - generic [ref=e404]:
+                - generic [ref=e405]: hoodies
+                - link "Heavyweight Sand Hoodie" [ref=e406] [cursor=pointer]:
+                  - /url: /product/heavyweight-sand-hoodie-1
+                - paragraph [ref=e407]: A heavyweight hoodie in sand.
+              - generic [ref=e408]:
+                - generic [ref=e409]: ৳29
+                - generic [ref=e410]: 4 Variants
+          - generic [ref=e411]:
+            - link "Signature Umber Pant Recommended for You Quick Add" [ref=e412] [cursor=pointer]:
+              - /url: /product/signature-umber-pant-2
+              - img "Signature Umber Pant" [ref=e413]
+              - generic [ref=e414]: Recommended for You
+              - button "Save to wishlist" [ref=e416]
+              - button "Quick Add" [ref=e420]
+            - generic [ref=e424]:
+              - generic [ref=e425]:
+                - generic [ref=e426]: pants
+                - link "Signature Umber Pant" [ref=e427] [cursor=pointer]:
+                  - /url: /product/signature-umber-pant-2
+                - paragraph [ref=e428]: A signature pant in umber.
+              - generic [ref=e429]:
+                - generic [ref=e430]: ৳113
+                - generic [ref=e431]: 4 Variants
+          - generic [ref=e432]:
+            - link "Organic Arctic Jacket Recommended for You Quick Add" [ref=e433] [cursor=pointer]:
+              - /url: /product/organic-arctic-jacket-3
+              - img "Organic Arctic Jacket" [ref=e434]
+              - generic [ref=e435]: Recommended for You
+              - button "Save to wishlist" [ref=e437]
+              - button "Quick Add" [ref=e441]
+            - generic [ref=e445]:
+              - generic [ref=e446]:
+                - generic [ref=e447]: jackets
+                - link "Organic Arctic Jacket" [ref=e448] [cursor=pointer]:
+                  - /url: /product/organic-arctic-jacket-3
+                - paragraph [ref=e449]: A organic jacket in arctic.
+              - generic [ref=e450]:
+                - generic [ref=e451]: ৳27
+                - generic [ref=e452]: 4 Variants
+      - generic [ref=e124]:
+        - generic [ref=e125]:
+          - text: Philosophy & Ethics
+          - 'heading "\"Clothing should feel like architectural shelter: quiet, unyielding, and honest.\"" [level=2] [ref=e126]'
+          - paragraph [ref=e127]: Every BazzarBD piece is knit in Dhaka and Narayanganj with combed GOTS-certified organic cotton yarns. We reject fleeting micro-trends in favor of disciplined silhouettes and resilient construction.
+        - link "Read Our Studio Manifesto" [ref=e129] [cursor=pointer]:
+          - /url: /about
+  - contentinfo [ref=e130]:
+    - generic [ref=e132]:
+      - generic [ref=e140]:
+        - heading "Rapid Courier Dispatch" [level=4] [ref=e141]
+        - paragraph [ref=e142]: 24h inside Dhaka • 48-72h nationwide via Steadfast & Pathao
+      - generic [ref=e148]:
+        - heading "7-Day Effortless Exchange" [level=4] [ref=e149]
+        - paragraph [ref=e150]: Hassle-free size replacement and direct parcel swap
+      - generic [ref=e156]:
+        - heading "Zero Compromise Quality" [level=4] [ref=e157]
+        - paragraph [ref=e158]: Heavyweight combed cotton & ethical production
+    - generic [ref=e159]:
+      - generic [ref=e160]:
+        - generic [ref=e161]:
+          - link "BAZZAR.BD" [ref=e162] [cursor=pointer]:
+            - /url: /
+          - paragraph [ref=e164]: Refined apparel and lifestyle objects uniting Scandinavian architectural purity with Bangladeshi textile heritage. Crafted in limited seasonal drops.
+          - generic [ref=e165]:
+            - generic [ref=e166]: Receive Drop Notifications
+            - generic [ref=e167]:
+              - textbox "Enter your email" [ref=e168]
+              - button "Join" [ref=e169] [cursor=pointer]
+        - generic [ref=e172]:
+          - heading "Catalog" [level=4] [ref=e173]
+          - list [ref=e174]:
+            - listitem [ref=e175]:
+              - link "All Products" [ref=e176] [cursor=pointer]:
+                - /url: /products
+            - listitem [ref=e177]:
+              - link "Heavyweight T-Shirts" [ref=e178] [cursor=pointer]:
+                - /url: /products?category=t-shirts
+            - listitem [ref=e179]:
+              - link "French Terry Hoodies" [ref=e180] [cursor=pointer]:
+                - /url: /products?category=hoodies
+            - listitem [ref=e181]:
+              - link "Tailored Trousers" [ref=e182] [cursor=pointer]:
+                - /url: /products?category=pants
+            - listitem [ref=e183]:
+              - link "Over-shirts & Jackets" [ref=e184] [cursor=pointer]:
+                - /url: /products?category=jackets
+        - generic [ref=e185]:
+          - heading "Assistance" [level=4] [ref=e186]
+          - list [ref=e187]:
+            - listitem [ref=e188]:
+              - link "Track Your Order" [ref=e189] [cursor=pointer]:
+                - /url: /track
+            - listitem [ref=e190]:
+              - link "Shipping & Couriers" [ref=e191] [cursor=pointer]:
+                - /url: /shipping-info
+            - listitem [ref=e192]:
+              - link "Return Policy" [ref=e193] [cursor=pointer]:
+                - /url: /returns-exchanges
+            - listitem [ref=e194]:
+              - link "Customer Support" [ref=e195] [cursor=pointer]:
+                - /url: /support
+            - listitem [ref=e196]:
+              - link "Career Openings" [ref=e197] [cursor=pointer]:
+                - /url: /careers
+        - generic [ref=e198]:
+          - heading "Studio" [level=4] [ref=e199]
+          - list [ref=e200]:
+            - listitem [ref=e201]:
+              - link "Design Narrative" [ref=e202] [cursor=pointer]:
+                - /url: /about
+            - listitem [ref=e203]:
+              - link "Staff Portal" [ref=e204] [cursor=pointer]:
+                - /url: /master
+            - listitem [ref=e205]: Dhaka, Bangladesh
+            - listitem [ref=e206]: +880 1700-000000
+            - listitem [ref=e207]: support@bazzarbd.com
+      - generic [ref=e208]:
+        - paragraph [ref=e209]: © 2026 BazzarBD Inc. All architectural rights reserved.
+        - generic [ref=e210]:
+          - generic [ref=e211]: SSL Secured 256-bit
+          - generic [ref=e212]: •
+          - generic [ref=e213]: Steadfast & Pathao Verified
+  - generic [ref=e454]:
+    - generic [ref=e455]:
+      - generic [ref=e464]:
+        - generic [ref=e465]:
+          - heading "BazzarAI Live Concierge" [level=3] [ref=e466]
+          - generic [ref=e467]: Gemini 3.8 Live
+        - paragraph [ref=e468]:
+          - generic [ref=e470]: 🔴 Live Call Active — Speak in Bengali or English
+      - button [ref=e472] [cursor=pointer]
+    - generic [ref=e476]:
+      - generic [ref=e477]: 👂 শুনতে প্রস্তুত — আপনি কথা বলুন
+      - generic [ref=e503]:
+        - generic [ref=e504]: "🗣️ আপনি বলেছেন:"
+        - paragraph [ref=e505]: আমার নাম সাদিক, মিরপুর ১০ ঢাকা। একটি শার্ট অর্ডার দিন।
+      - generic [ref=e482]:
+        - paragraph [ref=e483]: "দ্রুত প্রশ্ন বা অর্ডার করতে ক্লিক করুন:"
+        - generic [ref=e484]:
+          - button "আমার নাম সাদিক, মিরপুর ১০ ঢাকা। একটি শার্ট অর্ডার দিন।" [active] [ref=e485] [cursor=pointer]
+          - button "আপনাদের ডেলিভারি চার্জ কত এবং কতদিনে পাব?" [ref=e486] [cursor=pointer]
+          - button "১০০০ টাকার নিচে কি কি টি-শার্ট আছে দেখান?" [ref=e487] [cursor=pointer]
+          - button "অর্ডার ট্র্যাকিং কিভাবে করব?" [ref=e488] [cursor=pointer]
+    - generic [ref=e489]:
+      - generic [ref=e490]:
+        - textbox "মুখে কথা বলুন অথবা এখানে লিখে পাঠান..." [ref=e491]
+        - button [disabled]
+      - generic [ref=e492]:
+        - button "Mic Active" [ref=e493] [cursor=pointer]
+        - button "কল শেষ করুন (End Call)" [ref=e498] [cursor=pointer]
+  - region "Notifications alt+T"

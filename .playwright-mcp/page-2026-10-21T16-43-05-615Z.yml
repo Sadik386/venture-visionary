@@ -1,0 +1,478 @@
+- generic [ref=f13e1]:
+  - generic [ref=f13e2]:
+    - generic [ref=f13e3]:
+      - navigation [ref=f13e5]:
+        - generic [ref=f13e6]:
+          - button "Open notifications 8" [ref=f13e937] [cursor=pointer]:
+            - generic [ref=f13e938]: Open notifications
+            - generic [ref=f13e941]: "8"
+          - button "User menu" [ref=f13e9] [cursor=pointer]:
+            - img "Avatar of Executive Super Admin" [ref=f13e10]
+      - main [ref=f13e11]:
+        - generic [ref=f13e13]:
+          - generic [ref=f13e14]:
+            - generic [ref=f13e15]:
+              - navigation [ref=f13e16]:
+                - list [ref=f13e17]:
+                  - listitem [ref=f13e18]:
+                    - link "Appointments" [ref=f13e19] [cursor=pointer]:
+                      - /url: http://localhost:8090/staff/appointments
+                  - listitem [ref=f13e20]:
+                    - generic [ref=f13e23]: List
+              - heading "Appointments" [level=1] [ref=f13e24]
+            - link "New Appointment Slot" [ref=f13e27] [cursor=pointer]:
+              - /url: http://localhost:8090/staff/appointments/create
+          - generic [ref=f13e32]:
+            - generic [ref=f13e33]:
+              - generic [ref=f13e36]:
+                - generic [ref=f13e37]:
+                  - generic [ref=f13e38]: Search
+                  - searchbox "Search" [ref=f13e44]
+                - button "Filter 0" [ref=f13e47] [cursor=pointer]:
+                  - generic [ref=f13e48]: Filter
+                  - generic [ref=f13e51]: "0"
+              - table [ref=f13e56]:
+                - rowgroup [ref=f13e57]:
+                  - row [ref=f13e58]:
+                    - columnheader "Select/deselect all items for bulk actions." [ref=f13e59]:
+                      - generic [ref=f13e61]:
+                        - checkbox "Select/deselect all items for bulk actions." [ref=f13e945]
+                        - generic [ref=f13e63]: Select/deselect all items for bulk actions.
+                    - columnheader [ref=f13e64]:
+                      - button "Date &amp; Time" [ref=f13e65] [cursor=pointer]:
+                        - generic [ref=f13e66]: Date & Time
+                    - columnheader "Topic / Booking" [ref=f13e69]
+                    - columnheader "Applicant" [ref=f13e72]
+                    - columnheader "Appointment type" [ref=f13e75]
+                    - columnheader "Host Consultant" [ref=f13e78]
+                    - columnheader "Status" [ref=f13e81]
+                    - columnheader "Actions" [ref=f13e84]
+                - rowgroup [ref=f13e85]:
+                  - row [ref=f13e86]:
+                    - cell "Select/deselect item a30936b9-9d49-4775-a782-795433ca5372 for bulk actions." [ref=f13e87]:
+                      - generic [ref=f13e89]:
+                        - checkbox "Select/deselect item a30936b9-9d49-4775-a782-795433ca5372 for bulk actions." [ref=f13e90]
+                        - generic [ref=f13e91]: Select/deselect item a30936b9-9d49-4775-a782-795433ca5372 for bulk actions.
+                    - cell [ref=f13e92]:
+                      - link "Oct 24, 2026 02:30 PM" [ref=f13e94] [cursor=pointer]:
+                        - /url: http://localhost:8090/staff/appointments/a30936b9-9d49-4775-a782-795433ca5372/edit
+                    - cell [ref=f13e100]:
+                      - link "United Kingdom Visa Strat..." [ref=f13e102] [cursor=pointer]:
+                        - /url: http://localhost:8090/staff/appointments/a30936b9-9d49-4775-a782-795433ca5372/edit
+                    - cell [ref=f13e108]:
+                      - link "Fatima Al-Ansari +97433006906" [ref=f13e110] [cursor=pointer]:
+                        - /url: http://localhost:8090/staff/appointments/a30936b9-9d49-4775-a782-795433ca5372/edit
+                        - generic [ref=f13e111]:
+                          - generic [ref=f13e112]: Fatima Al-Ansari
+                          - paragraph [ref=f13e116]: "+97433006906"
+                    - cell [ref=f13e117]:
+                      - link "consultation" [ref=f13e119] [cursor=pointer]:
+                        - /url: http://localhost:8090/staff/appointments/a30936b9-9d49-4775-a782-795433ca5372/edit
+                    - cell [ref=f13e126]:
+                      - link "Sarah Jenkins" [ref=f13e128] [cursor=pointer]:
+                        - /url: http://localhost:8090/staff/appointments/a30936b9-9d49-4775-a782-795433ca5372/edit
+                    - cell [ref=f13e134]:
+                      - link "scheduled" [ref=f13e136] [cursor=pointer]:
+                        - /url: http://localhost:8090/staff/appointments/a30936b9-9d49-4775-a782-795433ca5372/edit
+                    - cell [ref=f13e143]:
+                      - generic [ref=f13e145]:
+                        - button "Attended" [ref=f13e146] [cursor=pointer]
+                        - link "Edit" [ref=f13e150] [cursor=pointer]:
+                          - /url: http://localhost:8090/staff/appointments/a30936b9-9d49-4775-a782-795433ca5372/edit
+                  - row [ref=f13e155]:
+                    - cell "Select/deselect item a30935e7-ed95-4b4b-b483-e80a857af3c5 for bulk actions." [ref=f13e156]:
+                      - generic [ref=f13e158]:
+                        - checkbox "Select/deselect item a30935e7-ed95-4b4b-b483-e80a857af3c5 for bulk actions." [ref=f13e159]
+                        - generic [ref=f13e160]: Select/deselect item a30935e7-ed95-4b4b-b483-e80a857af3c5 for bulk actions.
+                    - cell [ref=f13e161]:
+                      - link "Oct 24, 2026 02:30 PM" [ref=f13e163] [cursor=pointer]:
+                        - /url: http://localhost:8090/staff/appointments/a30935e7-ed95-4b4b-b483-e80a857af3c5/edit
+                    - cell [ref=f13e169]:
+                      - link "United Kingdom Visa Strat..." [ref=f13e171] [cursor=pointer]:
+                        - /url: http://localhost:8090/staff/appointments/a30935e7-ed95-4b4b-b483-e80a857af3c5/edit
+                    - cell [ref=f13e177]:
+                      - link "Fatima Al-Ansari +97433221100" [ref=f13e179] [cursor=pointer]:
+                        - /url: http://localhost:8090/staff/appointments/a30935e7-ed95-4b4b-b483-e80a857af3c5/edit
+                        - generic [ref=f13e180]:
+                          - generic [ref=f13e181]: Fatima Al-Ansari
+                          - paragraph [ref=f13e185]: "+97433221100"
+                    - cell [ref=f13e186]:
+                      - link "consultation" [ref=f13e188] [cursor=pointer]:
+                        - /url: http://localhost:8090/staff/appointments/a30935e7-ed95-4b4b-b483-e80a857af3c5/edit
+                    - cell [ref=f13e195]:
+                      - link "Sarah Jenkins" [ref=f13e197] [cursor=pointer]:
+                        - /url: http://localhost:8090/staff/appointments/a30935e7-ed95-4b4b-b483-e80a857af3c5/edit
+                    - cell [ref=f13e203]:
+                      - link "scheduled" [ref=f13e205] [cursor=pointer]:
+                        - /url: http://localhost:8090/staff/appointments/a30935e7-ed95-4b4b-b483-e80a857af3c5/edit
+                    - cell [ref=f13e212]:
+                      - generic [ref=f13e214]:
+                        - button "Attended" [ref=f13e215] [cursor=pointer]
+                        - link "Edit" [ref=f13e219] [cursor=pointer]:
+                          - /url: http://localhost:8090/staff/appointments/a30935e7-ed95-4b4b-b483-e80a857af3c5/edit
+                  - row [ref=f13e224]:
+                    - cell "Select/deselect item a30936cc-0fcf-40c8-840e-6d0ad4a6aeb2 for bulk actions." [ref=f13e225]:
+                      - generic [ref=f13e227]:
+                        - checkbox "Select/deselect item a30936cc-0fcf-40c8-840e-6d0ad4a6aeb2 for bulk actions." [ref=f13e228]
+                        - generic [ref=f13e229]: Select/deselect item a30936cc-0fcf-40c8-840e-6d0ad4a6aeb2 for bulk actions.
+                    - cell [ref=f13e230]:
+                      - link "Oct 24, 2026 02:30 PM" [ref=f13e232] [cursor=pointer]:
+                        - /url: http://localhost:8090/staff/appointments/a30936cc-0fcf-40c8-840e-6d0ad4a6aeb2/edit
+                    - cell [ref=f13e238]:
+                      - link "United Kingdom Visa Strat..." [ref=f13e240] [cursor=pointer]:
+                        - /url: http://localhost:8090/staff/appointments/a30936cc-0fcf-40c8-840e-6d0ad4a6aeb2/edit
+                    - cell [ref=f13e246]:
+                      - link "Fatima Al-Ansari +97437274175" [ref=f13e248] [cursor=pointer]:
+                        - /url: http://localhost:8090/staff/appointments/a30936cc-0fcf-40c8-840e-6d0ad4a6aeb2/edit
+                        - generic [ref=f13e249]:
+                          - generic [ref=f13e250]: Fatima Al-Ansari
+                          - paragraph [ref=f13e254]: "+97437274175"
+                    - cell [ref=f13e255]:
+                      - link "consultation" [ref=f13e257] [cursor=pointer]:
+                        - /url: http://localhost:8090/staff/appointments/a30936cc-0fcf-40c8-840e-6d0ad4a6aeb2/edit
+                    - cell [ref=f13e264]:
+                      - link "Sarah Jenkins" [ref=f13e266] [cursor=pointer]:
+                        - /url: http://localhost:8090/staff/appointments/a30936cc-0fcf-40c8-840e-6d0ad4a6aeb2/edit
+                    - cell [ref=f13e272]:
+                      - link "scheduled" [ref=f13e274] [cursor=pointer]:
+                        - /url: http://localhost:8090/staff/appointments/a30936cc-0fcf-40c8-840e-6d0ad4a6aeb2/edit
+                    - cell [ref=f13e281]:
+                      - generic [ref=f13e283]:
+                        - button "Attended" [ref=f13e284] [cursor=pointer]
+                        - link "Edit" [ref=f13e288] [cursor=pointer]:
+                          - /url: http://localhost:8090/staff/appointments/a30936cc-0fcf-40c8-840e-6d0ad4a6aeb2/edit
+                  - row [ref=f13e293]:
+                    - cell "Select/deselect item a309362e-b348-40b9-ba01-9d2445e3168f for bulk actions." [ref=f13e294]:
+                      - generic [ref=f13e296]:
+                        - checkbox "Select/deselect item a309362e-b348-40b9-ba01-9d2445e3168f for bulk actions." [ref=f13e297]
+                        - generic [ref=f13e298]: Select/deselect item a309362e-b348-40b9-ba01-9d2445e3168f for bulk actions.
+                    - cell [ref=f13e299]:
+                      - link "Oct 24, 2026 02:30 PM" [ref=f13e301] [cursor=pointer]:
+                        - /url: http://localhost:8090/staff/appointments/a309362e-b348-40b9-ba01-9d2445e3168f/edit
+                    - cell [ref=f13e307]:
+                      - link "United Kingdom Visa Strat..." [ref=f13e309] [cursor=pointer]:
+                        - /url: http://localhost:8090/staff/appointments/a309362e-b348-40b9-ba01-9d2445e3168f/edit
+                    - cell [ref=f13e315]:
+                      - link "Fatima Al-Ansari +97433221100" [ref=f13e317] [cursor=pointer]:
+                        - /url: http://localhost:8090/staff/appointments/a309362e-b348-40b9-ba01-9d2445e3168f/edit
+                        - generic [ref=f13e318]:
+                          - generic [ref=f13e319]: Fatima Al-Ansari
+                          - paragraph [ref=f13e323]: "+97433221100"
+                    - cell [ref=f13e324]:
+                      - link "consultation" [ref=f13e326] [cursor=pointer]:
+                        - /url: http://localhost:8090/staff/appointments/a309362e-b348-40b9-ba01-9d2445e3168f/edit
+                    - cell [ref=f13e333]:
+                      - link "Executive Super Admin" [ref=f13e335] [cursor=pointer]:
+                        - /url: http://localhost:8090/staff/appointments/a309362e-b348-40b9-ba01-9d2445e3168f/edit
+                    - cell [ref=f13e341]:
+                      - link "scheduled" [ref=f13e343] [cursor=pointer]:
+                        - /url: http://localhost:8090/staff/appointments/a309362e-b348-40b9-ba01-9d2445e3168f/edit
+                    - cell [ref=f13e350]:
+                      - generic [ref=f13e352]:
+                        - button "Attended" [ref=f13e353] [cursor=pointer]
+                        - link "Edit" [ref=f13e357] [cursor=pointer]:
+                          - /url: http://localhost:8090/staff/appointments/a309362e-b348-40b9-ba01-9d2445e3168f/edit
+                  - row [ref=f13e362]:
+                    - cell "Select/deselect item a309359d-e611-4d39-a371-a39c9fe21349 for bulk actions." [ref=f13e363]:
+                      - generic [ref=f13e365]:
+                        - checkbox "Select/deselect item a309359d-e611-4d39-a371-a39c9fe21349 for bulk actions." [ref=f13e366]
+                        - generic [ref=f13e367]: Select/deselect item a309359d-e611-4d39-a371-a39c9fe21349 for bulk actions.
+                    - cell [ref=f13e368]:
+                      - link "Oct 23, 2026 11:00 AM" [ref=f13e370] [cursor=pointer]:
+                        - /url: http://localhost:8090/staff/appointments/a309359d-e611-4d39-a371-a39c9fe21349/edit
+                    - cell [ref=f13e376]:
+                      - link "UK Tourist Visa Strategy..." [ref=f13e378] [cursor=pointer]:
+                        - /url: http://localhost:8090/staff/appointments/a309359d-e611-4d39-a371-a39c9fe21349/edit
+                    - cell [ref=f13e384]:
+                      - link "Ahmed Mansour +97455001122" [ref=f13e386] [cursor=pointer]:
+                        - /url: http://localhost:8090/staff/appointments/a309359d-e611-4d39-a371-a39c9fe21349/edit
+                        - generic [ref=f13e387]:
+                          - generic [ref=f13e388]: Ahmed Mansour
+                          - paragraph [ref=f13e392]: "+97455001122"
+                    - cell [ref=f13e393]:
+                      - link "consultation" [ref=f13e395] [cursor=pointer]:
+                        - /url: http://localhost:8090/staff/appointments/a309359d-e611-4d39-a371-a39c9fe21349/edit
+                    - cell [ref=f13e402]:
+                      - link "Sarah Jenkins" [ref=f13e404] [cursor=pointer]:
+                        - /url: http://localhost:8090/staff/appointments/a309359d-e611-4d39-a371-a39c9fe21349/edit
+                    - cell [ref=f13e410]:
+                      - link "scheduled" [ref=f13e412] [cursor=pointer]:
+                        - /url: http://localhost:8090/staff/appointments/a309359d-e611-4d39-a371-a39c9fe21349/edit
+                    - cell [ref=f13e419]:
+                      - generic [ref=f13e421]:
+                        - button "Attended" [ref=f13e422] [cursor=pointer]
+                        - link "Edit" [ref=f13e426] [cursor=pointer]:
+                          - /url: http://localhost:8090/staff/appointments/a309359d-e611-4d39-a371-a39c9fe21349/edit
+                  - row [ref=f13e431]:
+                    - cell "Select/deselect item a3093b8b-1410-4c5e-af90-dec3f1f6f698 for bulk actions." [ref=f13e432]:
+                      - generic [ref=f13e434]:
+                        - checkbox "Select/deselect item a3093b8b-1410-4c5e-af90-dec3f1f6f698 for bulk actions." [ref=f13e435]
+                        - generic [ref=f13e436]: Select/deselect item a3093b8b-1410-4c5e-af90-dec3f1f6f698 for bulk actions.
+                    - cell [ref=f13e437]:
+                      - link "Oct 22, 2026 11:00 AM" [ref=f13e439] [cursor=pointer]:
+                        - /url: http://localhost:8090/staff/appointments/a3093b8b-1410-4c5e-af90-dec3f1f6f698/edit
+                    - cell [ref=f13e445]:
+                      - link "United Kingdom Visa Strat..." [ref=f13e447] [cursor=pointer]:
+                        - /url: http://localhost:8090/staff/appointments/a3093b8b-1410-4c5e-af90-dec3f1f6f698/edit
+                    - cell [ref=f13e453]:
+                      - link "Sheikh Hamad Live Test +974 5599 0011" [ref=f13e455] [cursor=pointer]:
+                        - /url: http://localhost:8090/staff/appointments/a3093b8b-1410-4c5e-af90-dec3f1f6f698/edit
+                        - generic [ref=f13e456]:
+                          - generic [ref=f13e457]: Sheikh Hamad Live Test
+                          - paragraph [ref=f13e461]: +974 5599 0011
+                    - cell [ref=f13e462]:
+                      - link "consultation" [ref=f13e464] [cursor=pointer]:
+                        - /url: http://localhost:8090/staff/appointments/a3093b8b-1410-4c5e-af90-dec3f1f6f698/edit
+                    - cell [ref=f13e471]:
+                      - link "Sarah Jenkins" [ref=f13e473] [cursor=pointer]:
+                        - /url: http://localhost:8090/staff/appointments/a3093b8b-1410-4c5e-af90-dec3f1f6f698/edit
+                    - cell [ref=f13e479]:
+                      - link "scheduled" [ref=f13e481] [cursor=pointer]:
+                        - /url: http://localhost:8090/staff/appointments/a3093b8b-1410-4c5e-af90-dec3f1f6f698/edit
+                    - cell [ref=f13e488]:
+                      - generic [ref=f13e490]:
+                        - button "Attended" [ref=f13e491] [cursor=pointer]
+                        - link "Edit" [ref=f13e495] [cursor=pointer]:
+                          - /url: http://localhost:8090/staff/appointments/a3093b8b-1410-4c5e-af90-dec3f1f6f698/edit
+                  - row [ref=f13e500]:
+                    - cell "Select/deselect item a30936cc-c800-4e53-9a22-6e86f2a14369 for bulk actions." [ref=f13e501]:
+                      - generic [ref=f13e503]:
+                        - checkbox "Select/deselect item a30936cc-c800-4e53-9a22-6e86f2a14369 for bulk actions." [ref=f13e504]
+                        - generic [ref=f13e505]: Select/deselect item a30936cc-c800-4e53-9a22-6e86f2a14369 for bulk actions.
+                    - cell [ref=f13e506]:
+                      - link "Oct 21, 2026 06:21 PM" [ref=f13e508] [cursor=pointer]:
+                        - /url: http://localhost:8090/staff/appointments/a30936cc-c800-4e53-9a22-6e86f2a14369/edit
+                    - cell [ref=f13e514]:
+                      - link "Interview Prep Session" [ref=f13e516] [cursor=pointer]:
+                        - /url: http://localhost:8090/staff/appointments/a30936cc-c800-4e53-9a22-6e86f2a14369/edit
+                    - cell [ref=f13e522]:
+                      - link "Tariq Hassan +97421139741" [ref=f13e524] [cursor=pointer]:
+                        - /url: http://localhost:8090/staff/appointments/a30936cc-c800-4e53-9a22-6e86f2a14369/edit
+                        - generic [ref=f13e525]:
+                          - generic [ref=f13e526]: Tariq Hassan
+                          - paragraph [ref=f13e530]: "+97421139741"
+                    - cell [ref=f13e531]:
+                      - link "interview" [ref=f13e533] [cursor=pointer]:
+                        - /url: http://localhost:8090/staff/appointments/a30936cc-c800-4e53-9a22-6e86f2a14369/edit
+                    - cell [ref=f13e540]:
+                      - link "Advisory Team" [ref=f13e542] [cursor=pointer]:
+                        - /url: http://localhost:8090/staff/appointments/a30936cc-c800-4e53-9a22-6e86f2a14369/edit
+                    - cell [ref=f13e548]:
+                      - link "attended" [ref=f13e550] [cursor=pointer]:
+                        - /url: http://localhost:8090/staff/appointments/a30936cc-c800-4e53-9a22-6e86f2a14369/edit
+                    - cell [ref=f13e557]:
+                      - link "Edit" [ref=f13e560] [cursor=pointer]:
+                        - /url: http://localhost:8090/staff/appointments/a30936cc-c800-4e53-9a22-6e86f2a14369/edit
+                  - row [ref=f13e565]:
+                    - cell "Select/deselect item a30936ba-5f55-4bcd-b63c-222969748724 for bulk actions." [ref=f13e566]:
+                      - generic [ref=f13e568]:
+                        - checkbox "Select/deselect item a30936ba-5f55-4bcd-b63c-222969748724 for bulk actions." [ref=f13e569]
+                        - generic [ref=f13e570]: Select/deselect item a30936ba-5f55-4bcd-b63c-222969748724 for bulk actions.
+                    - cell [ref=f13e571]:
+                      - link "Oct 21, 2026 06:21 PM" [ref=f13e573] [cursor=pointer]:
+                        - /url: http://localhost:8090/staff/appointments/a30936ba-5f55-4bcd-b63c-222969748724/edit
+                    - cell [ref=f13e579]:
+                      - link "Interview Prep Session" [ref=f13e581] [cursor=pointer]:
+                        - /url: http://localhost:8090/staff/appointments/a30936ba-5f55-4bcd-b63c-222969748724/edit
+                    - cell [ref=f13e587]:
+                      - link "Tariq Hassan +97428851352" [ref=f13e589] [cursor=pointer]:
+                        - /url: http://localhost:8090/staff/appointments/a30936ba-5f55-4bcd-b63c-222969748724/edit
+                        - generic [ref=f13e590]:
+                          - generic [ref=f13e591]: Tariq Hassan
+                          - paragraph [ref=f13e595]: "+97428851352"
+                    - cell [ref=f13e596]:
+                      - link "interview" [ref=f13e598] [cursor=pointer]:
+                        - /url: http://localhost:8090/staff/appointments/a30936ba-5f55-4bcd-b63c-222969748724/edit
+                    - cell [ref=f13e605]:
+                      - link "Advisory Team" [ref=f13e607] [cursor=pointer]:
+                        - /url: http://localhost:8090/staff/appointments/a30936ba-5f55-4bcd-b63c-222969748724/edit
+                    - cell [ref=f13e613]:
+                      - link "attended" [ref=f13e615] [cursor=pointer]:
+                        - /url: http://localhost:8090/staff/appointments/a30936ba-5f55-4bcd-b63c-222969748724/edit
+                    - cell [ref=f13e622]:
+                      - link "Edit" [ref=f13e625] [cursor=pointer]:
+                        - /url: http://localhost:8090/staff/appointments/a30936ba-5f55-4bcd-b63c-222969748724/edit
+                  - row [ref=f13e630]:
+                    - cell "Select/deselect item a3093630-d3e1-41cb-896d-e7854cd21627 for bulk actions." [ref=f13e631]:
+                      - generic [ref=f13e633]:
+                        - checkbox "Select/deselect item a3093630-d3e1-41cb-896d-e7854cd21627 for bulk actions." [ref=f13e634]
+                        - generic [ref=f13e635]: Select/deselect item a3093630-d3e1-41cb-896d-e7854cd21627 for bulk actions.
+                    - cell [ref=f13e636]:
+                      - link "Oct 21, 2026 06:19 PM" [ref=f13e638] [cursor=pointer]:
+                        - /url: http://localhost:8090/staff/appointments/a3093630-d3e1-41cb-896d-e7854cd21627/edit
+                    - cell [ref=f13e644]:
+                      - link "Interview Prep Session" [ref=f13e646] [cursor=pointer]:
+                        - /url: http://localhost:8090/staff/appointments/a3093630-d3e1-41cb-896d-e7854cd21627/edit
+                    - cell [ref=f13e652]:
+                      - link "Tariq Hassan +97455998877" [ref=f13e654] [cursor=pointer]:
+                        - /url: http://localhost:8090/staff/appointments/a3093630-d3e1-41cb-896d-e7854cd21627/edit
+                        - generic [ref=f13e655]:
+                          - generic [ref=f13e656]: Tariq Hassan
+                          - paragraph [ref=f13e660]: "+97455998877"
+                    - cell [ref=f13e661]:
+                      - link "interview" [ref=f13e663] [cursor=pointer]:
+                        - /url: http://localhost:8090/staff/appointments/a3093630-d3e1-41cb-896d-e7854cd21627/edit
+                    - cell [ref=f13e670]:
+                      - link "Advisory Team" [ref=f13e672] [cursor=pointer]:
+                        - /url: http://localhost:8090/staff/appointments/a3093630-d3e1-41cb-896d-e7854cd21627/edit
+                    - cell [ref=f13e678]:
+                      - link "attended" [ref=f13e680] [cursor=pointer]:
+                        - /url: http://localhost:8090/staff/appointments/a3093630-d3e1-41cb-896d-e7854cd21627/edit
+                    - cell [ref=f13e687]:
+                      - link "Edit" [ref=f13e690] [cursor=pointer]:
+                        - /url: http://localhost:8090/staff/appointments/a3093630-d3e1-41cb-896d-e7854cd21627/edit
+                  - row [ref=f13e695]:
+                    - cell "Select/deselect item a30935e8-ce19-4b5a-babe-9ec6408c0da5 for bulk actions." [ref=f13e696]:
+                      - generic [ref=f13e698]:
+                        - checkbox "Select/deselect item a30935e8-ce19-4b5a-babe-9ec6408c0da5 for bulk actions." [ref=f13e699]
+                        - generic [ref=f13e700]: Select/deselect item a30935e8-ce19-4b5a-babe-9ec6408c0da5 for bulk actions.
+                    - cell [ref=f13e701]:
+                      - link "Oct 21, 2026 06:19 PM" [ref=f13e703] [cursor=pointer]:
+                        - /url: http://localhost:8090/staff/appointments/a30935e8-ce19-4b5a-babe-9ec6408c0da5/edit
+                    - cell [ref=f13e709]:
+                      - link "Interview Prep Session" [ref=f13e711] [cursor=pointer]:
+                        - /url: http://localhost:8090/staff/appointments/a30935e8-ce19-4b5a-babe-9ec6408c0da5/edit
+                    - cell [ref=f13e717]:
+                      - link "Tariq Hassan +97455998877" [ref=f13e719] [cursor=pointer]:
+                        - /url: http://localhost:8090/staff/appointments/a30935e8-ce19-4b5a-babe-9ec6408c0da5/edit
+                        - generic [ref=f13e720]:
+                          - generic [ref=f13e721]: Tariq Hassan
+                          - paragraph [ref=f13e725]: "+97455998877"
+                    - cell [ref=f13e726]:
+                      - link "interview" [ref=f13e728] [cursor=pointer]:
+                        - /url: http://localhost:8090/staff/appointments/a30935e8-ce19-4b5a-babe-9ec6408c0da5/edit
+                    - cell [ref=f13e735]:
+                      - link "Advisory Team" [ref=f13e737] [cursor=pointer]:
+                        - /url: http://localhost:8090/staff/appointments/a30935e8-ce19-4b5a-babe-9ec6408c0da5/edit
+                    - cell [ref=f13e743]:
+                      - link "attended" [ref=f13e745] [cursor=pointer]:
+                        - /url: http://localhost:8090/staff/appointments/a30935e8-ce19-4b5a-babe-9ec6408c0da5/edit
+                    - cell [ref=f13e752]:
+                      - link "Edit" [ref=f13e755] [cursor=pointer]:
+                        - /url: http://localhost:8090/staff/appointments/a30935e8-ce19-4b5a-babe-9ec6408c0da5/edit
+              - navigation "Pagination navigation" [ref=f13e760]:
+                - generic [ref=f13e763]:
+                  - generic [ref=f13e764]: Per page
+                  - combobox "Per page" [ref=f13e767]:
+                    - option "5"
+                    - option "10" [selected]
+                    - option "25"
+                    - option "50"
+                    - option "All"
+            - generic:
+              - generic:
+                - dialog:
+                  - generic [ref=f13e949]:
+                    - generic [ref=f13e950]:
+                      - button "Close" [ref=f13e952] [cursor=pointer]
+                      - generic [ref=f13e960]:
+                        - heading "Attended" [level=2] [ref=f13e961]
+                        - paragraph [ref=f13e962]: Are you sure you would like to do this?
+                    - generic [ref=f13e964]:
+                      - button "Cancel" [active] [ref=f13e965] [cursor=pointer]
+                      - button "Confirm" [ref=f13e967] [cursor=pointer]
+    - complementary [ref=f13e768]:
+      - link "Venture Visionary CRM" [ref=f13e772] [cursor=pointer]:
+        - /url: http://localhost:8090/staff
+      - navigation [ref=f13e774]:
+        - list [ref=f13e775]:
+          - listitem [ref=f13e776]:
+            - list [ref=f13e777]:
+              - listitem [ref=f13e778]:
+                - link "Dashboard" [ref=f13e779] [cursor=pointer]:
+                  - /url: http://localhost:8090/staff
+          - listitem [ref=f13e783]:
+            - generic [ref=f13e784] [cursor=pointer]:
+              - generic [ref=f13e785]: Governance & Audit
+              - button "Governance & Audit" [expanded] [ref=f13e786]
+            - list [ref=f13e790]:
+              - listitem [ref=f13e791]:
+                - link "Executive Analytics & BI" [ref=f13e792] [cursor=pointer]:
+                  - /url: http://localhost:8090/staff/analytics-dashboard
+              - listitem [ref=f13e796]:
+                - link "Audit Logs" [ref=f13e797] [cursor=pointer]:
+                  - /url: http://localhost:8090/staff/audit-logs
+          - listitem [ref=f13e801]:
+            - generic [ref=f13e802] [cursor=pointer]:
+              - generic [ref=f13e803]: Master Database
+              - button "Master Database" [expanded] [ref=f13e804]
+            - list [ref=f13e808]:
+              - listitem [ref=f13e809]:
+                - link "Countries" [ref=f13e810] [cursor=pointer]:
+                  - /url: http://localhost:8090/staff/countries
+              - listitem [ref=f13e814]:
+                - link "Services" [ref=f13e815] [cursor=pointer]:
+                  - /url: http://localhost:8090/staff/services
+          - listitem [ref=f13e819]:
+            - generic [ref=f13e820] [cursor=pointer]:
+              - generic [ref=f13e821]: CRM & Sales
+              - button "CRM & Sales" [expanded] [ref=f13e822]
+            - list [ref=f13e826]:
+              - listitem [ref=f13e827]:
+                - link "Leads" [ref=f13e828] [cursor=pointer]:
+                  - /url: http://localhost:8090/staff/leads
+              - listitem [ref=f13e832]:
+                - link "Visual Sales Pipeline" [ref=f13e833] [cursor=pointer]:
+                  - /url: http://localhost:8090/staff/lead-pipeline-board
+              - listitem [ref=f13e837]:
+                - link "Clients" [ref=f13e838] [cursor=pointer]:
+                  - /url: http://localhost:8090/staff/clients
+              - listitem [ref=f13e842]:
+                - link "Reputation & Reviews" [ref=f13e843] [cursor=pointer]:
+                  - /url: http://localhost:8090/staff/review-requests
+          - listitem [ref=f13e847]:
+            - generic [ref=f13e848] [cursor=pointer]:
+              - generic [ref=f13e849]: B2B & Affiliates
+              - button "B2B & Affiliates" [expanded] [ref=f13e850]
+            - list [ref=f13e854]:
+              - listitem [ref=f13e855]:
+                - link "Partners" [ref=f13e856] [cursor=pointer]:
+                  - /url: http://localhost:8090/staff/partners
+          - listitem [ref=f13e860]:
+            - generic [ref=f13e861] [cursor=pointer]:
+              - generic [ref=f13e862]: Finance & Commercial
+              - button "Finance & Commercial" [expanded] [ref=f13e863]
+            - list [ref=f13e867]:
+              - listitem [ref=f13e868]:
+                - link "Quotations" [ref=f13e869] [cursor=pointer]:
+                  - /url: http://localhost:8090/staff/quotations
+              - listitem [ref=f13e873]:
+                - link "Invoices" [ref=f13e874] [cursor=pointer]:
+                  - /url: http://localhost:8090/staff/invoices
+          - listitem [ref=f13e878]:
+            - generic [ref=f13e879] [cursor=pointer]:
+              - generic [ref=f13e880]: Administration & HR
+              - button "Administration & HR" [expanded] [ref=f13e881]
+            - list [ref=f13e885]:
+              - listitem [ref=f13e886]:
+                - link "Users" [ref=f13e887] [cursor=pointer]:
+                  - /url: http://localhost:8090/staff/users
+          - listitem [ref=f13e891]:
+            - generic [ref=f13e892] [cursor=pointer]:
+              - generic [ref=f13e893]: Case Processing
+              - button "Case Processing" [expanded] [ref=f13e894]
+            - list [ref=f13e898]:
+              - listitem [ref=f13e899]:
+                - link "Visa Cases" [ref=f13e900] [cursor=pointer]:
+                  - /url: http://localhost:8090/staff/visa-cases
+              - listitem [ref=f13e904]:
+                - link "Tasks" [ref=f13e905] [cursor=pointer]:
+                  - /url: http://localhost:8090/staff/tasks
+          - listitem [ref=f13e909]:
+            - generic [ref=f13e910] [cursor=pointer]:
+              - generic [ref=f13e911]: Automations & Workflows
+              - button "Automations & Workflows" [expanded] [ref=f13e912]
+            - list [ref=f13e916]:
+              - listitem [ref=f13e917]:
+                - link "Workflow Engine" [ref=f13e918] [cursor=pointer]:
+                  - /url: http://localhost:8090/staff/workflows
+          - listitem [ref=f13e922]:
+            - generic [ref=f13e923] [cursor=pointer]:
+              - generic [ref=f13e924]: Operations & Delivery
+              - button "Operations & Delivery" [expanded] [ref=f13e925]
+            - list [ref=f13e929]:
+              - listitem [ref=f13e930]:
+                - link "Appointment Calendar" [ref=f13e931] [cursor=pointer]:
+                  - /url: http://localhost:8090/staff/appointments
+  - generic:
+    - status

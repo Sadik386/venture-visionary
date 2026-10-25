@@ -1,0 +1,22 @@
+- generic [active] [ref=f4e1]:
+  - banner [ref=f4e2]:
+    - generic [ref=f4e3]:
+      - generic [ref=f4e4]:
+        - generic [ref=f4e5]: VV
+        - generic [ref=f4e6]:
+          - heading "Venture Visionary" [level=1] [ref=f4e7]
+          - paragraph [ref=f4e8]: Executive Immigration & Advisory Desk
+      - generic [ref=f4e9]: Client Quality Assurance
+  - main [ref=f4e10]:
+    - generic [ref=f4e11]:
+      - generic [ref=f4e12]: ★
+      - heading "Thank You, Fatima Al-Ansari!" [level=2] [ref=f4e13]
+      - paragraph [ref=f4e14]: Thank you for your generous 5-star rating! Please consider copying your review to our official Google Business page.
+      - generic [ref=f4e15]: "Help fellow travelers and entrepreneurs in Qatar discover seamless visa consultancy:"
+      - link "⭐ Post Your 5-Star Review on Google →" [ref=f4e16] [cursor=pointer]:
+        - /url: https://search.google.com/local/writereview
+        - generic [ref=f4e17]: ⭐
+        - text: Post Your 5-Star Review on Google →
+      - link "Return to Homepage" [ref=f4e19] [cursor=pointer]:
+        - /url: /
+  - contentinfo [ref=f4e20]: © 2026 Venture Visionary Qatar • Developer Handover Specification v2.0

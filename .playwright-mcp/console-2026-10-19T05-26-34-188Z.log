@@ -1,0 +1,3 @@
+[  314519ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:8090/livewire/update:0
+[  314774ms] [INFO] Slow network is detected. See https://www.chromestatus.com/feature/5636954674692096 for more details. Fallback font will be used while loading: https://fonts.bunny.net/figtree/files/figtree-latin-600-normal.woff2 @ http://localhost:8090/staff:0
+[  314774ms] [INFO] Slow network is detected. See https://www.chromestatus.com/feature/5636954674692096 for more details. Fallback font will be used while loading: https://fonts.bunny.net/figtree/files/figtree-latin-400-normal.woff2 @ http://localhost:8090/staff:0

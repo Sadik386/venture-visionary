@@ -1,0 +1,20 @@
+- generic [ref=f32e7]:
+  - generic [ref=f32e9]:
+    - heading "Venture Visionary CRM" [level=4] [ref=f32e11]
+    - link "Overview" [ref=f32e15] [cursor=pointer]:
+      - /url: "#/"
+    - link [ref=f32e18] [cursor=pointer]:
+      - /url: https://stoplight.io/?utm_source=elements&utm_medium=Venture Visionary CRM&utm_campaign=powered_by&utm_content=/
+      - generic [ref=f32e21]:
+        - text: powered by
+        - strong [ref=f32e22]: Stoplight
+  - generic [ref=f32e26]:
+    - generic [ref=f32e27]:
+      - heading "Venture Visionary CRM" [level=1] [ref=f32e29]
+      - button "Export" [ref=f32e31] [cursor=pointer]
+    - generic [ref=f32e35]: v0.0.1
+    - generic [ref=f32e41]:
+      - generic [ref=f32e42]: API Base URL
+      - generic [ref=f32e49]:
+        - generic [ref=f32e50]: "Live Server:"
+        - generic "Live Server" [ref=f32e51]: http://127.0.0.1:8090/api

@@ -1,0 +1,111 @@
+- generic [ref=f39e1]:
+  - generic [ref=f39e2]:
+    - generic [ref=f39e3]:
+      - navigation [ref=f39e5]:
+        - generic [ref=f39e6]:
+          - button "Open notifications 4" [ref=f39e144] [cursor=pointer]:
+            - generic [ref=f39e145]: Open notifications
+            - generic [ref=f39e148]: "4"
+          - generic [ref=f39e7]:
+            - button "User menu" [active] [ref=f39e9] [cursor=pointer]:
+              - img "Avatar of Executive Super Admin" [ref=f39e10]
+            - generic [ref=f39e194]:
+              - generic [ref=f39e195]: Executive Super Admin
+              - generic [ref=f39e200]:
+                - button "Enable light theme" [ref=f39e201] [cursor=pointer]
+                - button "Enable dark theme" [ref=f39e204] [cursor=pointer]
+                - button "Enable system theme" [ref=f39e207] [cursor=pointer]
+              - button "Sign out" [ref=f39e212] [cursor=pointer]
+      - main [ref=f39e11]:
+        - generic [ref=f39e13]:
+          - heading "Dashboard" [level=1] [ref=f39e16]
+          - generic [ref=f39e19]:
+            - generic [ref=f39e24]:
+              - img "Avatar of Executive Super Admin" [ref=f39e25]
+              - generic [ref=f39e26]:
+                - heading "Welcome" [level=2] [ref=f39e27]
+                - paragraph [ref=f39e28]: Executive Super Admin
+              - button "Sign out" [ref=f39e30] [cursor=pointer]
+            - generic [ref=f39e152]:
+              - generic [ref=f39e154]:
+                - generic [ref=f39e155]: Active Inbound Leads
+                - generic [ref=f39e157]: "37"
+                - generic [ref=f39e158]: Pending consultation & qualification
+              - generic [ref=f39e165]:
+                - generic [ref=f39e166]: Active Visa Cases
+                - generic [ref=f39e168]: "57"
+                - generic [ref=f39e169]: Under review or submitted to embassy
+              - generic [ref=f39e177]:
+                - generic [ref=f39e178]: Master Clients 360
+                - generic [ref=f39e180]: "13"
+                - generic [ref=f39e181]: Registered Qatar individuals & VIPs
+              - generic [ref=f39e186]:
+                - generic [ref=f39e187]: Pipeline Value (QAR)
+                - generic [ref=f39e189]: QAR 23,910.00
+                - generic [ref=f39e190]: Total agreed service & visa revenue
+    - complementary [ref=f39e39]:
+      - link "Venture Visionary CRM" [ref=f39e43] [cursor=pointer]:
+        - /url: http://127.0.0.1:8090/staff
+      - navigation [ref=f39e45]:
+        - list [ref=f39e46]:
+          - listitem [ref=f39e47]:
+            - list [ref=f39e48]:
+              - listitem [ref=f39e49]:
+                - link "Dashboard" [ref=f39e50] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8090/staff
+          - listitem [ref=f39e54]:
+            - generic [ref=f39e55] [cursor=pointer]:
+              - generic [ref=f39e56]: Master Database
+              - button "Master Database" [expanded] [ref=f39e57]
+            - list [ref=f39e61]:
+              - listitem [ref=f39e62]:
+                - link "Countries" [ref=f39e63] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8090/staff/countries
+              - listitem [ref=f39e67]:
+                - link "Services" [ref=f39e68] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8090/staff/services
+          - listitem [ref=f39e72]:
+            - generic [ref=f39e73] [cursor=pointer]:
+              - generic [ref=f39e74]: CRM & Sales
+              - button "CRM & Sales" [expanded] [ref=f39e75]
+            - list [ref=f39e79]:
+              - listitem [ref=f39e80]:
+                - link "Leads" [ref=f39e81] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8090/staff/leads
+              - listitem [ref=f39e85]:
+                - link "Clients" [ref=f39e86] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8090/staff/clients
+          - listitem [ref=f39e90]:
+            - generic [ref=f39e91] [cursor=pointer]:
+              - generic [ref=f39e92]: B2B & Affiliates
+              - button "B2B & Affiliates" [expanded] [ref=f39e93]
+            - list [ref=f39e97]:
+              - listitem [ref=f39e98]:
+                - link "Partners" [ref=f39e99] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8090/staff/partners
+          - listitem [ref=f39e103]:
+            - generic [ref=f39e104] [cursor=pointer]:
+              - generic [ref=f39e105]: Finance & Commercial
+              - button "Finance & Commercial" [expanded] [ref=f39e106]
+            - list [ref=f39e110]:
+              - listitem [ref=f39e111]:
+                - link "Quotations" [ref=f39e112] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8090/staff/quotations
+          - listitem [ref=f39e116]:
+            - generic [ref=f39e117] [cursor=pointer]:
+              - generic [ref=f39e118]: Administration & HR
+              - button "Administration & HR" [expanded] [ref=f39e119]
+            - list [ref=f39e123]:
+              - listitem [ref=f39e124]:
+                - link "Users" [ref=f39e125] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8090/staff/users
+          - listitem [ref=f39e129]:
+            - generic [ref=f39e130] [cursor=pointer]:
+              - generic [ref=f39e131]: Case Processing
+              - button "Case Processing" [expanded] [ref=f39e132]
+            - list [ref=f39e136]:
+              - listitem [ref=f39e137]:
+                - link "Visa Cases" [ref=f39e138] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8090/staff/visa-cases
+  - generic:
+    - status

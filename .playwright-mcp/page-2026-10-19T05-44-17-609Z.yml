@@ -1,0 +1,40 @@
+- generic [active] [ref=f14e1]:
+  - generic [ref=f14e2]:
+    - generic [ref=f14e3]:
+      - navigation [ref=f14e5]:
+        - button "User menu" [ref=f14e9] [cursor=pointer]:
+          - img "Avatar of Jassim Al-Sulaiti" [ref=f14e10]
+      - main [ref=f14e11]:
+        - generic [ref=f14e13]:
+          - generic [ref=f14e14]:
+            - generic [ref=f14e15]:
+              - navigation [ref=f14e16]:
+                - list [ref=f14e17]:
+                  - listitem [ref=f14e18]:
+                    - link "Agency Applications" [ref=f14e19] [cursor=pointer]:
+                      - /url: http://127.0.0.1:8090/partner/visa-cases
+                  - listitem [ref=f14e20]:
+                    - generic [ref=f14e23]: List
+              - heading "Agency Applications" [level=1] [ref=f14e24]
+            - link "New Agency Visa Application" [ref=f14e27] [cursor=pointer]:
+              - /url: http://127.0.0.1:8090/partner/visa-cases/create
+          - generic [ref=f14e33]:
+            - generic [ref=f14e37]:
+              - generic [ref=f14e38]: Search
+              - searchbox "Search" [ref=f14e44]
+            - heading "No Agency Applications" [level=4] [ref=f14e51]
+    - complementary [ref=f14e52]:
+      - link "Venture Visionary B2B Partner Portal" [ref=f14e56] [cursor=pointer]:
+        - /url: http://127.0.0.1:8090/partner
+      - navigation [ref=f14e58]:
+        - list [ref=f14e59]:
+          - listitem [ref=f14e60]:
+            - list [ref=f14e61]:
+              - listitem [ref=f14e62]:
+                - link "Dashboard" [ref=f14e63] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8090/partner
+              - listitem [ref=f14e67]:
+                - link "Agency Applications" [ref=f14e68] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8090/partner/visa-cases
+  - generic:
+    - status

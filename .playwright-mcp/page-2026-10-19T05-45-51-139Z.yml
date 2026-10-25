@@ -1,0 +1,162 @@
+- generic [active] [ref=f22e1]:
+  - generic [ref=f22e2]:
+    - generic [ref=f22e3]:
+      - navigation [ref=f22e5]:
+        - button "User menu" [ref=f22e9] [cursor=pointer]:
+          - img "Avatar of Executive Super Admin" [ref=f22e10]
+      - main [ref=f22e11]:
+        - generic [ref=f22e13]:
+          - generic [ref=f22e15]:
+            - navigation [ref=f22e16]:
+              - list [ref=f22e17]:
+                - listitem [ref=f22e18]:
+                  - link "Clients" [ref=f22e19] [cursor=pointer]:
+                    - /url: http://127.0.0.1:8090/staff/clients
+                - listitem [ref=f22e20]:
+                  - generic [ref=f22e23]: Create
+            - heading "Create Client" [level=1] [ref=f22e24]
+          - generic [ref=f22e27]:
+            - generic [ref=f22e28]:
+              - generic [ref=f22e30]:
+                - generic [ref=f22e33]:
+                  - heading "Primary Identification & Bio" [level=3] [ref=f22e34]
+                  - paragraph [ref=f22e35]: Master client profile details
+                - generic [ref=f22e38]:
+                  - generic [ref=f22e41]:
+                    - generic [ref=f22e42]: Client code
+                    - textbox "Client code" [disabled] [ref=f22e48]:
+                      - /placeholder: Auto-generated (e.g. CL-2026-0001)
+                  - generic [ref=f22e51]:
+                    - generic [ref=f22e54]:
+                      - text: Full Legal Name
+                      - superscript [ref=f22e55]: "*"
+                    - textbox "Full Legal Name*" [ref=f22e59]
+                  - generic [ref=f22e62]:
+                    - generic [ref=f22e63]: Name as in Passport
+                    - textbox "Name as in Passport" [ref=f22e69]
+                  - generic [ref=f22e72]:
+                    - generic [ref=f22e73]: Date of Birth
+                    - textbox "Date of Birth" [ref=f22e79]
+                  - generic [ref=f22e82]:
+                    - generic [ref=f22e83]: Gender
+                    - combobox "Gender" [ref=f22e89]:
+                      - option "Select an option" [selected]
+                      - option "Male"
+                      - option "Female"
+                  - generic [ref=f22e92]:
+                    - generic [ref=f22e93]: Nationality
+                    - textbox "Nationality" [ref=f22e99]
+              - generic [ref=f22e101]:
+                - generic [ref=f22e104]:
+                  - heading "Official Documents (Qatar & Passport)" [level=3] [ref=f22e105]
+                  - paragraph [ref=f22e106]: Crucial for visa eligibility checks
+                - generic [ref=f22e109]:
+                  - generic [ref=f22e112]:
+                    - generic [ref=f22e113]: Passport Number
+                    - textbox "Passport Number" [ref=f22e119]
+                  - generic [ref=f22e122]:
+                    - generic [ref=f22e123]: Passport Expiry Date
+                    - textbox "Passport Expiry Date" [ref=f22e129]
+                  - generic [ref=f22e132]:
+                    - generic [ref=f22e133]: Qatar ID (QID)
+                    - textbox "Qatar ID (QID)" [ref=f22e139]
+                  - generic [ref=f22e142]:
+                    - generic [ref=f22e143]: QID Expiry Date
+                    - textbox "QID Expiry Date" [ref=f22e149]
+                  - generic [ref=f22e152]:
+                    - generic [ref=f22e153]: Qatar residence status
+                    - combobox "Qatar residence status" [ref=f22e159]:
+                      - option "Select an option"
+                      - option "Qatari Citizen"
+                      - option "Qatar Resident (QID)" [selected]
+                      - option "Tourist / Visit Visa"
+                      - option "Outside Qatar"
+                  - generic [ref=f22e162]:
+                    - generic [ref=f22e163]: Qatar Residential / Office Address
+                    - textbox "Qatar Residential / Office Address" [ref=f22e169]
+              - generic [ref=f22e171]:
+                - generic [ref=f22e174]:
+                  - heading "Contact & Notification Channels" [level=3] [ref=f22e175]
+                  - paragraph [ref=f22e176]: Direct client communication endpoints
+                - generic [ref=f22e179]:
+                  - generic [ref=f22e182]:
+                    - generic [ref=f22e183]: Phone
+                    - textbox "Phone" [ref=f22e189]
+                  - generic [ref=f22e192]:
+                    - generic [ref=f22e193]: Whatsapp
+                    - generic [ref=f22e196]:
+                      - textbox "Whatsapp" [ref=f22e199]
+                      - generic [ref=f22e200]: Primary channel for automated OTP & case status alerts
+                  - generic [ref=f22e203]:
+                    - generic [ref=f22e204]: Email
+                    - textbox "Email" [ref=f22e210]
+            - generic [ref=f22e212]:
+              - button "Create" [ref=f22e213] [cursor=pointer]
+              - button "Create & create another" [ref=f22e215] [cursor=pointer]
+              - button "Cancel" [ref=f22e217] [cursor=pointer]
+    - complementary [ref=f22e219]:
+      - link "Venture Visionary CRM" [ref=f22e223] [cursor=pointer]:
+        - /url: http://127.0.0.1:8090/staff
+      - navigation [ref=f22e225]:
+        - list [ref=f22e226]:
+          - listitem [ref=f22e227]:
+            - list [ref=f22e228]:
+              - listitem [ref=f22e229]:
+                - link "Dashboard" [ref=f22e230] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8090/staff
+          - listitem [ref=f22e234]:
+            - generic [ref=f22e235] [cursor=pointer]:
+              - generic [ref=f22e236]: Master Database
+              - button "Master Database" [expanded] [ref=f22e237]
+            - list [ref=f22e241]:
+              - listitem [ref=f22e242]:
+                - link "Countries" [ref=f22e243] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8090/staff/countries
+              - listitem [ref=f22e247]:
+                - link "Services" [ref=f22e248] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8090/staff/services
+          - listitem [ref=f22e252]:
+            - generic [ref=f22e253] [cursor=pointer]:
+              - generic [ref=f22e254]: CRM & Sales
+              - button "CRM & Sales" [expanded] [ref=f22e255]
+            - list [ref=f22e259]:
+              - listitem [ref=f22e260]:
+                - link "Leads" [ref=f22e261] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8090/staff/leads
+              - listitem [ref=f22e265]:
+                - link "Clients" [ref=f22e266] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8090/staff/clients
+          - listitem [ref=f22e270]:
+            - generic [ref=f22e271] [cursor=pointer]:
+              - generic [ref=f22e272]: B2B & Affiliates
+              - button "B2B & Affiliates" [expanded] [ref=f22e273]
+            - list [ref=f22e277]:
+              - listitem [ref=f22e278]:
+                - link "Partners" [ref=f22e279] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8090/staff/partners
+          - listitem [ref=f22e283]:
+            - generic [ref=f22e284] [cursor=pointer]:
+              - generic [ref=f22e285]: Finance & Commercial
+              - button "Finance & Commercial" [expanded] [ref=f22e286]
+            - list [ref=f22e290]:
+              - listitem [ref=f22e291]:
+                - link "Quotations" [ref=f22e292] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8090/staff/quotations
+          - listitem [ref=f22e296]:
+            - generic [ref=f22e297] [cursor=pointer]:
+              - generic [ref=f22e298]: Administration & HR
+              - button "Administration & HR" [expanded] [ref=f22e299]
+            - list [ref=f22e303]:
+              - listitem [ref=f22e304]:
+                - link "Users" [ref=f22e305] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8090/staff/users
+          - listitem [ref=f22e309]:
+            - generic [ref=f22e310] [cursor=pointer]:
+              - generic [ref=f22e311]: Case Processing
+              - button "Case Processing" [expanded] [ref=f22e312]
+            - list [ref=f22e316]:
+              - listitem [ref=f22e317]:
+                - link "Visa Cases" [ref=f22e318] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8090/staff/visa-cases
+  - generic:
+    - status
