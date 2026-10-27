@@ -30,7 +30,8 @@ RUN docker-php-ext-configure gd --with-freetype --with-jpeg \
         bcmath \
         intl \
         opcache \
-        pcntl
+        pcntl \
+        exif
 
 # Install Redis extension via PECL
 RUN apk add --no-cache --virtual .build-deps $PHPIZE_DEPS \
@@ -53,7 +54,7 @@ WORKDIR /var/www/html
 COPY . /var/www/html
 
 # Install composer dependencies
-RUN composer install --no-dev --optimize-autoloader --no-interaction --prefer-dist
+RUN composer install --no-dev --optimize-autoloader --no-interaction --prefer-dist --ignore-platform-reqs
 
 # Set permissions
 RUN chown -R www-data:www-data /var/www/html/storage /var/www/html/bootstrap/cache \
